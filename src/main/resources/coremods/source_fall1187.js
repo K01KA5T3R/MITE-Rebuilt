@@ -1,0 +1,22 @@
+function initializeCoreMod(){
+ var O=Java.type('org.objectweb.asm.Opcodes'),L=Java.type('org.objectweb.asm.tree.InsnList'),V=Java.type('org.objectweb.asm.tree.VarInsnNode'),C=Java.type('org.objectweb.asm.tree.MethodInsnNode'),J=Java.type('org.objectweb.asm.tree.JumpInsnNode'),N=Java.type('org.objectweb.asm.tree.InsnNode'),Label=Java.type('org.objectweb.asm.tree.LabelNode'),F=Java.type('org.objectweb.asm.tree.FieldInsnNode'),Field=Java.type('org.objectweb.asm.tree.FieldNode'),Method=Java.type('org.objectweb.asm.tree.MethodNode');
+ function named(m,official,srg,desc){return (String(m.name)===official||String(m.name)===srg)&&String(m.desc)===desc;}
+ function prefix(m,helper,loads,ret){var code=new L(),original=new Label();for(var i=0;i<loads.length;i++)code.add(new V(loads[i][0],loads[i][1]));code.add(new C(O.INVOKESTATIC,'dev/koikaster/mite/SourceFallRuntime1187',helper,helper==='blockFall'?'(Ljava/lang/Object;Ljava/lang/Object;F)Z':'(Ljava/lang/Object;)Z',false));code.add(new J(O.IFEQ,original));code.add(new N(ret));code.add(original);m.instructions.insert(code);m.maxStack=Math.max(m.maxStack,3);}
+ function living(node){
+  var owner=String(node.name),volume=null,pitch=null,count=0;
+  for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);if(named(m,'getSoundVolume','m_6121_','()F'))volume=String(m.name);if(named(m,'getVoicePitch','m_6100_','()F'))pitch=String(m.name);
+   if(named(m,'causeFallDamage','m_142535_','(FFLnet/minecraft/world/damagesource/DamageSource;)Z')){
+    var code=new L(),original=new Label();code.add(new V(O.ALOAD,0));code.add(new C(O.INVOKESTATIC,'dev/koikaster/mite/SourceFallRuntime1187','handles','(Ljava/lang/Object;)Z',false));code.add(new J(O.IFEQ,original));code.add(new V(O.ALOAD,0));code.add(new V(O.FLOAD,1));code.add(new V(O.FLOAD,2));code.add(new V(O.ALOAD,3));code.add(new C(O.INVOKESTATIC,'dev/koikaster/mite/SourceFallRuntime1187','impact','(Ljava/lang/Object;FFLjava/lang/Object;)Z',false));code.add(new N(O.IRETURN));code.add(original);m.instructions.insert(code);m.maxStack=Math.max(m.maxStack,4);count++;
+   }
+  }
+  if(count!==1||volume===null||pitch===null)throw new Error('Fall1187 Living native sites '+count+'/'+volume+'/'+pitch);
+  node.interfaces.add('dev/koikaster/mite/SourceFallAccess1187');node.fields.add(new Field(O.ACC_PRIVATE,'mite$massiveFall1187','Z',null,null));
+  var get=new Method(O.ACC_PUBLIC,'mite$massiveFall1187','()Z',null,null);get.instructions.add(new V(O.ALOAD,0));get.instructions.add(new F(O.GETFIELD,owner,'mite$massiveFall1187','Z'));get.instructions.add(new N(O.IRETURN));get.maxLocals=1;get.maxStack=1;node.methods.add(get);
+  var set=new Method(O.ACC_PUBLIC,'mite$massiveFall1187','(Z)V',null,null);set.instructions.add(new V(O.ALOAD,0));set.instructions.add(new V(O.ILOAD,1));set.instructions.add(new F(O.PUTFIELD,owner,'mite$massiveFall1187','Z'));set.instructions.add(new N(O.RETURN));set.maxLocals=2;set.maxStack=2;node.methods.add(set);
+  var pairs=[['mite$fallSoundVolume1187',volume],['mite$fallSoundPitch1187',pitch]];
+  for(var p=0;p<pairs.length;p++){var bridge=new Method(O.ACC_PUBLIC,pairs[p][0],'()F',null,null);bridge.instructions.add(new V(O.ALOAD,0));bridge.instructions.add(new C(O.INVOKEVIRTUAL,owner,pairs[p][1],'()F',false));bridge.instructions.add(new N(O.FRETURN));bridge.maxLocals=1;bridge.maxStack=1;node.methods.add(bridge);}
+  return node;
+ }
+ function block(node,bed){var fall=0,bounce=0;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);if(named(m,'fallOn','m_142072_','(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;F)V')){prefix(m,'blockFall',[[O.ALOAD,4],[O.ALOAD,1],[O.FLOAD,5]],O.RETURN);fall++;}if(bed&&named(m,'updateEntityAfterFallOn','m_5548_','(Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/world/entity/Entity;)V')){prefix(m,'stopBedBounce',[[O.ALOAD,2]],O.RETURN);bounce++;}}if(fall!==1||bed&&bounce!==1)throw new Error('Fall1187 block native sites '+String(node.name)+'/'+fall+'/'+bounce);return node;}
+ return {source_fall_living1187:{target:{type:'CLASS',name:'net.minecraft.world.entity.LivingEntity'},transformer:living},source_fall_bed1187:{target:{type:'CLASS',name:'net.minecraft.world.level.block.BedBlock'},transformer:function(n){return block(n,true);}},source_fall_hay1187:{target:{type:'CLASS',name:'net.minecraft.world.level.block.HayBlock'},transformer:function(n){return block(n,false);}}};
+}

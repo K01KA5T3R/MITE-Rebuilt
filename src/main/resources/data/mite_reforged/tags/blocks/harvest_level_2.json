@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:coal_ore",
+    "minecraft:deepslate_coal_ore",
+    "minecraft:iron_ore",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:gold_ore",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:copper_ore",
+    "minecraft:deepslate_copper_ore",
+    "minecraft:lapis_ore",
+    "minecraft:deepslate_lapis_ore",
+    "minecraft:redstone_ore",
+    "minecraft:deepslate_redstone_ore",
+    "mite_reforged:tin_ore",
+    "mite_reforged:deepslate_tin_ore",
+    "mite_reforged:silver_ore",
+    "mite_reforged:deepslate_silver_ore",
+    "minecraft:copper_block",
+    "minecraft:gold_block",
+    "minecraft:nether_gold_ore",
+    "minecraft:nether_quartz_ore",
+    "minecraft:enchanting_table",
+    "mite_reforged:emerald_enchanting_table",
+    "mite_reforged:copper_door",
+    "mite_reforged:copper_bars",
+    "mite_reforged:silver_door",
+    "mite_reforged:silver_bars",
+    "mite_reforged:gold_door",
+    "mite_reforged:gold_bars"
+  ]
+}

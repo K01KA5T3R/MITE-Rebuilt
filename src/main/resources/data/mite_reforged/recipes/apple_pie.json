@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AAA",
+    "DDD"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "D": {
+      "item": "mite_reforged:dough"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:apple_pie",
+    "count": 1
+  }
+}

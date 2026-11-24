@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "minecraft:red_terracotta"
+  },
+  "result": {
+    "item": "minecraft:red_glazed_terracotta"
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 0.1
+}

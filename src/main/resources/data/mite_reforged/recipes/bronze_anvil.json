@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    " i ",
+    "iii"
+  ],
+  "key": {
+    "I": {
+      "item": "mite_reforged:bronze_block"
+    },
+    "i": {
+      "item": "mite_reforged:bronze_ingot"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:bronze_anvil"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "axis=x,mite_destination=unset": {
+      "model": "mite_reforged:block/source_portal_to_underworld_x"
+    },
+    "axis=z,mite_destination=unset": {
+      "model": "mite_reforged:block/source_portal_to_underworld_z"
+    },
+    "axis=x,mite_destination=overworld": {
+      "model": "mite_reforged:block/source_portal_to_overworld_x"
+    },
+    "axis=z,mite_destination=overworld": {
+      "model": "mite_reforged:block/source_portal_to_overworld_z"
+    },
+    "axis=x,mite_destination=underworld": {
+      "model": "mite_reforged:block/source_portal_to_underworld_x"
+    },
+    "axis=z,mite_destination=underworld": {
+      "model": "mite_reforged:block/source_portal_to_underworld_z"
+    },
+    "axis=x,mite_destination=nether": {
+      "model": "mite_reforged:block/source_portal_to_nether_x"
+    },
+    "axis=z,mite_destination=nether": {
+      "model": "mite_reforged:block/source_portal_to_nether_z"
+    }
+  }
+}

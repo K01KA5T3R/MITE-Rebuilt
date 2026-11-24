@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "AVA",
+    " I ",
+    "IaI"
+  ],
+  "key": {
+    "A": {
+      "item": "mite_reforged:adamantium_ingot"
+    },
+    "V": {
+      "item": "mite_reforged:vibranium_block"
+    },
+    "I": {
+      "item": "mite_reforged:vibranium_ingot"
+    },
+    "a": {
+      "item": "mite_reforged:ancient_metal_anvil"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:vibranium_anvil",
+    "count": 1
+  }
+}

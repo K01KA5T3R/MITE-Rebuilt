@@ -1,0 +1,15 @@
+/** Actual sb factory and direct AbstractGolem parent boundaries. */
+function initializeCoreMod(){
+ var O=Java.type('org.objectweb.asm.Opcodes'),H=Java.type('org.objectweb.asm.Handle'),D=Java.type('org.objectweb.asm.tree.InvokeDynamicInsnNode'),M=Java.type('org.objectweb.asm.tree.MethodNode'),V=Java.type('org.objectweb.asm.tree.VarInsnNode'),C=Java.type('org.objectweb.asm.tree.MethodInsnNode'),I=Java.type('org.objectweb.asm.tree.InsnNode');
+ function bridge(node,name,target,desc,args,ret){var m=new M(O.ACC_PUBLIC|O.ACC_FINAL|O.ACC_SYNTHETIC,name,desc,null,null);m.instructions.add(new V(O.ALOAD,0));for(var i=0;i<args.length;i++)m.instructions.add(new V(args[i],i+1));m.instructions.add(new C(O.INVOKESPECIAL,node.superName,target,desc,false));m.instructions.add(new I(ret));m.maxStack=m.maxLocals=args.length+1;node.methods.add(m);}
+ return {
+  source_snow_golem_factory_077:{target:{type:'CLASS',name:'net.minecraft.world.entity.EntityType'},transformer:function(node){var count=0;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);if(String(m.name)!=='<clinit>')continue;for(var it=m.instructions.iterator();it.hasNext();){var x=it.next();if(!(x instanceof D))continue;for(var j=0;j<x.bsmArgs.length;j++){var h=x.bsmArgs[j];if(!(h instanceof H)||String(h.getOwner())!=='net/minecraft/world/entity/animal/SnowGolem')continue;if(h.getTag()!==O.H_NEWINVOKESPECIAL||String(h.getDesc())!=='(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;)V')throw new Error('077 snow owner constructor');x.bsmArgs[j]=new H(h.getTag(),'dev/koikaster/mite/SourceSnowGolem',h.getName(),h.getDesc(),h.isInterface());count++;}}}if(count!==1)throw new Error('077 snow owner factory count '+count);return node;}},
+  source_snow_golem_parent_077:{target:{type:'CLASS',name:'net.minecraft.world.entity.animal.SnowGolem'},transformer:function(node){if(String(node.superName)!=='net/minecraft/world/entity/animal/AbstractGolem'||node.interfaces.contains('dev/koikaster/mite/SourceSnowGolemParent'))throw new Error('077 native snow parent boundary');var srg=false,count=0;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);if((String(m.name)==='aiStep'||String(m.name)==='m_8107_')&&String(m.desc)==='()V'){srg=String(m.name)==='m_8107_';count++;}}if(count!==1)throw new Error('077 concrete snow aiStep');node.interfaces.add('dev/koikaster/mite/SourceSnowGolemParent');
+   bridge(node,'mite$snowParentLiving',srg?'m_8107_':'aiStep','()V',[],O.RETURN);
+   bridge(node,'mite$snowParentHurt',srg?'m_6469_':'hurt','(Lnet/minecraft/world/damagesource/DamageSource;F)Z',[O.ALOAD,O.FLOAD],O.IRETURN);
+   bridge(node,'mite$snowParentInteract',srg?'m_6071_':'mobInteract','(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;',[O.ALOAD,O.ALOAD],O.ARETURN);
+   bridge(node,'mite$snowParentSave',srg?'m_7380_':'addAdditionalSaveData','(Lnet/minecraft/nbt/CompoundTag;)V',[O.ALOAD],O.RETURN);
+   bridge(node,'mite$snowParentLoad',srg?'m_7378_':'readAdditionalSaveData','(Lnet/minecraft/nbt/CompoundTag;)V',[O.ALOAD],O.RETURN);return node;
+  }}
+ };
+}

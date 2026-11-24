@@ -1,0 +1,95 @@
+{
+  "parent": "mite_reforged:block/runestones/adamantium_0",
+  "overrides": [
+    {
+      "predicate": {
+        "mite_reforged:rune": 1
+      },
+      "model": "mite_reforged:block/runestones/adamantium_1"
+    },
+    {
+      "predicate": {
+        "mite_reforged:rune": 2
+      },
+      "model": "mite_reforged:block/runestones/adamantium_2"
+    },
+    {
+      "predicate": {
+        "mite_reforged:rune": 3
+      },
+      "model": "mite_reforged:block/runestones/adamantium_3"
+    },
+    {
+      "predicate": {
+        "mite_reforged:rune": 4
+      },
+      "model": "mite_reforged:block/runestones/adamantium_4"
+    },
+    {
+      "predicate": {
+        "mite_reforged:rune": 5
+      },
+      "model": "mite_reforged:block/runestones/adamantium_5"
+    },
+    {
+      "predicate": {
+        "mite_reforged:rune": 6
+      },
+      "model": "mite_reforged:block/runestones/adamantium_6"
+    },
+    {
+      "predicate": {
+        "mite_reforged:rune": 7
+      },
+      "model": "mite_reforged:block/runestones/adamantium_7"
+    },
+    {
+      "predicate": {
+        "mite_reforged:rune": 8
+      },
+      "model": "mite_reforged:block/runestones/adamantium_8"
+    },
+    {
+      "predicate": {
+        "mite_reforged:rune": 9
+      },
+      "model": "mite_reforged:block/runestones/adamantium_9"
+    },
+    {
+      "predicate": {
+        "mite_reforged:rune": 10
+      },
+      "model": "mite_reforged:block/runestones/adamantium_10"
+    },
+    {
+      "predicate": {
+        "mite_reforged:rune": 11
+      },
+      "model": "mite_reforged:block/runestones/adamantium_11"
+    },
+    {
+      "predicate": {
+        "mite_reforged:rune": 12
+      },
+      "model": "mite_reforged:block/runestones/adamantium_12"
+    },
+    {
+      "predicate": {
+        "mite_reforged:rune": 13
+      },
+      "model": "mite_reforged:block/runestones/adamantium_13"
+    },
+    {
+      "predicate": {
+        "mite_reforged:rune": 14
+      },
+      "model": "mite_reforged:block/runestones/adamantium_14"
+    },
+    {
+      "predicate": {
+        "mite_reforged:rune": 15
+      },
+      "model": "mite_reforged:block/runestones/adamantium_15"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mite_reforged:obsidian_arrow"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:obsidian_shard",
+    "count": 1
+  }
+}

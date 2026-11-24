@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:currency_exchange",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mite_reforged:adamantium_nugget"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:adamantium_coin"
+  }
+}

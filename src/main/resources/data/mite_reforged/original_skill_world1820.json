@@ -1,0 +1,31 @@
+{
+  "source1819_sha256": "eef15bc7558164f157b125c9a6e9a6aafbf90993b373b32cd5baf001e7f70bf8",
+  "farming_item_ids": [
+    39,
+    40,
+    295,
+    338,
+    361,
+    362,
+    372,
+    391,
+    392,
+    1187
+  ],
+  "apr_ore_ids": [
+    14,
+    15,
+    16,
+    21,
+    56,
+    129,
+    153,
+    200,
+    201,
+    202,
+    203
+  ],
+  "adapted_farming_items": {
+    "mite_reforged:onion_seeds": "Existing0.1 alternate input for the original onion crop; applies the same farming admission, not an original registered item."
+  }
+}

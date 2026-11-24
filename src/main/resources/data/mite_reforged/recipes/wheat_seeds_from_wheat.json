@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["W"],
+  "key": {
+    "W": { "item": "minecraft:wheat" }
+  },
+  "result": { "item": "minecraft:wheat_seeds", "count": 2 }
+}

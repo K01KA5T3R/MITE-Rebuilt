@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "mite_reforged:item/source_bows/vibranium/flint_arrow_2"
+  },
+  "overrides": []
+}

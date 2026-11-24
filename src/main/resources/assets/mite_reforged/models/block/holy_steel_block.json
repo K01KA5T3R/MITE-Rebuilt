@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "mite_reforged:block/holy_native_052/holy_steel_block"
+  }
+}

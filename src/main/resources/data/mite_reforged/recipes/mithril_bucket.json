@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I I",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "mite_reforged:mithril_ingot"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:mithril_bucket",
+    "count": 1
+  }
+}

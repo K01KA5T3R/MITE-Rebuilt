@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "mite_reforged:flint_hatchet"
+    },
+    "title": {
+      "translate": "advancement.mite_reforged.flint"
+    },
+    "description": {
+      "translate": "advancement.mite_reforged.flint.desc"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false,
+    "background": "minecraft:textures/block/deepslate.png"
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mite_reforged:flint_hatchet"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

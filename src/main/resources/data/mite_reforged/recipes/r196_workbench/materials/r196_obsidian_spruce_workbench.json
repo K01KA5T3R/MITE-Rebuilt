@@ -1,0 +1,31 @@
+{
+  "type": "mite_reforged:r196_workbench",
+  "category": "misc",
+  "pattern": [
+    "FY",
+    "SL"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:obsidian"
+    },
+    "L": {
+      "item": "minecraft:spruce_log"
+    },
+    "Y": [
+      {
+        "item": "minecraft:string"
+      },
+      {
+        "item": "mite_reforged:sinew"
+      }
+    ],
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:r196_obsidian_spruce_workbench",
+    "count": 1
+  }
+}

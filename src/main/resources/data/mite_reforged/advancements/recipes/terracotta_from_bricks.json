@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:brick"] }] }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": { "recipe": "mite_reforged:terracotta_from_bricks" }
+    }
+  },
+  "requirements": [["has_ingredient", "has_the_recipe"]],
+  "rewards": { "recipes": ["mite_reforged:terracotta_from_bricks"] }
+}

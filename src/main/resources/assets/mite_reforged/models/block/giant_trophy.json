@@ -1,0 +1,350 @@
+{
+  "parent": "minecraft:block/block",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "art": "mite_reforged:block/boss_trophies/giant_trophy",
+    "particle": "#art"
+  },
+  "elements": [
+    {
+      "from": [
+        2,
+        0,
+        3
+      ],
+      "to": [
+        14,
+        1.5,
+        13
+      ],
+      "faces": {
+        "north": {
+          "texture": "#art",
+          "uv": [
+            1,
+            13.5,
+            10,
+            15.5
+          ]
+        },
+        "south": {
+          "texture": "#art",
+          "uv": [
+            1,
+            13.5,
+            10,
+            15.5
+          ]
+        },
+        "east": {
+          "texture": "#art",
+          "uv": [
+            1,
+            13.5,
+            10,
+            15.5
+          ]
+        },
+        "west": {
+          "texture": "#art",
+          "uv": [
+            1,
+            13.5,
+            10,
+            15.5
+          ]
+        },
+        "up": {
+          "texture": "#art",
+          "uv": [
+            1,
+            13.5,
+            10,
+            15.5
+          ]
+        },
+        "down": {
+          "texture": "#art",
+          "uv": [
+            1,
+            13.5,
+            10,
+            15.5
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        1.5,
+        6.5
+      ],
+      "to": [
+        11,
+        6,
+        10.8
+      ],
+      "faces": {
+        "north": {
+          "texture": "#art",
+          "uv": [
+            5,
+            10,
+            11,
+            12.5
+          ]
+        },
+        "south": {
+          "texture": "#art",
+          "uv": [
+            5,
+            10,
+            11,
+            12.5
+          ]
+        },
+        "east": {
+          "texture": "#art",
+          "uv": [
+            5,
+            10,
+            11,
+            12.5
+          ]
+        },
+        "west": {
+          "texture": "#art",
+          "uv": [
+            5,
+            10,
+            11,
+            12.5
+          ]
+        },
+        "up": {
+          "texture": "#art",
+          "uv": [
+            5,
+            10,
+            11,
+            12.5
+          ]
+        },
+        "down": {
+          "texture": "#art",
+          "uv": [
+            5,
+            10,
+            11,
+            12.5
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        2.5,
+        3.1,
+        4
+      ],
+      "to": [
+        5,
+        6.2,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#art",
+          "uv": [
+            4,
+            3,
+            11.5,
+            4.5
+          ]
+        },
+        "south": {
+          "texture": "#art",
+          "uv": [
+            4,
+            3,
+            11.5,
+            4.5
+          ]
+        },
+        "east": {
+          "texture": "#art",
+          "uv": [
+            4,
+            3,
+            11.5,
+            4.5
+          ]
+        },
+        "west": {
+          "texture": "#art",
+          "uv": [
+            4,
+            3,
+            11.5,
+            4.5
+          ]
+        },
+        "up": {
+          "texture": "#art",
+          "uv": [
+            5,
+            10,
+            11,
+            12.5
+          ]
+        },
+        "down": {
+          "texture": "#art",
+          "uv": [
+            4,
+            3,
+            11.5,
+            4.5
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        11,
+        3.1,
+        4
+      ],
+      "to": [
+        13.5,
+        6.2,
+        10
+      ],
+      "faces": {
+        "north": {
+          "texture": "#art",
+          "uv": [
+            4,
+            3,
+            11.5,
+            4.5
+          ]
+        },
+        "south": {
+          "texture": "#art",
+          "uv": [
+            4,
+            3,
+            11.5,
+            4.5
+          ]
+        },
+        "east": {
+          "texture": "#art",
+          "uv": [
+            4,
+            3,
+            11.5,
+            4.5
+          ]
+        },
+        "west": {
+          "texture": "#art",
+          "uv": [
+            4,
+            3,
+            11.5,
+            4.5
+          ]
+        },
+        "up": {
+          "texture": "#art",
+          "uv": [
+            5,
+            10,
+            11,
+            12.5
+          ]
+        },
+        "down": {
+          "texture": "#art",
+          "uv": [
+            4,
+            3,
+            11.5,
+            4.5
+          ]
+        }
+      }
+    },
+    {
+      "from": [
+        5,
+        5.9,
+        4.5
+      ],
+      "to": [
+        11,
+        11,
+        10.5
+      ],
+      "faces": {
+        "north": {
+          "texture": "#art",
+          "uv": [
+            3.5,
+            2.9,
+            12.5,
+            11.5
+          ]
+        },
+        "south": {
+          "texture": "#art",
+          "uv": [
+            4,
+            3,
+            11.5,
+            4.5
+          ]
+        },
+        "east": {
+          "texture": "#art",
+          "uv": [
+            4,
+            3,
+            11.5,
+            4.5
+          ]
+        },
+        "west": {
+          "texture": "#art",
+          "uv": [
+            4,
+            3,
+            11.5,
+            4.5
+          ]
+        },
+        "up": {
+          "texture": "#art",
+          "uv": [
+            4,
+            3,
+            11.5,
+            4.5
+          ]
+        },
+        "down": {
+          "texture": "#art",
+          "uv": [
+            4,
+            3,
+            11.5,
+            4.5
+          ]
+        }
+      }
+    }
+  ]
+}

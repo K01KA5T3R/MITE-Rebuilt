@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "minecraft:chorus_fruit"
+  },
+  "result": {
+    "item": "minecraft:popped_chorus_fruit"
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 0.1
+}

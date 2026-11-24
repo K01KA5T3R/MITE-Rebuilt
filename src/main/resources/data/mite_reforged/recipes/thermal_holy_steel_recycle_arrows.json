@@ -1,0 +1,15 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": [
+    {
+      "item": "mite_reforged:holy_steel_arrow"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:holy_steel_nugget",
+    "count": 1
+  },
+  "heat": 4,
+  "cookingtime": 200,
+  "experience": 0
+}

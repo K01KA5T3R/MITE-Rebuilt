@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:diamond_block",
+    "minecraft:ancient_debris",
+    "minecraft:netherite_block",
+    "minecraft:diamond_ore",
+    "minecraft:deepslate_diamond_ore",
+    "mite_reforged:adamantium_ore",
+    "mite_reforged:deepslate_adamantium_ore",
+    "mite_reforged:iron_strongbox",
+    "mite_reforged:mithril_door",
+    "mite_reforged:mithril_bars",
+    "mite_reforged:ancient_metal_strongbox"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "travel": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

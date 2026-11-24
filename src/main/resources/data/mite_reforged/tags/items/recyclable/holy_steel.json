@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "mite_reforged:holy_steel_pickaxe",
+    "mite_reforged:holy_steel_axe",
+    "mite_reforged:holy_steel_hatchet",
+    "mite_reforged:holy_steel_shovel",
+    "mite_reforged:holy_steel_hoe",
+    "mite_reforged:holy_steel_sword",
+    "mite_reforged:holy_steel_dagger",
+    "mite_reforged:holy_steel_knife",
+    "mite_reforged:holy_steel_mattock",
+    "mite_reforged:holy_steel_warhammer",
+    "mite_reforged:holy_steel_battleaxe",
+    "mite_reforged:holy_steel_scythe",
+    "mite_reforged:holy_steel_shears",
+    "mite_reforged:holy_steel_helmet",
+    "mite_reforged:holy_steel_chestplate",
+    "mite_reforged:holy_steel_leggings",
+    "mite_reforged:holy_steel_boots",
+    "mite_reforged:holy_steel_chainmail_helmet",
+    "mite_reforged:holy_steel_chainmail_chestplate",
+    "mite_reforged:holy_steel_chainmail_leggings",
+    "mite_reforged:holy_steel_chainmail_boots",
+    "mite_reforged:holy_steel_fishing_rod"
+  ]
+}

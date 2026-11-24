@@ -1,0 +1,11 @@
+{
+  "placement": {
+    "type": "mite_reforged:classic_fortress"
+  },
+  "structures": [
+    {
+      "structure": "minecraft:fortress",
+      "weight": 1
+    }
+  ]
+}

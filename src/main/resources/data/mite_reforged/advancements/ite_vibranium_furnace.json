@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "mite_reforged:vibranium_furnace"
+    },
+    "title": {
+      "translate": "advancement.mite_reforged.ite_vibranium_furnace"
+    },
+    "description": {
+      "translate": "advancement.mite_reforged.ite_vibranium_furnace.desc"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "frame": "goal",
+    "hidden": false
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mite_reforged:vibranium_furnace"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "mite_reforged:ite_vibranium_ingot"
+}

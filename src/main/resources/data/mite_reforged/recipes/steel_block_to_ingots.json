@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mite_reforged:steel_block"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:steel_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,8 @@
+Inventory Sorter 23.0.11, Copyright cpw and contributors.
+Unmodified upstream JAR embedded through Forge Jar-in-Jar; GPL-3.0-or-later.
+Project: https://github.com/cpw/inventorysorter
+Binary: https://www.curseforge.com/minecraft/mc-mods/inventory-sorter/files/7188685
+Source: https://github.com/cpw/inventorysorter/tree/a0d0fc0ba7bce9b100dac21f7d0adeec7c73a2a7
+The delivery and modpack ZIPs include the corresponding upstream source archive
+at third-party/inventorysorter-23.0.11-sources.zip. Original source and notices retained.
+MITE compatibility guards are separate base-mod code; upstream JAR bytes are unchanged.

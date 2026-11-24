@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "minecraft:stone_bricks"
+  },
+  "result": {
+    "item": "minecraft:cracked_stone_bricks"
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 0.1
+}

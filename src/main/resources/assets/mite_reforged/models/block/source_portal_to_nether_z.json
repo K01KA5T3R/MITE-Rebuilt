@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/nether_portal_ew",
+  "textures": {
+    "portal": "mite_reforged:block/portal_to_nether",
+    "particle": "mite_reforged:block/portal_to_nether"
+  }
+}

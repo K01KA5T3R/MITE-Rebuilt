@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:dark_oak_log"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:dark_forest_obsidian"
+  }
+}

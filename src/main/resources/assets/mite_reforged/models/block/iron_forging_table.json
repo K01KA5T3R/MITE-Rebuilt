@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "mite_reforged:block/forging_table/iron_top",
+    "side": "mite_reforged:block/forging_table/iron_side",
+    "bottom": "mite_reforged:block/forging_table/iron_bottom"
+  }
+}

@@ -1,0 +1,24 @@
+/** New source parent gate and exact native movement support callback only. */
+function initializeCoreMod(){
+ var O=Java.type('org.objectweb.asm.Opcodes'),M=Java.type('org.objectweb.asm.tree.MethodNode'),L=Java.type('org.objectweb.asm.tree.InsnList'),V=Java.type('org.objectweb.asm.tree.VarInsnNode'),C=Java.type('org.objectweb.asm.tree.MethodInsnNode'),I=Java.type('org.objectweb.asm.tree.InsnNode'),J=Java.type('org.objectweb.asm.tree.JumpInsnNode'),Label=Java.type('org.objectweb.asm.tree.LabelNode'),Frame=Java.type('org.objectweb.asm.tree.FrameNode');
+ var helper='dev/koikaster/mite/SourceFallingParent285';
+ return {
+  source_falling_parent285:{target:{type:'CLASS',name:'net.minecraft.world.level.block.FallingBlock'},transformer:function(node){
+   var tick=null;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);if((String(m.name)==='tick'||String(m.name)==='m_213897_')&&String(m.desc)==='(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V')tick=m;}
+   if(tick===null)throw new Error('Falling285 exact native tick');var srg=String(tick.name)!=='tick',resume=new Label(),code=new L();for(var a=1;a<=4;a++)code.add(new V(O.ALOAD,a));code.add(new C(O.INVOKESTATIC,helper,'tick',String(tick.desc).replace(')V',')Z'),false));code.add(new J(O.IFEQ,resume));code.add(new I(O.RETURN));code.add(resume);code.add(new Frame(O.F_SAME,0,null,0,null));tick.instructions.insert(code);tick.maxStack=Math.max(4,tick.maxStack);
+   function callback(name,mapped,inside){var desc=inside?'(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)V':'(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/Entity;)V',methodName=srg?mapped:name;
+    for(var i=0;i<node.methods.size();i++)if(String(node.methods.get(i).name)===methodName&&String(node.methods.get(i).desc)===desc)throw new Error('Falling285 unexpected existing callback '+name);
+    var m=new M(O.ACC_PUBLIC,methodName,desc,null,null),fallback=new Label();for(var a=0;a<4;a++)m.instructions.add(new V(O.ALOAD,inside?[1,2,3,4][a]:[3,1,2,4][a]));m.instructions.add(new C(O.INVOKESTATIC,helper,inside?'collided':'walked','(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/Entity;)Z',false));m.instructions.add(new J(O.IFEQ,fallback));m.instructions.add(new I(O.RETURN));m.instructions.add(fallback);m.instructions.add(new Frame(O.F_SAME,0,null,0,null));for(var a=0;a<=4;a++)m.instructions.add(new V(O.ALOAD,a));m.instructions.add(new C(O.INVOKESPECIAL,String(node.superName),methodName,desc,false));m.instructions.add(new I(O.RETURN));m.maxStack=5;m.maxLocals=5;node.methods.add(m);
+   }
+   callback('stepOn','m_141947_',false);callback('entityInside','m_7892_',true);
+   var display=0;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);if((String(m.name)!=='animateTick'&&String(m.name)!=='m_214162_')||String(m.desc)!=='(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/util/RandomSource;)V')continue;var dust=new L(),keep=new Label();dust.add(new V(O.ALOAD,1));dust.add(new C(O.INVOKESTATIC,helper,'animate','(Lnet/minecraft/world/level/block/state/BlockState;)Z',false));dust.add(new J(O.IFEQ,keep));dust.add(new I(O.RETURN));dust.add(keep);dust.add(new Frame(O.F_SAME,0,null,0,null));m.instructions.insert(dust);m.maxStack=Math.max(m.maxStack,1);display++;}if(display!==1)throw new Error('Falling296 exact native display tick');return node;
+  }},
+  source_falling_move_step285:{target:{type:'CLASS',name:'net.minecraft.world.entity.Entity'},transformer:function(node){
+   var count=0;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);if((String(m.name)!=='move'&&String(m.name)!=='m_6478_')||String(m.desc)!=='(Lnet/minecraft/world/entity/MoverType;Lnet/minecraft/world/phys/Vec3;)V')continue;
+    for(var x=m.instructions.getFirst();x!==null;x=x.getNext())if(x.getOpcode()===O.INVOKEVIRTUAL&&String(x.owner)==='net/minecraft/world/level/block/Block'&&(String(x.name)==='stepOn'||String(x.name)==='m_141947_')&&String(x.desc)==='(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/Entity;)V'){
+     x.setOpcode(O.INVOKESTATIC);x.owner=helper;x.name='nativeMoveStep';x.desc='(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/Entity;)V';x.itf=false;count++;
+    }
+   }if(count!==1)throw new Error('Falling285 native support walking site '+count);return node;
+  }}
+ };
+}

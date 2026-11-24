@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:crafting_table",
+    "minecraft:anvil",
+    "minecraft:chipped_anvil",
+    "minecraft:damaged_anvil",
+    "minecraft:ladder",
+    "minecraft:cauldron",
+    "minecraft:water_cauldron",
+    "minecraft:lava_cauldron",
+    "minecraft:powder_snow_cauldron",
+    "minecraft:dragon_egg",
+    "minecraft:tnt",
+    "#minecraft:beds"
+  ]
+}

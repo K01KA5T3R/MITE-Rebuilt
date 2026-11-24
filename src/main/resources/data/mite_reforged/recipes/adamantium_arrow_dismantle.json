@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mite_reforged:adamantium_arrow"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:adamantium_nugget",
+    "count": 1
+  }
+}

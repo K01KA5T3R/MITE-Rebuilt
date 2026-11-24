@@ -1,0 +1,31 @@
+{
+  "type": "mite_reforged:currency_exchange",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mite_reforged:silver_coin"
+    },
+    {
+      "item": "mite_reforged:silver_coin"
+    },
+    {
+      "item": "mite_reforged:silver_coin"
+    },
+    {
+      "item": "mite_reforged:silver_coin"
+    },
+    {
+      "item": "mite_reforged:silver_coin"
+    },
+    {
+      "item": "mite_reforged:silver_coin"
+    },
+    {
+      "item": "mite_reforged:silver_coin"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:silver_nugget",
+    "count": 7
+  }
+}

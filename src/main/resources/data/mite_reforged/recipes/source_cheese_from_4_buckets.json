@@ -1,0 +1,98 @@
+{
+  "type": "mite_reforged:source_bowl_food",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "minecraft:milk_bucket"
+      },
+      {
+        "type": "forge:partial_nbt",
+        "items": [
+          "mite_reforged:copper_bucket",
+          "mite_reforged:silver_bucket",
+          "mite_reforged:gold_bucket",
+          "mite_reforged:bronze_bucket",
+          "mite_reforged:iron_bucket",
+          "mite_reforged:steel_bucket",
+          "mite_reforged:mithril_bucket",
+          "mite_reforged:adamantium_bucket",
+          "mite_reforged:ancient_metal_bucket"
+        ],
+        "nbt": {
+          "Fluid": "milk"
+        }
+      }
+    ],
+    [
+      {
+        "item": "minecraft:milk_bucket"
+      },
+      {
+        "type": "forge:partial_nbt",
+        "items": [
+          "mite_reforged:copper_bucket",
+          "mite_reforged:silver_bucket",
+          "mite_reforged:gold_bucket",
+          "mite_reforged:bronze_bucket",
+          "mite_reforged:iron_bucket",
+          "mite_reforged:steel_bucket",
+          "mite_reforged:mithril_bucket",
+          "mite_reforged:adamantium_bucket",
+          "mite_reforged:ancient_metal_bucket"
+        ],
+        "nbt": {
+          "Fluid": "milk"
+        }
+      }
+    ],
+    [
+      {
+        "item": "minecraft:milk_bucket"
+      },
+      {
+        "type": "forge:partial_nbt",
+        "items": [
+          "mite_reforged:copper_bucket",
+          "mite_reforged:silver_bucket",
+          "mite_reforged:gold_bucket",
+          "mite_reforged:bronze_bucket",
+          "mite_reforged:iron_bucket",
+          "mite_reforged:steel_bucket",
+          "mite_reforged:mithril_bucket",
+          "mite_reforged:adamantium_bucket",
+          "mite_reforged:ancient_metal_bucket"
+        ],
+        "nbt": {
+          "Fluid": "milk"
+        }
+      }
+    ],
+    [
+      {
+        "item": "minecraft:milk_bucket"
+      },
+      {
+        "type": "forge:partial_nbt",
+        "items": [
+          "mite_reforged:copper_bucket",
+          "mite_reforged:silver_bucket",
+          "mite_reforged:gold_bucket",
+          "mite_reforged:bronze_bucket",
+          "mite_reforged:iron_bucket",
+          "mite_reforged:steel_bucket",
+          "mite_reforged:mithril_bucket",
+          "mite_reforged:adamantium_bucket",
+          "mite_reforged:ancient_metal_bucket"
+        ],
+        "nbt": {
+          "Fluid": "milk"
+        }
+      }
+    ]
+  ],
+  "result": {
+    "item": "mite_reforged:cheese",
+    "count": 4
+  }
+}

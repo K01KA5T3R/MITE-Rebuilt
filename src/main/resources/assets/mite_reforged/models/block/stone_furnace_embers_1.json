@@ -1,0 +1,6 @@
+{
+  "parent": "mite_reforged:block/stone_furnace_lit",
+  "textures": {
+    "front": "mite_reforged:block/stone_furnace_embers_1"
+  }
+}

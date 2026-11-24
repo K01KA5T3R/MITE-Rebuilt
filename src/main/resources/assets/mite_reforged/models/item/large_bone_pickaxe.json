@@ -1,0 +1,4 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": { "layer0": "mite_reforged:item/large_bone_pickaxe" }
+}

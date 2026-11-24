@@ -1,0 +1,18 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "mite_reforged:design_overworld_coal",
+    "mite_reforged:design_overworld_copper",
+    "mite_reforged:design_overworld_tin",
+    "mite_reforged:design_overworld_iron",
+    "mite_reforged:design_overworld_silver",
+    "mite_reforged:design_overworld_gold",
+    "mite_reforged:design_overworld_redstone",
+    "mite_reforged:design_overworld_lapis",
+    "mite_reforged:design_overworld_diamond",
+    "mite_reforged:design_overworld_emerald",
+    "mite_reforged:design_overworld_mithril"
+  ],
+  "step": "underground_ores"
+}

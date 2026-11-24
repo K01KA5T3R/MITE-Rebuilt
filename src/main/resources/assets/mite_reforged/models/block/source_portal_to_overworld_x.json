@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/nether_portal_ns",
+  "textures": {
+    "portal": "mite_reforged:block/portal_to_overworld",
+    "particle": "mite_reforged:block/portal_to_overworld"
+  }
+}

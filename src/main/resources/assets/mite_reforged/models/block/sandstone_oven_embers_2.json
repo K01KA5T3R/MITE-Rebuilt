@@ -1,0 +1,6 @@
+{
+  "parent": "mite_reforged:block/sandstone_oven_lit",
+  "textures": {
+    "front": "mite_reforged:block/sandstone_oven_embers_2"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mite_reforged:item/boss_items/monument_call"
+  },
+  "display": {
+    "gui": {
+      "scale": [
+        0.96,
+        0.96,
+        1
+      ]
+    }
+  }
+}

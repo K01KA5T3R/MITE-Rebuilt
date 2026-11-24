@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I",
+    "S",
+    "F"
+  ],
+  "key": {
+    "I": {
+      "item": "mite_reforged:bronze_nugget"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "F": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:bronze_arrow",
+    "count": 1
+  }
+}

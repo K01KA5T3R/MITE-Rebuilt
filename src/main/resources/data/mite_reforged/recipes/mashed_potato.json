@@ -1,0 +1,19 @@
+{
+  "type": "mite_reforged:source_bowl_food",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "mite_reforged:cheese"
+    },
+    {
+      "item": "mite_reforged:milk_bowl"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:mashed_potato",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SS ",
+    "SB ",
+    "  S"
+  ],
+  "key": {
+    "S": {
+      "item": "mite_reforged:sinew"
+    },
+    "B": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "minecraft:lead",
+    "count": 2
+  }
+}

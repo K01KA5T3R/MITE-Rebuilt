@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "mite_reforged:bronze_pickaxe",
+    "mite_reforged:bronze_axe",
+    "mite_reforged:bronze_shovel",
+    "mite_reforged:bronze_hoe",
+    "mite_reforged:bronze_sword",
+    "mite_reforged:bronze_dagger",
+    "mite_reforged:bronze_battleaxe",
+    "mite_reforged:bronze_warhammer",
+    "mite_reforged:bronze_mattock",
+    "mite_reforged:bronze_scythe",
+    "mite_reforged:bronze_helmet",
+    "mite_reforged:bronze_chestplate",
+    "mite_reforged:bronze_leggings",
+    "mite_reforged:bronze_boots"
+  ]
+}

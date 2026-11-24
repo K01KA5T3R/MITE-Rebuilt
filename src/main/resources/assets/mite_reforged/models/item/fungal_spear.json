@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "mite_reforged:item/boss_items/fungal_spear"
+  },
+  "display": {
+    "gui": {
+      "scale": [
+        1.1077,
+        1.1077,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -82,
+        18
+      ],
+      "translation": [
+        -0.7,
+        4.1,
+        1
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        82,
+        -18
+      ],
+      "translation": [
+        -0.7,
+        4.1,
+        1
+      ],
+      "scale": [
+        0.6,
+        0.6,
+        0.6
+      ]
+    }
+  }
+}

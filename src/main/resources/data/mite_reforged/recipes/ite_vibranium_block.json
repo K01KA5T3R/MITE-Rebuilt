@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mite_reforged:vibranium_ingot"
+    },
+    {
+      "item": "mite_reforged:vibranium_ingot"
+    },
+    {
+      "item": "mite_reforged:vibranium_ingot"
+    },
+    {
+      "item": "mite_reforged:vibranium_ingot"
+    },
+    {
+      "item": "mite_reforged:vibranium_ingot"
+    },
+    {
+      "item": "mite_reforged:vibranium_ingot"
+    },
+    {
+      "item": "mite_reforged:vibranium_ingot"
+    },
+    {
+      "item": "mite_reforged:vibranium_ingot"
+    },
+    {
+      "item": "mite_reforged:vibranium_ingot"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:vibranium_block",
+    "count": 1
+  }
+}

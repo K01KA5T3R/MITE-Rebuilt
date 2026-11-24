@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:red_sand"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:badlands_obsidian"
+  }
+}

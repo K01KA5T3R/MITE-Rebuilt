@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": ["BBB", " B ", " B "],
+  "key": { "B": { "item": "mite_reforged:large_bone" } },
+  "result": { "item": "mite_reforged:large_bone_pickaxe" }
+}

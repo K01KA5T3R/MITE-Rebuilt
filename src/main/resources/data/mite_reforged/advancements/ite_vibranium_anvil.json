@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "mite_reforged:vibranium_anvil"
+    },
+    "title": {
+      "translate": "advancement.mite_reforged.ite_vibranium_anvil"
+    },
+    "description": {
+      "translate": "advancement.mite_reforged.ite_vibranium_anvil.desc"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "frame": "goal",
+    "hidden": false
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mite_reforged:vibranium_anvil"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "mite_reforged:ite_vibranium_ingot"
+}

@@ -1,0 +1,706 @@
+{
+  "minecraft:arrow": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "I",
+      "S",
+      "F"
+    ],
+    "key": {
+      "I": {
+        "item": "mite_reforged:flint_shard"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "F": {
+        "item": "minecraft:feather"
+      }
+    },
+    "result": {
+      "item": "minecraft:arrow",
+      "count": 1
+    }
+  },
+  "minecraft:fishing_rod": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "  S",
+      " SX",
+      "SIX"
+    ],
+    "key": {
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "minecraft:string"
+      },
+      "I": {
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    "result": {
+      "item": "minecraft:fishing_rod",
+      "count": 1
+    }
+  },
+  "minecraft:smoker": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      " L ",
+      "LFL",
+      " L "
+    ],
+    "key": {
+      "L": {
+        "tag": "minecraft:logs_that_burn"
+      },
+      "F": {
+        "tag": "mite_reforged:stone_cooking_furnaces"
+      }
+    },
+    "result": {
+      "item": "minecraft:smoker"
+    }
+  },
+  "minecraft:blast_furnace": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "III",
+      "IFI",
+      "SSS"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "F": {
+        "tag": "mite_reforged:stone_cooking_furnaces"
+      },
+      "S": {
+        "item": "minecraft:smooth_stone"
+      }
+    },
+    "result": {
+      "item": "minecraft:blast_furnace"
+    }
+  },
+  "minecraft:anvil": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "III",
+      " i ",
+      "iii"
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "i": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "minecraft:anvil"
+    }
+  },
+  "minecraft:repair_item": {
+    "type": "mite_reforged:source_craft_repair",
+    "category": "misc"
+  },
+  "minecraft:leather_helmet": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:leather"
+      }
+    },
+    "result": {
+      "item": "minecraft:leather_helmet"
+    }
+  },
+  "minecraft:leather_chestplate": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "X X",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:leather"
+      }
+    },
+    "result": {
+      "item": "minecraft:leather_chestplate"
+    }
+  },
+  "minecraft:leather_leggings": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:leather"
+      }
+    },
+    "result": {
+      "item": "minecraft:leather_leggings"
+    }
+  },
+  "minecraft:leather_boots": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:leather"
+      }
+    },
+    "result": {
+      "item": "minecraft:leather_boots"
+    }
+  },
+  "minecraft:chainmail_helmet": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "mite_reforged:iron_chain"
+      }
+    },
+    "result": {
+      "item": "minecraft:chainmail_helmet"
+    }
+  },
+  "minecraft:chainmail_chestplate": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "X X",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "mite_reforged:iron_chain"
+      }
+    },
+    "result": {
+      "item": "minecraft:chainmail_chestplate"
+    }
+  },
+  "minecraft:chainmail_leggings": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "mite_reforged:iron_chain"
+      }
+    },
+    "result": {
+      "item": "minecraft:chainmail_leggings"
+    }
+  },
+  "minecraft:chainmail_boots": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "mite_reforged:iron_chain"
+      }
+    },
+    "result": {
+      "item": "minecraft:chainmail_boots"
+    }
+  },
+  "minecraft:iron_helmet": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "mite_reforged:iron_helmet"
+    }
+  },
+  "minecraft:iron_chestplate": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "X X",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "mite_reforged:iron_chestplate"
+    }
+  },
+  "minecraft:iron_leggings": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "mite_reforged:iron_leggings"
+    }
+  },
+  "minecraft:iron_boots": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "mite_reforged:iron_boots"
+    }
+  },
+  "minecraft:golden_helmet": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "mite_reforged:gold_helmet"
+    }
+  },
+  "minecraft:golden_chestplate": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "X X",
+      "XXX",
+      "XXX"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "mite_reforged:gold_chestplate"
+    }
+  },
+  "minecraft:golden_leggings": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "XXX",
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "mite_reforged:gold_leggings"
+    }
+  },
+  "minecraft:golden_boots": {
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "X X",
+      "X X"
+    ],
+    "key": {
+      "X": {
+        "item": "minecraft:gold_ingot"
+      }
+    },
+    "result": {
+      "item": "mite_reforged:gold_boots"
+    }
+  },
+  "minecraft:carrot_on_a_stick": {
+    "type": "mite_reforged:carrot_stick",
+    "category": "equipment",
+    "ingredients": [
+      {
+        "item": "minecraft:fishing_rod"
+      },
+      {
+        "item": "minecraft:carrot"
+      }
+    ],
+    "result": {
+      "item": "minecraft:carrot_on_a_stick",
+      "count": 1
+    }
+  },
+  "minecraft:oak_fence": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "minecraft:oak_fence",
+      "count": 2
+    }
+  },
+  "minecraft:nether_brick_fence": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "AAA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:nether_bricks"
+      }
+    },
+    "result": {
+      "item": "minecraft:nether_brick_fence",
+      "count": 8
+    }
+  },
+  "minecraft:bricks": {
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:brick"
+      },
+      "B": {
+        "item": "minecraft:sand"
+      }
+    },
+    "result": {
+      "item": "minecraft:bricks",
+      "count": 2
+    }
+  },
+  "minecraft:nether_bricks": {
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:nether_brick"
+      },
+      "B": {
+        "item": "minecraft:soul_sand"
+      }
+    },
+    "result": {
+      "item": "minecraft:nether_bricks",
+      "count": 2
+    }
+  },
+  "mite_reforged:brick_from_terracotta": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:terracotta"
+      }
+    },
+    "result": {
+      "item": "minecraft:brick",
+      "count": 4
+    }
+  },
+  "minecraft:ladder": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "A A",
+      "AAA",
+      "A A"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "minecraft:ladder",
+      "count": 2
+    }
+  },
+  "minecraft:chest_minecart": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:chest"
+      },
+      "B": {
+        "item": "minecraft:minecart"
+      }
+    },
+    "result": {
+      "item": "minecraft:chest_minecart",
+      "count": 1
+    }
+  },
+  "minecraft:furnace_minecart": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:furnace"
+      },
+      "B": {
+        "item": "minecraft:minecart"
+      }
+    },
+    "result": {
+      "item": "minecraft:furnace_minecart",
+      "count": 1
+    }
+  },
+  "minecraft:tnt_minecart": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:tnt"
+      },
+      "B": {
+        "item": "minecraft:minecart"
+      }
+    },
+    "result": {
+      "item": "minecraft:tnt_minecart",
+      "count": 1
+    }
+  },
+  "minecraft:hopper_minecart": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "A",
+      "B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:hopper"
+      },
+      "B": {
+        "item": "minecraft:minecart"
+      }
+    },
+    "result": {
+      "item": "minecraft:hopper_minecart",
+      "count": 1
+    }
+  },
+  "minecraft:flint_and_steel": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "A ",
+      " B"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_nugget"
+      },
+      "B": {
+        "item": "minecraft:flint"
+      }
+    },
+    "result": {
+      "item": "minecraft:flint_and_steel",
+      "count": 1
+    }
+  },
+  "mite_reforged:flour": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "result": {
+      "item": "mite_reforged:flour",
+      "count": 1
+    }
+  },
+  "mite_reforged:flour_vertical": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "A",
+      "A",
+      "A"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "result": {
+      "item": "mite_reforged:flour",
+      "count": 1
+    }
+  },
+  "minecraft:golden_apple": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gold_nugget"
+      },
+      "B": {
+        "item": "minecraft:apple"
+      }
+    },
+    "result": {
+      "item": "minecraft:golden_apple",
+      "count": 1
+    }
+  },
+  "minecraft:clock": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:gold_nugget"
+      },
+      "B": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "item": "minecraft:clock",
+      "count": 1
+    }
+  },
+  "minecraft:compass": {
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+      "AAA",
+      "ABA",
+      "AAA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:iron_nugget"
+      },
+      "B": {
+        "item": "minecraft:redstone"
+      }
+    },
+    "result": {
+      "item": "minecraft:compass",
+      "count": 1
+    }
+  },
+  "minecraft:nether_brick_wall": {
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "#": {
+        "item": "minecraft:nether_bricks"
+      }
+    },
+    "pattern": [
+      "##",
+      "##",
+      "##"
+    ],
+    "result": {
+      "count": 6,
+      "item": "minecraft:nether_brick_wall"
+    },
+    "show_notification": true
+  }
+}

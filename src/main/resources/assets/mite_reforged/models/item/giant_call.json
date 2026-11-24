@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mite_reforged:item/boss_items/giant_call"
+  },
+  "display": {
+    "gui": {
+      "scale": [
+        1.0286,
+        1.0286,
+        1
+      ]
+    }
+  }
+}

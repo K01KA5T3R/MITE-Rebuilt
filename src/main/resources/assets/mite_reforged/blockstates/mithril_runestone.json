@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "rune=0": {
+      "model": "mite_reforged:block/runestones/mithril_0"
+    },
+    "rune=1": {
+      "model": "mite_reforged:block/runestones/mithril_1"
+    },
+    "rune=2": {
+      "model": "mite_reforged:block/runestones/mithril_2"
+    },
+    "rune=3": {
+      "model": "mite_reforged:block/runestones/mithril_3"
+    },
+    "rune=4": {
+      "model": "mite_reforged:block/runestones/mithril_4"
+    },
+    "rune=5": {
+      "model": "mite_reforged:block/runestones/mithril_5"
+    },
+    "rune=6": {
+      "model": "mite_reforged:block/runestones/mithril_6"
+    },
+    "rune=7": {
+      "model": "mite_reforged:block/runestones/mithril_7"
+    },
+    "rune=8": {
+      "model": "mite_reforged:block/runestones/mithril_8"
+    },
+    "rune=9": {
+      "model": "mite_reforged:block/runestones/mithril_9"
+    },
+    "rune=10": {
+      "model": "mite_reforged:block/runestones/mithril_10"
+    },
+    "rune=11": {
+      "model": "mite_reforged:block/runestones/mithril_11"
+    },
+    "rune=12": {
+      "model": "mite_reforged:block/runestones/mithril_12"
+    },
+    "rune=13": {
+      "model": "mite_reforged:block/runestones/mithril_13"
+    },
+    "rune=14": {
+      "model": "mite_reforged:block/runestones/mithril_14"
+    },
+    "rune=15": {
+      "model": "mite_reforged:block/runestones/mithril_15"
+    }
+  }
+}

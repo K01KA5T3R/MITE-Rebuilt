@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "mite_reforged:referenced_book"
+    },
+    "title": {
+      "translate": "advancement.mite_reforged.enlightenment"
+    },
+    "description": {
+      "translate": "advancement.mite_reforged.enlightenment.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "complete": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "mite_reforged:bookcase"
+}

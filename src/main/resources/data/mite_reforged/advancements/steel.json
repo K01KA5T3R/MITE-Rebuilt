@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "mite_reforged:steel_pickaxe"
+    },
+    "title": {
+      "translate": "advancement.mite_reforged.steel"
+    },
+    "description": {
+      "translate": "advancement.mite_reforged.steel.desc"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mite_reforged:steel_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "mite_reforged:iron"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "minecraft:quartz_block"
+  },
+  "result": {
+    "item": "minecraft:smooth_quartz"
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 0.1
+}

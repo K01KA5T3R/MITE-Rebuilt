@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "minecraft:lapis_ore"
+  },
+  "result": {
+    "item": "minecraft:lapis_lazuli"
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 0.2
+}

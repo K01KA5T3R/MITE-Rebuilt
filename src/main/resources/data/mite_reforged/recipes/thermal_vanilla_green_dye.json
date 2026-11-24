@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "minecraft:cactus"
+  },
+  "result": {
+    "item": "minecraft:green_dye"
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 1.0
+}

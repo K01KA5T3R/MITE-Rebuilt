@@ -1,0 +1,10 @@
+{
+  "placement": {
+    "type": "mite_reforged:classic_temple"
+  },
+  "structures": [
+    {"structure": "minecraft:desert_pyramid", "weight": 1},
+    {"structure": "minecraft:jungle_pyramid", "weight": 1},
+    {"structure": "minecraft:swamp_hut", "weight": 1}
+  ]
+}

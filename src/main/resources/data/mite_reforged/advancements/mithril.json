@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "mite_reforged:mithril_pickaxe"
+    },
+    "title": {
+      "translate": "advancement.mite_reforged.mithril"
+    },
+    "description": {
+      "translate": "advancement.mite_reforged.mithril.desc"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": true
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mite_reforged:mithril_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "mite_reforged:steel"
+}

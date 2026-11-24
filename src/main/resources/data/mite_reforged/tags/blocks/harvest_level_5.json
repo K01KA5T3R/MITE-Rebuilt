@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "mite_reforged:holy_steel_ore",
+    "mite_reforged:holy_steel_block",
+    "mite_reforged:mithril_strongbox",
+    "mite_reforged:adamantium_door",
+    "mite_reforged:adamantium_bars"
+  ]
+}

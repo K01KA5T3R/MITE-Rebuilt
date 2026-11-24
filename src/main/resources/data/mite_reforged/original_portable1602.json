@@ -1,0 +1,1185 @@
+{
+  "source": "Actual isPortable dispatch of221 registered R195 blocks. Lit and unlit furnace counterparts agree. Strongbox ownership is handled by the existing world/actor entry.",
+  "blocks": {
+    "minecraft:stone": {
+      "source_id": 1,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:grass_block": {
+      "source_id": 2,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:dirt": {
+      "source_id": 3,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:cobblestone": {
+      "source_id": 4,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:oak_planks": {
+      "source_id": 5,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:oak_sapling": {
+      "source_id": 6,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:bedrock": {
+      "source_id": 7,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:water": {
+      "source_id": 8,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:lava": {
+      "source_id": 10,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:sand": {
+      "source_id": 12,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:gravel": {
+      "source_id": 13,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:gold_ore": {
+      "source_id": 14,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:iron_ore": {
+      "source_id": 15,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:coal_ore": {
+      "source_id": 16,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:oak_log": {
+      "source_id": 17,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:oak_leaves": {
+      "source_id": 18,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:sponge": {
+      "source_id": 19,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:lapis_ore": {
+      "source_id": 21,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:lapis_block": {
+      "source_id": 22,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:dispenser": {
+      "source_id": 23,
+      "source_owner": "BlockDirectionalWithTileEntity",
+      "portable": true
+    },
+    "minecraft:sandstone": {
+      "source_id": 24,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:note_block": {
+      "source_id": 25,
+      "source_owner": "amw",
+      "portable": true
+    },
+    "minecraft:red_bed": {
+      "source_id": 26,
+      "source_owner": "anb",
+      "portable": true
+    },
+    "minecraft:powered_rail": {
+      "source_id": 27,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:detector_rail": {
+      "source_id": 28,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:sticky_piston": {
+      "source_id": 29,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:cobweb": {
+      "source_id": 30,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:dead_bush": {
+      "source_id": 31,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:piston": {
+      "source_id": 33,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:piston_head": {
+      "source_id": 34,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:white_wool": {
+      "source_id": 35,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:moving_piston": {
+      "source_id": 36,
+      "source_owner": "BlockDirectionalWithTileEntity",
+      "portable": true
+    },
+    "minecraft:dandelion": {
+      "source_id": 37,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:poppy": {
+      "source_id": 38,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:brown_mushroom": {
+      "source_id": 39,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:red_mushroom": {
+      "source_id": 40,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:gold_block": {
+      "source_id": 41,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:iron_block": {
+      "source_id": 42,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:smooth_stone_slab": {
+      "source_id": 44,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:bricks": {
+      "source_id": 45,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:tnt": {
+      "source_id": 46,
+      "source_owner": "are",
+      "portable": true
+    },
+    "minecraft:bookshelf": {
+      "source_id": 47,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:mossy_cobblestone": {
+      "source_id": 48,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:obsidian": {
+      "source_id": 49,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:wall_torch": {
+      "source_id": 50,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:fire": {
+      "source_id": 51,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:spawner": {
+      "source_id": 52,
+      "source_owner": "api",
+      "portable": false
+    },
+    "minecraft:oak_stairs": {
+      "source_id": 53,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:chest": {
+      "source_id": 54,
+      "source_owner": "BlockDirectionalWithTileEntity",
+      "portable": true
+    },
+    "minecraft:redstone_wire": {
+      "source_id": 55,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:diamond_ore": {
+      "source_id": 56,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:diamond_block": {
+      "source_id": 57,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:crafting_table": {
+      "source_id": 58,
+      "source_owner": "arv",
+      "portable": true
+    },
+    "minecraft:wheat": {
+      "source_id": 59,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:farmland": {
+      "source_id": 60,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:furnace": {
+      "source_id": 61,
+      "source_owner": "BlockDirectionalWithTileEntity",
+      "portable": true
+    },
+    "minecraft:oak_sign": {
+      "source_id": 63,
+      "source_owner": "BlockMountedWithTileEntity",
+      "portable": true
+    },
+    "minecraft:oak_door": {
+      "source_id": 64,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:ladder": {
+      "source_id": 65,
+      "source_owner": "aoy",
+      "portable": true
+    },
+    "minecraft:rail": {
+      "source_id": 66,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:cobblestone_stairs": {
+      "source_id": 67,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:oak_wall_sign": {
+      "source_id": 68,
+      "source_owner": "BlockMountedWithTileEntity",
+      "portable": true
+    },
+    "minecraft:lever": {
+      "source_id": 69,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:stone_pressure_plate": {
+      "source_id": 70,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:iron_door": {
+      "source_id": 71,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:oak_pressure_plate": {
+      "source_id": 72,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:redstone_ore": {
+      "source_id": 73,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:redstone_wall_torch": {
+      "source_id": 75,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:stone_button": {
+      "source_id": 77,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:snow": {
+      "source_id": 78,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:ice": {
+      "source_id": 79,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:snow_block": {
+      "source_id": 80,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:cactus": {
+      "source_id": 81,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:clay": {
+      "source_id": 82,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:sugar_cane": {
+      "source_id": 83,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:jukebox": {
+      "source_id": 84,
+      "source_owner": "amw",
+      "portable": true
+    },
+    "minecraft:oak_fence": {
+      "source_id": 85,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:carved_pumpkin": {
+      "source_id": 86,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:netherrack": {
+      "source_id": 87,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:soul_sand": {
+      "source_id": 88,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:glowstone": {
+      "source_id": 89,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:nether_portal": {
+      "source_id": 90,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:jack_o_lantern": {
+      "source_id": 91,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:cake": {
+      "source_id": 92,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:repeater": {
+      "source_id": 93,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:oak_trapdoor": {
+      "source_id": 96,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:infested_stone": {
+      "source_id": 97,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:stone_bricks": {
+      "source_id": 98,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:brown_mushroom_block": {
+      "source_id": 99,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:red_mushroom_block": {
+      "source_id": 100,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:iron_bars": {
+      "source_id": 101,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:glass_pane": {
+      "source_id": 102,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:melon": {
+      "source_id": 103,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:pumpkin_stem": {
+      "source_id": 104,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:melon_stem": {
+      "source_id": 105,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:vine": {
+      "source_id": 106,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:oak_fence_gate": {
+      "source_id": 107,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:brick_stairs": {
+      "source_id": 108,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:stone_brick_stairs": {
+      "source_id": 109,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:mycelium": {
+      "source_id": 110,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:lily_pad": {
+      "source_id": 111,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:nether_bricks": {
+      "source_id": 112,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:nether_brick_fence": {
+      "source_id": 113,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:nether_brick_stairs": {
+      "source_id": 114,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:nether_wart": {
+      "source_id": 115,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:enchanting_table": {
+      "source_id": 116,
+      "source_owner": "amw",
+      "portable": true
+    },
+    "minecraft:brewing_stand": {
+      "source_id": 117,
+      "source_owner": "amw",
+      "portable": true
+    },
+    "minecraft:cauldron": {
+      "source_id": 118,
+      "source_owner": "anj",
+      "portable": true
+    },
+    "minecraft:end_portal": {
+      "source_id": 119,
+      "source_owner": "amw",
+      "portable": true
+    },
+    "minecraft:end_portal_frame": {
+      "source_id": 120,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:end_stone": {
+      "source_id": 121,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:dragon_egg": {
+      "source_id": 122,
+      "source_owner": "aob",
+      "portable": true
+    },
+    "minecraft:redstone_lamp": {
+      "source_id": 123,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:oak_slab": {
+      "source_id": 126,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:cocoa": {
+      "source_id": 127,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:sandstone_stairs": {
+      "source_id": 128,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:emerald_ore": {
+      "source_id": 129,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:ender_chest": {
+      "source_id": 130,
+      "source_owner": "BlockDirectionalWithTileEntity",
+      "portable": true
+    },
+    "minecraft:tripwire_hook": {
+      "source_id": 131,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:tripwire": {
+      "source_id": 132,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:emerald_block": {
+      "source_id": 133,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:spruce_stairs": {
+      "source_id": 134,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:birch_stairs": {
+      "source_id": 135,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:jungle_stairs": {
+      "source_id": 136,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:command_block": {
+      "source_id": 137,
+      "source_owner": "amw",
+      "portable": true
+    },
+    "minecraft:beacon": {
+      "source_id": 138,
+      "source_owner": "amw",
+      "portable": true
+    },
+    "minecraft:cobblestone_wall": {
+      "source_id": 139,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:potted_cactus": {
+      "source_id": 140,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:carrots": {
+      "source_id": 141,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:potatoes": {
+      "source_id": 142,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:oak_button": {
+      "source_id": 143,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:anvil": {
+      "source_id": 145,
+      "source_owner": "amv",
+      "portable": true
+    },
+    "minecraft:trapped_chest": {
+      "source_id": 146,
+      "source_owner": "BlockDirectionalWithTileEntity",
+      "portable": true
+    },
+    "minecraft:light_weighted_pressure_plate": {
+      "source_id": 147,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:heavy_weighted_pressure_plate": {
+      "source_id": 148,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:comparator": {
+      "source_id": 149,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:daylight_detector": {
+      "source_id": 151,
+      "source_owner": "amw",
+      "portable": true
+    },
+    "minecraft:redstone_block": {
+      "source_id": 152,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:nether_quartz_ore": {
+      "source_id": 153,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:hopper": {
+      "source_id": 154,
+      "source_owner": "amw",
+      "portable": true
+    },
+    "minecraft:quartz_block": {
+      "source_id": 155,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:quartz_stairs": {
+      "source_id": 156,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:activator_rail": {
+      "source_id": 157,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:dropper": {
+      "source_id": 158,
+      "source_owner": "BlockDirectionalWithTileEntity",
+      "portable": true
+    },
+    "minecraft:white_terracotta": {
+      "source_id": 159,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:hay_block": {
+      "source_id": 170,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:white_carpet": {
+      "source_id": 171,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:terracotta": {
+      "source_id": 172,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:coal_block": {
+      "source_id": 173,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:adamantium_runestone": {
+      "source_id": 198,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:ancient_metal_bars": {
+      "source_id": 199,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:copper_ore": {
+      "source_id": 200,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:silver_ore": {
+      "source_id": 201,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:mithril_ore": {
+      "source_id": 202,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:adamantium_ore": {
+      "source_id": 203,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:copper_block": {
+      "source_id": 204,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:silver_block": {
+      "source_id": 205,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:mithril_block": {
+      "source_id": 206,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:adamantium_block": {
+      "source_id": 207,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:copper_door": {
+      "source_id": 208,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:silver_door": {
+      "source_id": 209,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:gold_door": {
+      "source_id": 210,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:mithril_door": {
+      "source_id": 211,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:adamantium_door": {
+      "source_id": 212,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:copper_bars": {
+      "source_id": 213,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:silver_bars": {
+      "source_id": 214,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:gold_bars": {
+      "source_id": 215,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:mithril_bars": {
+      "source_id": 216,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:adamantium_bars": {
+      "source_id": 217,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:clay_oven": {
+      "source_id": 218,
+      "source_owner": "BlockDirectionalWithTileEntity",
+      "portable": true
+    },
+    "mite_reforged:sandstone_oven": {
+      "source_id": 220,
+      "source_owner": "BlockDirectionalWithTileEntity",
+      "portable": true
+    },
+    "mite_reforged:obsidian_furnace": {
+      "source_id": 222,
+      "source_owner": "BlockDirectionalWithTileEntity",
+      "portable": true
+    },
+    "mite_reforged:netherrack_furnace": {
+      "source_id": 224,
+      "source_owner": "BlockDirectionalWithTileEntity",
+      "portable": true
+    },
+    "mite_reforged:obsidian_slab": {
+      "source_id": 227,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:obsidian_stairs": {
+      "source_id": 228,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:copper_anvil": {
+      "source_id": 229,
+      "source_owner": "amv",
+      "portable": true
+    },
+    "mite_reforged:silver_anvil": {
+      "source_id": 230,
+      "source_owner": "amv",
+      "portable": true
+    },
+    "mite_reforged:gold_anvil": {
+      "source_id": 231,
+      "source_owner": "amv",
+      "portable": true
+    },
+    "mite_reforged:mithril_anvil": {
+      "source_id": 232,
+      "source_owner": "amv",
+      "portable": true
+    },
+    "mite_reforged:adamantium_anvil": {
+      "source_id": 233,
+      "source_owner": "amv",
+      "portable": true
+    },
+    "mite_reforged:onions": {
+      "source_id": 234,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:dead_wheat": {
+      "source_id": 235,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:dead_carrots": {
+      "source_id": 236,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:dead_potatoes": {
+      "source_id": 237,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:dead_onions": {
+      "source_id": 238,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:copper_strongbox": {
+      "source_id": 239,
+      "source_owner": "BlockStrongbox",
+      "portable": false
+    },
+    "mite_reforged:silver_strongbox": {
+      "source_id": 240,
+      "source_owner": "BlockStrongbox",
+      "portable": false
+    },
+    "mite_reforged:gold_strongbox": {
+      "source_id": 241,
+      "source_owner": "BlockStrongbox",
+      "portable": false
+    },
+    "mite_reforged:iron_strongbox": {
+      "source_id": 242,
+      "source_owner": "BlockStrongbox",
+      "portable": false
+    },
+    "mite_reforged:mithril_strongbox": {
+      "source_id": 243,
+      "source_owner": "BlockStrongbox",
+      "portable": false
+    },
+    "mite_reforged:adamantium_strongbox": {
+      "source_id": 244,
+      "source_owner": "BlockStrongbox",
+      "portable": false
+    },
+    "mite_reforged:emerald_enchanting_table": {
+      "source_id": 245,
+      "source_owner": "amw",
+      "portable": true
+    },
+    "mite_reforged:mithril_runestone": {
+      "source_id": 247,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:bush": {
+      "source_id": 249,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:hardened_clay_oven": {
+      "source_id": 250,
+      "source_owner": "BlockDirectionalWithTileEntity",
+      "portable": true
+    },
+    "mite_reforged:ancient_metal_block": {
+      "source_id": 252,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:ancient_metal_door": {
+      "source_id": 253,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:ancient_metal_anvil": {
+      "source_id": 254,
+      "source_owner": "amv",
+      "portable": true
+    },
+    "mite_reforged:ancient_metal_strongbox": {
+      "source_id": 255,
+      "source_owner": "BlockStrongbox",
+      "portable": false
+    },
+    "minecraft:infested_cobblestone": {
+      "source_id": 97,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:infested_stone_bricks": {
+      "source_id": 97,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:infested_mossy_stone_bricks": {
+      "source_id": 97,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:infested_cracked_stone_bricks": {
+      "source_id": 97,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:infested_chiseled_stone_bricks": {
+      "source_id": 97,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:copperspine_infested_stone": {
+      "source_id": 97,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:netherspawn_infested_netherrack": {
+      "source_id": 97,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "mite_reforged:iron_anvil": {
+      "source_id": 145,
+      "source_owner": "amv",
+      "portable": true
+    },
+    "minecraft:stone_slab": {
+      "source_id": 44,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:cobblestone_slab": {
+      "source_id": 44,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:sandstone_slab": {
+      "source_id": 44,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:stone_brick_slab": {
+      "source_id": 44,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:brick_slab": {
+      "source_id": 44,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:nether_brick_slab": {
+      "source_id": 44,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:quartz_slab": {
+      "source_id": 44,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:red_sandstone_slab": {
+      "source_id": 44,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:white_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:orange_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:magenta_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:light_blue_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:yellow_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:lime_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:pink_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:gray_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:light_gray_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:cyan_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:purple_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:blue_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:brown_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:green_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:red_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:black_stained_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:tinted_glass": {
+      "source_id": 20,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:packed_ice": {
+      "source_id": 79,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:blue_ice": {
+      "source_id": 79,
+      "source_owner": "aqz",
+      "portable": false
+    },
+    "minecraft:frosted_ice": {
+      "source_id": 79,
+      "source_owner": "aqz",
+      "portable": false
+    }
+  }
+}

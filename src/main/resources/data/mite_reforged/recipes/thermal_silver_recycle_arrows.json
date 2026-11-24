@@ -1,0 +1,15 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": [
+    {
+      "item": "mite_reforged:silver_arrow"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:silver_nugget",
+    "count": 1
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 0
+}

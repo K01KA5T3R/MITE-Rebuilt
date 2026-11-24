@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "result": {
+    "item": "mite_reforged:ancient_metal_nugget",
+    "count": 9
+  },
+  "ingredients": [
+    {
+      "item": "mite_reforged:ancient_metal_ingot"
+    }
+  ]
+}

@@ -1,0 +1,2343 @@
+{
+  "music.boss.underworld_giant_skeleton": {
+    "sounds": [
+      {
+        "name": "mite_reforged:music/boss/heartache",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.redstone_iron_golem": {
+    "sounds": [
+      {
+        "name": "mite_reforged:music/boss/golem",
+        "stream": true
+      }
+    ]
+  },
+  "music.boss.mythril_knight": {
+    "sounds": [
+      { "name": "mite_reforged:music/boss/asgore", "stream": true }
+    ]
+  },
+  "music.boss.ender_dragon": {
+    "sounds": [
+      { "name": "mite_reforged:music/boss/aphelion", "stream": true }
+    ]
+  },
+  "music.boss.wither": {
+    "sounds": [
+      { "name": "mite_reforged:music/boss/eyes_in_the_void", "stream": true }
+    ]
+  },
+  "music.boss.giant_zombie": {
+    "sounds": [
+      { "name": "minecraft:music/game/nuance2", "stream": true }
+    ]
+  },
+  "music.boss.elder_guardian": {
+    "sounds": [
+      { "name": "mite_reforged:music/boss/signal_to_noise", "stream": true }
+    ]
+  },
+  "music.boss.king_slime": {
+    "sounds": [
+      { "name": "mite_reforged:music/boss/gelatinous_monarch", "stream": true }
+    ]
+  },
+  "music.boss.crabulon": {
+    "sounds": [
+      { "name": "mite_reforged:music/boss/infestation", "stream": true }
+    ]
+  },
+  "music.boss.queen_bee": {
+    "sounds": [
+      { "name": "mite_reforged:music/boss/royal_retaliation", "stream": true }
+    ]
+  },
+  "shadow.say": {
+    "subtitle": "subtitles.mite_reforged.shadow.say",
+    "sounds": [
+      "mite_reforged:imported/mob/shadow/say1",
+      "mite_reforged:imported/mob/shadow/say2",
+      "mite_reforged:imported/mob/shadow/say3"
+    ]
+  },
+  "shadow.hurt": {
+    "subtitle": "subtitles.mite_reforged.shadow.hurt",
+    "sounds": [
+      "mite_reforged:imported/mob/shadow/hurt1",
+      "mite_reforged:imported/mob/shadow/hurt2"
+    ]
+  },
+  "shadow.death": {
+    "subtitle": "subtitles.mite_reforged.shadow.death",
+    "sounds": [
+      "mite_reforged:imported/mob/shadow/death1",
+      "mite_reforged:imported/mob/shadow/death2"
+    ]
+  },
+  "hellhound.say": {
+    "subtitle": "subtitles.mite_reforged.hellhound.say",
+    "sounds": [
+      "mite_reforged:imported/mob/hellhound/say1",
+      "mite_reforged:imported/mob/hellhound/say2",
+      "mite_reforged:imported/mob/hellhound/say3"
+    ]
+  },
+  "hellhound.hurt": {
+    "subtitle": "subtitles.mite_reforged.hellhound.hurt",
+    "sounds": [
+      "mite_reforged:imported/mob/hellhound/hurt1",
+      "mite_reforged:imported/mob/hellhound/hurt2"
+    ]
+  },
+  "hellhound.death": {
+    "subtitle": "subtitles.mite_reforged.hellhound.death",
+    "sounds": [
+      "mite_reforged:imported/mob/hellhound/death"
+    ]
+  },
+  "hellhound.breath": {
+    "subtitle": "subtitles.mite_reforged.hellhound.breath",
+    "sounds": [
+      "mite_reforged:imported/mob/hellhound/breath"
+    ]
+  },
+  "portal.runegate": {
+    "subtitle": "subtitles.mite_reforged.portal.runegate",
+    "sounds": [
+      "mite_reforged:imported/portal/runegate"
+    ]
+  },
+  "invisible_stalker.say": {
+    "subtitle": "subtitles.mite_reforged.invisible_stalker.say",
+    "sounds": [
+      "mite_reforged:imported/mob/invisiblestalker/say1",
+      "mite_reforged:imported/mob/invisiblestalker/say2",
+      "mite_reforged:imported/mob/invisiblestalker/say3"
+    ]
+  },
+  "invisible_stalker.hurt": {
+    "subtitle": "subtitles.mite_reforged.invisible_stalker.hurt",
+    "sounds": [
+      "mite_reforged:imported/mob/invisiblestalker/hurt1",
+      "mite_reforged:imported/mob/invisiblestalker/hurt2"
+    ]
+  },
+  "invisible_stalker.death": {
+    "subtitle": "subtitles.mite_reforged.invisible_stalker.death",
+    "sounds": [
+      "mite_reforged:imported/mob/invisiblestalker/death"
+    ]
+  },
+  "ghoul.say": {
+    "subtitle": "subtitles.mite_reforged.ghoul.say",
+    "sounds": [
+      "mite_reforged:imported/mob/ghoul/say1",
+      "mite_reforged:imported/mob/ghoul/say2"
+    ]
+  },
+  "ghoul.hurt": {
+    "subtitle": "subtitles.mite_reforged.ghoul.hurt",
+    "sounds": [
+      "mite_reforged:imported/mob/ghoul/hurt1",
+      "mite_reforged:imported/mob/ghoul/hurt2"
+    ]
+  },
+  "ghoul.death": {
+    "subtitle": "subtitles.mite_reforged.ghoul.death",
+    "sounds": [
+      "mite_reforged:imported/mob/ghoul/death"
+    ]
+  },
+  "wight.say": {
+    "subtitle": "subtitles.mite_reforged.wight.say",
+    "sounds": [
+      "mite_reforged:imported/mob/wight/say1",
+      "mite_reforged:imported/mob/wight/say2"
+    ]
+  },
+  "wight.hurt": {
+    "subtitle": "subtitles.mite_reforged.wight.hurt",
+    "sounds": [
+      "mite_reforged:imported/mob/wight/hurt1",
+      "mite_reforged:imported/mob/wight/hurt2"
+    ]
+  },
+  "wight.death": {
+    "subtitle": "subtitles.mite_reforged.wight.death",
+    "sounds": [
+      "mite_reforged:imported/mob/wight/death"
+    ]
+  },
+  "demon_spider.say": {
+    "subtitle": "subtitles.mite_reforged.demon_spider.say",
+    "sounds": [
+      "mite_reforged:imported/mob/demonspider/say1",
+      "mite_reforged:imported/mob/demonspider/say2",
+      "mite_reforged:imported/mob/demonspider/say3"
+    ]
+  },
+  "demon_spider.hurt": {
+    "subtitle": "subtitles.mite_reforged.demon_spider.hurt",
+    "sounds": [
+      "mite_reforged:imported/mob/demonspider/hurt1",
+      "mite_reforged:imported/mob/demonspider/hurt2"
+    ]
+  },
+  "demon_spider.death": {
+    "subtitle": "subtitles.mite_reforged.demon_spider.death",
+    "sounds": [
+      "mite_reforged:imported/mob/demonspider/death"
+    ]
+  },
+  "chest_locked": {
+    "sounds": [
+      "mite_reforged:imported/random/chest_locked"
+    ]
+  },
+  "r195_witch_hurt": {
+    "subtitle": "subtitles.entity.witch.hurt",
+    "sounds": [
+      "mite_reforged:witch/hurt"
+    ]
+  },
+  "r195_witch_death": {
+    "subtitle": "subtitles.entity.witch.death",
+    "sounds": [
+      "mite_reforged:witch/death"
+    ]
+  },
+  "r195_witch_cackle": {
+    "subtitle": "subtitles.entity.witch.ambient",
+    "sounds": [
+      "mite_reforged:witch/cackle1",
+      "mite_reforged:witch/cackle2",
+      "mite_reforged:witch/cackle3"
+    ]
+  },
+  "falling_block.splash": {
+    "sounds": [
+      "mite_reforged:imported/liquid/block_splash"
+    ]
+  },
+  "food_sizzle": {
+    "sounds": [
+      "mite_reforged:source/food_sizzle"
+    ]
+  },
+  "wolf.howl": {
+    "sounds": [
+      {
+        "name": "mite_reforged:source1324/imported/mob/wolf/howl1",
+        "weight": 1
+      },
+      {
+        "name": "mite_reforged:source1324/imported/mob/wolf/howl2",
+        "weight": 1
+      },
+      {
+        "name": "mite_reforged:source1324/imported/mob/wolf/howl3",
+        "weight": 1
+      }
+    ]
+  },
+  "book.open": {
+    "sounds": [
+      {
+        "name": "mite_reforged:source1324/imported/random/book_open",
+        "weight": 1
+      }
+    ]
+  },
+  "book.close": {
+    "sounds": [
+      {
+        "name": "mite_reforged:source1324/imported/random/book_close",
+        "weight": 1
+      }
+    ]
+  },
+  "book.page": {
+    "sounds": [
+      {
+        "name": "mite_reforged:source1324/imported/random/book_page",
+        "weight": 1
+      }
+    ]
+  },
+  "brewing.boil": {
+    "sounds": [
+      {
+        "name": "mite_reforged:source1324/imported/random/boil",
+        "weight": 1
+      }
+    ]
+  },
+  "skill.drain": {
+    "sounds": [
+      "mite_reforged:source1791/imported/random/level_drain"
+    ]
+  },
+  "music.modern.game": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/a_familiar_room",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/comforting_memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/floating_dream",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.nether.basalt_deltas": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/nether/nether1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/nether2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/nether3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/nether4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/soulsand_valley/so_below",
+        "stream": true,
+        "volume": 0.5,
+        "weight": 7
+      }
+    ]
+  },
+  "music.modern.nether.crimson_forest": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/nether/nether1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/nether2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/nether3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/nether4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/crimson_forest/chrysopoeia",
+        "stream": true,
+        "volume": 0.5,
+        "weight": 7
+      }
+    ]
+  },
+  "music.modern.nether.nether_wastes": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/nether/nether1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/nether2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/nether3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/nether4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/nether_wastes/rubedo",
+        "stream": true,
+        "volume": 0.5,
+        "weight": 6
+      }
+    ]
+  },
+  "music.modern.nether.soul_sand_valley": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/nether/nether1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/nether2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/nether3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/nether4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nether/soulsand_valley/so_below",
+        "stream": true,
+        "volume": 0.5,
+        "weight": 7
+      }
+    ]
+  },
+  "music.modern.overworld.badlands": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/crescent_dunes",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "minecraft:music/game/echo_in_the_wind",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.overworld.bamboo_jungle": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/bromeliad",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "minecraft:music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.overworld.cherry_grove": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/bromeliad",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 3
+      },
+      {
+        "name": "minecraft:music/game/echo_in_the_wind",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 3
+      },
+      {
+        "name": "minecraft:music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.overworld.deep_dark": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/ancestry",
+        "stream": true
+      }
+    ]
+  },
+  "music.modern.overworld.desert": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/crescent_dunes",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 3
+      },
+      {
+        "name": "minecraft:music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.overworld.dripstone_caves": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/an_ordinary_day",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/infinite_amethyst",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/wending",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      }
+    ]
+  },
+  "music.modern.overworld.flower_forest": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/bromeliad",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/echo_in_the_wind",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.overworld.forest": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/bromeliad",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/comforting_memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/floating_dream",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/swamp/aerie",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/swamp/firebugs",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/swamp/labyrinthine",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.overworld.frozen_peaks": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/stand_tall",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      }
+    ]
+  },
+  "music.modern.overworld.grove": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/comforting_memories",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/infinite_amethyst",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/wending",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.overworld.jagged_peaks": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/floating_dream",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/stand_tall",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/wending",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.overworld.jungle": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/bromeliad",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 3
+      },
+      {
+        "name": "minecraft:music/game/left_to_bloom",
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.overworld.lush_caves": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/an_ordinary_day",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "minecraft:music/game/echo_in_the_wind",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "minecraft:music/game/floating_dream",
+        "stream": true,
+        "weight": 2
+      },
+      {
+        "name": "minecraft:music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 4
+      },
+      {
+        "name": "minecraft:music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "minecraft:music/game/swamp/aerie",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/swamp/firebugs",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/swamp/labyrinthine",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.overworld.meadow": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      }
+    ]
+  },
+  "music.modern.overworld.old_growth_taiga": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/comforting_memories",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 3
+      },
+      {
+        "name": "minecraft:music/game/floating_dream",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 3
+      },
+      {
+        "name": "minecraft:music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 3
+      },
+      {
+        "name": "minecraft:music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 3
+      },
+      {
+        "name": "minecraft:music/game/swamp/aerie",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/swamp/firebugs",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/swamp/labyrinthine",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.overworld.snowy_slopes": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/an_ordinary_day",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/one_more_day",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/stand_tall",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.overworld.sparse_jungle": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/bromeliad",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "minecraft:music/game/left_to_bloom",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.overworld.stony_peaks": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/stand_tall",
+        "stream": true,
+        "volume": 0.4,
+        "weight": 2
+      },
+      {
+        "name": "minecraft:music/game/wending",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.overworld.swamp": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/swamp/aerie",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/swamp/firebugs",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/swamp/labyrinthine",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  },
+  "music.modern.under_water": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/creative/creative6",
+        "stream": true
+      },
+      {
+        "name": "minecraft:music/game/water/axolotl",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/water/dragon_fish",
+        "stream": true,
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:music/game/water/shuniji",
+        "stream": true,
+        "volume": 0.4
+      }
+    ]
+  }
+}

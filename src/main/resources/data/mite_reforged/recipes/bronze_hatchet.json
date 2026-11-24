@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "SI",
+    "S "
+  ],
+  "key": {
+    "I": {
+      "item": "mite_reforged:bronze_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:bronze_hatchet",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "placement": {
+    "type": "mite_reforged:classic_mineshaft"
+  },
+  "structures": [
+    {"structure": "minecraft:mineshaft", "weight": 1}
+  ]
+}

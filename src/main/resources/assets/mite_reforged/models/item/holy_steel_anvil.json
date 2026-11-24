@@ -1,0 +1,17 @@
+{
+  "parent": "mite_reforged:block/holy_steel_anvil",
+  "overrides": [
+    {
+      "predicate": {
+        "mite_reforged:wear": 1
+      },
+      "model": "mite_reforged:item/holy_steel_anvil_damaged_1"
+    },
+    {
+      "predicate": {
+        "mite_reforged:wear": 2
+      },
+      "model": "mite_reforged:item/holy_steel_anvil_damaged_2"
+    }
+  ]
+}

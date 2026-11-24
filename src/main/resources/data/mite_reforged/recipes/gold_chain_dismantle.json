@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mite_reforged:gold_chain"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_nugget",
+    "count": 4
+  }
+}

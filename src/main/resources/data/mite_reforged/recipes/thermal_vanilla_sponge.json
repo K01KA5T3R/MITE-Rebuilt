@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "minecraft:wet_sponge"
+  },
+  "result": {
+    "item": "minecraft:sponge"
+  },
+  "heat": 1,
+  "cookingtime": 200,
+  "experience": 0.15
+}

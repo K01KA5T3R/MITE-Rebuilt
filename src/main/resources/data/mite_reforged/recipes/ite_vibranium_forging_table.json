@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    " T "
+  ],
+  "key": {
+    "I": {
+      "item": "mite_reforged:vibranium_ingot"
+    },
+    "T": {
+      "item": "mite_reforged:adamantium_forging_table"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:vibranium_forging_table",
+    "count": 1
+  }
+}

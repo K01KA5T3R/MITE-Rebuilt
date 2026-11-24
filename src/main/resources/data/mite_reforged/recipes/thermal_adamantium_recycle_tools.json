@@ -1,0 +1,15 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": [
+    {
+      "tag": "mite_reforged:recyclable/adamantium"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:adamantium_nugget",
+    "count": 3
+  },
+  "heat": 4,
+  "cookingtime": 200,
+  "experience": 0
+}

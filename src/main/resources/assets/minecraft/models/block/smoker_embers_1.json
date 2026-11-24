@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/smoker_on",
+  "textures": {
+    "front": "minecraft:block/smoker_embers_1"
+  }
+}

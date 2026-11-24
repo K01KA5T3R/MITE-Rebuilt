@@ -1,0 +1,30 @@
+{
+  "replace": false,
+  "values": [
+    "mite_reforged:abyss",
+    "mite_reforged:baron_almric",
+    "mite_reforged:boat",
+    "mite_reforged:castle",
+    "mite_reforged:castle_britannia",
+    "mite_reforged:darklands",
+    "mite_reforged:deathtrap_dungeon",
+    "mite_reforged:dnd_basic",
+    "mite_reforged:draracle",
+    "mite_reforged:elden_grove",
+    "mite_reforged:fair_day",
+    "mite_reforged:fallen_bridge",
+    "mite_reforged:gate_closing",
+    "mite_reforged:ghoul",
+    "mite_reforged:gladstone_keep",
+    "mite_reforged:graves",
+    "mite_reforged:king_richard",
+    "mite_reforged:messenger",
+    "mite_reforged:mountains",
+    "mite_reforged:rolands_manor",
+    "mite_reforged:scotia",
+    "mite_reforged:ship",
+    "mite_reforged:sunlight",
+    "mite_reforged:titan",
+    "mite_reforged:wolves"
+  ]
+}

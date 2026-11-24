@@ -1,0 +1,15 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mite_reforged:item/boss_items/honey_bait"
+  },
+  "display": {
+    "gui": {
+      "scale": [
+        1.6941,
+        1.6941,
+        1
+      ]
+    }
+  }
+}

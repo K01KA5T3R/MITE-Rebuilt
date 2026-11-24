@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "mite_reforged:underworld_mineshaft",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 12,
+    "spread_type": "linear",
+    "salt": 1713289257
+  }
+}

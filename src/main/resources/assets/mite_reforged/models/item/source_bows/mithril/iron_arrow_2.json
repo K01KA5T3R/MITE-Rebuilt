@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow",
+  "textures": {
+    "layer0": "mite_reforged:item/source_bows/mithril/iron_arrow_2"
+  }
+}

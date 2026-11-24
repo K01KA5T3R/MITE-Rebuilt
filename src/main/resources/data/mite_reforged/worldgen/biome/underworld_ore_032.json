@@ -1,0 +1,227 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.8,
+  "downfall": 0,
+  "effects": {
+    "fog_color": 1974831,
+    "sky_color": 0,
+    "water_color": 3035998,
+    "water_fog_color": 1317924,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "weight": 80,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:creeper",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "minecraft:slime",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:enderman",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "mite_reforged:wight",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "mite_reforged:invisible_stalker",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "mite_reforged:demon_spider",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "mite_reforged:hellhound",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "mite_reforged:wood_spider",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "mite_reforged:shadow",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "mite_reforged:earth_elemental",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "mite_reforged:ochre_jelly",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "mite_reforged:crimson_blob",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "mite_reforged:gray_ooze",
+        "weight": 20,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "mite_reforged:black_pudding",
+        "weight": 30,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "mite_reforged:clay_golem",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "mite_reforged:phase_spider",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 4
+      },
+      {
+        "type": "minecraft:cave_spider",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "mite_reforged:longdead",
+        "weight": 40,
+        "minCount": 1,
+        "maxCount": 2
+      },
+      {
+        "type": "mite_reforged:ancient_bone_lord",
+        "weight": 5,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [
+      {
+        "type": "minecraft:sheep",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:pig",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:chicken",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      },
+      {
+        "type": "minecraft:cow",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "water_creature": [
+      {
+        "type": "minecraft:squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 100,
+        "minCount": 8,
+        "maxCount": 8
+      },
+      {
+        "type": "mite_reforged:vampire_bat",
+        "weight": 20,
+        "minCount": 8,
+        "maxCount": 8
+      },
+      {
+        "type": "mite_reforged:nightwing",
+        "weight": 4,
+        "minCount": 1,
+        "maxCount": 4
+      }
+    ]
+  },
+  "spawn_costs": {},
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [
+      "mite_reforged:underworld_dungeons",
+      "mite_reforged:underworld_mycelium"
+    ],
+    [],
+    [],
+    [],
+    [
+      "mite_reforged:design_underworld_coal",
+      "mite_reforged:design_underworld_copper",
+      "mite_reforged:design_underworld_tin",
+      "mite_reforged:design_underworld_iron",
+      "mite_reforged:design_underworld_silver",
+      "mite_reforged:design_underworld_gold",
+      "mite_reforged:design_underworld_redstone",
+      "mite_reforged:design_underworld_lapis",
+      "mite_reforged:design_underworld_diamond",
+      "mite_reforged:design_underworld_mithril",
+      "mite_reforged:design_underworld_adamantium_032"
+    ],
+    [],
+    [
+      "mite_reforged:underworld_springs"
+    ],
+    [],
+    []
+  ]
+}

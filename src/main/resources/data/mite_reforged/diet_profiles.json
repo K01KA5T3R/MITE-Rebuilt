@@ -1,0 +1,537 @@
+{
+  "counterparts": {
+    "minecraft:apple": {
+      "satiation": 2,
+      "nutrition": 1,
+      "sugar": 1000,
+      "nutrient_mask": 4,
+      "r195_symbol": "l"
+    },
+    "minecraft:bread": {
+      "satiation": 8,
+      "nutrition": 2,
+      "sugar": 0,
+      "nutrient_mask": 0,
+      "r195_symbol": "W"
+    },
+    "minecraft:mushroom_stew": {
+      "satiation": 2,
+      "nutrition": 4,
+      "sugar": 0,
+      "nutrient_mask": 0,
+      "r195_symbol": "bowlMushroomStew"
+    },
+    "minecraft:porkchop": {
+      "satiation": 4,
+      "nutrition": 4,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "as"
+    },
+    "minecraft:cooked_porkchop": {
+      "satiation": 8,
+      "nutrition": 8,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "at"
+    },
+    "minecraft:beef": {
+      "satiation": 5,
+      "nutrition": 5,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "bk"
+    },
+    "minecraft:cooked_beef": {
+      "satiation": 10,
+      "nutrition": 10,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "bl"
+    },
+    "minecraft:chicken": {
+      "satiation": 3,
+      "nutrition": 3,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "bm"
+    },
+    "minecraft:cooked_chicken": {
+      "satiation": 6,
+      "nutrition": 6,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "bn"
+    },
+    "minecraft:rotten_flesh": {
+      "satiation": 2,
+      "nutrition": 1,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "bo"
+    },
+    "minecraft:cod": {
+      "satiation": 3,
+      "nutrition": 3,
+      "sugar": 0,
+      "nutrient_mask": 3,
+      "r195_symbol": "aW"
+    },
+    "minecraft:cooked_cod": {
+      "satiation": 6,
+      "nutrition": 6,
+      "sugar": 0,
+      "nutrient_mask": 3,
+      "r195_symbol": "aX"
+    },
+    "minecraft:salmon": {
+      "satiation": 5,
+      "nutrition": 5,
+      "sugar": 0,
+      "nutrient_mask": 3,
+      "r195_symbol": "fishLargeRaw"
+    },
+    "minecraft:cooked_salmon": {
+      "satiation": 10,
+      "nutrition": 10,
+      "sugar": 0,
+      "nutrient_mask": 3,
+      "r195_symbol": "fishLargeCooked"
+    },
+    "minecraft:cookie": {
+      "satiation": 3,
+      "nutrition": 1,
+      "sugar": 250,
+      "nutrient_mask": 0,
+      "r195_symbol": "be"
+    },
+    "minecraft:melon_slice": {
+      "satiation": 1,
+      "nutrition": 1,
+      "sugar": 1000,
+      "nutrient_mask": 4,
+      "r195_symbol": "bh"
+    },
+    "minecraft:spider_eye": {
+      "satiation": 0,
+      "nutrition": 1,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "bw"
+    },
+    "minecraft:carrot": {
+      "satiation": 1,
+      "nutrition": 2,
+      "sugar": 0,
+      "nutrient_mask": 4,
+      "r195_symbol": "bM"
+    },
+    "minecraft:golden_carrot": {
+      "satiation": 1,
+      "nutrition": 2,
+      "sugar": 0,
+      "nutrient_mask": 4,
+      "r195_symbol": "bR"
+    },
+    "minecraft:potato": {
+      "satiation": 3,
+      "nutrition": 1,
+      "sugar": 0,
+      "nutrient_mask": 0,
+      "r195_symbol": "bN"
+    },
+    "minecraft:baked_potato": {
+      "satiation": 6,
+      "nutrition": 2,
+      "sugar": 0,
+      "nutrient_mask": 0,
+      "r195_symbol": "bO"
+    },
+    "minecraft:poisonous_potato": {
+      "satiation": 2,
+      "nutrition": 0,
+      "sugar": 0,
+      "nutrient_mask": 0,
+      "r195_symbol": "bP"
+    },
+    "minecraft:pumpkin_pie": {
+      "satiation": 10,
+      "nutrition": 6,
+      "sugar": 1000,
+      "nutrient_mask": 5,
+      "r195_symbol": "bV"
+    },
+    "mite_reforged:porridge": {
+      "satiation": 4,
+      "nutrition": 2,
+      "sugar": 2000,
+      "nutrient_mask": 4,
+      "r195_symbol": "bowlPorridge"
+    },
+    "mite_reforged:pumpkin_soup": {
+      "satiation": 1,
+      "nutrition": 2,
+      "sugar": 0,
+      "nutrient_mask": 4,
+      "r195_symbol": "bowlPumpkinSoup"
+    },
+    "mite_reforged:chocolate": {
+      "satiation": 3,
+      "nutrition": 3,
+      "sugar": 1000,
+      "nutrient_mask": 0,
+      "r195_symbol": "chocolate"
+    },
+    "mite_reforged:onion": {
+      "satiation": 1,
+      "nutrition": 1,
+      "sugar": 0,
+      "nutrient_mask": 4,
+      "r195_symbol": "onion"
+    },
+    "mite_reforged:vegetable_stew": {
+      "satiation": 6,
+      "nutrition": 6,
+      "sugar": 0,
+      "nutrient_mask": 4,
+      "r195_symbol": "bowlVegetableSoup"
+    },
+    "mite_reforged:meat_stew": {
+      "satiation": 16,
+      "nutrition": 16,
+      "sugar": 0,
+      "nutrient_mask": 5,
+      "r195_symbol": "bowlBeefStew"
+    },
+    "mite_reforged:salad": {
+      "satiation": 1,
+      "nutrition": 1,
+      "sugar": 0,
+      "nutrient_mask": 4,
+      "r195_symbol": "bowlSalad"
+    },
+    "mite_reforged:worm": {
+      "satiation": 0,
+      "nutrition": 1,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "wormRaw"
+    },
+    "mite_reforged:cheese": {
+      "satiation": 3,
+      "nutrition": 3,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "cheese"
+    },
+    "minecraft:golden_apple": {
+      "satiation": 2,
+      "nutrition": 1,
+      "sugar": 1000,
+      "nutrient_mask": 4,
+      "r195_symbol": "av"
+    },
+    "minecraft:enchanted_golden_apple": {
+      "satiation": 2,
+      "nutrition": 1,
+      "sugar": 1000,
+      "nutrient_mask": 4,
+      "r195_symbol": "av"
+    },
+    "minecraft:wheat_seeds": {
+      "satiation": 1,
+      "nutrition": 0,
+      "sugar": 0,
+      "nutrient_mask": 2,
+      "r195_symbol": "U"
+    },
+    "minecraft:pumpkin_seeds": {
+      "satiation": 1,
+      "nutrition": 2,
+      "sugar": 0,
+      "nutrient_mask": 2,
+      "r195_symbol": "bi"
+    },
+    "minecraft:melon_seeds": {
+      "satiation": 1,
+      "nutrition": 1,
+      "sugar": 0,
+      "nutrient_mask": 2,
+      "r195_symbol": "bj"
+    },
+    "minecraft:nether_wart": {
+      "satiation": 1,
+      "nutrition": 1,
+      "sugar": 0,
+      "nutrient_mask": 0,
+      "r195_symbol": "bt"
+    },
+    "minecraft:brown_mushroom": {
+      "satiation": 1,
+      "nutrition": 1,
+      "sugar": 0,
+      "nutrient_mask": 0,
+      "r195_symbol": "aqz.ak"
+    },
+    "minecraft:red_mushroom": {
+      "satiation": 1,
+      "nutrition": 1,
+      "sugar": 0,
+      "nutrient_mask": 0,
+      "r195_symbol": "aqz.al"
+    },
+    "mite_reforged:orange": {
+      "satiation": 2,
+      "nutrition": 1,
+      "sugar": 1000,
+      "nutrient_mask": 4,
+      "r195_symbol": "orange"
+    },
+    "mite_reforged:banana": {
+      "satiation": 2,
+      "nutrition": 1,
+      "sugar": 1000,
+      "nutrient_mask": 4,
+      "r195_symbol": "banana"
+    },
+    "mite_reforged:milk_bowl": {
+      "satiation": 0,
+      "nutrition": 1,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "bowlMilk"
+    },
+    "mite_reforged:chicken_soup": {
+      "satiation": 10,
+      "nutrition": 10,
+      "sugar": 0,
+      "nutrient_mask": 5,
+      "r195_symbol": "bowlChickenSoup"
+    },
+    "mite_reforged:ice_cream": {
+      "satiation": 5,
+      "nutrition": 4,
+      "sugar": 1000,
+      "nutrient_mask": 1,
+      "r195_symbol": "bowlIceCream"
+    },
+    "mite_reforged:cream_of_mushroom_soup": {
+      "satiation": 3,
+      "nutrition": 5,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "bowlCreamOfMushroomSoup"
+    },
+    "mite_reforged:cream_of_vegetable_soup": {
+      "satiation": 7,
+      "nutrition": 7,
+      "sugar": 0,
+      "nutrient_mask": 5,
+      "r195_symbol": "bowlCreamOfVegetableSoup"
+    },
+    "mite_reforged:mashed_potato": {
+      "satiation": 12,
+      "nutrition": 8,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "bowlMashedPotato"
+    },
+    "mite_reforged:sorbet": {
+      "satiation": 4,
+      "nutrition": 2,
+      "sugar": 2000,
+      "nutrient_mask": 4,
+      "r195_symbol": "bowlSorbet"
+    },
+    "mite_reforged:cereal": {
+      "satiation": 4,
+      "nutrition": 2,
+      "sugar": 1000,
+      "nutrient_mask": 1,
+      "r195_symbol": "bowlCereal"
+    },
+    "mite_reforged:blueberries": {
+      "satiation": 1,
+      "nutrition": 1,
+      "sugar": 1000,
+      "nutrient_mask": 4,
+      "r195_symbol": "blueberries"
+    },
+    "minecraft:sugar": {
+      "satiation": 1,
+      "nutrition": 0,
+      "sugar": 1000,
+      "nutrient_mask": 0,
+      "r195_symbol": "ba"
+    },
+    "mite_reforged:cooked_worm": {
+      "satiation": 1,
+      "nutrition": 1,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "wormCooked"
+    },
+    "minecraft:mutton": {
+      "satiation": 3,
+      "nutrition": 3,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "lambchopRaw"
+    },
+    "minecraft:cooked_mutton": {
+      "satiation": 6,
+      "nutrition": 6,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "lambchopCooked"
+    },
+    "mite_reforged:dough": {
+      "satiation": 6,
+      "nutrition": 2,
+      "sugar": 0,
+      "nutrient_mask": 0,
+      "r195_symbol": "dough"
+    },
+    "minecraft:egg": {
+      "satiation": 1,
+      "nutrition": 3,
+      "sugar": 0,
+      "nutrient_mask": 1,
+      "r195_symbol": "aR"
+    }
+  },
+  "modern_adaptations": {
+    "minecraft:rabbit": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "minecraft:cooked_rabbit": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "minecraft:tropical_fish": {
+      "sugar": 0,
+      "nutrient_mask": 3
+    },
+    "minecraft:pufferfish": {
+      "sugar": 0,
+      "nutrient_mask": 3
+    },
+    "minecraft:beetroot": {
+      "sugar": 0,
+      "nutrient_mask": 4
+    },
+    "minecraft:beetroot_soup": {
+      "sugar": 0,
+      "nutrient_mask": 4
+    },
+    "minecraft:sweet_berries": {
+      "sugar": 0,
+      "nutrient_mask": 4
+    },
+    "minecraft:glow_berries": {
+      "sugar": 0,
+      "nutrient_mask": 4
+    },
+    "minecraft:dried_kelp": {
+      "sugar": 0,
+      "nutrient_mask": 4
+    },
+    "minecraft:rabbit_stew": {
+      "sugar": 0,
+      "nutrient_mask": 5
+    },
+    "minecraft:suspicious_stew": {
+      "sugar": 0,
+      "nutrient_mask": 0
+    },
+    "minecraft:honey_bottle": {
+      "sugar": 2000,
+      "nutrient_mask": 0
+    },
+    "mite_reforged:cooked_egg": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "mite_reforged:fish_stew": {
+      "sugar": 0,
+      "nutrient_mask": 7
+    },
+    "mite_reforged:apple_pie": {
+      "sugar": 1000,
+      "nutrient_mask": 5
+    },
+    "mite_reforged:raw_end_porkchop": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "mite_reforged:cooked_end_porkchop": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "mite_reforged:raw_end_beef": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "mite_reforged:cooked_end_beef": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "mite_reforged:dried_beef": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "mite_reforged:smoked_beef": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "mite_reforged:dried_porkchop": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "mite_reforged:smoked_porkchop": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "mite_reforged:dried_chicken": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "mite_reforged:smoked_chicken": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "mite_reforged:dried_mutton": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "mite_reforged:smoked_mutton": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "mite_reforged:dried_rabbit": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "mite_reforged:smoked_rabbit": {
+      "sugar": 0,
+      "nutrient_mask": 1
+    },
+    "mite_reforged:dried_cod": {
+      "sugar": 0,
+      "nutrient_mask": 3
+    },
+    "mite_reforged:smoked_cod": {
+      "sugar": 0,
+      "nutrient_mask": 3
+    },
+    "mite_reforged:dried_salmon": {
+      "sugar": 0,
+      "nutrient_mask": 3
+    },
+    "mite_reforged:smoked_salmon": {
+      "sugar": 0,
+      "nutrient_mask": 3
+    }
+  }
+}

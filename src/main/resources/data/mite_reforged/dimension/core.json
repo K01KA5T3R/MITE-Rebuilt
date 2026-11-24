@@ -1,0 +1,11 @@
+{
+  "type": "mite_reforged:core",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "mite_reforged:core",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "mite_reforged:core"
+    }
+  }
+}

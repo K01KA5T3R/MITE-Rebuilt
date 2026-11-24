@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " SX",
+    "SIX",
+    " SX"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "mite_reforged:sinew"
+    },
+    "I": {
+      "item": "mite_reforged:ancient_metal_ingot"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:ancient_metal_bow",
+    "count": 1
+  }
+}

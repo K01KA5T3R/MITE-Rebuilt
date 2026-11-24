@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_scrap": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mite_reforged:rusted_iron_nugget"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_scrap"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mite_reforged:rusted_iron_pickaxe",
+      "mite_reforged:rusted_iron_axe",
+      "mite_reforged:rusted_iron_hatchet",
+      "mite_reforged:rusted_iron_shovel",
+      "mite_reforged:rusted_iron_hoe",
+      "mite_reforged:rusted_iron_sword",
+      "mite_reforged:rusted_iron_dagger",
+      "mite_reforged:rusted_iron_knife",
+      "mite_reforged:rusted_iron_mattock",
+      "mite_reforged:rusted_iron_warhammer",
+      "mite_reforged:rusted_iron_battleaxe",
+      "mite_reforged:rusted_iron_scythe",
+      "mite_reforged:rusted_iron_shears",
+      "mite_reforged:rusted_iron_arrow",
+      "mite_reforged:rusted_iron_ingot",
+      "mite_reforged:rusted_iron_nuggets",
+      "mite_reforged:rusted_iron_chain_to_nuggets",
+      "mite_reforged:rusted_iron_chain"
+    ]
+  }
+}

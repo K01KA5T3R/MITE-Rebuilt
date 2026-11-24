@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_anvil",
+  "textures": {
+    "body": "mite_reforged:block/iron_anvil_base",
+    "top": "mite_reforged:block/holy_native_052/holy_steel_anvil_top_damaged_1"
+  }
+}

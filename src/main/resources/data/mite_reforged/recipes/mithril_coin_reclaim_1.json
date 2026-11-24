@@ -1,0 +1,13 @@
+{
+  "type": "mite_reforged:currency_exchange",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mite_reforged:mithril_coin"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:mithril_nugget",
+    "count": 1
+  }
+}

@@ -1,0 +1,643 @@
+{
+  "source": "Minecraft Java 1.20.1 installed client data",
+  "vanilla_cooking_types_suppressed": [
+    "minecraft:blasting",
+    "minecraft:campfire_cooking",
+    "minecraft:smelting",
+    "minecraft:smoking"
+  ],
+  "canonical_smelting_routes": [
+    {
+      "vanilla": "minecraft:baked_potato",
+      "thermal": "mite_reforged:thermal_vanilla_baked_potato",
+      "output": "minecraft:baked_potato",
+      "ingredient": {
+        "item": "minecraft:potato"
+      }
+    },
+    {
+      "vanilla": "minecraft:black_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_black_glazed_terracotta",
+      "output": "minecraft:black_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:black_terracotta"
+      }
+    },
+    {
+      "vanilla": "minecraft:blue_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_blue_glazed_terracotta",
+      "output": "minecraft:blue_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:blue_terracotta"
+      }
+    },
+    {
+      "vanilla": "minecraft:brick",
+      "thermal": "mite_reforged:thermal_brick",
+      "output": "minecraft:brick",
+      "ingredient": {
+        "item": "minecraft:clay_ball"
+      }
+    },
+    {
+      "vanilla": "minecraft:brown_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_brown_glazed_terracotta",
+      "output": "minecraft:brown_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:brown_terracotta"
+      }
+    },
+    {
+      "vanilla": "minecraft:charcoal",
+      "thermal": "mite_reforged:thermal_charcoal",
+      "output": "minecraft:charcoal",
+      "ingredient": {
+        "tag": "minecraft:logs_that_burn"
+      }
+    },
+    {
+      "vanilla": "minecraft:coal_from_smelting_coal_ore",
+      "thermal": "mite_reforged:thermal_vanilla_coal_from_smelting_coal_ore",
+      "output": "minecraft:coal",
+      "ingredient": {
+        "item": "minecraft:coal_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:coal_from_smelting_deepslate_coal_ore",
+      "thermal": "mite_reforged:thermal_vanilla_coal_from_smelting_deepslate_coal_ore",
+      "output": "minecraft:coal",
+      "ingredient": {
+        "item": "minecraft:deepslate_coal_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:cooked_beef",
+      "thermal": "mite_reforged:thermal_vanilla_cooked_beef",
+      "output": "minecraft:cooked_beef",
+      "ingredient": {
+        "item": "minecraft:beef"
+      }
+    },
+    {
+      "vanilla": "minecraft:cooked_chicken",
+      "thermal": "mite_reforged:thermal_vanilla_cooked_chicken",
+      "output": "minecraft:cooked_chicken",
+      "ingredient": {
+        "item": "minecraft:chicken"
+      }
+    },
+    {
+      "vanilla": "minecraft:cooked_cod",
+      "thermal": "mite_reforged:thermal_vanilla_cooked_cod",
+      "output": "minecraft:cooked_cod",
+      "ingredient": {
+        "item": "minecraft:cod"
+      }
+    },
+    {
+      "vanilla": "minecraft:cooked_mutton",
+      "thermal": "mite_reforged:thermal_vanilla_cooked_mutton",
+      "output": "minecraft:cooked_mutton",
+      "ingredient": {
+        "item": "minecraft:mutton"
+      }
+    },
+    {
+      "vanilla": "minecraft:cooked_porkchop",
+      "thermal": "mite_reforged:thermal_vanilla_cooked_porkchop",
+      "output": "minecraft:cooked_porkchop",
+      "ingredient": {
+        "item": "minecraft:porkchop"
+      }
+    },
+    {
+      "vanilla": "minecraft:cooked_rabbit",
+      "thermal": "mite_reforged:thermal_vanilla_cooked_rabbit",
+      "output": "minecraft:cooked_rabbit",
+      "ingredient": {
+        "item": "minecraft:rabbit"
+      }
+    },
+    {
+      "vanilla": "minecraft:cooked_salmon",
+      "thermal": "mite_reforged:thermal_vanilla_cooked_salmon",
+      "output": "minecraft:cooked_salmon",
+      "ingredient": {
+        "item": "minecraft:salmon"
+      }
+    },
+    {
+      "vanilla": "minecraft:copper_ingot_from_smelting_copper_ore",
+      "thermal": "mite_reforged:thermal_copper",
+      "output": "minecraft:copper_ingot",
+      "ingredient": {
+        "item": "minecraft:copper_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:copper_ingot_from_smelting_deepslate_copper_ore",
+      "thermal": "mite_reforged:thermal_copper",
+      "output": "minecraft:copper_ingot",
+      "ingredient": {
+        "item": "minecraft:deepslate_copper_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:copper_ingot_from_smelting_raw_copper",
+      "thermal": "mite_reforged:thermal_copper",
+      "output": "minecraft:copper_ingot",
+      "ingredient": {
+        "item": "minecraft:raw_copper"
+      }
+    },
+    {
+      "vanilla": "minecraft:cracked_deepslate_bricks",
+      "thermal": "mite_reforged:thermal_vanilla_cracked_deepslate_bricks",
+      "output": "minecraft:cracked_deepslate_bricks",
+      "ingredient": {
+        "item": "minecraft:deepslate_bricks"
+      }
+    },
+    {
+      "vanilla": "minecraft:cracked_deepslate_tiles",
+      "thermal": "mite_reforged:thermal_vanilla_cracked_deepslate_tiles",
+      "output": "minecraft:cracked_deepslate_tiles",
+      "ingredient": {
+        "item": "minecraft:deepslate_tiles"
+      }
+    },
+    {
+      "vanilla": "minecraft:cracked_nether_bricks",
+      "thermal": "mite_reforged:thermal_vanilla_cracked_nether_bricks",
+      "output": "minecraft:cracked_nether_bricks",
+      "ingredient": {
+        "item": "minecraft:nether_bricks"
+      }
+    },
+    {
+      "vanilla": "minecraft:cracked_polished_blackstone_bricks",
+      "thermal": "mite_reforged:thermal_vanilla_cracked_polished_blackstone_bricks",
+      "output": "minecraft:cracked_polished_blackstone_bricks",
+      "ingredient": {
+        "item": "minecraft:polished_blackstone_bricks"
+      }
+    },
+    {
+      "vanilla": "minecraft:cracked_stone_bricks",
+      "thermal": "mite_reforged:thermal_vanilla_cracked_stone_bricks",
+      "output": "minecraft:cracked_stone_bricks",
+      "ingredient": {
+        "item": "minecraft:stone_bricks"
+      }
+    },
+    {
+      "vanilla": "minecraft:cyan_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_cyan_glazed_terracotta",
+      "output": "minecraft:cyan_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:cyan_terracotta"
+      }
+    },
+    {
+      "vanilla": "minecraft:deepslate",
+      "thermal": "mite_reforged:thermal_vanilla_deepslate",
+      "output": "minecraft:deepslate",
+      "ingredient": {
+        "item": "minecraft:cobbled_deepslate"
+      }
+    },
+    {
+      "vanilla": "minecraft:diamond_from_smelting_deepslate_diamond_ore",
+      "thermal": "mite_reforged:thermal_vanilla_diamond_from_smelting_deepslate_diamond_ore",
+      "output": "minecraft:diamond",
+      "ingredient": {
+        "item": "minecraft:deepslate_diamond_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:diamond_from_smelting_diamond_ore",
+      "thermal": "mite_reforged:thermal_vanilla_diamond_from_smelting_diamond_ore",
+      "output": "minecraft:diamond",
+      "ingredient": {
+        "item": "minecraft:diamond_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:dried_kelp_from_smelting",
+      "thermal": "mite_reforged:thermal_vanilla_dried_kelp_from_smelting",
+      "output": "minecraft:dried_kelp",
+      "ingredient": {
+        "item": "minecraft:kelp"
+      }
+    },
+    {
+      "vanilla": "minecraft:emerald_from_smelting_deepslate_emerald_ore",
+      "thermal": "mite_reforged:thermal_vanilla_emerald_from_smelting_deepslate_emerald_ore",
+      "output": "minecraft:emerald",
+      "ingredient": {
+        "item": "minecraft:deepslate_emerald_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:emerald_from_smelting_emerald_ore",
+      "thermal": "mite_reforged:thermal_vanilla_emerald_from_smelting_emerald_ore",
+      "output": "minecraft:emerald",
+      "ingredient": {
+        "item": "minecraft:emerald_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:glass",
+      "thermal": "mite_reforged:thermal_glass",
+      "output": "minecraft:glass",
+      "ingredient": {
+        "tag": "minecraft:smelts_to_glass"
+      }
+    },
+    {
+      "vanilla": "minecraft:gold_ingot_from_smelting_deepslate_gold_ore",
+      "thermal": "mite_reforged:thermal_gold",
+      "output": "minecraft:gold_ingot",
+      "ingredient": {
+        "item": "minecraft:deepslate_gold_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:gold_ingot_from_smelting_gold_ore",
+      "thermal": "mite_reforged:thermal_gold",
+      "output": "minecraft:gold_ingot",
+      "ingredient": {
+        "item": "minecraft:gold_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:gold_ingot_from_smelting_nether_gold_ore",
+      "thermal": "mite_reforged:thermal_gold",
+      "output": "minecraft:gold_ingot",
+      "ingredient": {
+        "item": "minecraft:nether_gold_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:gold_ingot_from_smelting_raw_gold",
+      "thermal": "mite_reforged:thermal_gold",
+      "output": "minecraft:gold_ingot",
+      "ingredient": {
+        "item": "minecraft:raw_gold"
+      }
+    },
+    {
+      "vanilla": "minecraft:gold_nugget_from_smelting",
+      "thermal": "mite_reforged:thermal_gold_recycle_tools",
+      "output": "minecraft:gold_nugget",
+      "ingredient": [
+        {
+          "item": "minecraft:golden_pickaxe"
+        },
+        {
+          "item": "minecraft:golden_shovel"
+        },
+        {
+          "item": "minecraft:golden_axe"
+        },
+        {
+          "item": "minecraft:golden_hoe"
+        },
+        {
+          "item": "minecraft:golden_sword"
+        },
+        {
+          "item": "minecraft:golden_helmet"
+        },
+        {
+          "item": "minecraft:golden_chestplate"
+        },
+        {
+          "item": "minecraft:golden_leggings"
+        },
+        {
+          "item": "minecraft:golden_boots"
+        },
+        {
+          "item": "minecraft:golden_horse_armor"
+        }
+      ]
+    },
+    {
+      "vanilla": "minecraft:gray_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_gray_glazed_terracotta",
+      "output": "minecraft:gray_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:gray_terracotta"
+      }
+    },
+    {
+      "vanilla": "minecraft:green_dye",
+      "thermal": "mite_reforged:thermal_vanilla_green_dye",
+      "output": "minecraft:green_dye",
+      "ingredient": {
+        "item": "minecraft:cactus"
+      }
+    },
+    {
+      "vanilla": "minecraft:green_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_green_glazed_terracotta",
+      "output": "minecraft:green_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:green_terracotta"
+      }
+    },
+    {
+      "vanilla": "minecraft:iron_ingot_from_smelting_deepslate_iron_ore",
+      "thermal": "mite_reforged:thermal_iron",
+      "output": "minecraft:iron_ingot",
+      "ingredient": {
+        "item": "minecraft:deepslate_iron_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:iron_ingot_from_smelting_iron_ore",
+      "thermal": "mite_reforged:thermal_iron",
+      "output": "minecraft:iron_ingot",
+      "ingredient": {
+        "item": "minecraft:iron_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:iron_ingot_from_smelting_raw_iron",
+      "thermal": "mite_reforged:thermal_iron",
+      "output": "minecraft:iron_ingot",
+      "ingredient": {
+        "item": "minecraft:raw_iron"
+      }
+    },
+    {
+      "vanilla": "minecraft:iron_nugget_from_smelting",
+      "thermal": "mite_reforged:thermal_iron_recycle_tools",
+      "output": "minecraft:iron_nugget",
+      "ingredient": [
+        {
+          "item": "minecraft:iron_pickaxe"
+        },
+        {
+          "item": "minecraft:iron_shovel"
+        },
+        {
+          "item": "minecraft:iron_axe"
+        },
+        {
+          "item": "minecraft:iron_hoe"
+        },
+        {
+          "item": "minecraft:iron_sword"
+        },
+        {
+          "item": "minecraft:iron_helmet"
+        },
+        {
+          "item": "minecraft:iron_chestplate"
+        },
+        {
+          "item": "minecraft:iron_leggings"
+        },
+        {
+          "item": "minecraft:iron_boots"
+        },
+        {
+          "item": "minecraft:iron_horse_armor"
+        },
+        {
+          "item": "minecraft:chainmail_helmet"
+        },
+        {
+          "item": "minecraft:chainmail_chestplate"
+        },
+        {
+          "item": "minecraft:chainmail_leggings"
+        },
+        {
+          "item": "minecraft:chainmail_boots"
+        }
+      ]
+    },
+    {
+      "vanilla": "minecraft:lapis_lazuli_from_smelting_deepslate_lapis_ore",
+      "thermal": "mite_reforged:thermal_vanilla_lapis_lazuli_from_smelting_deepslate_lapis_ore",
+      "output": "minecraft:lapis_lazuli",
+      "ingredient": {
+        "item": "minecraft:deepslate_lapis_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:lapis_lazuli_from_smelting_lapis_ore",
+      "thermal": "mite_reforged:thermal_vanilla_lapis_lazuli_from_smelting_lapis_ore",
+      "output": "minecraft:lapis_lazuli",
+      "ingredient": {
+        "item": "minecraft:lapis_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:light_blue_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_light_blue_glazed_terracotta",
+      "output": "minecraft:light_blue_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:light_blue_terracotta"
+      }
+    },
+    {
+      "vanilla": "minecraft:light_gray_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_light_gray_glazed_terracotta",
+      "output": "minecraft:light_gray_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:light_gray_terracotta"
+      }
+    },
+    {
+      "vanilla": "minecraft:lime_dye_from_smelting",
+      "thermal": "mite_reforged:thermal_vanilla_lime_dye_from_smelting",
+      "output": "minecraft:lime_dye",
+      "ingredient": {
+        "item": "minecraft:sea_pickle"
+      }
+    },
+    {
+      "vanilla": "minecraft:lime_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_lime_glazed_terracotta",
+      "output": "minecraft:lime_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:lime_terracotta"
+      }
+    },
+    {
+      "vanilla": "minecraft:magenta_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_magenta_glazed_terracotta",
+      "output": "minecraft:magenta_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:magenta_terracotta"
+      }
+    },
+    {
+      "vanilla": "minecraft:nether_brick",
+      "thermal": "mite_reforged:thermal_vanilla_nether_brick",
+      "output": "minecraft:nether_brick",
+      "ingredient": {
+        "item": "minecraft:netherrack"
+      }
+    },
+    {
+      "vanilla": "minecraft:netherite_scrap",
+      "thermal": "mite_reforged:thermal_netherite_scrap",
+      "output": "minecraft:netherite_scrap",
+      "ingredient": {
+        "item": "minecraft:ancient_debris"
+      }
+    },
+    {
+      "vanilla": "minecraft:orange_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_orange_glazed_terracotta",
+      "output": "minecraft:orange_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:orange_terracotta"
+      }
+    },
+    {
+      "vanilla": "minecraft:pink_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_pink_glazed_terracotta",
+      "output": "minecraft:pink_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:pink_terracotta"
+      }
+    },
+    {
+      "vanilla": "minecraft:popped_chorus_fruit",
+      "thermal": "mite_reforged:thermal_vanilla_popped_chorus_fruit",
+      "output": "minecraft:popped_chorus_fruit",
+      "ingredient": {
+        "item": "minecraft:chorus_fruit"
+      }
+    },
+    {
+      "vanilla": "minecraft:purple_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_purple_glazed_terracotta",
+      "output": "minecraft:purple_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:purple_terracotta"
+      }
+    },
+    {
+      "vanilla": "minecraft:quartz",
+      "thermal": "mite_reforged:thermal_vanilla_quartz",
+      "output": "minecraft:quartz",
+      "ingredient": {
+        "item": "minecraft:nether_quartz_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:red_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_red_glazed_terracotta",
+      "output": "minecraft:red_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:red_terracotta"
+      }
+    },
+    {
+      "vanilla": "minecraft:redstone_from_smelting_deepslate_redstone_ore",
+      "thermal": "mite_reforged:thermal_vanilla_redstone_from_smelting_deepslate_redstone_ore",
+      "output": "minecraft:redstone",
+      "ingredient": {
+        "item": "minecraft:deepslate_redstone_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:redstone_from_smelting_redstone_ore",
+      "thermal": "mite_reforged:thermal_vanilla_redstone_from_smelting_redstone_ore",
+      "output": "minecraft:redstone",
+      "ingredient": {
+        "item": "minecraft:redstone_ore"
+      }
+    },
+    {
+      "vanilla": "minecraft:smooth_basalt",
+      "thermal": "mite_reforged:thermal_vanilla_smooth_basalt",
+      "output": "minecraft:smooth_basalt",
+      "ingredient": {
+        "item": "minecraft:basalt"
+      }
+    },
+    {
+      "vanilla": "minecraft:smooth_quartz",
+      "thermal": "mite_reforged:thermal_vanilla_smooth_quartz",
+      "output": "minecraft:smooth_quartz",
+      "ingredient": {
+        "item": "minecraft:quartz_block"
+      }
+    },
+    {
+      "vanilla": "minecraft:smooth_red_sandstone",
+      "thermal": "mite_reforged:thermal_vanilla_smooth_red_sandstone",
+      "output": "minecraft:smooth_red_sandstone",
+      "ingredient": {
+        "item": "minecraft:red_sandstone"
+      }
+    },
+    {
+      "vanilla": "minecraft:smooth_sandstone",
+      "thermal": "mite_reforged:thermal_vanilla_smooth_sandstone",
+      "output": "minecraft:smooth_sandstone",
+      "ingredient": {
+        "item": "minecraft:sandstone"
+      }
+    },
+    {
+      "vanilla": "minecraft:smooth_stone",
+      "thermal": "mite_reforged:thermal_smooth_stone",
+      "output": "minecraft:smooth_stone",
+      "ingredient": {
+        "item": "minecraft:stone"
+      }
+    },
+    {
+      "vanilla": "minecraft:sponge",
+      "thermal": "mite_reforged:thermal_vanilla_sponge",
+      "output": "minecraft:sponge",
+      "ingredient": {
+        "item": "minecraft:wet_sponge"
+      }
+    },
+    {
+      "vanilla": "minecraft:stone",
+      "thermal": "mite_reforged:thermal_vanilla_stone",
+      "output": "minecraft:stone",
+      "ingredient": {
+        "item": "minecraft:cobblestone"
+      }
+    },
+    {
+      "vanilla": "minecraft:terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_terracotta",
+      "output": "minecraft:terracotta",
+      "ingredient": {
+        "item": "minecraft:clay"
+      }
+    },
+    {
+      "vanilla": "minecraft:white_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_white_glazed_terracotta",
+      "output": "minecraft:white_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:white_terracotta"
+      }
+    },
+    {
+      "vanilla": "minecraft:yellow_glazed_terracotta",
+      "thermal": "mite_reforged:thermal_vanilla_yellow_glazed_terracotta",
+      "output": "minecraft:yellow_glazed_terracotta",
+      "ingredient": {
+        "item": "minecraft:yellow_terracotta"
+      }
+    }
+  ],
+  "route_count": 70,
+  "policy": "Existing thermal outputs keep their configured heat, time, XP and output count; missing counterparts use vanilla smelting time/XP and explicit heat 1/2."
+}

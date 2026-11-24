@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "mite_reforged:adamantium_knife",
+    "mite_reforged:ancient_metal_knife",
+    "mite_reforged:bronze_knife",
+    "mite_reforged:copper_knife",
+    "mite_reforged:flint_knife",
+    "mite_reforged:gold_knife",
+    "mite_reforged:holy_steel_knife",
+    "mite_reforged:iron_knife",
+    "mite_reforged:mithril_knife",
+    "mite_reforged:netherite_knife",
+    "mite_reforged:obsidian_knife",
+    "mite_reforged:rusted_iron_knife",
+    "mite_reforged:silver_knife",
+    "mite_reforged:steel_knife"
+  ]
+}

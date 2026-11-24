@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "mite_reforged:salad_flowers"
+    },
+    {
+      "tag": "mite_reforged:salad_flowers"
+    },
+    {
+      "tag": "mite_reforged:salad_flowers"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:salad",
+    "count": 1
+  }
+}

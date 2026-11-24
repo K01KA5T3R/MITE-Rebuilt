@@ -1,0 +1,13 @@
+function initializeCoreMod(){
+ var O=Java.type('org.objectweb.asm.Opcodes'),List=Java.type('org.objectweb.asm.tree.InsnList'),Var=Java.type('org.objectweb.asm.tree.VarInsnNode'),Call=Java.type('org.objectweb.asm.tree.MethodInsnNode'),Insn=Java.type('org.objectweb.asm.tree.InsnNode'),Label=Java.type('org.objectweb.asm.tree.LabelNode'),Jump=Java.type('org.objectweb.asm.tree.JumpInsnNode');var helper='dev/koikaster/mite/ClassicVessels',obj='Ljava/lang/Object;';
+ return {
+  'mite_original_bucket_use':{target:{type:'CLASS',name:'net.minecraft.world.item.BucketItem'},transformer:function(node){var use=0,empty=0;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i),code=new List(),resume=new Label();
+   if((String(m.name)==='use'||String(m.name)==='m_7203_')&&String(m.desc)==='(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResultHolder;'){
+    code.add(new Var(O.ALOAD,0));code.add(new Var(O.ALOAD,2));code.add(new Var(O.ALOAD,3));code.add(new Call(O.INVOKESTATIC,helper,'handlesUse','('+obj+obj+obj+')Z',false));code.add(new Jump(O.IFEQ,resume));for(var v=1;v<=3;v++)code.add(new Var(O.ALOAD,v));code.add(new Call(O.INVOKESTATIC,helper,'nativeUse','('+obj+obj+obj+')Lnet/minecraft/world/InteractionResultHolder;',false));code.add(new Insn(O.ARETURN));code.add(resume);use++;
+   }else if(String(m.desc)==='(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/BlockHitResult;Lnet/minecraft/world/item/ItemStack;)Z'){
+    code.add(new Var(O.ALOAD,0));code.add(new Call(O.INVOKESTATIC,helper,'handlesEmpty','('+obj+')Z',false));code.add(new Jump(O.IFEQ,resume));for(var v=0;v<=5;v++)code.add(new Var(O.ALOAD,v));code.add(new Call(O.INVOKESTATIC,helper,'nativeEmpty','('+obj+obj+obj+obj+obj+obj+')Z',false));code.add(new Insn(O.IRETURN));code.add(resume);empty++;
+   }else continue;m.instructions.insert(code);m.maxStack=Math.max(6,m.maxStack);
+  }if(use!==1||empty!==1)throw new Error('Unexpected BucketItem layout '+use+'/'+empty);return node;}},
+  'mite_original_dropped_vessels':{target:{type:'CLASS',name:'net.minecraft.world.entity.item.ItemEntity'},transformer:function(node){var count=0;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);if((String(m.name)!=='tick'&&String(m.name)!=='m_8119_')||String(m.desc)!=='()V')continue;var code=new List();code.add(new Var(O.ALOAD,0));code.add(new Call(O.INVOKESTATIC,helper,'itemTick','('+obj+')V',false));m.instructions.insert(code);m.maxStack=Math.max(1,m.maxStack);count++;}if(count!==1)throw new Error('Unexpected ItemEntity tick '+count);return node;}}
+ };
+}

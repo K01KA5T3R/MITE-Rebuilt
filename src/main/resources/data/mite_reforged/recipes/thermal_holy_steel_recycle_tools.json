@@ -1,0 +1,15 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": [
+    {
+      "tag": "mite_reforged:recyclable/holy_steel"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:holy_steel_nugget",
+    "count": 3
+  },
+  "heat": 4,
+  "cookingtime": 200,
+  "experience": 0
+}

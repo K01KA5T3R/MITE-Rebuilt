@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:arrow"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:flint_shard",
+    "count": 1
+  }
+}

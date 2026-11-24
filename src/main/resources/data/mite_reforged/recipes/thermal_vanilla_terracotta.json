@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "minecraft:clay"
+  },
+  "result": {
+    "item": "minecraft:terracotta"
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 0.35
+}

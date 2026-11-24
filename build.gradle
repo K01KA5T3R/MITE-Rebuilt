@@ -1,0 +1,54 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'net.minecraftforge.gradle' version '6.0.54'
+}
+
+version = mod_version
+group = 'dev.koikaster.mite'
+base { archivesName = 'mite-rebuilt' }
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
+jarJar.enable()
+
+minecraft {
+    mappings channel: 'official', version: '1.20.1'
+}
+
+repositories {
+    maven { url = uri('vendor/inventorysorter'); content { includeGroup 'cpw.mods' } }
+    mavenCentral()
+    maven { url = 'https://maven.blamejared.com'; content { includeGroup 'mezz.jei'; includeGroup 'net.mezzdev.config' } }
+}
+def jeiVersion = '15.74.0.230'
+dependencies {
+    minecraft 'net.minecraftforge:forge:1.20.1-47.4.28'
+    compileOnly fg.deobf("mezz.jei:jei-1.20.1-common-api:${jeiVersion}")
+    compileOnly fg.deobf("mezz.jei:jei-1.20.1-forge-api:${jeiVersion}")
+    // Keep the complete upstream Forge mod, including its own nested dependency.
+    jarJar(group: 'mezz.jei', name: 'jei-1.20.1-forge', version: jeiVersion) {
+        transitive = false
+        jarJar.ranged(it, '[15.74.0.230,16)')
+    }
+    // Exact, attributed upstream binary; no transitive mod dependencies.
+    jarJar(group: 'cpw.mods', name: 'inventorysorter', version: '23.0.11') {
+        transitive = false
+        jarJar.ranged(it, '[23.0.11,23.0.12)')
+    }
+    // Optional dev runtime only; production discovers the nested mod itself.
+    if (project.hasProperty('withJei')) runtimeOnly fg.deobf("mezz.jei:jei-1.20.1-forge:${jeiVersion}")
+}
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8'; options.release = 17 }
+tasks.named('processResources', ProcessResources) {
+    inputs.property 'version', project.version
+    filesMatching('META-INF/mods.toml') { expand version: project.version }
+}
+tasks.named('jar', Jar) {
+    archiveClassifier = 'slim'
+    manifest { attributes 'Implementation-Version': project.version }
+    finalizedBy 'reobfJar'
+}
+tasks.named('jarJar') {
+    archiveClassifier = ''
+    manifest { attributes 'Implementation-Version': project.version }
+    finalizedBy 'reobfJarJar'
+}

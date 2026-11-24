@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mite_reforged:adamantium_ingot"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:adamantium_strongbox",
+    "count": 1
+  }
+}

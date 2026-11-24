@@ -1,0 +1,14 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "mite_reforged:item/ancient_metal_fishing_rod"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "cast": 1
+      },
+      "model": "mite_reforged:item/ancient_metal_fishing_rod_cast"
+    }
+  ]
+}

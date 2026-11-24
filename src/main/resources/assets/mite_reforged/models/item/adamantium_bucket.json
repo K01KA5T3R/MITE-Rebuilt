@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mite_reforged:item/adamantium_bucket"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "mite_reforged:fluid": 1
+      },
+      "model": "mite_reforged:item/adamantium_bucket_water"
+    },
+    {
+      "predicate": {
+        "mite_reforged:fluid": 2
+      },
+      "model": "mite_reforged:item/adamantium_bucket_lava"
+    },
+    {
+      "predicate": {
+        "mite_reforged:fluid": 3
+      },
+      "model": "mite_reforged:item/adamantium_bucket_milk"
+    },
+    {
+      "predicate": {
+        "mite_reforged:fluid": 4
+      },
+      "model": "mite_reforged:item/adamantium_bucket_stone"
+    }
+  ]
+}

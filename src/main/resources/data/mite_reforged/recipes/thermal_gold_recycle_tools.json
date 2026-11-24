@@ -1,0 +1,45 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": [
+    {
+      "tag": "mite_reforged:recyclable/gold"
+    },
+    {
+      "item": "minecraft:golden_pickaxe"
+    },
+    {
+      "item": "minecraft:golden_shovel"
+    },
+    {
+      "item": "minecraft:golden_axe"
+    },
+    {
+      "item": "minecraft:golden_hoe"
+    },
+    {
+      "item": "minecraft:golden_sword"
+    },
+    {
+      "item": "minecraft:golden_helmet"
+    },
+    {
+      "item": "minecraft:golden_chestplate"
+    },
+    {
+      "item": "minecraft:golden_leggings"
+    },
+    {
+      "item": "minecraft:golden_boots"
+    },
+    {
+      "item": "minecraft:golden_horse_armor"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_nugget",
+    "count": 3
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 0
+}

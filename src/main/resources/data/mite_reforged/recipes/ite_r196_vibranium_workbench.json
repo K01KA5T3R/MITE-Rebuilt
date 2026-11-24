@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "IL",
+    "SP"
+  ],
+  "key": {
+    "I": {
+      "item": "mite_reforged:vibranium_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:r196_vibranium_workbench",
+    "count": 1
+  }
+}

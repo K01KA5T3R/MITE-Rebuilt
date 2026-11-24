@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "minecraft:basalt"
+  },
+  "result": {
+    "item": "minecraft:smooth_basalt"
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 0.1
+}

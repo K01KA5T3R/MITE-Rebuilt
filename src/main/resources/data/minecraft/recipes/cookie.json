@@ -1,0 +1,19 @@
+{
+  "type": "mite_reforged:source_bowl_food",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mite_reforged:dough"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cookie",
+    "count": 4
+  }
+}

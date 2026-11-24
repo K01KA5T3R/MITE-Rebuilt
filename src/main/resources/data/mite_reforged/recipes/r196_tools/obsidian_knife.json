@@ -1,0 +1,28 @@
+{
+  "type": "mite_reforged:r196_workbench",
+  "category": "equipment",
+  "pattern": [
+    "FL",
+    "S "
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "L": [
+      {
+        "item": "minecraft:string"
+      },
+      {
+        "item": "mite_reforged:sinew"
+      }
+    ]
+  },
+  "result": {
+    "count": 1,
+    "item": "mite_reforged:obsidian_knife"
+  }
+}

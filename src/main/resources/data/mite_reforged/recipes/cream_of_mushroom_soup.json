@@ -1,0 +1,19 @@
+{
+  "type": "mite_reforged:source_bowl_food",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "mite_reforged:milk_bowl"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:cream_of_mushroom_soup",
+    "count": 1
+  }
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "bit": 1,
+    "key": "skill.fighting",
+    "name": "Fighting",
+    "profession": "Fighter",
+    "zh": "战斗",
+    "zh_profession": "战士"
+  },
+  {
+    "bit": 2,
+    "key": "skill.archery",
+    "name": "Archery",
+    "profession": "Archer",
+    "zh": "射箭",
+    "zh_profession": "弓箭手"
+  },
+  {
+    "bit": 4,
+    "key": "skill.mining",
+    "name": "Mining",
+    "profession": "Miner",
+    "zh": "采矿",
+    "zh_profession": "矿工"
+  },
+  {
+    "bit": 8,
+    "key": "skill.foodPreparation",
+    "name": "Food Preparation",
+    "profession": "Chef",
+    "zh": "烹饪",
+    "zh_profession": "厨师"
+  },
+  {
+    "bit": 16,
+    "key": "skill.masonry",
+    "name": "Masonry",
+    "profession": "Mason",
+    "zh": "石工",
+    "zh_profession": "石匠"
+  },
+  {
+    "bit": 32,
+    "key": "skill.farming",
+    "name": "Farming",
+    "profession": "Farmer",
+    "zh": "农耕",
+    "zh_profession": "农夫"
+  },
+  {
+    "bit": 64,
+    "key": "skill.tinkering",
+    "name": "Tinkering",
+    "profession": "Tinker",
+    "zh": "工艺",
+    "zh_profession": "工匠"
+  },
+  {
+    "bit": 128,
+    "key": "skill.carpentry",
+    "name": "Carpentry",
+    "profession": "Carpenter",
+    "zh": "木工",
+    "zh_profession": "木匠"
+  },
+  {
+    "bit": 256,
+    "key": "skill.blacksmithing",
+    "name": "Blacksmithing",
+    "profession": "Blacksmith",
+    "zh": "锻造",
+    "zh_profession": "铁匠"
+  },
+  {
+    "bit": 512,
+    "key": "skill.brewing",
+    "name": "Brewing",
+    "profession": "Brewer",
+    "zh": "酿造",
+    "zh_profession": "酿造师"
+  },
+  {
+    "bit": 1024,
+    "key": "skill.fineArts",
+    "name": "Fine Arts",
+    "profession": "Artisan",
+    "zh": "美术",
+    "zh_profession": "艺术家"
+  },
+  {
+    "bit": 2048,
+    "key": "skill.enchanting",
+    "name": "Enchanting",
+    "profession": "Enchanter",
+    "zh": "附魔",
+    "zh_profession": "附魔师"
+  },
+  {
+    "bit": 4096,
+    "key": "skill.fishing",
+    "name": "Fishing",
+    "profession": "Fisher",
+    "zh": "钓鱼",
+    "zh_profession": "渔夫"
+  }
+]

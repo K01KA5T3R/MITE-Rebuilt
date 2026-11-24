@@ -1,0 +1,8 @@
+function initializeCoreMod(){
+ var O=Java.type('org.objectweb.asm.Opcodes'),List=Java.type('org.objectweb.asm.tree.InsnList'),Var=Java.type('org.objectweb.asm.tree.VarInsnNode'),Call=Java.type('org.objectweb.asm.tree.MethodInsnNode'),Insn=Java.type('org.objectweb.asm.tree.InsnNode'),Label=Java.type('org.objectweb.asm.tree.LabelNode'),Jump=Java.type('org.objectweb.asm.tree.JumpInsnNode'),Frame=Java.type('org.objectweb.asm.tree.FrameNode');
+ return {'mite_classic_mining':{target:{type:'CLASS',name:'net.minecraft.world.level.block.state.BlockBehaviour'},transformer:function(node){
+  var count=0;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);if((String(m.name)==='getDestroyProgress'||String(m.name)==='m_5880_')&&String(m.desc)==='(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/BlockGetter;Lnet/minecraft/core/BlockPos;)F'){
+   var code=new List(),vanilla=new Label();for(var n=1;n<=4;n++)code.add(new Var(O.ALOAD,n));code.add(new Call(O.INVOKESTATIC,'dev/koikaster/mite/ClassicMining','destroyProgress','(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)F',false));code.add(new Insn(O.DUP));code.add(new Insn(O.FCONST_0));code.add(new Insn(O.FCMPG));code.add(new Jump(O.IFLT,vanilla));code.add(new Insn(O.FRETURN));code.add(vanilla);code.add(new Frame(O.F_SAME1,0,null,1,[O.FLOAT]));code.add(new Insn(O.POP));m.instructions.insert(code);m.maxStack=Math.max(m.maxStack,4);count++;
+  }}if(count!==1)throw new Error('Expected one new native mining progress hook, got '+count);return node;
+ }}};
+}

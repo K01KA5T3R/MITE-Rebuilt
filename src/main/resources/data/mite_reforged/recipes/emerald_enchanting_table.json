@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "E#E",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "E": {
+      "item": "minecraft:emerald"
+    },
+    "#": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:emerald_enchanting_table"
+  }
+}

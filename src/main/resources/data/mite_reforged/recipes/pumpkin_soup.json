@@ -1,0 +1,16 @@
+{
+  "type": "mite_reforged:source_bowl_food",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "mite_reforged:water_bowl"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:pumpkin_soup",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "mite_reforged:silver_pickaxe",
+    "mite_reforged:silver_axe",
+    "mite_reforged:silver_shovel",
+    "mite_reforged:silver_hoe",
+    "mite_reforged:silver_sword",
+    "mite_reforged:silver_dagger",
+    "mite_reforged:silver_battleaxe",
+    "mite_reforged:silver_warhammer",
+    "mite_reforged:silver_mattock",
+    "mite_reforged:silver_scythe",
+    "mite_reforged:silver_helmet",
+    "mite_reforged:silver_chestplate",
+    "mite_reforged:silver_leggings",
+    "mite_reforged:silver_boots"
+  ]
+}

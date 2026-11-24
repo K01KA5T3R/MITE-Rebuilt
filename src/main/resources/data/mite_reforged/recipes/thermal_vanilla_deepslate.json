@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "minecraft:cobbled_deepslate"
+  },
+  "result": {
+    "item": "minecraft:deepslate"
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 0.1
+}

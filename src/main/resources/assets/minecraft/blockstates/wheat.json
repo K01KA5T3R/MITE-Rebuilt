@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0,mite_blighted=false": {
+      "model": "minecraft:block/wheat_stage0"
+    },
+    "age=1,mite_blighted=false": {
+      "model": "minecraft:block/wheat_stage1"
+    },
+    "age=2,mite_blighted=false": {
+      "model": "minecraft:block/wheat_stage2"
+    },
+    "age=3,mite_blighted=false": {
+      "model": "minecraft:block/wheat_stage3"
+    },
+    "age=4,mite_blighted=false": {
+      "model": "minecraft:block/wheat_stage4"
+    },
+    "age=5,mite_blighted=false": {
+      "model": "minecraft:block/wheat_stage5"
+    },
+    "age=6,mite_blighted=false": {
+      "model": "minecraft:block/wheat_stage6"
+    },
+    "age=7,mite_blighted=false": {
+      "model": "minecraft:block/wheat_stage7"
+    },
+    "age=0,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_wheat_0"
+    },
+    "age=1,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_wheat_1"
+    },
+    "age=2,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_wheat_2"
+    },
+    "age=3,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_wheat_3"
+    },
+    "age=4,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_wheat_4"
+    },
+    "age=5,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_wheat_5"
+    },
+    "age=6,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_wheat_6"
+    },
+    "age=7,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_wheat_7"
+    }
+  }
+}

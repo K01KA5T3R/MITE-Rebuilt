@@ -1,0 +1,28 @@
+{
+  "type": "mite_reforged:currency_exchange",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mite_reforged:gold_coin"
+    },
+    {
+      "item": "mite_reforged:gold_coin"
+    },
+    {
+      "item": "mite_reforged:gold_coin"
+    },
+    {
+      "item": "mite_reforged:gold_coin"
+    },
+    {
+      "item": "mite_reforged:gold_coin"
+    },
+    {
+      "item": "mite_reforged:gold_coin"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_nugget",
+    "count": 6
+  }
+}

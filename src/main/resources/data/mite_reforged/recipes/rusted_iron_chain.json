@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mite_reforged:rusted_iron_nugget"
+    },
+    {
+      "item": "mite_reforged:rusted_iron_nugget"
+    },
+    {
+      "item": "mite_reforged:rusted_iron_nugget"
+    },
+    {
+      "item": "mite_reforged:rusted_iron_nugget"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:rusted_iron_chain",
+    "count": 1
+  }
+}

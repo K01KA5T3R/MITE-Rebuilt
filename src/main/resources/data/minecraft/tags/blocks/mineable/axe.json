@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "mite_reforged:drying_rack",
+    "mite_reforged:mounted_crossbow",
+    "mite_reforged:r196_flint_oak_workbench",
+    "mite_reforged:r196_flint_spruce_workbench",
+    "mite_reforged:r196_flint_birch_workbench",
+    "mite_reforged:r196_flint_jungle_workbench",
+    "mite_reforged:r196_obsidian_oak_workbench",
+    "mite_reforged:r196_obsidian_spruce_workbench",
+    "mite_reforged:r196_obsidian_birch_workbench",
+    "mite_reforged:r196_obsidian_jungle_workbench",
+    "mite_reforged:r196_copper_workbench",
+    "mite_reforged:r196_silver_workbench",
+    "mite_reforged:r196_gold_workbench",
+    "mite_reforged:r196_iron_workbench",
+    "mite_reforged:r196_ancient_metal_workbench",
+    "mite_reforged:r196_mithril_workbench",
+    "mite_reforged:r196_adamantium_workbench"
+  ]
+}

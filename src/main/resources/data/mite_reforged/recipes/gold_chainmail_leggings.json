@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "mite_reforged:gold_chain"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:gold_chainmail_leggings"
+  }
+}

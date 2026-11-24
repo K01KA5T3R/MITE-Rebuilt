@@ -1,0 +1,44 @@
+{
+  "source": "R195 yc ItemMeat declarations and already-mapped diet counterparts; not FoodProperties.isMeat",
+  "source_counterparts": [
+    "minecraft:beef",
+    "minecraft:chicken",
+    "minecraft:cod",
+    "minecraft:cooked_beef",
+    "minecraft:cooked_chicken",
+    "minecraft:cooked_cod",
+    "minecraft:cooked_mutton",
+    "minecraft:cooked_porkchop",
+    "minecraft:cooked_salmon",
+    "minecraft:mutton",
+    "minecraft:porkchop",
+    "minecraft:rotten_flesh",
+    "minecraft:salmon",
+    "mite_reforged:worm",
+    "mite_reforged:cooked_worm"
+  ],
+  "source_symbols": {
+    "minecraft:porkchop": "as",
+    "minecraft:cooked_porkchop": "at",
+    "minecraft:beef": "bk",
+    "minecraft:cooked_beef": "bl",
+    "minecraft:chicken": "bm",
+    "minecraft:cooked_chicken": "bn",
+    "minecraft:rotten_flesh": "bo",
+    "minecraft:cod": "aW",
+    "minecraft:cooked_cod": "aX",
+    "minecraft:salmon": "fishLargeRaw",
+    "minecraft:cooked_salmon": "fishLargeCooked",
+    "mite_reforged:worm": "wormRaw",
+    "minecraft:mutton": "lambchopRaw",
+    "minecraft:cooked_mutton": "lambchopCooked",
+    "mite_reforged:cooked_worm": "wormCooked"
+  },
+  "modern_adaptations": [
+    "minecraft:rabbit",
+    "minecraft:cooked_rabbit",
+    "minecraft:tropical_fish",
+    "minecraft:pufferfish"
+  ],
+  "source_meat_not_yet_in_food_catalogue": []
+}

@@ -1,0 +1,239 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "mite_reforged:item/source_bows/ancient_metal/standby"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 1e-07
+      },
+      "model": "mite_reforged:item/ancient_metal_bow_pulling_0"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 0.65
+      },
+      "model": "mite_reforged:item/ancient_metal_bow_pulling_1"
+    },
+    {
+      "predicate": {
+        "pulling": 1,
+        "pull": 0.9
+      },
+      "model": "mite_reforged:item/ancient_metal_bow_pulling_2"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 1,
+        "mite_reforged:source_bow_stage": 1
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/flint_arrow_0"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 1,
+        "mite_reforged:source_bow_stage": 2
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/flint_arrow_1"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 1,
+        "mite_reforged:source_bow_stage": 3
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/flint_arrow_2"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 2,
+        "mite_reforged:source_bow_stage": 1
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/obsidian_arrow_0"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 2,
+        "mite_reforged:source_bow_stage": 2
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/obsidian_arrow_1"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 2,
+        "mite_reforged:source_bow_stage": 3
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/obsidian_arrow_2"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 3,
+        "mite_reforged:source_bow_stage": 1
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/copper_arrow_0"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 3,
+        "mite_reforged:source_bow_stage": 2
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/copper_arrow_1"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 3,
+        "mite_reforged:source_bow_stage": 3
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/copper_arrow_2"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 4,
+        "mite_reforged:source_bow_stage": 1
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/silver_arrow_0"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 4,
+        "mite_reforged:source_bow_stage": 2
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/silver_arrow_1"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 4,
+        "mite_reforged:source_bow_stage": 3
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/silver_arrow_2"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 5,
+        "mite_reforged:source_bow_stage": 1
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/rusted_iron_arrow_0"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 5,
+        "mite_reforged:source_bow_stage": 2
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/rusted_iron_arrow_1"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 5,
+        "mite_reforged:source_bow_stage": 3
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/rusted_iron_arrow_2"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 6,
+        "mite_reforged:source_bow_stage": 1
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/gold_arrow_0"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 6,
+        "mite_reforged:source_bow_stage": 2
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/gold_arrow_1"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 6,
+        "mite_reforged:source_bow_stage": 3
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/gold_arrow_2"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 7,
+        "mite_reforged:source_bow_stage": 1
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/iron_arrow_0"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 7,
+        "mite_reforged:source_bow_stage": 2
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/iron_arrow_1"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 7,
+        "mite_reforged:source_bow_stage": 3
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/iron_arrow_2"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 8,
+        "mite_reforged:source_bow_stage": 1
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/mithril_arrow_0"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 8,
+        "mite_reforged:source_bow_stage": 2
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/mithril_arrow_1"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 8,
+        "mite_reforged:source_bow_stage": 3
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/mithril_arrow_2"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 9,
+        "mite_reforged:source_bow_stage": 1
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/adamantium_arrow_0"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 9,
+        "mite_reforged:source_bow_stage": 2
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/adamantium_arrow_1"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 9,
+        "mite_reforged:source_bow_stage": 3
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/adamantium_arrow_2"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 10,
+        "mite_reforged:source_bow_stage": 1
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/ancient_metal_arrow_0"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 10,
+        "mite_reforged:source_bow_stage": 2
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/ancient_metal_arrow_1"
+    },
+    {
+      "predicate": {
+        "mite_reforged:source_arrow": 10,
+        "mite_reforged:source_bow_stage": 3
+      },
+      "model": "mite_reforged:item/source_bows/ancient_metal/ancient_metal_arrow_2"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "type": "mite_reforged:source_bowl_food",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mite_reforged:flour"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "mite_reforged:milk_bowl"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cake",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "mite_reforged:r196_workbench",
+  "category": "misc",
+  "pattern": [
+    "K",
+    "L"
+  ],
+  "key": {
+    "K": {
+      "item": "mite_reforged:obsidian_knife"
+    },
+    "L": {
+      "item": "minecraft:spruce_log"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:r196_obsidian_spruce_workbench",
+    "count": 1
+  }
+}

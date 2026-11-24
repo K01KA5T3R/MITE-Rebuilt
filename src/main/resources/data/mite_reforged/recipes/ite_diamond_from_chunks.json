@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mite_reforged:diamond_chunk"
+    },
+    {
+      "item": "mite_reforged:diamond_chunk"
+    },
+    {
+      "item": "mite_reforged:diamond_chunk"
+    },
+    {
+      "item": "mite_reforged:diamond_chunk"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 1
+  }
+}

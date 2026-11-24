@@ -1,0 +1,13 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "mite_reforged:holy_steel_ore"
+  },
+  "result": {
+    "item": "mite_reforged:holy_steel_ingot",
+    "count": 1
+  },
+  "heat": 4,
+  "cookingtime": 200,
+  "experience": 4
+}

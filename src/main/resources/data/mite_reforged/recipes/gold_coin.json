@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:currency_exchange",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:gold_coin"
+  }
+}

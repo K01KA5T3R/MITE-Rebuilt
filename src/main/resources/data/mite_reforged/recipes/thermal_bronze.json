@@ -1,0 +1,13 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "mite_reforged:bronze_blend"
+  },
+  "result": {
+    "item": "mite_reforged:bronze_ingot",
+    "count": 1
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 0.5
+}

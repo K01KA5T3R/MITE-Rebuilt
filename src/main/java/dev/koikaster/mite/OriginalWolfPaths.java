@@ -1,0 +1,16 @@
+package dev.koikaster.mite;
+import java.util.*;
+import net.minecraft.core.BlockPos;
+import net.minecraft.util.Mth;
+import net.minecraft.world.entity.animal.Wolf;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.pathfinder.Path;
+/** New wolf callers of source abw away-path search and center/Y-first fire candidate spiral. */
+public final class OriginalWolfPaths {
+ /** rh.c non-intensive branch. Source conditionally applies origin translation with the restriction check. */
+ public static BlockPos panicRandom(Wolf wolf){int x=wolf.getBlockX(),y=wolf.getBlockY(),z=wolf.getBlockZ();var home=wolf.getRestrictCenter();double extent=wolf.getRestrictRadius()+5;boolean restrict=wolf.hasRestriction()&&home.distSqr(wolf.blockPosition())+4<extent*extent;float best=-100;BlockPos selected=null;for(int attempt=0;attempt<10;attempt++){int dx=wolf.getRandom().nextInt(11)-5,dy=wolf.getRandom().nextInt(9)-4,dz=wolf.getRandom().nextInt(11)-5;if(restrict){dx+=x;dy+=y;dz+=z;if(!wolf.isWithinRestriction(new BlockPos(dx,dy,dz)))continue;}var pos=new BlockPos(dx,dy,dz);float weight=wolf.getWalkTargetValue(pos,wolf.level());if(weight>best){best=weight;selected=pos;}}return selected;}
+ public static Path away(Wolf wolf,BlockPos danger){OriginalEnvironmentPaths.initialize(wolf);int x=wolf.getBlockX(),y=wolf.getBlockY(),z=wolf.getBlockZ(),index=wolf.level().random.nextInt();double far=OriginalEnvironmentPaths.sq(x-danger.getX(),y-danger.getY(),z-danger.getZ());Path selected=null;for(int attempt=0;attempt<16;attempt++){int dx=OriginalRandomTables.int_max[++index&32767]%97-48,dy=OriginalRandomTables.int_7_minus_3[++index&32767],dz=OriginalRandomTables.int_max[++index&32767]%97-48;var trial=OriginalEnvironmentPaths.settle(wolf,new BlockPos(x+dx,y+dy,z+dz));double distance=OriginalEnvironmentPaths.sq(trial.getX()-danger.getX(),trial.getY()-danger.getY(),trial.getZ()-danger.getZ());if(distance<256||!(distance>far))continue;var path=wolf.getNavigation().createPath(trial,0,48);if(path==null)continue;var end=path.getEndNode();distance=OriginalEnvironmentPaths.sq(end.x-danger.getX(),end.y-danger.getY(),end.z-danger.getZ());if(distance<256||!(distance>far))continue;far=distance;selected=path;}return selected;}
+ private static boolean column(Wolf wolf,List<BlockPos> result,int x,int z,int low,int high){for(int y=low;y<=high;y++)if(wolf.level().getBlockState(new BlockPos(x,y,z)).is(Blocks.FIRE)){result.add(new BlockPos(x,y,z));if(result.size()==16)return true;}return false;}
+ public static List<BlockPos> fires(Wolf wolf){float ox=(float)wolf.getX(),oy=(float)(wolf.getY()+wolf.getBbHeight()*.75f),oz=(float)wolf.getZ();int x=Mth.floor(ox),y=Mth.floor(oy),z=Mth.floor(oz),low=y-4,high=y+4,run=1;var result=new ArrayList<BlockPos>();if(column(wolf,result,x,z,low,high))return result;while(true){if(run>=33){for(int i=1;i<run;i++){++x;if(column(wolf,result,x,z,low,high))return result;}return result;}for(int i=1;i<=run;i++){++x;if(column(wolf,result,x,z,low,high))return result;}for(int i=1;i<=run;i++){++z;if(column(wolf,result,x,z,low,high))return result;}++run;for(int i=1;i<=run;i++){--x;if(column(wolf,result,x,z,low,high))return result;}for(int i=1;i<=run;i++){--z;if(column(wolf,result,x,z,low,high))return result;}++run;}}
+ private OriginalWolfPaths(){}
+}

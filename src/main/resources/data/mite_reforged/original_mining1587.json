@@ -1,0 +1,2141 @@
+{
+  "source": "Actual registered R195 objects,225 block states and115 tools; fixed cG is separate from active mining hardness.",
+  "blocks": {
+    "minecraft:stone": {
+      "id": 1,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 2.4
+    },
+    "minecraft:grass_block": {
+      "id": 2,
+      "metadata": 0,
+      "material": "grass",
+      "requires_tool": false,
+      "resistance": 0.5
+    },
+    "minecraft:dirt": {
+      "id": 3,
+      "metadata": 0,
+      "material": "dirt",
+      "requires_tool": false,
+      "resistance": 0.5
+    },
+    "minecraft:cobblestone": {
+      "id": 4,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:oak_planks": {
+      "id": 5,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.8
+    },
+    "minecraft:oak_sapling": {
+      "id": 6,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.02
+    },
+    "minecraft:bedrock": {
+      "id": 7,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": -1.0
+    },
+    "minecraft:water": {
+      "id": 8,
+      "metadata": 0,
+      "material": "water",
+      "requires_tool": false,
+      "resistance": 100.0
+    },
+    "minecraft:lava": {
+      "id": 10,
+      "metadata": 0,
+      "material": "lava",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:sand": {
+      "id": 12,
+      "metadata": 0,
+      "material": "sand",
+      "requires_tool": false,
+      "resistance": 0.4
+    },
+    "minecraft:gravel": {
+      "id": 13,
+      "metadata": 0,
+      "material": "sand",
+      "requires_tool": false,
+      "resistance": 0.6
+    },
+    "minecraft:gold_ore": {
+      "id": 14,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 2.4
+    },
+    "minecraft:iron_ore": {
+      "id": 15,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 3.0
+    },
+    "minecraft:coal_ore": {
+      "id": 16,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 1.2
+    },
+    "minecraft:oak_log": {
+      "id": 17,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": true,
+      "resistance": 1.2
+    },
+    "minecraft:oak_leaves": {
+      "id": 18,
+      "metadata": 0,
+      "material": "tree_leaves",
+      "requires_tool": false,
+      "resistance": 0.2
+    },
+    "minecraft:sponge": {
+      "id": 19,
+      "metadata": 0,
+      "material": "sponge",
+      "requires_tool": false,
+      "resistance": 0.6
+    },
+    "minecraft:glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:lapis_ore": {
+      "id": 21,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 3.0
+    },
+    "minecraft:lapis_block": {
+      "id": 22,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 3.0
+    },
+    "minecraft:dispenser": {
+      "id": 23,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 3.5
+    },
+    "mite_reforged:sacred_sandstone": {
+      "id": 24,
+      "metadata": 3,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.8
+    },
+    "minecraft:sandstone": {
+      "id": 24,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.8
+    },
+    "minecraft:note_block": {
+      "id": 25,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.8
+    },
+    "minecraft:red_bed": {
+      "id": 26,
+      "metadata": 0,
+      "material": "cloth",
+      "requires_tool": false,
+      "resistance": 0.2
+    },
+    "minecraft:powered_rail": {
+      "id": 27,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.7
+    },
+    "minecraft:detector_rail": {
+      "id": 28,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.7
+    },
+    "minecraft:sticky_piston": {
+      "id": 29,
+      "metadata": 0,
+      "material": "piston",
+      "requires_tool": false,
+      "resistance": 0.5
+    },
+    "minecraft:cobweb": {
+      "id": 30,
+      "metadata": 0,
+      "material": "web",
+      "requires_tool": false,
+      "resistance": 0.1
+    },
+    "minecraft:dead_bush": {
+      "id": 31,
+      "metadata": 0,
+      "material": "vine",
+      "requires_tool": false,
+      "resistance": 0.02
+    },
+    "minecraft:piston": {
+      "id": 33,
+      "metadata": 0,
+      "material": "piston",
+      "requires_tool": false,
+      "resistance": 0.5
+    },
+    "minecraft:piston_head": {
+      "id": 34,
+      "metadata": 0,
+      "material": "piston",
+      "requires_tool": false,
+      "resistance": 0.5
+    },
+    "minecraft:white_wool": {
+      "id": 35,
+      "metadata": 0,
+      "material": "cloth",
+      "requires_tool": false,
+      "resistance": 0.8
+    },
+    "minecraft:moving_piston": {
+      "id": 36,
+      "metadata": 0,
+      "material": "piston",
+      "requires_tool": false,
+      "resistance": -1.0
+    },
+    "minecraft:dandelion": {
+      "id": 37,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:poppy": {
+      "id": 38,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:brown_mushroom": {
+      "id": 39,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:red_mushroom": {
+      "id": 40,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:gold_block": {
+      "id": 41,
+      "metadata": 0,
+      "material": "gold",
+      "requires_tool": true,
+      "resistance": 3.6000001
+    },
+    "minecraft:iron_block": {
+      "id": 42,
+      "metadata": 0,
+      "material": "iron",
+      "requires_tool": true,
+      "resistance": 9.6
+    },
+    "minecraft:smooth_stone_slab": {
+      "id": 44,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:smooth_stone_slab#double": {
+      "id": 43,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:bricks": {
+      "id": 45,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:tnt": {
+      "id": 46,
+      "metadata": 0,
+      "material": "tnt",
+      "requires_tool": false,
+      "resistance": 1.0
+    },
+    "minecraft:bookshelf": {
+      "id": 47,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 1.5
+    },
+    "minecraft:mossy_cobblestone": {
+      "id": 48,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:obsidian": {
+      "id": 49,
+      "metadata": 0,
+      "material": "obsidian",
+      "requires_tool": true,
+      "resistance": 2.4
+    },
+    "minecraft:wall_torch": {
+      "id": 50,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:fire": {
+      "id": 51,
+      "metadata": 0,
+      "material": "fire",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:spawner": {
+      "id": 52,
+      "metadata": 0,
+      "material": "iron",
+      "requires_tool": true,
+      "resistance": 3.0
+    },
+    "minecraft:oak_stairs": {
+      "id": 53,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.8
+    },
+    "minecraft:chest": {
+      "id": 54,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.2
+    },
+    "minecraft:redstone_wire": {
+      "id": 55,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:diamond_ore": {
+      "id": 56,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 3.0
+    },
+    "minecraft:diamond_block": {
+      "id": 57,
+      "metadata": 0,
+      "material": "diamond",
+      "requires_tool": true,
+      "resistance": 19.2
+    },
+    "minecraft:crafting_table": {
+      "id": 58,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 1.6
+    },
+    "minecraft:wheat": {
+      "id": 59,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.02
+    },
+    "minecraft:farmland": {
+      "id": 60,
+      "metadata": 0,
+      "material": "dirt",
+      "requires_tool": false,
+      "resistance": 0.6
+    },
+    "minecraft:furnace": {
+      "id": 61,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:oak_sign": {
+      "id": 63,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.1
+    },
+    "minecraft:oak_door": {
+      "id": 64,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.25
+    },
+    "minecraft:ladder": {
+      "id": 65,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.5
+    },
+    "minecraft:rail": {
+      "id": 66,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.7
+    },
+    "minecraft:cobblestone_stairs": {
+      "id": 67,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:oak_wall_sign": {
+      "id": 68,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.1
+    },
+    "minecraft:lever": {
+      "id": 69,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.5
+    },
+    "minecraft:stone_pressure_plate": {
+      "id": 70,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.5
+    },
+    "minecraft:iron_door": {
+      "id": 71,
+      "metadata": 0,
+      "material": "iron",
+      "requires_tool": true,
+      "resistance": 4.0
+    },
+    "minecraft:oak_pressure_plate": {
+      "id": 72,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.5
+    },
+    "minecraft:redstone_ore": {
+      "id": 73,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 3.0
+    },
+    "minecraft:redstone_wall_torch": {
+      "id": 75,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:stone_button": {
+      "id": 77,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.5
+    },
+    "minecraft:snow": {
+      "id": 78,
+      "metadata": 0,
+      "material": "snow",
+      "requires_tool": false,
+      "resistance": 0.05
+    },
+    "minecraft:ice": {
+      "id": 79,
+      "metadata": 0,
+      "material": "ice",
+      "requires_tool": true,
+      "resistance": 1.0
+    },
+    "minecraft:snow_block": {
+      "id": 80,
+      "metadata": 0,
+      "material": "crafted_snow",
+      "requires_tool": false,
+      "resistance": 0.4
+    },
+    "minecraft:cactus": {
+      "id": 81,
+      "metadata": 0,
+      "material": "cactus",
+      "requires_tool": false,
+      "resistance": 0.4
+    },
+    "minecraft:clay": {
+      "id": 82,
+      "metadata": 0,
+      "material": "clay",
+      "requires_tool": false,
+      "resistance": 0.8
+    },
+    "minecraft:sugar_cane": {
+      "id": 83,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.08
+    },
+    "minecraft:jukebox": {
+      "id": 84,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 2.0
+    },
+    "minecraft:oak_fence": {
+      "id": 85,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.4
+    },
+    "minecraft:carved_pumpkin": {
+      "id": 86,
+      "metadata": 0,
+      "material": "pumpkin",
+      "requires_tool": false,
+      "resistance": 0.6
+    },
+    "minecraft:netherrack": {
+      "id": 87,
+      "metadata": 0,
+      "material": "netherrack",
+      "requires_tool": true,
+      "resistance": 1.6
+    },
+    "minecraft:soul_sand": {
+      "id": 88,
+      "metadata": 0,
+      "material": "sand",
+      "requires_tool": false,
+      "resistance": 0.5
+    },
+    "minecraft:glowstone": {
+      "id": 89,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": false,
+      "resistance": 0.3
+    },
+    "minecraft:nether_portal": {
+      "id": 90,
+      "metadata": 0,
+      "material": "portal",
+      "requires_tool": false,
+      "resistance": -1.0
+    },
+    "minecraft:jack_o_lantern": {
+      "id": 91,
+      "metadata": 0,
+      "material": "pumpkin",
+      "requires_tool": false,
+      "resistance": 1.0
+    },
+    "minecraft:cake": {
+      "id": 92,
+      "metadata": 0,
+      "material": "cake",
+      "requires_tool": false,
+      "resistance": 0.5
+    },
+    "minecraft:repeater": {
+      "id": 93,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:oak_trapdoor": {
+      "id": 96,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.8
+    },
+    "minecraft:infested_stone": {
+      "id": 97,
+      "metadata": 0,
+      "material": "clay",
+      "requires_tool": false,
+      "resistance": 0.75
+    },
+    "minecraft:stone_bricks": {
+      "id": 98,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 1.5
+    },
+    "minecraft:brown_mushroom_block": {
+      "id": 99,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.2
+    },
+    "minecraft:red_mushroom_block": {
+      "id": 100,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.2
+    },
+    "minecraft:iron_bars": {
+      "id": 101,
+      "metadata": 0,
+      "material": "iron",
+      "requires_tool": true,
+      "resistance": 5.0
+    },
+    "minecraft:glass_pane": {
+      "id": 102,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": false,
+      "resistance": 0.1
+    },
+    "minecraft:melon": {
+      "id": 103,
+      "metadata": 0,
+      "material": "pumpkin",
+      "requires_tool": false,
+      "resistance": 0.6
+    },
+    "minecraft:pumpkin_stem": {
+      "id": 104,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.02
+    },
+    "minecraft:melon_stem": {
+      "id": 105,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.02
+    },
+    "minecraft:vine": {
+      "id": 106,
+      "metadata": 0,
+      "material": "vine",
+      "requires_tool": false,
+      "resistance": 0.2
+    },
+    "minecraft:oak_fence_gate": {
+      "id": 107,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 2.0
+    },
+    "minecraft:brick_stairs": {
+      "id": 108,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:stone_brick_stairs": {
+      "id": 109,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 1.5
+    },
+    "minecraft:mycelium": {
+      "id": 110,
+      "metadata": 0,
+      "material": "grass",
+      "requires_tool": false,
+      "resistance": 0.6
+    },
+    "minecraft:lily_pad": {
+      "id": 111,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.02
+    },
+    "minecraft:nether_bricks": {
+      "id": 112,
+      "metadata": 0,
+      "material": "netherrack",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:nether_brick_fence": {
+      "id": 113,
+      "metadata": 0,
+      "material": "netherrack",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:nether_brick_stairs": {
+      "id": 114,
+      "metadata": 0,
+      "material": "netherrack",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:nether_wart": {
+      "id": 115,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:enchanting_table": {
+      "id": 116,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 2.4
+    },
+    "minecraft:brewing_stand": {
+      "id": 117,
+      "metadata": 0,
+      "material": "iron",
+      "requires_tool": true,
+      "resistance": 0.5
+    },
+    "minecraft:cauldron": {
+      "id": 118,
+      "metadata": 0,
+      "material": "iron",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:end_portal": {
+      "id": 119,
+      "metadata": 0,
+      "material": "portal",
+      "requires_tool": false,
+      "resistance": -1.0
+    },
+    "minecraft:end_portal_frame": {
+      "id": 120,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": -1.0
+    },
+    "minecraft:end_stone": {
+      "id": 121,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 3.0
+    },
+    "minecraft:dragon_egg": {
+      "id": 122,
+      "metadata": 0,
+      "material": "dragon_egg",
+      "requires_tool": false,
+      "resistance": 3.0
+    },
+    "minecraft:redstone_lamp": {
+      "id": 123,
+      "metadata": 0,
+      "material": "redstone_light",
+      "requires_tool": false,
+      "resistance": 0.3
+    },
+    "minecraft:oak_slab": {
+      "id": 126,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:oak_slab#double": {
+      "id": 125,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:cocoa": {
+      "id": 127,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.2
+    },
+    "minecraft:sandstone_stairs": {
+      "id": 128,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.8
+    },
+    "minecraft:emerald_ore": {
+      "id": 129,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 3.0
+    },
+    "minecraft:ender_chest": {
+      "id": 130,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 22.5
+    },
+    "minecraft:tripwire_hook": {
+      "id": 131,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:tripwire": {
+      "id": 132,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:emerald_block": {
+      "id": 133,
+      "metadata": 0,
+      "material": "emerald",
+      "requires_tool": true,
+      "resistance": 9.6
+    },
+    "minecraft:spruce_stairs": {
+      "id": 134,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.8
+    },
+    "minecraft:birch_stairs": {
+      "id": 135,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.8
+    },
+    "minecraft:jungle_stairs": {
+      "id": 136,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.8
+    },
+    "minecraft:command_block": {
+      "id": 137,
+      "metadata": 0,
+      "material": "iron",
+      "requires_tool": true,
+      "resistance": -1.0
+    },
+    "minecraft:beacon": {
+      "id": 138,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": false,
+      "resistance": 3.0
+    },
+    "minecraft:cobblestone_wall": {
+      "id": 139,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 1.5
+    },
+    "minecraft:potted_cactus": {
+      "id": 140,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:carrots": {
+      "id": 141,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.02
+    },
+    "minecraft:potatoes": {
+      "id": 142,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.02
+    },
+    "minecraft:oak_button": {
+      "id": 143,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.5
+    },
+    "minecraft:anvil": {
+      "id": 145,
+      "metadata": 0,
+      "material": "anvil",
+      "requires_tool": false,
+      "resistance": 9.6
+    },
+    "minecraft:trapped_chest": {
+      "id": 146,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.2
+    },
+    "minecraft:light_weighted_pressure_plate": {
+      "id": 147,
+      "metadata": 0,
+      "material": "gold",
+      "requires_tool": true,
+      "resistance": 0.5
+    },
+    "minecraft:heavy_weighted_pressure_plate": {
+      "id": 148,
+      "metadata": 0,
+      "material": "iron",
+      "requires_tool": true,
+      "resistance": 0.5
+    },
+    "minecraft:comparator": {
+      "id": 149,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.0
+    },
+    "minecraft:daylight_detector": {
+      "id": 151,
+      "metadata": 0,
+      "material": "wood",
+      "requires_tool": false,
+      "resistance": 0.2
+    },
+    "minecraft:redstone_block": {
+      "id": 152,
+      "metadata": 0,
+      "material": "redstone",
+      "requires_tool": true,
+      "resistance": 5.0
+    },
+    "minecraft:nether_quartz_ore": {
+      "id": 153,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 3.0
+    },
+    "minecraft:hopper": {
+      "id": 154,
+      "metadata": 0,
+      "material": "iron",
+      "requires_tool": true,
+      "resistance": 3.0
+    },
+    "minecraft:quartz_block": {
+      "id": 155,
+      "metadata": 0,
+      "material": "quartz",
+      "requires_tool": true,
+      "resistance": 0.8
+    },
+    "minecraft:quartz_stairs": {
+      "id": 156,
+      "metadata": 0,
+      "material": "quartz",
+      "requires_tool": true,
+      "resistance": 0.8
+    },
+    "minecraft:activator_rail": {
+      "id": 157,
+      "metadata": 0,
+      "material": "circuits",
+      "requires_tool": false,
+      "resistance": 0.7
+    },
+    "minecraft:dropper": {
+      "id": 158,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 3.5
+    },
+    "minecraft:white_terracotta": {
+      "id": 159,
+      "metadata": 0,
+      "material": "hardened_clay",
+      "requires_tool": true,
+      "resistance": 1.8
+    },
+    "minecraft:hay_block": {
+      "id": 170,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.5
+    },
+    "minecraft:white_carpet": {
+      "id": 171,
+      "metadata": 0,
+      "material": "carpet",
+      "requires_tool": false,
+      "resistance": 0.1
+    },
+    "minecraft:terracotta": {
+      "id": 172,
+      "metadata": 0,
+      "material": "hardened_clay",
+      "requires_tool": true,
+      "resistance": 1.8
+    },
+    "minecraft:coal_block": {
+      "id": 173,
+      "metadata": 0,
+      "material": "coal",
+      "requires_tool": false,
+      "resistance": 1.2
+    },
+    "mite_reforged:adamantium_runestone": {
+      "id": 198,
+      "metadata": 0,
+      "material": "obsidian",
+      "requires_tool": true,
+      "resistance": 2.4
+    },
+    "mite_reforged:ancient_metal_bars": {
+      "id": 199,
+      "metadata": 0,
+      "material": "ancient_metal",
+      "requires_tool": true,
+      "resistance": 6.4
+    },
+    "minecraft:copper_ore": {
+      "id": 200,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 2.5
+    },
+    "mite_reforged:silver_ore": {
+      "id": 201,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 2.5
+    },
+    "mite_reforged:mithril_ore": {
+      "id": 202,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 3.5
+    },
+    "mite_reforged:adamantium_ore": {
+      "id": 203,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 4.0
+    },
+    "minecraft:copper_block": {
+      "id": 204,
+      "metadata": 0,
+      "material": "copper",
+      "requires_tool": true,
+      "resistance": 4.8
+    },
+    "mite_reforged:silver_block": {
+      "id": 205,
+      "metadata": 0,
+      "material": "silver",
+      "requires_tool": true,
+      "resistance": 4.8
+    },
+    "mite_reforged:mithril_block": {
+      "id": 206,
+      "metadata": 0,
+      "material": "mithril",
+      "requires_tool": true,
+      "resistance": 76.8
+    },
+    "mite_reforged:adamantium_block": {
+      "id": 207,
+      "metadata": 0,
+      "material": "adamantium",
+      "requires_tool": true,
+      "resistance": 307.2
+    },
+    "mite_reforged:copper_door": {
+      "id": 208,
+      "metadata": 0,
+      "material": "copper",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "mite_reforged:silver_door": {
+      "id": 209,
+      "metadata": 0,
+      "material": "silver",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "mite_reforged:gold_door": {
+      "id": 210,
+      "metadata": 0,
+      "material": "gold",
+      "requires_tool": true,
+      "resistance": 1.5
+    },
+    "mite_reforged:mithril_door": {
+      "id": 211,
+      "metadata": 0,
+      "material": "mithril",
+      "requires_tool": true,
+      "resistance": 32.0
+    },
+    "mite_reforged:adamantium_door": {
+      "id": 212,
+      "metadata": 0,
+      "material": "adamantium",
+      "requires_tool": true,
+      "resistance": 128.0
+    },
+    "mite_reforged:copper_bars": {
+      "id": 213,
+      "metadata": 0,
+      "material": "copper",
+      "requires_tool": true,
+      "resistance": 1.6
+    },
+    "mite_reforged:silver_bars": {
+      "id": 214,
+      "metadata": 0,
+      "material": "silver",
+      "requires_tool": true,
+      "resistance": 1.6
+    },
+    "mite_reforged:gold_bars": {
+      "id": 215,
+      "metadata": 0,
+      "material": "gold",
+      "requires_tool": true,
+      "resistance": 1.2
+    },
+    "mite_reforged:mithril_bars": {
+      "id": 216,
+      "metadata": 0,
+      "material": "mithril",
+      "requires_tool": true,
+      "resistance": 25.6
+    },
+    "mite_reforged:adamantium_bars": {
+      "id": 217,
+      "metadata": 0,
+      "material": "adamantium",
+      "requires_tool": true,
+      "resistance": 102.4
+    },
+    "mite_reforged:clay_oven": {
+      "id": 218,
+      "metadata": 0,
+      "material": "clay",
+      "requires_tool": false,
+      "resistance": 0.5
+    },
+    "mite_reforged:sandstone_oven": {
+      "id": 220,
+      "metadata": 0,
+      "material": "sand",
+      "requires_tool": false,
+      "resistance": 1.0
+    },
+    "mite_reforged:obsidian_furnace": {
+      "id": 222,
+      "metadata": 0,
+      "material": "obsidian",
+      "requires_tool": true,
+      "resistance": 4.0
+    },
+    "mite_reforged:netherrack_furnace": {
+      "id": 224,
+      "metadata": 0,
+      "material": "netherrack",
+      "requires_tool": true,
+      "resistance": 8.0
+    },
+    "mite_reforged:obsidian_slab": {
+      "id": 227,
+      "metadata": 0,
+      "material": "obsidian",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "mite_reforged:obsidian_slab#double": {
+      "id": 226,
+      "metadata": 0,
+      "material": "obsidian",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "mite_reforged:obsidian_stairs": {
+      "id": 228,
+      "metadata": 0,
+      "material": "obsidian",
+      "requires_tool": true,
+      "resistance": 2.4
+    },
+    "mite_reforged:copper_anvil": {
+      "id": 229,
+      "metadata": 0,
+      "material": "anvil",
+      "requires_tool": false,
+      "resistance": 4.8
+    },
+    "mite_reforged:silver_anvil": {
+      "id": 230,
+      "metadata": 0,
+      "material": "anvil",
+      "requires_tool": false,
+      "resistance": 4.8
+    },
+    "mite_reforged:gold_anvil": {
+      "id": 231,
+      "metadata": 0,
+      "material": "anvil",
+      "requires_tool": false,
+      "resistance": 3.6000001
+    },
+    "mite_reforged:mithril_anvil": {
+      "id": 232,
+      "metadata": 0,
+      "material": "anvil",
+      "requires_tool": false,
+      "resistance": 76.8
+    },
+    "mite_reforged:adamantium_anvil": {
+      "id": 233,
+      "metadata": 0,
+      "material": "anvil",
+      "requires_tool": false,
+      "resistance": 307.2
+    },
+    "mite_reforged:onions": {
+      "id": 234,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.02
+    },
+    "mite_reforged:dead_wheat": {
+      "id": 235,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.02
+    },
+    "mite_reforged:dead_carrots": {
+      "id": 236,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.02
+    },
+    "mite_reforged:dead_potatoes": {
+      "id": 237,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.02
+    },
+    "mite_reforged:dead_onions": {
+      "id": 238,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.02
+    },
+    "mite_reforged:copper_strongbox": {
+      "id": 239,
+      "metadata": 0,
+      "material": "copper",
+      "requires_tool": true,
+      "resistance": 4.8
+    },
+    "mite_reforged:silver_strongbox": {
+      "id": 240,
+      "metadata": 0,
+      "material": "silver",
+      "requires_tool": true,
+      "resistance": 4.8
+    },
+    "mite_reforged:gold_strongbox": {
+      "id": 241,
+      "metadata": 0,
+      "material": "gold",
+      "requires_tool": true,
+      "resistance": 3.6000001
+    },
+    "mite_reforged:iron_strongbox": {
+      "id": 242,
+      "metadata": 0,
+      "material": "iron",
+      "requires_tool": true,
+      "resistance": 9.6
+    },
+    "mite_reforged:mithril_strongbox": {
+      "id": 243,
+      "metadata": 0,
+      "material": "mithril",
+      "requires_tool": true,
+      "resistance": 76.8
+    },
+    "mite_reforged:adamantium_strongbox": {
+      "id": 244,
+      "metadata": 0,
+      "material": "adamantium",
+      "requires_tool": true,
+      "resistance": 307.2
+    },
+    "mite_reforged:emerald_enchanting_table": {
+      "id": 245,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 2.4
+    },
+    "mite_reforged:mithril_runestone": {
+      "id": 247,
+      "metadata": 0,
+      "material": "obsidian",
+      "requires_tool": true,
+      "resistance": 2.4
+    },
+    "mite_reforged:bush": {
+      "id": 249,
+      "metadata": 0,
+      "material": "plants",
+      "requires_tool": false,
+      "resistance": 0.05
+    },
+    "mite_reforged:hardened_clay_oven": {
+      "id": 250,
+      "metadata": 0,
+      "material": "hardened_clay",
+      "requires_tool": false,
+      "resistance": 1.0
+    },
+    "mite_reforged:ancient_metal_block": {
+      "id": 252,
+      "metadata": 0,
+      "material": "ancient_metal",
+      "requires_tool": true,
+      "resistance": 19.2
+    },
+    "mite_reforged:ancient_metal_door": {
+      "id": 253,
+      "metadata": 0,
+      "material": "ancient_metal",
+      "requires_tool": true,
+      "resistance": 8.0
+    },
+    "mite_reforged:ancient_metal_anvil": {
+      "id": 254,
+      "metadata": 0,
+      "material": "anvil",
+      "requires_tool": false,
+      "resistance": 19.2
+    },
+    "mite_reforged:ancient_metal_strongbox": {
+      "id": 255,
+      "metadata": 0,
+      "material": "ancient_metal",
+      "requires_tool": true,
+      "resistance": 19.2
+    },
+    "minecraft:infested_cobblestone": {
+      "id": 97,
+      "metadata": 0,
+      "material": "clay",
+      "requires_tool": false,
+      "resistance": 0.75
+    },
+    "minecraft:infested_stone_bricks": {
+      "id": 97,
+      "metadata": 0,
+      "material": "clay",
+      "requires_tool": false,
+      "resistance": 0.75
+    },
+    "minecraft:infested_mossy_stone_bricks": {
+      "id": 97,
+      "metadata": 0,
+      "material": "clay",
+      "requires_tool": false,
+      "resistance": 0.75
+    },
+    "minecraft:infested_cracked_stone_bricks": {
+      "id": 97,
+      "metadata": 0,
+      "material": "clay",
+      "requires_tool": false,
+      "resistance": 0.75
+    },
+    "minecraft:infested_chiseled_stone_bricks": {
+      "id": 97,
+      "metadata": 0,
+      "material": "clay",
+      "requires_tool": false,
+      "resistance": 0.75
+    },
+    "mite_reforged:copperspine_infested_stone": {
+      "id": 97,
+      "metadata": 0,
+      "material": "clay",
+      "requires_tool": false,
+      "resistance": 0.75
+    },
+    "mite_reforged:netherspawn_infested_netherrack": {
+      "id": 97,
+      "metadata": 0,
+      "material": "clay",
+      "requires_tool": false,
+      "resistance": 0.75
+    },
+    "mite_reforged:iron_anvil": {
+      "id": 145,
+      "metadata": 0,
+      "material": "anvil",
+      "requires_tool": false,
+      "resistance": 9.6
+    },
+    "minecraft:stone_slab": {
+      "id": 44,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:stone_slab#double": {
+      "id": 43,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:cobblestone_slab": {
+      "id": 44,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:cobblestone_slab#double": {
+      "id": 43,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:sandstone_slab": {
+      "id": 44,
+      "metadata": 1,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:sandstone_slab#double": {
+      "id": 43,
+      "metadata": 1,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:stone_brick_slab": {
+      "id": 44,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:stone_brick_slab#double": {
+      "id": 43,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:brick_slab": {
+      "id": 44,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:brick_slab#double": {
+      "id": 43,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:nether_brick_slab": {
+      "id": 44,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:nether_brick_slab#double": {
+      "id": 43,
+      "metadata": 0,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:quartz_slab": {
+      "id": 44,
+      "metadata": 7,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:quartz_slab#double": {
+      "id": 43,
+      "metadata": 7,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:red_sandstone_slab": {
+      "id": 44,
+      "metadata": 1,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:red_sandstone_slab#double": {
+      "id": 43,
+      "metadata": 1,
+      "material": "stone",
+      "requires_tool": true,
+      "resistance": 0.0
+    },
+    "minecraft:white_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:orange_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:magenta_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:light_blue_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:yellow_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:lime_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:pink_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:gray_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:light_gray_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:cyan_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:purple_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:blue_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:brown_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:green_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:red_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:black_stained_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:tinted_glass": {
+      "id": 20,
+      "metadata": 0,
+      "material": "glass",
+      "requires_tool": true,
+      "resistance": 2.0
+    },
+    "minecraft:packed_ice": {
+      "id": 79,
+      "metadata": 0,
+      "material": "ice",
+      "requires_tool": true,
+      "resistance": 1.0
+    },
+    "minecraft:blue_ice": {
+      "id": 79,
+      "metadata": 0,
+      "material": "ice",
+      "requires_tool": true,
+      "resistance": 1.0
+    },
+    "minecraft:frosted_ice": {
+      "id": 79,
+      "metadata": 0,
+      "material": "ice",
+      "requires_tool": true,
+      "resistance": 1.0
+    },
+    "minecraft:lava#source": {
+      "id": 11,
+      "metadata": 0,
+      "material": "lava",
+      "requires_tool": false,
+      "resistance": 100.0
+    },
+    "mite_reforged:bronze_block": {
+      "id": -1,
+      "metadata": 0,
+      "material": "copper",
+      "requires_tool": true,
+      "resistance": 7.2
+    },
+    "mite_reforged:steel_block": {
+      "id": -1,
+      "metadata": 0,
+      "material": "iron",
+      "requires_tool": true,
+      "resistance": 19.2
+    }
+  },
+  "tools": {
+    "shovel/metal": {
+      "materials": [
+        "cake",
+        "clay",
+        "crafted_snow",
+        "grass",
+        "dirt",
+        "sand",
+        "snow"
+      ],
+      "explicit_blocks": [
+        141,
+        234,
+        142,
+        102,
+        20
+      ],
+      "base": 4.0,
+      "sandstone_base": 4.0
+    },
+    "pickaxe/metal": {
+      "materials": [
+        "adamantium",
+        "ancient_metal",
+        "circuits",
+        "clay",
+        "coal",
+        "copper",
+        "coral",
+        "diamond",
+        "emerald",
+        "glass",
+        "gold",
+        "hardened_clay",
+        "ice",
+        "iron",
+        "mithril",
+        "netherrack",
+        "obsidian",
+        "quartz",
+        "redstone",
+        "stone",
+        "rusted_iron",
+        "silver"
+      ],
+      "explicit_blocks": [],
+      "base": 4.0,
+      "sandstone_base": 4.0
+    },
+    "axe/metal": {
+      "materials": [
+        "cactus",
+        "clay",
+        "glass",
+        "hardened_clay",
+        "ice",
+        "pumpkin",
+        "wood"
+      ],
+      "explicit_blocks": [
+        65,
+        83,
+        24
+      ],
+      "base": 4.0,
+      "sandstone_base": 2.0
+    },
+    "sword/metal": {
+      "materials": [
+        "carpet",
+        "cloth",
+        "tree_leaves",
+        "plants",
+        "pumpkin",
+        "vine",
+        "web"
+      ],
+      "explicit_blocks": [],
+      "base": 2.0,
+      "sandstone_base": 2.0
+    },
+    "shovel/nonmetal": {
+      "materials": [
+        "cake",
+        "clay",
+        "crafted_snow",
+        "grass",
+        "dirt",
+        "sand",
+        "snow"
+      ],
+      "explicit_blocks": [
+        141,
+        234,
+        142,
+        102
+      ],
+      "base": 4.0,
+      "sandstone_base": 4.0
+    },
+    "hoe/metal": {
+      "materials": [
+        "cake",
+        "crafted_snow",
+        "grass",
+        "dirt",
+        "sand",
+        "snow"
+      ],
+      "explicit_blocks": [
+        141,
+        142,
+        234
+      ],
+      "base": 2.0,
+      "sandstone_base": 2.0
+    },
+    "shears/metal": {
+      "materials": [
+        "cloth",
+        "tree_leaves",
+        "plants",
+        "vine",
+        "web"
+      ],
+      "explicit_blocks": [
+        132
+      ],
+      "base": 4.0,
+      "sandstone_base": 4.0
+    },
+    "hatchet/nonmetal": {
+      "materials": [
+        "cactus",
+        "clay",
+        "glass",
+        "hardened_clay",
+        "ice",
+        "pumpkin",
+        "wood"
+      ],
+      "explicit_blocks": [
+        65,
+        83,
+        24
+      ],
+      "base": 2.0,
+      "sandstone_base": 1.0
+    },
+    "axe/nonmetal": {
+      "materials": [
+        "cactus",
+        "clay",
+        "glass",
+        "hardened_clay",
+        "ice",
+        "pumpkin",
+        "wood"
+      ],
+      "explicit_blocks": [
+        65,
+        83,
+        24
+      ],
+      "base": 4.0,
+      "sandstone_base": 2.0
+    },
+    "war_hammer/metal": {
+      "materials": [
+        "adamantium",
+        "ancient_metal",
+        "circuits",
+        "clay",
+        "coal",
+        "copper",
+        "coral",
+        "diamond",
+        "emerald",
+        "glass",
+        "gold",
+        "hardened_clay",
+        "ice",
+        "iron",
+        "mithril",
+        "netherrack",
+        "obsidian",
+        "quartz",
+        "redstone",
+        "stone",
+        "rusted_iron",
+        "silver",
+        "cake",
+        "pumpkin"
+      ],
+      "explicit_blocks": [],
+      "base": 3.0,
+      "sandstone_base": 3.0
+    },
+    "mattock/metal": {
+      "materials": [
+        "cake",
+        "clay",
+        "crafted_snow",
+        "grass",
+        "dirt",
+        "sand",
+        "snow"
+      ],
+      "explicit_blocks": [
+        141,
+        234,
+        142,
+        102,
+        20
+      ],
+      "base": 3.0,
+      "sandstone_base": 3.0
+    },
+    "battle_axe/metal": {
+      "materials": [
+        "cactus",
+        "clay",
+        "glass",
+        "hardened_clay",
+        "ice",
+        "pumpkin",
+        "wood"
+      ],
+      "explicit_blocks": [
+        65,
+        83,
+        24
+      ],
+      "base": 3.0,
+      "sandstone_base": 1.5
+    },
+    "scythe/metal": {
+      "materials": [],
+      "explicit_blocks": [
+        31,
+        59
+      ],
+      "base": 4.0,
+      "sandstone_base": 4.0
+    },
+    "knife/nonmetal": {
+      "materials": [
+        "carpet",
+        "cloth",
+        "tree_leaves",
+        "plants",
+        "pumpkin",
+        "vine",
+        "web"
+      ],
+      "explicit_blocks": [],
+      "base": 2.0,
+      "sandstone_base": 2.0
+    },
+    "cudgel/nonmetal": {
+      "materials": [
+        "cake",
+        "coral",
+        "glass",
+        "ice",
+        "pumpkin"
+      ],
+      "explicit_blocks": [],
+      "base": 2.0,
+      "sandstone_base": 2.0
+    },
+    "club/nonmetal": {
+      "materials": [
+        "cake",
+        "coral",
+        "glass",
+        "ice",
+        "pumpkin"
+      ],
+      "explicit_blocks": [],
+      "base": 2.0,
+      "sandstone_base": 2.0
+    },
+    "dagger/metal": {
+      "materials": [
+        "carpet",
+        "cloth",
+        "tree_leaves",
+        "plants",
+        "pumpkin",
+        "vine",
+        "web"
+      ],
+      "explicit_blocks": [],
+      "base": 2.0,
+      "sandstone_base": 2.0
+    },
+    "knife/metal": {
+      "materials": [
+        "carpet",
+        "cloth",
+        "tree_leaves",
+        "plants",
+        "pumpkin",
+        "vine",
+        "web"
+      ],
+      "explicit_blocks": [],
+      "base": 2.0,
+      "sandstone_base": 2.0
+    },
+    "hatchet/metal": {
+      "materials": [
+        "cactus",
+        "clay",
+        "glass",
+        "hardened_clay",
+        "ice",
+        "pumpkin",
+        "wood"
+      ],
+      "explicit_blocks": [
+        65,
+        83,
+        24
+      ],
+      "base": 2.0,
+      "sandstone_base": 1.0
+    }
+  },
+  "material_tool_flags": {
+    "grass": false,
+    "dirt": false,
+    "wood": false,
+    "plants": false,
+    "water": false,
+    "lava": false,
+    "sand": false,
+    "tree_leaves": false,
+    "sponge": false,
+    "cloth": false,
+    "circuits": false,
+    "piston": false,
+    "web": false,
+    "vine": false,
+    "tnt": false,
+    "fire": false,
+    "snow": false,
+    "crafted_snow": false,
+    "cactus": false,
+    "clay": false,
+    "pumpkin": false,
+    "glass": false,
+    "portal": false,
+    "cake": false,
+    "dragon_egg": false,
+    "redstone_light": false,
+    "anvil": false,
+    "carpet": false,
+    "coal": false,
+    "hardened_clay": false,
+    "stone": true,
+    "gold": true,
+    "iron": true,
+    "obsidian": true,
+    "diamond": true,
+    "ice": true,
+    "netherrack": true,
+    "emerald": true,
+    "redstone": true,
+    "quartz": true,
+    "ancient_metal": true,
+    "copper": true,
+    "silver": true,
+    "mithril": true,
+    "adamantium": true
+  },
+  "selected_alloy_adapter": "Bronze/steel are not R195 registrations. Use already approved existing-material aph metal-block hardness from141 for fixed resistance; capability material copper/iron, actual current level retained."
+}

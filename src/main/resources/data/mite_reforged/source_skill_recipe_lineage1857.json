@@ -1,0 +1,3266 @@
+{
+  "human1856_sha256": "a2ce5e6baa74496fab39a95bd44c9305ac6ac4bba9f683675bf8587117078c8f",
+  "observation1855_sha256": "172083476b8bfdd9bf4840055d0f0e730129c9510d97d57b39e685353dfae8ff",
+  "recipes": {
+    "mite_reforged:sacred_sandstone_from_sandstone": {
+      "output": "mite_reforged:sacred_sandstone",
+      "observed_count": 1,
+      "source_recipe": 701,
+      "reason": "original_sacred_sandstone_route"
+    },
+    "mite_reforged:sacred_sandstone_from_cut_sandstone": {
+      "output": "mite_reforged:sacred_sandstone",
+      "observed_count": 1,
+      "source_recipe": 702,
+      "reason": "original_sacred_sandstone_route"
+    },
+    "minecraft:yellow_dye_from_dandelion": {
+      "output": "minecraft:yellow_dye",
+      "observed_count": 1,
+      "source_recipe": 835,
+      "reason": "original_flower_pigment_route"
+    },
+    "minecraft:red_dye_from_poppy": {
+      "output": "minecraft:red_dye",
+      "observed_count": 1,
+      "source_recipe": 836,
+      "reason": "original_flower_pigment_route"
+    },
+    "minecraft:light_blue_dye_from_blue_orchid": {
+      "output": "minecraft:light_blue_dye",
+      "observed_count": 1,
+      "source_recipe": 837,
+      "reason": "original_flower_pigment_route"
+    },
+    "minecraft:magenta_dye_from_allium": {
+      "output": "minecraft:magenta_dye",
+      "observed_count": 1,
+      "source_recipe": 838,
+      "reason": "original_flower_pigment_route"
+    },
+    "minecraft:orange_dye_from_orange_tulip": {
+      "output": "minecraft:orange_dye",
+      "observed_count": 1,
+      "source_recipe": 839,
+      "reason": "original_flower_pigment_route"
+    },
+    "minecraft:pink_dye_from_pink_tulip": {
+      "output": "minecraft:pink_dye",
+      "observed_count": 1,
+      "source_recipe": 840,
+      "reason": "original_flower_pigment_route"
+    },
+    "minecraft:light_gray_dye_from_oxeye_daisy": {
+      "output": "minecraft:light_gray_dye",
+      "observed_count": 1,
+      "source_recipe": 841,
+      "reason": "original_flower_pigment_route"
+    },
+    "minecraft:quartz_slab": {
+      "output": "minecraft:quartz_slab",
+      "observed_count": 6,
+      "source_recipe": 350,
+      "reason": "original_quartz_masonry_route"
+    },
+    "minecraft:chiseled_quartz_block": {
+      "output": "minecraft:chiseled_quartz_block",
+      "observed_count": 1,
+      "source_recipe": 378,
+      "reason": "original_quartz_masonry_route"
+    },
+    "minecraft:light_gray_dye_from_azure_bluet": {
+      "output": "minecraft:light_gray_dye",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:light_gray_dye_from_white_tulip": {
+      "output": "minecraft:light_gray_dye",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:magenta_dye_from_lilac": {
+      "output": "minecraft:magenta_dye",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:pink_dye_from_peony": {
+      "output": "minecraft:pink_dye",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:pink_dye_from_pink_petals": {
+      "output": "minecraft:pink_dye",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:red_dye_from_rose_bush": {
+      "output": "minecraft:red_dye",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:red_dye_from_tulip": {
+      "output": "minecraft:red_dye",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:red_dye_from_beetroot": {
+      "output": "minecraft:red_dye",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:yellow_dye_from_sunflower": {
+      "output": "minecraft:yellow_dye",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:red_sandstone_slab": {
+      "output": "minecraft:red_sandstone_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dark_oak_button": {
+      "output": "minecraft:dark_oak_button",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_blackstone_brick_slab": {
+      "output": "minecraft:polished_blackstone_brick_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:gray_candle": {
+      "output": "minecraft:gray_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:concrete/green_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:green_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:rabbit_stew_from_brown_mushroom": {
+      "output": "minecraft:rabbit_stew",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:stripped_dark_oak_wood": {
+      "output": "minecraft:stripped_dark_oak_wood",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:soul_torch": {
+      "output": "minecraft:soul_torch",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bone_block": {
+      "output": "minecraft:bone_block",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:birch_fence": {
+      "output": "minecraft:birch_fence",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:red_nether_brick_slab": {
+      "output": "minecraft:red_nether_brick_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_oxidized_cut_copper_from_honeycomb": {
+      "output": "minecraft:waxed_oxidized_cut_copper",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:warped_fence_gate": {
+      "output": "minecraft:warped_fence_gate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:nether_wart_block": {
+      "output": "minecraft:nether_wart_block",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_fence_gate": {
+      "output": "minecraft:bamboo_fence_gate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:magenta_banner": {
+      "output": "minecraft:magenta_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:lime_stained_glass_pane": {
+      "output": "minecraft:lime_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:warped_pressure_plate": {
+      "output": "minecraft:warped_pressure_plate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_cut_copper_slab": {
+      "output": "minecraft:waxed_cut_copper_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:concrete/white_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:white_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:slime_ball": {
+      "output": "minecraft:slime_ball",
+      "observed_count": 9,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:spruce_fence_gate": {
+      "output": "minecraft:spruce_fence_gate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:yellow_bed": {
+      "output": "minecraft:yellow_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:spruce_sign": {
+      "output": "minecraft:spruce_sign",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:white_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:white_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dark_oak_door": {
+      "output": "minecraft:dark_oak_door",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:birch_wood": {
+      "output": "minecraft:birch_wood",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:glow_item_frame": {
+      "output": "minecraft:glow_item_frame",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:light_blue_bed": {
+      "output": "minecraft:light_blue_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_mosaic": {
+      "output": "minecraft:bamboo_mosaic",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:oak_wood": {
+      "output": "minecraft:oak_wood",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:scaffolding": {
+      "output": "minecraft:scaffolding",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:chiseled_nether_bricks": {
+      "output": "minecraft:chiseled_nether_bricks",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:acacia_button": {
+      "output": "minecraft:acacia_button",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:magenta_stained_glass_pane": {
+      "output": "minecraft:magenta_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:purple_candle": {
+      "output": "minecraft:purple_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:magenta_bed": {
+      "output": "minecraft:magenta_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:spruce_wood": {
+      "output": "minecraft:spruce_wood",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:spruce_fence": {
+      "output": "minecraft:spruce_fence",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cherry_fence": {
+      "output": "minecraft:cherry_fence",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:mossy_stone_brick_slab": {
+      "output": "minecraft:mossy_stone_brick_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:andesite_slab": {
+      "output": "minecraft:andesite_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_chest_raft": {
+      "output": "minecraft:bamboo_chest_raft",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dark_prismarine_slab": {
+      "output": "minecraft:dark_prismarine_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:honey_block": {
+      "output": "minecraft:honey_block",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_planks": {
+      "output": "minecraft:bamboo_planks",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_exposed_cut_copper_stairs": {
+      "output": "minecraft:waxed_exposed_cut_copper_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:exposed_cut_copper_slab": {
+      "output": "minecraft:exposed_cut_copper_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_blackstone_wall": {
+      "output": "minecraft:polished_blackstone_wall",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cut_sandstone_slab": {
+      "output": "minecraft:cut_sandstone_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:smooth_red_sandstone_slab": {
+      "output": "minecraft:smooth_red_sandstone_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_pressure_plate": {
+      "output": "minecraft:bamboo_pressure_plate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cherry_door": {
+      "output": "minecraft:cherry_door",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:birch_trapdoor": {
+      "output": "minecraft:birch_trapdoor",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:weathered_cut_copper_slab": {
+      "output": "minecraft:weathered_cut_copper_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_weathered_copper_from_honeycomb": {
+      "output": "minecraft:waxed_weathered_copper",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:apple_pie": {
+      "output": "mite_reforged:apple_pie",
+      "observed_count": 1,
+      "source_recipe": 582,
+      "reason": "human1856_original_same_kind_pie"
+    },
+    "minecraft:acacia_door": {
+      "output": "minecraft:acacia_door",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_basalt": {
+      "output": "minecraft:polished_basalt",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:prismarine_stairs": {
+      "output": "minecraft:prismarine_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:bronze_blend": {
+      "output": "mite_reforged:bronze_blend",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:cyan_concrete_powder": {
+      "output": "minecraft:cyan_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:mojang_banner_pattern": {
+      "output": "minecraft:mojang_banner_pattern",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_granite_slab": {
+      "output": "minecraft:polished_granite_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:white_dye": {
+      "output": "minecraft:white_dye",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_andesite_slab": {
+      "output": "minecraft:polished_andesite_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dye_green_bed": {
+      "output": "minecraft:green_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cherry_planks": {
+      "output": "minecraft:cherry_planks",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:warped_hanging_sign": {
+      "output": "minecraft:warped_hanging_sign",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:green_concrete_powder": {
+      "output": "minecraft:green_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dye_white_bed": {
+      "output": "minecraft:white_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_blackstone_brick_stairs": {
+      "output": "minecraft:polished_blackstone_brick_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:yellow_candle": {
+      "output": "minecraft:yellow_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:stripped_oak_wood": {
+      "output": "minecraft:stripped_oak_wood",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:yellow_concrete_powder": {
+      "output": "minecraft:yellow_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:jungle_fence_gate": {
+      "output": "minecraft:jungle_fence_gate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:lodestone": {
+      "output": "minecraft:lodestone",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:red_concrete_powder": {
+      "output": "minecraft:red_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:purpur_block": {
+      "output": "minecraft:purpur_block",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_blackstone_slab": {
+      "output": "minecraft:polished_blackstone_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:stone_stairs": {
+      "output": "minecraft:stone_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:end_stone_brick_stairs": {
+      "output": "minecraft:end_stone_brick_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dried_kelp_block": {
+      "output": "minecraft:dried_kelp_block",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:stripped_crimson_hyphae": {
+      "output": "minecraft:stripped_crimson_hyphae",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:nether_brick_wall": {
+      "output": "minecraft:nether_brick_wall",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:gray_concrete_powder": {
+      "output": "minecraft:gray_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:light_blue_concrete_powder": {
+      "output": "minecraft:light_blue_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dye_light_blue_bed": {
+      "output": "minecraft:light_blue_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:granite_stairs": {
+      "output": "minecraft:granite_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:holy_steel_anvil": {
+      "output": "mite_reforged:holy_steel_anvil",
+      "observed_count": 1,
+      "source_recipe": 196,
+      "reason": "human1856_original_same_kind_anvil"
+    },
+    "minecraft:cut_red_sandstone": {
+      "output": "minecraft:cut_red_sandstone",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:warped_planks": {
+      "output": "minecraft:warped_planks",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:lime_candle": {
+      "output": "minecraft:lime_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:mossy_stone_bricks_from_vine": {
+      "output": "minecraft:mossy_stone_bricks",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:light_gray_bed": {
+      "output": "minecraft:light_gray_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dye_yellow_bed": {
+      "output": "minecraft:yellow_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:red_candle": {
+      "output": "minecraft:red_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:jungle_door": {
+      "output": "minecraft:jungle_door",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:black_dye": {
+      "output": "minecraft:black_dye",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:prismarine_brick_slab": {
+      "output": "minecraft:prismarine_brick_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:black_stained_glass_pane": {
+      "output": "minecraft:black_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:prismarine_bricks": {
+      "output": "minecraft:prismarine_bricks",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_door": {
+      "output": "minecraft:bamboo_door",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:crimson_fence": {
+      "output": "minecraft:crimson_fence",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:oxidized_cut_copper_slab": {
+      "output": "minecraft:oxidized_cut_copper_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:rusted_iron_arrow": {
+      "output": "mite_reforged:rusted_iron_arrow",
+      "observed_count": 1,
+      "source_recipe": 338,
+      "reason": "human1856_original_same_kind_arrow"
+    },
+    "minecraft:spruce_chest_boat": {
+      "output": "minecraft:spruce_chest_boat",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:white_stained_glass_pane": {
+      "output": "minecraft:white_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:crimson_stairs": {
+      "output": "minecraft:crimson_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:light_blue_stained_glass_pane": {
+      "output": "minecraft:light_blue_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:brown_concrete_powder": {
+      "output": "minecraft:brown_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:diorite": {
+      "output": "minecraft:diorite",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:crimson_hyphae": {
+      "output": "minecraft:crimson_hyphae",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:acacia_fence": {
+      "output": "minecraft:acacia_fence",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:steel_nuggets": {
+      "output": "mite_reforged:steel_nugget",
+      "observed_count": 9,
+      "source_recipe": 781,
+      "reason": "human1856_original_same_kind_ingot_dismantle"
+    },
+    "minecraft:cyan_banner": {
+      "output": "minecraft:cyan_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dripstone_block": {
+      "output": "minecraft:dripstone_block",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:warped_door": {
+      "output": "minecraft:warped_door",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:crimson_button": {
+      "output": "minecraft:crimson_button",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:jungle_hanging_sign": {
+      "output": "minecraft:jungle_hanging_sign",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:holy_steel_chain_dismantle": {
+      "output": "mite_reforged:holy_steel_nugget",
+      "observed_count": 4,
+      "source_recipe": 435,
+      "reason": "human1856_original_same_kind_chain_dismantle"
+    },
+    "minecraft:acacia_fence_gate": {
+      "output": "minecraft:acacia_fence_gate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:orange_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:orange_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:jungle_trapdoor": {
+      "output": "minecraft:jungle_trapdoor",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:grindstone": {
+      "output": "minecraft:grindstone",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:blue_ice": {
+      "output": "minecraft:blue_ice",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:red_nether_bricks": {
+      "output": "minecraft:red_nether_bricks",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:warped_slab": {
+      "output": "minecraft:warped_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:lectern": {
+      "output": "minecraft:lectern",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:prismarine": {
+      "output": "minecraft:prismarine",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cut_copper_stairs": {
+      "output": "minecraft:cut_copper_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_raft": {
+      "output": "minecraft:bamboo_raft",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:moss_carpet": {
+      "output": "minecraft:moss_carpet",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:mossy_cobblestone_slab": {
+      "output": "minecraft:mossy_cobblestone_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dye_black_bed": {
+      "output": "minecraft:black_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:mossy_cobblestone_from_vine": {
+      "output": "minecraft:mossy_cobblestone",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:target": {
+      "output": "minecraft:target",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:white_concrete_powder": {
+      "output": "minecraft:white_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:mossy_stone_bricks_from_moss_block": {
+      "output": "minecraft:mossy_stone_bricks",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_weathered_cut_copper": {
+      "output": "minecraft:waxed_weathered_cut_copper",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:gray_bed": {
+      "output": "minecraft:gray_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:orange_banner": {
+      "output": "minecraft:orange_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:concrete/light_gray_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:light_gray_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:dark_oak_sign": {
+      "output": "minecraft:dark_oak_sign",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:granite_slab": {
+      "output": "minecraft:granite_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cherry_boat": {
+      "output": "minecraft:cherry_boat",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:steel_anvil": {
+      "output": "mite_reforged:steel_anvil",
+      "observed_count": 1,
+      "source_recipe": 196,
+      "reason": "human1856_original_same_kind_anvil"
+    },
+    "minecraft:netherite_ingot_from_netherite_block": {
+      "output": "minecraft:netherite_ingot",
+      "observed_count": 9,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:string": {
+      "output": "minecraft:string",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:oak_hanging_sign": {
+      "output": "minecraft:oak_hanging_sign",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:armor_stand": {
+      "output": "minecraft:armor_stand",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:pink_stained_glass_pane": {
+      "output": "minecraft:pink_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:lime_concrete_powder": {
+      "output": "minecraft:lime_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:blue_dye_from_cornflower": {
+      "output": "minecraft:blue_dye",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:stripped_cherry_wood": {
+      "output": "minecraft:stripped_cherry_wood",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:brown_banner": {
+      "output": "minecraft:brown_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:barrel": {
+      "output": "minecraft:barrel",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cherry_pressure_plate": {
+      "output": "minecraft:cherry_pressure_plate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_blackstone_button": {
+      "output": "minecraft:polished_blackstone_button",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:warped_hyphae": {
+      "output": "minecraft:warped_hyphae",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:jungle_chest_boat": {
+      "output": "minecraft:jungle_chest_boat",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:lime_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:lime_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:steel_blend": {
+      "output": "mite_reforged:steel_blend",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:chiseled_stone_bricks": {
+      "output": "minecraft:chiseled_stone_bricks",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:end_stone_brick_slab": {
+      "output": "minecraft:end_stone_brick_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:smithing_table": {
+      "output": "minecraft:smithing_table",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:green_bed": {
+      "output": "minecraft:green_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:magma_block": {
+      "output": "minecraft:magma_block",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:spruce_pressure_plate": {
+      "output": "minecraft:spruce_pressure_plate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:pink_concrete_powder": {
+      "output": "minecraft:pink_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_trapdoor": {
+      "output": "minecraft:bamboo_trapdoor",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_copper_block_from_honeycomb": {
+      "output": "minecraft:waxed_copper_block",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:magenta_concrete_powder": {
+      "output": "minecraft:magenta_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_weathered_cut_copper_slab_from_honeycomb": {
+      "output": "minecraft:waxed_weathered_cut_copper_slab",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:warped_fungus_on_a_stick": {
+      "output": "minecraft:warped_fungus_on_a_stick",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:andesite_wall": {
+      "output": "minecraft:andesite_wall",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:light_blue_candle": {
+      "output": "minecraft:light_blue_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:gray_banner": {
+      "output": "minecraft:gray_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:warped_stairs": {
+      "output": "minecraft:warped_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:spruce_hanging_sign": {
+      "output": "minecraft:spruce_hanging_sign",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:concrete/lime_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:lime_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:smooth_sandstone_slab": {
+      "output": "minecraft:smooth_sandstone_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:mithril_auto_workbench": {
+      "output": "mite_reforged:mithril_auto_workbench",
+      "observed_count": 1,
+      "source_recipe": 307,
+      "reason": "human1856_workbench_family_no_invented_automation_skill"
+    },
+    "minecraft:pink_candle": {
+      "output": "minecraft:pink_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:yellow_banner": {
+      "output": "minecraft:yellow_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:netherite_ingot_from_nuggets": {
+      "output": "minecraft:netherite_ingot",
+      "observed_count": 1,
+      "source_recipe": 57,
+      "reason": "human1856_original_same_kind_nugget_assembly"
+    },
+    "minecraft:creeper_banner_pattern": {
+      "output": "minecraft:creeper_banner_pattern",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_exposed_cut_copper_slab": {
+      "output": "minecraft:waxed_exposed_cut_copper_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dark_oak_fence": {
+      "output": "minecraft:dark_oak_fence",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cut_copper": {
+      "output": "minecraft:cut_copper",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:soul_lantern": {
+      "output": "minecraft:soul_lantern",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_weathered_cut_copper_slab": {
+      "output": "minecraft:waxed_weathered_cut_copper_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:white_dye_from_lily_of_the_valley": {
+      "output": "minecraft:white_dye",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:crimson_trapdoor": {
+      "output": "minecraft:crimson_trapdoor",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dye_gray_bed": {
+      "output": "minecraft:gray_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:end_stone_brick_wall": {
+      "output": "minecraft:end_stone_brick_wall",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_diorite_slab": {
+      "output": "minecraft:polished_diorite_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dye_light_gray_bed": {
+      "output": "minecraft:light_gray_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_stairs": {
+      "output": "minecraft:bamboo_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:smooth_sandstone_stairs": {
+      "output": "minecraft:smooth_sandstone_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:chain": {
+      "output": "minecraft:chain",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:blue_concrete_powder": {
+      "output": "minecraft:blue_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:warped_trapdoor": {
+      "output": "minecraft:warped_trapdoor",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:rabbit_stew_from_red_mushroom": {
+      "output": "minecraft:rabbit_stew",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:prismarine_brick_stairs": {
+      "output": "minecraft:prismarine_brick_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_oxidized_cut_copper_stairs_from_honeycomb": {
+      "output": "minecraft:waxed_oxidized_cut_copper_stairs",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:bronze_arrow": {
+      "output": "mite_reforged:bronze_arrow",
+      "observed_count": 1,
+      "source_recipe": 335,
+      "reason": "human1856_original_same_kind_arrow"
+    },
+    "minecraft:crimson_planks": {
+      "output": "minecraft:crimson_planks",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:blue_candle": {
+      "output": "minecraft:blue_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:netherite_ingot": {
+      "output": "minecraft:netherite_ingot",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:birch_sign": {
+      "output": "minecraft:birch_sign",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:rusted_iron_nuggets": {
+      "output": "mite_reforged:rusted_iron_nugget",
+      "observed_count": 9,
+      "source_recipe": 781,
+      "reason": "human1856_original_same_kind_ingot_dismantle"
+    },
+    "minecraft:birch_pressure_plate": {
+      "output": "minecraft:birch_pressure_plate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:flower_banner_pattern": {
+      "output": "minecraft:flower_banner_pattern",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:netherite_block": {
+      "output": "minecraft:netherite_block",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:black_bed": {
+      "output": "minecraft:black_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:jungle_sign": {
+      "output": "minecraft:jungle_sign",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cyan_candle": {
+      "output": "minecraft:cyan_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:bronze_ingot_from_nuggets": {
+      "output": "mite_reforged:bronze_ingot",
+      "observed_count": 1,
+      "source_recipe": 54,
+      "reason": "human1856_original_same_kind_nugget_assembly"
+    },
+    "mite_reforged:steel_bucket": {
+      "output": "mite_reforged:steel_bucket",
+      "observed_count": 1,
+      "source_recipe": 230,
+      "reason": "human1856_original_same_kind_empty_metal_bucket"
+    },
+    "minecraft:crossbow": {
+      "output": "minecraft:crossbow",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:magenta_candle": {
+      "output": "minecraft:magenta_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:green_stained_glass_pane": {
+      "output": "minecraft:green_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:crimson_slab": {
+      "output": "minecraft:crimson_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:black_concrete_powder": {
+      "output": "minecraft:black_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:purple_banner": {
+      "output": "minecraft:purple_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:purple_concrete_powder": {
+      "output": "minecraft:purple_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:light_gray_stained_glass_pane": {
+      "output": "minecraft:light_gray_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:spectral_arrow": {
+      "output": "minecraft:spectral_arrow",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:slime_block": {
+      "output": "minecraft:slime_block",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:acacia_planks": {
+      "output": "minecraft:acacia_planks",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:fish_stew": {
+      "output": "mite_reforged:fish_stew",
+      "observed_count": 1,
+      "source_recipe": 628,
+      "reason": "human1856_original_same_kind_food_bowl"
+    },
+    "minecraft:cherry_button": {
+      "output": "minecraft:cherry_button",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dye_magenta_bed": {
+      "output": "minecraft:magenta_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_cut_copper_from_honeycomb": {
+      "output": "minecraft:waxed_cut_copper",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:purpur_stairs": {
+      "output": "minecraft:purpur_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_oxidized_cut_copper_stairs": {
+      "output": "minecraft:waxed_oxidized_cut_copper_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_block": {
+      "output": "minecraft:bamboo_block",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:mossy_cobblestone_stairs": {
+      "output": "minecraft:mossy_cobblestone_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dye_orange_bed": {
+      "output": "minecraft:orange_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:blue_dye": {
+      "output": "minecraft:blue_dye",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:acacia_hanging_sign": {
+      "output": "minecraft:acacia_hanging_sign",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:holy_steel_arrow_dismantle": {
+      "output": "mite_reforged:holy_steel_nugget",
+      "observed_count": 1,
+      "source_recipe": 796,
+      "reason": "human1856_original_same_kind_arrow_dismantle"
+    },
+    "minecraft:brown_bed": {
+      "output": "minecraft:brown_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:rusted_iron_chain_to_nuggets": {
+      "output": "mite_reforged:rusted_iron_nugget",
+      "observed_count": 4,
+      "source_recipe": 435,
+      "reason": "human1856_original_same_kind_chain_dismantle"
+    },
+    "minecraft:blue_bed": {
+      "output": "minecraft:blue_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:white_banner": {
+      "output": "minecraft:white_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:smooth_red_sandstone_stairs": {
+      "output": "minecraft:smooth_red_sandstone_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:end_crystal": {
+      "output": "minecraft:end_crystal",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:magenta_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:magenta_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:rusted_iron_chain": {
+      "output": "mite_reforged:rusted_iron_chain",
+      "observed_count": 1,
+      "source_recipe": 79,
+      "reason": "human1856_original_same_kind_metal_chain"
+    },
+    "mite_reforged:holy_steel_ingot_from_nuggets": {
+      "output": "mite_reforged:holy_steel_ingot",
+      "observed_count": 1,
+      "source_recipe": 57,
+      "reason": "human1856_original_same_kind_nugget_assembly"
+    },
+    "minecraft:light_gray_banner": {
+      "output": "minecraft:light_gray_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:shulker_box": {
+      "output": "minecraft:shulker_box",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cyan_stained_glass_pane": {
+      "output": "minecraft:cyan_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:diorite_wall": {
+      "output": "minecraft:diorite_wall",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:light_gray_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:light_gray_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_blackstone_bricks": {
+      "output": "minecraft:polished_blackstone_bricks",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_exposed_cut_copper_from_honeycomb": {
+      "output": "minecraft:waxed_exposed_cut_copper",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:purpur_slab": {
+      "output": "minecraft:purpur_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:mossy_cobblestone_from_moss_block": {
+      "output": "minecraft:mossy_cobblestone",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:lantern": {
+      "output": "minecraft:lantern",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:green_banner": {
+      "output": "minecraft:green_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dried_kelp": {
+      "output": "minecraft:dried_kelp",
+      "observed_count": 9,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:beetroot_soup": {
+      "output": "minecraft:beetroot_soup",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:iron_trapdoor": {
+      "output": "minecraft:iron_trapdoor",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:brown_candle": {
+      "output": "minecraft:brown_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_oxidized_cut_copper": {
+      "output": "minecraft:waxed_oxidized_cut_copper",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:jungle_wood": {
+      "output": "minecraft:jungle_wood",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cartography_table": {
+      "output": "minecraft:cartography_table",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:gray_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:gray_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_diorite": {
+      "output": "minecraft:polished_diorite",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:acacia_pressure_plate": {
+      "output": "minecraft:acacia_pressure_plate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:lime_bed": {
+      "output": "minecraft:lime_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dark_oak_pressure_plate": {
+      "output": "minecraft:dark_oak_pressure_plate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:acacia_slab": {
+      "output": "minecraft:acacia_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:blast_furnace": {
+      "output": "minecraft:blast_furnace",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_andesite_stairs": {
+      "output": "minecraft:polished_andesite_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_weathered_cut_copper_from_honeycomb": {
+      "output": "minecraft:waxed_weathered_cut_copper",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:light_blue_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:light_blue_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:concrete/red_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:red_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:cherry_chest_boat": {
+      "output": "minecraft:cherry_chest_boat",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_cut_copper": {
+      "output": "minecraft:waxed_cut_copper",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:blue_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:blue_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:chiseled_polished_blackstone": {
+      "output": "minecraft:chiseled_polished_blackstone",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:fletching_table": {
+      "output": "minecraft:fletching_table",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:light_blue_banner": {
+      "output": "minecraft:light_blue_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dye_lime_bed": {
+      "output": "minecraft:lime_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:runic_key": {
+      "output": "mite_reforged:runic_key",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:red_banner": {
+      "output": "minecraft:red_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:purpur_pillar": {
+      "output": "minecraft:purpur_pillar",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:stripped_birch_wood": {
+      "output": "minecraft:stripped_birch_wood",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:oak_chest_boat": {
+      "output": "minecraft:oak_chest_boat",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_oxidized_cut_copper_slab": {
+      "output": "minecraft:waxed_oxidized_cut_copper_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_blackstone_stairs": {
+      "output": "minecraft:polished_blackstone_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:bandage": {
+      "output": "mite_reforged:bandage",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:lime_banner": {
+      "output": "minecraft:lime_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:yellow_stained_glass_pane": {
+      "output": "minecraft:yellow_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:end_rod": {
+      "output": "minecraft:end_rod",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_mosaic_stairs": {
+      "output": "minecraft:bamboo_mosaic_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:weathered_cut_copper_stairs": {
+      "output": "minecraft:weathered_cut_copper_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:warped_button": {
+      "output": "minecraft:warped_button",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_oxidized_cut_copper_slab_from_honeycomb": {
+      "output": "minecraft:waxed_oxidized_cut_copper_slab",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_granite_stairs": {
+      "output": "minecraft:polished_granite_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:acacia_boat": {
+      "output": "minecraft:acacia_boat",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:concrete/cyan_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:cyan_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "mite_reforged:concrete/pink_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:pink_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:dye_blue_bed": {
+      "output": "minecraft:blue_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:pink_bed": {
+      "output": "minecraft:pink_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:bronze_block": {
+      "output": "mite_reforged:bronze_block",
+      "observed_count": 1,
+      "source_recipe": 41,
+      "reason": "human1856_original_same_kind_metal_block"
+    },
+    "minecraft:blackstone_slab": {
+      "output": "minecraft:blackstone_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_slab": {
+      "output": "minecraft:bamboo_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cyan_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:cyan_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:crimson_sign": {
+      "output": "minecraft:crimson_sign",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dark_oak_chest_boat": {
+      "output": "minecraft:dark_oak_chest_boat",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dark_oak_trapdoor": {
+      "output": "minecraft:dark_oak_trapdoor",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:steel_block_to_ingots": {
+      "output": "mite_reforged:steel_ingot",
+      "observed_count": 9,
+      "source_recipe": 415,
+      "reason": "human1856_original_same_kind_block_dismantle"
+    },
+    "minecraft:black_banner": {
+      "output": "minecraft:black_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:holy_steel_fishing_rod": {
+      "output": "mite_reforged:holy_steel_fishing_rod",
+      "observed_count": 1,
+      "source_recipe": 89,
+      "reason": "human1856_original_same_kind_fishing_rod"
+    },
+    "minecraft:polished_blackstone_pressure_plate": {
+      "output": "minecraft:polished_blackstone_pressure_plate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:holy_steel_block": {
+      "output": "mite_reforged:holy_steel_block",
+      "observed_count": 1,
+      "source_recipe": 44,
+      "reason": "human1856_original_same_kind_metal_block"
+    },
+    "minecraft:quartz_bricks": {
+      "output": "minecraft:quartz_bricks",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:sandstone_wall": {
+      "output": "minecraft:sandstone_wall",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:green_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:green_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:red_sandstone_wall": {
+      "output": "minecraft:red_sandstone_wall",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dark_oak_wood": {
+      "output": "minecraft:dark_oak_wood",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cut_copper_slab": {
+      "output": "minecraft:cut_copper_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:acacia_chest_boat": {
+      "output": "minecraft:acacia_chest_boat",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:birch_hanging_sign": {
+      "output": "minecraft:birch_hanging_sign",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:concrete/blue_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:blue_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:acacia_stairs": {
+      "output": "minecraft:acacia_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cherry_slab": {
+      "output": "minecraft:cherry_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:birch_door": {
+      "output": "minecraft:birch_door",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_exposed_copper_from_honeycomb": {
+      "output": "minecraft:waxed_exposed_copper",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:stripped_acacia_wood": {
+      "output": "minecraft:stripped_acacia_wood",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_weathered_cut_copper_stairs": {
+      "output": "minecraft:waxed_weathered_cut_copper_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:mossy_stone_brick_stairs": {
+      "output": "minecraft:mossy_stone_brick_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:concrete/magenta_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:magenta_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:amethyst_block": {
+      "output": "minecraft:amethyst_block",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_cut_copper_slab_from_honeycomb": {
+      "output": "minecraft:waxed_cut_copper_slab",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:orange_bed": {
+      "output": "minecraft:orange_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:birch_button": {
+      "output": "minecraft:birch_button",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:birch_fence_gate": {
+      "output": "minecraft:birch_fence_gate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:honey_bottle": {
+      "output": "minecraft:honey_bottle",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:smooth_quartz_slab": {
+      "output": "minecraft:smooth_quartz_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cyan_bed": {
+      "output": "minecraft:cyan_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:spruce_door": {
+      "output": "minecraft:spruce_door",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:holy_steel_arrow": {
+      "output": "mite_reforged:holy_steel_arrow",
+      "observed_count": 1,
+      "source_recipe": 338,
+      "reason": "human1856_original_same_kind_arrow"
+    },
+    "minecraft:red_stained_glass_pane": {
+      "output": "minecraft:red_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:brick_wall": {
+      "output": "minecraft:brick_wall",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:purple_bed": {
+      "output": "minecraft:purple_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dark_prismarine": {
+      "output": "minecraft:dark_prismarine",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:purple_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:purple_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:leather_horse_armor": {
+      "output": "minecraft:leather_horse_armor",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:holy_steel_nuggets": {
+      "output": "mite_reforged:holy_steel_nugget",
+      "observed_count": 9,
+      "source_recipe": 781,
+      "reason": "human1856_original_same_kind_ingot_dismantle"
+    },
+    "minecraft:dark_oak_planks": {
+      "output": "minecraft:dark_oak_planks",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:candle": {
+      "output": "minecraft:candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:lightning_rod": {
+      "output": "minecraft:lightning_rod",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:brown_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:brown_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:granite_wall": {
+      "output": "minecraft:granite_wall",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:orange_concrete_powder": {
+      "output": "minecraft:orange_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dark_oak_hanging_sign": {
+      "output": "minecraft:dark_oak_hanging_sign",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:honeycomb_block": {
+      "output": "minecraft:honeycomb_block",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:orange_stained_glass_pane": {
+      "output": "minecraft:orange_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:yellow_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:yellow_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:warped_fence": {
+      "output": "minecraft:warped_fence",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:holy_steel_bucket": {
+      "output": "mite_reforged:holy_steel_bucket",
+      "observed_count": 1,
+      "source_recipe": 230,
+      "reason": "human1856_original_same_kind_empty_metal_bucket"
+    },
+    "minecraft:waxed_exposed_cut_copper": {
+      "output": "minecraft:waxed_exposed_cut_copper",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dark_oak_fence_gate": {
+      "output": "minecraft:dark_oak_fence_gate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dye_pink_bed": {
+      "output": "minecraft:pink_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:andesite_stairs": {
+      "output": "minecraft:andesite_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:steel_ingot_from_nuggets": {
+      "output": "mite_reforged:steel_ingot",
+      "observed_count": 1,
+      "source_recipe": 57,
+      "reason": "human1856_original_same_kind_nugget_assembly"
+    },
+    "minecraft:loom": {
+      "output": "minecraft:loom",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:concrete/brown_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:brown_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:smoker": {
+      "output": "minecraft:smoker",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:skull_banner_pattern": {
+      "output": "minecraft:skull_banner_pattern",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dark_oak_boat": {
+      "output": "minecraft:dark_oak_boat",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:concrete/orange_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:orange_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:mossy_stone_brick_wall": {
+      "output": "minecraft:mossy_stone_brick_wall",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:bronze_block_to_ingots": {
+      "output": "mite_reforged:bronze_ingot",
+      "observed_count": 9,
+      "source_recipe": 412,
+      "reason": "human1856_original_same_kind_block_dismantle"
+    },
+    "minecraft:brown_dye": {
+      "output": "minecraft:brown_dye",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:granite": {
+      "output": "minecraft:granite",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_exposed_cut_copper_stairs_from_honeycomb": {
+      "output": "minecraft:waxed_exposed_cut_copper_stairs",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:firework_rocket_simple": {
+      "output": "minecraft:firework_rocket",
+      "observed_count": 3,
+      "source_recipe": 1,
+      "reason": "original_zz_firework_simple_adapter"
+    },
+    "minecraft:black_dye_from_wither_rose": {
+      "output": "minecraft:black_dye",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:red_sandstone_stairs": {
+      "output": "minecraft:red_sandstone_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:gray_stained_glass_pane": {
+      "output": "minecraft:gray_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:concrete/purple_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:purple_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:oxidized_cut_copper_stairs": {
+      "output": "minecraft:oxidized_cut_copper_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:andesite": {
+      "output": "minecraft:andesite",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:crimson_hanging_sign": {
+      "output": "minecraft:crimson_hanging_sign",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:steel_block": {
+      "output": "mite_reforged:steel_block",
+      "observed_count": 1,
+      "source_recipe": 44,
+      "reason": "human1856_original_same_kind_metal_block"
+    },
+    "minecraft:exposed_cut_copper": {
+      "output": "minecraft:exposed_cut_copper",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_blackstone": {
+      "output": "minecraft:polished_blackstone",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_exposed_cut_copper_slab_from_honeycomb": {
+      "output": "minecraft:waxed_exposed_cut_copper_slab",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:red_nether_brick_stairs": {
+      "output": "minecraft:red_nether_brick_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dark_oak_stairs": {
+      "output": "minecraft:dark_oak_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:jungle_pressure_plate": {
+      "output": "minecraft:jungle_pressure_plate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:white_candle": {
+      "output": "minecraft:white_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_mosaic_slab": {
+      "output": "minecraft:bamboo_mosaic_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:rusted_iron_ingot": {
+      "output": "mite_reforged:rusted_iron_ingot",
+      "observed_count": 1,
+      "source_recipe": 57,
+      "reason": "human1856_original_same_kind_nugget_assembly"
+    },
+    "minecraft:polished_blackstone_brick_wall": {
+      "output": "minecraft:polished_blackstone_brick_wall",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:jungle_button": {
+      "output": "minecraft:jungle_button",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:packed_ice": {
+      "output": "minecraft:packed_ice",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:blackstone_stairs": {
+      "output": "minecraft:blackstone_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:blue_banner": {
+      "output": "minecraft:blue_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:prismarine_wall": {
+      "output": "minecraft:prismarine_wall",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:bronze_anvil": {
+      "output": "mite_reforged:bronze_anvil",
+      "observed_count": 1,
+      "source_recipe": 96,
+      "reason": "human1856_original_same_kind_anvil"
+    },
+    "minecraft:dye_cyan_bed": {
+      "output": "minecraft:cyan_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_oxidized_copper_from_honeycomb": {
+      "output": "minecraft:waxed_oxidized_copper",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:diorite_slab": {
+      "output": "minecraft:diorite_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:spruce_trapdoor": {
+      "output": "minecraft:spruce_trapdoor",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:steel_arrow": {
+      "output": "mite_reforged:steel_arrow",
+      "observed_count": 1,
+      "source_recipe": 338,
+      "reason": "human1856_original_same_kind_arrow"
+    },
+    "mite_reforged:bronze_nuggets": {
+      "output": "mite_reforged:bronze_nugget",
+      "observed_count": 9,
+      "source_recipe": 781,
+      "reason": "human1856_original_same_kind_ingot_dismantle"
+    },
+    "minecraft:red_nether_brick_wall": {
+      "output": "minecraft:red_nether_brick_wall",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:chiseled_red_sandstone": {
+      "output": "minecraft:chiseled_red_sandstone",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:concrete/gray_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:gray_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:blackstone_wall": {
+      "output": "minecraft:blackstone_wall",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dark_prismarine_stairs": {
+      "output": "minecraft:dark_prismarine_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:light_gray_candle": {
+      "output": "minecraft:light_gray_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:birch_chest_boat": {
+      "output": "minecraft:birch_chest_boat",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:brown_stained_glass_pane": {
+      "output": "minecraft:brown_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cherry_sign": {
+      "output": "minecraft:cherry_sign",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:netherite_nuggets": {
+      "output": "mite_reforged:netherite_nugget",
+      "observed_count": 9,
+      "source_recipe": 781,
+      "reason": "human1856_original_same_kind_ingot_dismantle"
+    },
+    "minecraft:composter": {
+      "output": "minecraft:composter",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:white_bed": {
+      "output": "minecraft:white_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:holy_steel_block_to_ingots": {
+      "output": "mite_reforged:holy_steel_ingot",
+      "observed_count": 9,
+      "source_recipe": 415,
+      "reason": "human1856_original_same_kind_block_dismantle"
+    },
+    "minecraft:coarse_dirt": {
+      "output": "minecraft:coarse_dirt",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:acacia_sign": {
+      "output": "minecraft:acacia_sign",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_cut_copper_stairs": {
+      "output": "minecraft:waxed_cut_copper_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:sea_lantern": {
+      "output": "minecraft:sea_lantern",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:concrete/yellow_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:yellow_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:green_candle": {
+      "output": "minecraft:green_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_weathered_cut_copper_stairs_from_honeycomb": {
+      "output": "minecraft:waxed_weathered_cut_copper_stairs",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:prismarine_slab": {
+      "output": "minecraft:prismarine_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:pink_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:pink_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:exposed_cut_copper_stairs": {
+      "output": "minecraft:exposed_cut_copper_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:jungle_boat": {
+      "output": "minecraft:jungle_boat",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:concrete/light_blue_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:light_blue_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:stripped_mangrove_wood": {
+      "output": "minecraft:stripped_mangrove_wood",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:jungle_fence": {
+      "output": "minecraft:jungle_fence",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:weathered_cut_copper": {
+      "output": "minecraft:weathered_cut_copper",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:blazing_coal": {
+      "output": "mite_reforged:blazing_coal",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:purple_stained_glass_pane": {
+      "output": "minecraft:purple_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_granite": {
+      "output": "minecraft:polished_granite",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:blue_stained_glass_pane": {
+      "output": "minecraft:blue_stained_glass_pane",
+      "observed_count": 16,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:oxidized_cut_copper": {
+      "output": "minecraft:oxidized_cut_copper",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:pink_banner": {
+      "output": "minecraft:pink_banner",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:black_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:black_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:soul_campfire": {
+      "output": "minecraft:soul_campfire",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:stripped_warped_hyphae": {
+      "output": "minecraft:stripped_warped_hyphae",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_button": {
+      "output": "minecraft:bamboo_button",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:crimson_door": {
+      "output": "minecraft:crimson_door",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:copper_ingot_from_waxed_copper_block": {
+      "output": "minecraft:copper_ingot",
+      "observed_count": 9,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:leather": {
+      "output": "minecraft:leather",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cherry_trapdoor": {
+      "output": "minecraft:cherry_trapdoor",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cherry_hanging_sign": {
+      "output": "minecraft:cherry_hanging_sign",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:end_stone_bricks": {
+      "output": "minecraft:end_stone_bricks",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:waxed_cut_copper_stairs_from_honeycomb": {
+      "output": "minecraft:waxed_cut_copper_stairs",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:red_stained_glass_pane_from_glass_pane": {
+      "output": "minecraft:red_stained_glass_pane",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dye_brown_bed": {
+      "output": "minecraft:brown_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:acacia_trapdoor": {
+      "output": "minecraft:acacia_trapdoor",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:black_candle": {
+      "output": "minecraft:black_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:bronze_bucket": {
+      "output": "mite_reforged:bronze_bucket",
+      "observed_count": 1,
+      "source_recipe": 224,
+      "reason": "human1856_original_same_kind_empty_metal_bucket"
+    },
+    "minecraft:light_gray_concrete_powder": {
+      "output": "minecraft:light_gray_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:smooth_quartz_stairs": {
+      "output": "minecraft:smooth_quartz_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:diorite_stairs": {
+      "output": "minecraft:diorite_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:crimson_fence_gate": {
+      "output": "minecraft:crimson_fence_gate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:holy_steel_chain": {
+      "output": "mite_reforged:holy_steel_chain",
+      "observed_count": 1,
+      "source_recipe": 79,
+      "reason": "human1856_original_same_kind_metal_chain"
+    },
+    "minecraft:bamboo_hanging_sign": {
+      "output": "minecraft:bamboo_hanging_sign",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:crimson_pressure_plate": {
+      "output": "minecraft:crimson_pressure_plate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:orange_candle": {
+      "output": "minecraft:orange_candle",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:warped_sign": {
+      "output": "minecraft:warped_sign",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cherry_stairs": {
+      "output": "minecraft:cherry_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:red_sandstone": {
+      "output": "minecraft:red_sandstone",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:stone_brick_wall": {
+      "output": "minecraft:stone_brick_wall",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_sign": {
+      "output": "minecraft:bamboo_sign",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:spruce_button": {
+      "output": "minecraft:spruce_button",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:bamboo_fence": {
+      "output": "minecraft:bamboo_fence",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:birch_boat": {
+      "output": "minecraft:birch_boat",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:spruce_boat": {
+      "output": "minecraft:spruce_boat",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_diorite_stairs": {
+      "output": "minecraft:polished_diorite_stairs",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:campfire": {
+      "output": "minecraft:campfire",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cherry_wood": {
+      "output": "minecraft:cherry_wood",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dark_oak_slab": {
+      "output": "minecraft:dark_oak_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:dye_purple_bed": {
+      "output": "minecraft:purple_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:stripped_spruce_wood": {
+      "output": "minecraft:stripped_spruce_wood",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:acacia_wood": {
+      "output": "minecraft:acacia_wood",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cherry_fence_gate": {
+      "output": "minecraft:cherry_fence_gate",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "mite_reforged:concrete/black_concrete_powder_from_crushed_gravel": {
+      "output": "minecraft:black_concrete_powder",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1856_no_original_same_kind_crafting_route"
+    },
+    "minecraft:stripped_jungle_wood": {
+      "output": "minecraft:stripped_jungle_wood",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:cut_red_sandstone_slab": {
+      "output": "minecraft:cut_red_sandstone_slab",
+      "observed_count": 6,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:polished_andesite": {
+      "output": "minecraft:polished_andesite",
+      "observed_count": 4,
+      "source_recipe": null,
+      "reason": "human1741_modern_no_original_crafting_route"
+    },
+    "minecraft:sugar_from_honey_bottle": {
+      "output": "minecraft:sugar",
+      "observed_count": 3,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:green_stained_glass": {
+      "output": "minecraft:green_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:orange_stained_glass": {
+      "output": "minecraft:orange_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:brown_stained_glass": {
+      "output": "minecraft:brown_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:tinted_glass": {
+      "output": "minecraft:tinted_glass",
+      "observed_count": 2,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:light_gray_stained_glass": {
+      "output": "minecraft:light_gray_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:cyan_stained_glass": {
+      "output": "minecraft:cyan_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:purple_stained_glass": {
+      "output": "minecraft:purple_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:gray_stained_glass": {
+      "output": "minecraft:gray_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:blue_stained_glass": {
+      "output": "minecraft:blue_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:white_stained_glass": {
+      "output": "minecraft:white_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:red_stained_glass": {
+      "output": "minecraft:red_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:magenta_stained_glass": {
+      "output": "minecraft:magenta_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:dye_red_bed": {
+      "output": "minecraft:red_bed",
+      "observed_count": 1,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:pink_stained_glass": {
+      "output": "minecraft:pink_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:yellow_stained_glass": {
+      "output": "minecraft:yellow_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:light_blue_stained_glass": {
+      "output": "minecraft:light_blue_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:lime_stained_glass": {
+      "output": "minecraft:lime_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "minecraft:black_stained_glass": {
+      "output": "minecraft:black_stained_glass",
+      "observed_count": 8,
+      "source_recipe": null,
+      "reason": "human1741_modern_route_no_original_counterpart"
+    },
+    "mite_reforged:advanced_enchanting_table": {
+      "output": "mite_reforged:advanced_enchanting_table",
+      "observed_count": 1,
+      "source_recipe": 195,
+      "reason": "human1856_original_same_kind_enchanting_table"
+    }
+  },
+  "dynamic": {
+    "map_extending": {
+      "source_recipe": 156,
+      "reason": "original_aad_map_extending"
+    },
+    "bowl_transfer": {
+      "source_recipe": 549,
+      "reason": "original_bucket_bowl_transfer_no_skill"
+    },
+    "stone_bucket": {
+      "source_recipe": 831,
+      "reason": "original_stone_bucket_dismantle_no_skill"
+    },
+    "disenchanting_bottle": {
+      "source_recipe": 648,
+      "reason": "original_disenchanting_bottle_recipe"
+    },
+    "rusted_reclaim": {
+      "source_recipe": null,
+      "reason": "human1856_no_original_rusted_reclaim_recipe"
+    },
+    "modern_dynamic": {
+      "source_recipe": null,
+      "reason": "human1741_modern_dynamic_no_original_counterpart"
+    }
+  },
+  "modern_overrides": [
+    "minecraft:black_stained_glass",
+    "minecraft:blue_stained_glass",
+    "minecraft:brown_stained_glass",
+    "minecraft:cyan_stained_glass",
+    "minecraft:dye_black_bed",
+    "minecraft:dye_blue_bed",
+    "minecraft:dye_brown_bed",
+    "minecraft:dye_cyan_bed",
+    "minecraft:dye_gray_bed",
+    "minecraft:dye_green_bed",
+    "minecraft:dye_light_blue_bed",
+    "minecraft:dye_light_gray_bed",
+    "minecraft:dye_lime_bed",
+    "minecraft:dye_magenta_bed",
+    "minecraft:dye_orange_bed",
+    "minecraft:dye_pink_bed",
+    "minecraft:dye_purple_bed",
+    "minecraft:dye_red_bed",
+    "minecraft:dye_white_bed",
+    "minecraft:dye_yellow_bed",
+    "minecraft:gray_stained_glass",
+    "minecraft:green_stained_glass",
+    "minecraft:light_blue_stained_glass",
+    "minecraft:light_gray_stained_glass",
+    "minecraft:lime_stained_glass",
+    "minecraft:magenta_stained_glass",
+    "minecraft:orange_stained_glass",
+    "minecraft:pink_stained_glass",
+    "minecraft:purple_stained_glass",
+    "minecraft:red_stained_glass",
+    "minecraft:sugar_from_honey_bottle",
+    "minecraft:tinted_glass",
+    "minecraft:white_stained_glass",
+    "minecraft:yellow_stained_glass"
+  ]
+}

@@ -1,0 +1,1728 @@
+{
+  "source": "R195 yc/xj/aal/aam/RecipesMITE/vl/vv",
+  "source_declarations": [
+    {
+      "symbol": "h",
+      "constructor": "ItemShovel",
+      "material": "iron",
+      "kind": "shovel",
+      "name": "iron_shovel",
+      "id": "mite_reforged:iron_shovel",
+      "source_declaration": "new ItemShovel(0, akc.f).b(\"shovelIron\").useVanillaTexture(\"iron_shovel\")"
+    },
+    {
+      "symbol": "i",
+      "constructor": "yn",
+      "material": "iron",
+      "kind": "pickaxe",
+      "name": "iron_pickaxe",
+      "id": "mite_reforged:iron_pickaxe",
+      "source_declaration": "new yn(1, akc.f).b(\"pickaxeIron\").useVanillaTexture(\"iron_pickaxe\")"
+    },
+    {
+      "symbol": "j",
+      "constructor": "ya",
+      "material": "iron",
+      "kind": "axe",
+      "name": "iron_axe",
+      "id": "mite_reforged:iron_axe",
+      "source_declaration": "new ya(2, akc.f).b(\"axeIron\").useVanillaTexture(\"iron_axe\")"
+    },
+    {
+      "symbol": "m",
+      "constructor": "wp",
+      "material": "wood",
+      "kind": "bow",
+      "name": "wood_bow",
+      "id": "minecraft:bow",
+      "source_declaration": "(wp)new wp(5, akc.d).b(\"bow\")"
+    },
+    {
+      "symbol": "s",
+      "constructor": "zl",
+      "material": "iron",
+      "kind": "sword",
+      "name": "iron_sword",
+      "id": "mite_reforged:iron_sword",
+      "source_declaration": "(zl)new zl(11, akc.f).b(\"swordIron\").useVanillaTexture(\"iron_sword\")"
+    },
+    {
+      "symbol": "u",
+      "constructor": "ItemShovel",
+      "material": "wood",
+      "kind": "shovel",
+      "name": "wood_shovel",
+      "id": "minecraft:wooden_shovel",
+      "source_declaration": "new ItemShovel(13, akc.d).b(\"shovelWood\").useVanillaTexture(\"wood_shovel\")"
+    },
+    {
+      "symbol": "I",
+      "constructor": "zl",
+      "material": "gold",
+      "kind": "sword",
+      "name": "gold_sword",
+      "id": "mite_reforged:gold_sword",
+      "source_declaration": "new zl(27, akc.gold).b(\"swordGold\")"
+    },
+    {
+      "symbol": "J",
+      "constructor": "ItemShovel",
+      "material": "gold",
+      "kind": "shovel",
+      "name": "gold_shovel",
+      "id": "mite_reforged:gold_shovel",
+      "source_declaration": "new ItemShovel(28, akc.gold).b(\"shovelGold\")"
+    },
+    {
+      "symbol": "K",
+      "constructor": "yn",
+      "material": "gold",
+      "kind": "pickaxe",
+      "name": "gold_pickaxe",
+      "id": "mite_reforged:gold_pickaxe",
+      "source_declaration": "new yn(29, akc.gold).b(\"pickaxeGold\")"
+    },
+    {
+      "symbol": "L",
+      "constructor": "ya",
+      "material": "gold",
+      "kind": "axe",
+      "name": "gold_axe",
+      "id": "mite_reforged:gold_axe",
+      "source_declaration": "new ya(30, akc.gold).b(\"axeGold\")"
+    },
+    {
+      "symbol": "R",
+      "constructor": "yb",
+      "material": "iron",
+      "kind": "hoe",
+      "name": "iron_hoe",
+      "id": "mite_reforged:iron_hoe",
+      "source_declaration": "new yb(36, akc.f).b(\"hoeIron\").useVanillaTexture(\"iron_hoe\")"
+    },
+    {
+      "symbol": "T",
+      "constructor": "yb",
+      "material": "gold",
+      "kind": "hoe",
+      "name": "gold_hoe",
+      "id": "mite_reforged:gold_hoe",
+      "source_declaration": "new yb(38, akc.gold).b(\"hoeGold\")"
+    },
+    {
+      "symbol": "fishingRodIron",
+      "constructor": "xv",
+      "material": "iron",
+      "kind": "fishing_rod",
+      "name": "iron_fishing_rod",
+      "id": "minecraft:fishing_rod",
+      "source_declaration": "(xv)new xv(90, akc.f).b(\"fishingRod\")"
+    },
+    {
+      "symbol": "bg",
+      "constructor": "yx",
+      "material": "iron",
+      "kind": "shears",
+      "name": "iron_shears",
+      "id": "minecraft:shears",
+      "source_declaration": "(yx)new yx(103, akc.f).b(\"shears\").useVanillaTexture(\"shears\")"
+    },
+    {
+      "symbol": "pickaxeCopper",
+      "constructor": "yn",
+      "material": "copper",
+      "kind": "pickaxe",
+      "name": "copper_pickaxe",
+      "id": "mite_reforged:copper_pickaxe",
+      "source_declaration": "new yn(711, akc.copper).b(\"pickaxeCopper\")"
+    },
+    {
+      "symbol": "pickaxeSilver",
+      "constructor": "yn",
+      "material": "silver",
+      "kind": "pickaxe",
+      "name": "silver_pickaxe",
+      "id": "mite_reforged:silver_pickaxe",
+      "source_declaration": "new yn(712, akc.silver).b(\"pickaxeSilver\")"
+    },
+    {
+      "symbol": "pickaxeMithril",
+      "constructor": "yn",
+      "material": "mithril",
+      "kind": "pickaxe",
+      "name": "mithril_pickaxe",
+      "id": "mite_reforged:mithril_pickaxe",
+      "source_declaration": "new yn(713, akc.mithril).b(\"pickaxeMithril\")"
+    },
+    {
+      "symbol": "pickaxeAdamantium",
+      "constructor": "yn",
+      "material": "adamantium",
+      "kind": "pickaxe",
+      "name": "adamantium_pickaxe",
+      "id": "mite_reforged:adamantium_pickaxe",
+      "source_declaration": "new yn(714, akc.adamantium).b(\"pickaxeAdamantium\")"
+    },
+    {
+      "symbol": "pickaxeRustedIron",
+      "constructor": "yn",
+      "material": "rusted_iron",
+      "kind": "pickaxe",
+      "name": "rusted_iron_pickaxe",
+      "id": "mite_reforged:rusted_iron_pickaxe",
+      "source_declaration": "new yn(715, akc.rusted_iron).b(\"pickaxeRustedIron\")"
+    },
+    {
+      "symbol": "pickaxeAncientMetal",
+      "constructor": "yn",
+      "material": "ancient_metal",
+      "kind": "pickaxe",
+      "name": "ancient_metal_pickaxe",
+      "id": "mite_reforged:ancient_metal_pickaxe",
+      "source_declaration": "new yn(983, akc.ancient_metal).b(\"pickaxeAncientMetal\")"
+    },
+    {
+      "symbol": "shovelFlint",
+      "constructor": "ItemShovel",
+      "material": "flint",
+      "kind": "shovel",
+      "name": "flint_shovel",
+      "id": "mite_reforged:flint_shovel",
+      "source_declaration": "new ItemShovel(716, akc.flint).b(\"shovelFlint\")"
+    },
+    {
+      "symbol": "shovelCopper",
+      "constructor": "ItemShovel",
+      "material": "copper",
+      "kind": "shovel",
+      "name": "copper_shovel",
+      "id": "mite_reforged:copper_shovel",
+      "source_declaration": "new ItemShovel(717, akc.copper).b(\"shovelCopper\")"
+    },
+    {
+      "symbol": "shovelSilver",
+      "constructor": "ItemShovel",
+      "material": "silver",
+      "kind": "shovel",
+      "name": "silver_shovel",
+      "id": "mite_reforged:silver_shovel",
+      "source_declaration": "new ItemShovel(718, akc.silver).b(\"shovelSilver\")"
+    },
+    {
+      "symbol": "shovelMithril",
+      "constructor": "ItemShovel",
+      "material": "mithril",
+      "kind": "shovel",
+      "name": "mithril_shovel",
+      "id": "mite_reforged:mithril_shovel",
+      "source_declaration": "new ItemShovel(719, akc.mithril).b(\"shovelMithril\")"
+    },
+    {
+      "symbol": "shovelAdamantium",
+      "constructor": "ItemShovel",
+      "material": "adamantium",
+      "kind": "shovel",
+      "name": "adamantium_shovel",
+      "id": "mite_reforged:adamantium_shovel",
+      "source_declaration": "new ItemShovel(720, akc.adamantium).b(\"shovelAdamantium\")"
+    },
+    {
+      "symbol": "shovelRustedIron",
+      "constructor": "ItemShovel",
+      "material": "rusted_iron",
+      "kind": "shovel",
+      "name": "rusted_iron_shovel",
+      "id": "mite_reforged:rusted_iron_shovel",
+      "source_declaration": "new ItemShovel(721, akc.rusted_iron).b(\"shovelRustedIron\")"
+    },
+    {
+      "symbol": "shovelAncientMetal",
+      "constructor": "ItemShovel",
+      "material": "ancient_metal",
+      "kind": "shovel",
+      "name": "ancient_metal_shovel",
+      "id": "mite_reforged:ancient_metal_shovel",
+      "source_declaration": "new ItemShovel(984, akc.ancient_metal).b(\"shovelAncientMetal\")"
+    },
+    {
+      "symbol": "hatchetFlint",
+      "constructor": "ItemHatchet",
+      "material": "flint",
+      "kind": "hatchet",
+      "name": "flint_hatchet",
+      "id": "mite_reforged:flint_hatchet",
+      "source_declaration": "new ItemHatchet(722, akc.flint).b(\"hatchetFlint\")"
+    },
+    {
+      "symbol": "axeFlint",
+      "constructor": "ya",
+      "material": "flint",
+      "kind": "axe",
+      "name": "flint_axe",
+      "id": "mite_reforged:flint_axe",
+      "source_declaration": "new ya(723, akc.flint).b(\"axeFlint\")"
+    },
+    {
+      "symbol": "axeCopper",
+      "constructor": "ya",
+      "material": "copper",
+      "kind": "axe",
+      "name": "copper_axe",
+      "id": "mite_reforged:copper_axe",
+      "source_declaration": "new ya(724, akc.copper).b(\"axeCopper\")"
+    },
+    {
+      "symbol": "axeSilver",
+      "constructor": "ya",
+      "material": "silver",
+      "kind": "axe",
+      "name": "silver_axe",
+      "id": "mite_reforged:silver_axe",
+      "source_declaration": "new ya(725, akc.silver).b(\"axeSilver\")"
+    },
+    {
+      "symbol": "axeMithril",
+      "constructor": "ya",
+      "material": "mithril",
+      "kind": "axe",
+      "name": "mithril_axe",
+      "id": "mite_reforged:mithril_axe",
+      "source_declaration": "new ya(726, akc.mithril).b(\"axeMithril\")"
+    },
+    {
+      "symbol": "axeAdamantium",
+      "constructor": "ya",
+      "material": "adamantium",
+      "kind": "axe",
+      "name": "adamantium_axe",
+      "id": "mite_reforged:adamantium_axe",
+      "source_declaration": "new ya(727, akc.adamantium).b(\"axeAdamantium\")"
+    },
+    {
+      "symbol": "axeRustedIron",
+      "constructor": "ya",
+      "material": "rusted_iron",
+      "kind": "axe",
+      "name": "rusted_iron_axe",
+      "id": "mite_reforged:rusted_iron_axe",
+      "source_declaration": "new ya(728, akc.rusted_iron).b(\"axeRustedIron\")"
+    },
+    {
+      "symbol": "axeAncientMetal",
+      "constructor": "ya",
+      "material": "ancient_metal",
+      "kind": "axe",
+      "name": "ancient_metal_axe",
+      "id": "mite_reforged:ancient_metal_axe",
+      "source_declaration": "new ya(985, akc.ancient_metal).b(\"axeAncientMetal\")"
+    },
+    {
+      "symbol": "hoeCopper",
+      "constructor": "yb",
+      "material": "copper",
+      "kind": "hoe",
+      "name": "copper_hoe",
+      "id": "mite_reforged:copper_hoe",
+      "source_declaration": "new yb(729, akc.copper).b(\"hoeCopper\")"
+    },
+    {
+      "symbol": "hoeSilver",
+      "constructor": "yb",
+      "material": "silver",
+      "kind": "hoe",
+      "name": "silver_hoe",
+      "id": "mite_reforged:silver_hoe",
+      "source_declaration": "new yb(730, akc.silver).b(\"hoeSilver\")"
+    },
+    {
+      "symbol": "hoeMithril",
+      "constructor": "yb",
+      "material": "mithril",
+      "kind": "hoe",
+      "name": "mithril_hoe",
+      "id": "mite_reforged:mithril_hoe",
+      "source_declaration": "new yb(731, akc.mithril).b(\"hoeMithril\")"
+    },
+    {
+      "symbol": "hoeAdamantium",
+      "constructor": "yb",
+      "material": "adamantium",
+      "kind": "hoe",
+      "name": "adamantium_hoe",
+      "id": "mite_reforged:adamantium_hoe",
+      "source_declaration": "new yb(732, akc.adamantium).b(\"hoeAdamantium\")"
+    },
+    {
+      "symbol": "hoeRustedIron",
+      "constructor": "yb",
+      "material": "rusted_iron",
+      "kind": "hoe",
+      "name": "rusted_iron_hoe",
+      "id": "mite_reforged:rusted_iron_hoe",
+      "source_declaration": "new yb(733, akc.rusted_iron).b(\"hoeRustedIron\")"
+    },
+    {
+      "symbol": "hoeAncientMetal",
+      "constructor": "yb",
+      "material": "ancient_metal",
+      "kind": "hoe",
+      "name": "ancient_metal_hoe",
+      "id": "mite_reforged:ancient_metal_hoe",
+      "source_declaration": "new yb(986, akc.ancient_metal).b(\"hoeAncientMetal\")"
+    },
+    {
+      "symbol": "warHammerCopper",
+      "constructor": "ItemWarHammer",
+      "material": "copper",
+      "kind": "warhammer",
+      "name": "copper_warhammer",
+      "id": "mite_reforged:copper_warhammer",
+      "source_declaration": "new ItemWarHammer(734, akc.copper).b(\"warHammerCopper\")"
+    },
+    {
+      "symbol": "warHammerSilver",
+      "constructor": "ItemWarHammer",
+      "material": "silver",
+      "kind": "warhammer",
+      "name": "silver_warhammer",
+      "id": "mite_reforged:silver_warhammer",
+      "source_declaration": "new ItemWarHammer(735, akc.silver).b(\"warHammerSilver\")"
+    },
+    {
+      "symbol": "warHammerGold",
+      "constructor": "ItemWarHammer",
+      "material": "gold",
+      "kind": "warhammer",
+      "name": "gold_warhammer",
+      "id": "mite_reforged:gold_warhammer",
+      "source_declaration": "new ItemWarHammer(736, akc.gold).b(\"warHammerGold\")"
+    },
+    {
+      "symbol": "warHammerIron",
+      "constructor": "ItemWarHammer",
+      "material": "iron",
+      "kind": "warhammer",
+      "name": "iron_warhammer",
+      "id": "mite_reforged:iron_warhammer",
+      "source_declaration": "new ItemWarHammer(737, akc.f).b(\"warHammerIron\")"
+    },
+    {
+      "symbol": "warHammerMithril",
+      "constructor": "ItemWarHammer",
+      "material": "mithril",
+      "kind": "warhammer",
+      "name": "mithril_warhammer",
+      "id": "mite_reforged:mithril_warhammer",
+      "source_declaration": "new ItemWarHammer(738, akc.mithril).b(\"warHammerMithril\")"
+    },
+    {
+      "symbol": "warHammerAdamantium",
+      "constructor": "ItemWarHammer",
+      "material": "adamantium",
+      "kind": "warhammer",
+      "name": "adamantium_warhammer",
+      "id": "mite_reforged:adamantium_warhammer",
+      "source_declaration": "new ItemWarHammer(739, akc.adamantium).b(\"warHammerAdamantium\")"
+    },
+    {
+      "symbol": "warHammerRustedIron",
+      "constructor": "ItemWarHammer",
+      "material": "rusted_iron",
+      "kind": "warhammer",
+      "name": "rusted_iron_warhammer",
+      "id": "mite_reforged:rusted_iron_warhammer",
+      "source_declaration": "new ItemWarHammer(740, akc.rusted_iron).b(\"warHammerRustedIron\")"
+    },
+    {
+      "symbol": "warHammerAncientMetal",
+      "constructor": "ItemWarHammer",
+      "material": "ancient_metal",
+      "kind": "warhammer",
+      "name": "ancient_metal_warhammer",
+      "id": "mite_reforged:ancient_metal_warhammer",
+      "source_declaration": "new ItemWarHammer(987, akc.ancient_metal).b(\"warHammerAncientMetal\")"
+    },
+    {
+      "symbol": "mattockCopper",
+      "constructor": "ItemMattock",
+      "material": "copper",
+      "kind": "mattock",
+      "name": "copper_mattock",
+      "id": "mite_reforged:copper_mattock",
+      "source_declaration": "new ItemMattock(741, akc.copper).b(\"mattockCopper\")"
+    },
+    {
+      "symbol": "mattockSilver",
+      "constructor": "ItemMattock",
+      "material": "silver",
+      "kind": "mattock",
+      "name": "silver_mattock",
+      "id": "mite_reforged:silver_mattock",
+      "source_declaration": "new ItemMattock(742, akc.silver).b(\"mattockSilver\")"
+    },
+    {
+      "symbol": "mattockGold",
+      "constructor": "ItemMattock",
+      "material": "gold",
+      "kind": "mattock",
+      "name": "gold_mattock",
+      "id": "mite_reforged:gold_mattock",
+      "source_declaration": "new ItemMattock(743, akc.gold).b(\"mattockGold\")"
+    },
+    {
+      "symbol": "mattockIron",
+      "constructor": "ItemMattock",
+      "material": "iron",
+      "kind": "mattock",
+      "name": "iron_mattock",
+      "id": "mite_reforged:iron_mattock",
+      "source_declaration": "new ItemMattock(744, akc.f).b(\"mattockIron\")"
+    },
+    {
+      "symbol": "mattockMithril",
+      "constructor": "ItemMattock",
+      "material": "mithril",
+      "kind": "mattock",
+      "name": "mithril_mattock",
+      "id": "mite_reforged:mithril_mattock",
+      "source_declaration": "new ItemMattock(745, akc.mithril).b(\"mattockMithril\")"
+    },
+    {
+      "symbol": "mattockAdamantium",
+      "constructor": "ItemMattock",
+      "material": "adamantium",
+      "kind": "mattock",
+      "name": "adamantium_mattock",
+      "id": "mite_reforged:adamantium_mattock",
+      "source_declaration": "new ItemMattock(746, akc.adamantium).b(\"mattockAdamantium\")"
+    },
+    {
+      "symbol": "mattockRustedIron",
+      "constructor": "ItemMattock",
+      "material": "rusted_iron",
+      "kind": "mattock",
+      "name": "rusted_iron_mattock",
+      "id": "mite_reforged:rusted_iron_mattock",
+      "source_declaration": "new ItemMattock(747, akc.rusted_iron).b(\"mattockRustedIron\")"
+    },
+    {
+      "symbol": "mattockAncientMetal",
+      "constructor": "ItemMattock",
+      "material": "ancient_metal",
+      "kind": "mattock",
+      "name": "ancient_metal_mattock",
+      "id": "mite_reforged:ancient_metal_mattock",
+      "source_declaration": "new ItemMattock(988, akc.ancient_metal).b(\"mattockAncientMetal\")"
+    },
+    {
+      "symbol": "battleAxeCopper",
+      "constructor": "ItemBattleAxe",
+      "material": "copper",
+      "kind": "battleaxe",
+      "name": "copper_battleaxe",
+      "id": "mite_reforged:copper_battleaxe",
+      "source_declaration": "new ItemBattleAxe(748, akc.copper).b(\"battleAxeCopper\")"
+    },
+    {
+      "symbol": "battleAxeSilver",
+      "constructor": "ItemBattleAxe",
+      "material": "silver",
+      "kind": "battleaxe",
+      "name": "silver_battleaxe",
+      "id": "mite_reforged:silver_battleaxe",
+      "source_declaration": "new ItemBattleAxe(749, akc.silver).b(\"battleAxeSilver\")"
+    },
+    {
+      "symbol": "battleAxeGold",
+      "constructor": "ItemBattleAxe",
+      "material": "gold",
+      "kind": "battleaxe",
+      "name": "gold_battleaxe",
+      "id": "mite_reforged:gold_battleaxe",
+      "source_declaration": "new ItemBattleAxe(750, akc.gold).b(\"battleAxeGold\")"
+    },
+    {
+      "symbol": "battleAxeIron",
+      "constructor": "ItemBattleAxe",
+      "material": "iron",
+      "kind": "battleaxe",
+      "name": "iron_battleaxe",
+      "id": "mite_reforged:iron_battleaxe",
+      "source_declaration": "new ItemBattleAxe(751, akc.f).b(\"battleAxeIron\")"
+    },
+    {
+      "symbol": "battleAxeMithril",
+      "constructor": "ItemBattleAxe",
+      "material": "mithril",
+      "kind": "battleaxe",
+      "name": "mithril_battleaxe",
+      "id": "mite_reforged:mithril_battleaxe",
+      "source_declaration": "new ItemBattleAxe(752, akc.mithril).b(\"battleAxeMithril\")"
+    },
+    {
+      "symbol": "battleAxeAdamantium",
+      "constructor": "ItemBattleAxe",
+      "material": "adamantium",
+      "kind": "battleaxe",
+      "name": "adamantium_battleaxe",
+      "id": "mite_reforged:adamantium_battleaxe",
+      "source_declaration": "new ItemBattleAxe(753, akc.adamantium).b(\"battleAxeAdamantium\")"
+    },
+    {
+      "symbol": "battleAxeRustedIron",
+      "constructor": "ItemBattleAxe",
+      "material": "rusted_iron",
+      "kind": "battleaxe",
+      "name": "rusted_iron_battleaxe",
+      "id": "mite_reforged:rusted_iron_battleaxe",
+      "source_declaration": "new ItemBattleAxe(754, akc.rusted_iron).b(\"battleAxeRustedIron\")"
+    },
+    {
+      "symbol": "battleAxeAncientMetal",
+      "constructor": "ItemBattleAxe",
+      "material": "ancient_metal",
+      "kind": "battleaxe",
+      "name": "ancient_metal_battleaxe",
+      "id": "mite_reforged:ancient_metal_battleaxe",
+      "source_declaration": "new ItemBattleAxe(989, akc.ancient_metal).b(\"battleAxeAncientMetal\")"
+    },
+    {
+      "symbol": "scytheCopper",
+      "constructor": "ItemScythe",
+      "material": "copper",
+      "kind": "scythe",
+      "name": "copper_scythe",
+      "id": "mite_reforged:copper_scythe",
+      "source_declaration": "new ItemScythe(755, akc.copper).b(\"scytheCopper\")"
+    },
+    {
+      "symbol": "scytheSilver",
+      "constructor": "ItemScythe",
+      "material": "silver",
+      "kind": "scythe",
+      "name": "silver_scythe",
+      "id": "mite_reforged:silver_scythe",
+      "source_declaration": "new ItemScythe(756, akc.silver).b(\"scytheSilver\")"
+    },
+    {
+      "symbol": "scytheGold",
+      "constructor": "ItemScythe",
+      "material": "gold",
+      "kind": "scythe",
+      "name": "gold_scythe",
+      "id": "mite_reforged:gold_scythe",
+      "source_declaration": "new ItemScythe(757, akc.gold).b(\"scytheGold\")"
+    },
+    {
+      "symbol": "scytheIron",
+      "constructor": "ItemScythe",
+      "material": "iron",
+      "kind": "scythe",
+      "name": "iron_scythe",
+      "id": "mite_reforged:iron_scythe",
+      "source_declaration": "new ItemScythe(758, akc.f).b(\"scytheIron\")"
+    },
+    {
+      "symbol": "scytheMithril",
+      "constructor": "ItemScythe",
+      "material": "mithril",
+      "kind": "scythe",
+      "name": "mithril_scythe",
+      "id": "mite_reforged:mithril_scythe",
+      "source_declaration": "new ItemScythe(759, akc.mithril).b(\"scytheMithril\")"
+    },
+    {
+      "symbol": "scytheAdamantium",
+      "constructor": "ItemScythe",
+      "material": "adamantium",
+      "kind": "scythe",
+      "name": "adamantium_scythe",
+      "id": "mite_reforged:adamantium_scythe",
+      "source_declaration": "new ItemScythe(760, akc.adamantium).b(\"scytheAdamantium\")"
+    },
+    {
+      "symbol": "scytheRustedIron",
+      "constructor": "ItemScythe",
+      "material": "rusted_iron",
+      "kind": "scythe",
+      "name": "rusted_iron_scythe",
+      "id": "mite_reforged:rusted_iron_scythe",
+      "source_declaration": "new ItemScythe(761, akc.rusted_iron).b(\"scytheRustedIron\")"
+    },
+    {
+      "symbol": "scytheAncientMetal",
+      "constructor": "ItemScythe",
+      "material": "ancient_metal",
+      "kind": "scythe",
+      "name": "ancient_metal_scythe",
+      "id": "mite_reforged:ancient_metal_scythe",
+      "source_declaration": "new ItemScythe(990, akc.ancient_metal).b(\"scytheAncientMetal\")"
+    },
+    {
+      "symbol": "shearsCopper",
+      "constructor": "yx",
+      "material": "copper",
+      "kind": "shears",
+      "name": "copper_shears",
+      "id": "mite_reforged:copper_shears",
+      "source_declaration": "(yx)new yx(762, akc.copper).b(\"shearsCopper\")"
+    },
+    {
+      "symbol": "shearsSilver",
+      "constructor": "yx",
+      "material": "silver",
+      "kind": "shears",
+      "name": "silver_shears",
+      "id": "mite_reforged:silver_shears",
+      "source_declaration": "(yx)new yx(763, akc.silver).b(\"shearsSilver\")"
+    },
+    {
+      "symbol": "shearsGold",
+      "constructor": "yx",
+      "material": "gold",
+      "kind": "shears",
+      "name": "gold_shears",
+      "id": "mite_reforged:gold_shears",
+      "source_declaration": "(yx)new yx(764, akc.gold).b(\"shearsGold\")"
+    },
+    {
+      "symbol": "shearsMithril",
+      "constructor": "yx",
+      "material": "mithril",
+      "kind": "shears",
+      "name": "mithril_shears",
+      "id": "mite_reforged:mithril_shears",
+      "source_declaration": "(yx)new yx(765, akc.mithril).b(\"shearsMithril\")"
+    },
+    {
+      "symbol": "shearsAdamantium",
+      "constructor": "yx",
+      "material": "adamantium",
+      "kind": "shears",
+      "name": "adamantium_shears",
+      "id": "mite_reforged:adamantium_shears",
+      "source_declaration": "(yx)new yx(766, akc.adamantium).b(\"shearsAdamantium\")"
+    },
+    {
+      "symbol": "shearsAncientMetal",
+      "constructor": "yx",
+      "material": "ancient_metal",
+      "kind": "shears",
+      "name": "ancient_metal_shears",
+      "id": "mite_reforged:ancient_metal_shears",
+      "source_declaration": "(yx)new yx(991, akc.ancient_metal).b(\"shearsAncientMetal\")"
+    },
+    {
+      "symbol": "knifeFlint",
+      "constructor": "ItemKnife",
+      "material": "flint",
+      "kind": "knife",
+      "name": "flint_knife",
+      "id": "mite_reforged:flint_knife",
+      "source_declaration": "new ItemKnife(767, akc.flint).b(\"knifeFlint\")"
+    },
+    {
+      "symbol": "cudgelWood",
+      "constructor": "ItemCudgel",
+      "material": "wood",
+      "kind": "cudgel",
+      "name": "wood_cudgel",
+      "id": "mite_reforged:wood_cudgel",
+      "source_declaration": "new ItemCudgel(768, akc.d).b(\"cudgelWood\")"
+    },
+    {
+      "symbol": "clubWood",
+      "constructor": "ItemClub",
+      "material": "wood",
+      "kind": "club",
+      "name": "wood_club",
+      "id": "mite_reforged:wood_club",
+      "source_declaration": "new ItemClub(769, akc.d).b(\"clubWood\")"
+    },
+    {
+      "symbol": "swordCopper",
+      "constructor": "zl",
+      "material": "copper",
+      "kind": "sword",
+      "name": "copper_sword",
+      "id": "mite_reforged:copper_sword",
+      "source_declaration": "new zl(772, akc.copper).b(\"swordCopper\")"
+    },
+    {
+      "symbol": "swordSilver",
+      "constructor": "zl",
+      "material": "silver",
+      "kind": "sword",
+      "name": "silver_sword",
+      "id": "mite_reforged:silver_sword",
+      "source_declaration": "new zl(773, akc.silver).b(\"swordSilver\")"
+    },
+    {
+      "symbol": "swordMithril",
+      "constructor": "zl",
+      "material": "mithril",
+      "kind": "sword",
+      "name": "mithril_sword",
+      "id": "mite_reforged:mithril_sword",
+      "source_declaration": "new zl(774, akc.mithril).b(\"swordMithril\")"
+    },
+    {
+      "symbol": "swordAdamantium",
+      "constructor": "zl",
+      "material": "adamantium",
+      "kind": "sword",
+      "name": "adamantium_sword",
+      "id": "mite_reforged:adamantium_sword",
+      "source_declaration": "new zl(775, akc.adamantium).b(\"swordAdamantium\")"
+    },
+    {
+      "symbol": "swordRustedIron",
+      "constructor": "zl",
+      "material": "rusted_iron",
+      "kind": "sword",
+      "name": "rusted_iron_sword",
+      "id": "mite_reforged:rusted_iron_sword",
+      "source_declaration": "new zl(776, akc.rusted_iron).b(\"swordRustedIron\")"
+    },
+    {
+      "symbol": "swordAncientMetal",
+      "constructor": "zl",
+      "material": "ancient_metal",
+      "kind": "sword",
+      "name": "ancient_metal_sword",
+      "id": "mite_reforged:ancient_metal_sword",
+      "source_declaration": "new zl(992, akc.ancient_metal).b(\"swordAncientMetal\")"
+    },
+    {
+      "symbol": "daggerCopper",
+      "constructor": "ItemDagger",
+      "material": "copper",
+      "kind": "dagger",
+      "name": "copper_dagger",
+      "id": "mite_reforged:copper_dagger",
+      "source_declaration": "new ItemDagger(777, akc.copper).b(\"daggerCopper\")"
+    },
+    {
+      "symbol": "daggerSilver",
+      "constructor": "ItemDagger",
+      "material": "silver",
+      "kind": "dagger",
+      "name": "silver_dagger",
+      "id": "mite_reforged:silver_dagger",
+      "source_declaration": "new ItemDagger(778, akc.silver).b(\"daggerSilver\")"
+    },
+    {
+      "symbol": "daggerGold",
+      "constructor": "ItemDagger",
+      "material": "gold",
+      "kind": "dagger",
+      "name": "gold_dagger",
+      "id": "mite_reforged:gold_dagger",
+      "source_declaration": "new ItemDagger(779, akc.gold).b(\"daggerGold\")"
+    },
+    {
+      "symbol": "daggerIron",
+      "constructor": "ItemDagger",
+      "material": "iron",
+      "kind": "dagger",
+      "name": "iron_dagger",
+      "id": "mite_reforged:iron_dagger",
+      "source_declaration": "new ItemDagger(780, akc.f).b(\"daggerIron\")"
+    },
+    {
+      "symbol": "daggerMithril",
+      "constructor": "ItemDagger",
+      "material": "mithril",
+      "kind": "dagger",
+      "name": "mithril_dagger",
+      "id": "mite_reforged:mithril_dagger",
+      "source_declaration": "new ItemDagger(781, akc.mithril).b(\"daggerMithril\")"
+    },
+    {
+      "symbol": "daggerAdamantium",
+      "constructor": "ItemDagger",
+      "material": "adamantium",
+      "kind": "dagger",
+      "name": "adamantium_dagger",
+      "id": "mite_reforged:adamantium_dagger",
+      "source_declaration": "new ItemDagger(782, akc.adamantium).b(\"daggerAdamantium\")"
+    },
+    {
+      "symbol": "daggerRustedIron",
+      "constructor": "ItemDagger",
+      "material": "rusted_iron",
+      "kind": "dagger",
+      "name": "rusted_iron_dagger",
+      "id": "mite_reforged:rusted_iron_dagger",
+      "source_declaration": "new ItemDagger(783, akc.rusted_iron).b(\"daggerRustedIron\")"
+    },
+    {
+      "symbol": "daggerAncientMetal",
+      "constructor": "ItemDagger",
+      "material": "ancient_metal",
+      "kind": "dagger",
+      "name": "ancient_metal_dagger",
+      "id": "mite_reforged:ancient_metal_dagger",
+      "source_declaration": "new ItemDagger(993, akc.ancient_metal).b(\"daggerAncientMetal\")"
+    },
+    {
+      "symbol": "bowMithril",
+      "constructor": "wp",
+      "material": "mithril",
+      "kind": "bow",
+      "name": "mithril_bow",
+      "id": "mite_reforged:mithril_bow",
+      "source_declaration": "(wp)new wp(792, akc.mithril).b(\"bowMithril\")"
+    },
+    {
+      "symbol": "bowAncientMetal",
+      "constructor": "wp",
+      "material": "ancient_metal",
+      "kind": "bow",
+      "name": "ancient_metal_bow",
+      "id": "mite_reforged:ancient_metal_bow",
+      "source_declaration": "(wp)new wp(995, akc.ancient_metal).b(\"bowAncientMetal\")"
+    },
+    {
+      "symbol": "knifeCopper",
+      "constructor": "ItemKnife",
+      "material": "copper",
+      "kind": "knife",
+      "name": "copper_knife",
+      "id": "mite_reforged:copper_knife",
+      "source_declaration": "new ItemKnife(794, akc.copper).b(\"knifeCopper\")"
+    },
+    {
+      "symbol": "knifeSilver",
+      "constructor": "ItemKnife",
+      "material": "silver",
+      "kind": "knife",
+      "name": "silver_knife",
+      "id": "mite_reforged:silver_knife",
+      "source_declaration": "new ItemKnife(795, akc.silver).b(\"knifeSilver\")"
+    },
+    {
+      "symbol": "knifeGold",
+      "constructor": "ItemKnife",
+      "material": "gold",
+      "kind": "knife",
+      "name": "gold_knife",
+      "id": "mite_reforged:gold_knife",
+      "source_declaration": "new ItemKnife(796, akc.gold).b(\"knifeGold\")"
+    },
+    {
+      "symbol": "knifeIron",
+      "constructor": "ItemKnife",
+      "material": "iron",
+      "kind": "knife",
+      "name": "iron_knife",
+      "id": "mite_reforged:iron_knife",
+      "source_declaration": "new ItemKnife(797, akc.f).b(\"knifeIron\")"
+    },
+    {
+      "symbol": "knifeMithril",
+      "constructor": "ItemKnife",
+      "material": "mithril",
+      "kind": "knife",
+      "name": "mithril_knife",
+      "id": "mite_reforged:mithril_knife",
+      "source_declaration": "new ItemKnife(798, akc.mithril).b(\"knifeMithril\")"
+    },
+    {
+      "symbol": "knifeAdamantium",
+      "constructor": "ItemKnife",
+      "material": "adamantium",
+      "kind": "knife",
+      "name": "adamantium_knife",
+      "id": "mite_reforged:adamantium_knife",
+      "source_declaration": "new ItemKnife(799, akc.adamantium).b(\"knifeAdamantium\")"
+    },
+    {
+      "symbol": "knifeRustedIron",
+      "constructor": "ItemKnife",
+      "material": "rusted_iron",
+      "kind": "knife",
+      "name": "rusted_iron_knife",
+      "id": "mite_reforged:rusted_iron_knife",
+      "source_declaration": "new ItemKnife(800, akc.rusted_iron).b(\"knifeRustedIron\")"
+    },
+    {
+      "symbol": "knifeAncientMetal",
+      "constructor": "ItemKnife",
+      "material": "ancient_metal",
+      "kind": "knife",
+      "name": "ancient_metal_knife",
+      "id": "mite_reforged:ancient_metal_knife",
+      "source_declaration": "new ItemKnife(801, akc.ancient_metal).b(\"knifeAncientMetal\")"
+    },
+    {
+      "symbol": "hatchetCopper",
+      "constructor": "ItemHatchet",
+      "material": "copper",
+      "kind": "hatchet",
+      "name": "copper_hatchet",
+      "id": "mite_reforged:copper_hatchet",
+      "source_declaration": "new ItemHatchet(919, akc.copper).b(\"hatchetCopper\")"
+    },
+    {
+      "symbol": "hatchetSilver",
+      "constructor": "ItemHatchet",
+      "material": "silver",
+      "kind": "hatchet",
+      "name": "silver_hatchet",
+      "id": "mite_reforged:silver_hatchet",
+      "source_declaration": "new ItemHatchet(920, akc.silver).b(\"hatchetSilver\")"
+    },
+    {
+      "symbol": "hatchetGold",
+      "constructor": "ItemHatchet",
+      "material": "gold",
+      "kind": "hatchet",
+      "name": "gold_hatchet",
+      "id": "mite_reforged:gold_hatchet",
+      "source_declaration": "new ItemHatchet(921, akc.gold).b(\"hatchetGold\")"
+    },
+    {
+      "symbol": "hatchetIron",
+      "constructor": "ItemHatchet",
+      "material": "iron",
+      "kind": "hatchet",
+      "name": "iron_hatchet",
+      "id": "mite_reforged:iron_hatchet",
+      "source_declaration": "new ItemHatchet(922, akc.f).b(\"hatchetIron\")"
+    },
+    {
+      "symbol": "hatchetMithril",
+      "constructor": "ItemHatchet",
+      "material": "mithril",
+      "kind": "hatchet",
+      "name": "mithril_hatchet",
+      "id": "mite_reforged:mithril_hatchet",
+      "source_declaration": "new ItemHatchet(923, akc.mithril).b(\"hatchetMithril\")"
+    },
+    {
+      "symbol": "hatchetAdamantium",
+      "constructor": "ItemHatchet",
+      "material": "adamantium",
+      "kind": "hatchet",
+      "name": "adamantium_hatchet",
+      "id": "mite_reforged:adamantium_hatchet",
+      "source_declaration": "new ItemHatchet(924, akc.adamantium).b(\"hatchetAdamantium\")"
+    },
+    {
+      "symbol": "hatchetRustedIron",
+      "constructor": "ItemHatchet",
+      "material": "rusted_iron",
+      "kind": "hatchet",
+      "name": "rusted_iron_hatchet",
+      "id": "mite_reforged:rusted_iron_hatchet",
+      "source_declaration": "new ItemHatchet(925, akc.rusted_iron).b(\"hatchetRustedIron\")"
+    },
+    {
+      "symbol": "hatchetAncientMetal",
+      "constructor": "ItemHatchet",
+      "material": "ancient_metal",
+      "kind": "hatchet",
+      "name": "ancient_metal_hatchet",
+      "id": "mite_reforged:ancient_metal_hatchet",
+      "source_declaration": "new ItemHatchet(1006, akc.ancient_metal).b(\"hatchetAncientMetal\")"
+    },
+    {
+      "symbol": "shearsRustedIron",
+      "constructor": "yx",
+      "material": "rusted_iron",
+      "kind": "shears",
+      "name": "rusted_iron_shears",
+      "id": "mite_reforged:rusted_iron_shears",
+      "source_declaration": "(yx)new yx(926, akc.rusted_iron).b(\"shearsRustedIron\")"
+    },
+    {
+      "symbol": "fishingRodCopper",
+      "constructor": "xv",
+      "material": "copper",
+      "kind": "fishing_rod",
+      "name": "copper_fishing_rod",
+      "id": "mite_reforged:copper_fishing_rod",
+      "source_declaration": "(xv)new xv(936, akc.copper).b(\"fishingRod\")"
+    },
+    {
+      "symbol": "fishingRodSilver",
+      "constructor": "xv",
+      "material": "silver",
+      "kind": "fishing_rod",
+      "name": "silver_fishing_rod",
+      "id": "mite_reforged:silver_fishing_rod",
+      "source_declaration": "(xv)new xv(937, akc.silver).b(\"fishingRod\")"
+    },
+    {
+      "symbol": "fishingRodGold",
+      "constructor": "xv",
+      "material": "gold",
+      "kind": "fishing_rod",
+      "name": "gold_fishing_rod",
+      "id": "mite_reforged:gold_fishing_rod",
+      "source_declaration": "(xv)new xv(938, akc.gold).b(\"fishingRod\")"
+    },
+    {
+      "symbol": "fishingRodMithril",
+      "constructor": "xv",
+      "material": "mithril",
+      "kind": "fishing_rod",
+      "name": "mithril_fishing_rod",
+      "id": "mite_reforged:mithril_fishing_rod",
+      "source_declaration": "(xv)new xv(939, akc.mithril).b(\"fishingRod\")"
+    },
+    {
+      "symbol": "fishingRodAdamantium",
+      "constructor": "xv",
+      "material": "adamantium",
+      "kind": "fishing_rod",
+      "name": "adamantium_fishing_rod",
+      "id": "mite_reforged:adamantium_fishing_rod",
+      "source_declaration": "(xv)new xv(940, akc.adamantium).b(\"fishingRod\")"
+    },
+    {
+      "symbol": "fishingRodAncientMetal",
+      "constructor": "xv",
+      "material": "ancient_metal",
+      "kind": "fishing_rod",
+      "name": "ancient_metal_fishing_rod",
+      "id": "mite_reforged:ancient_metal_fishing_rod",
+      "source_declaration": "(xv)new xv(1007, akc.ancient_metal).b(\"fishingRod\")"
+    },
+    {
+      "symbol": "shovelObsidian",
+      "constructor": "ItemShovel",
+      "material": "obsidian",
+      "kind": "shovel",
+      "name": "obsidian_shovel",
+      "id": "mite_reforged:obsidian_shovel",
+      "source_declaration": "new ItemShovel(946, akc.obsidian).b(\"shovelObsidian\")"
+    },
+    {
+      "symbol": "knifeObsidian",
+      "constructor": "ItemKnife",
+      "material": "obsidian",
+      "kind": "knife",
+      "name": "obsidian_knife",
+      "id": "mite_reforged:obsidian_knife",
+      "source_declaration": "new ItemKnife(947, akc.obsidian).b(\"knifeObsidian\")"
+    },
+    {
+      "symbol": "hatchetObsidian",
+      "constructor": "ItemHatchet",
+      "material": "obsidian",
+      "kind": "hatchet",
+      "name": "obsidian_hatchet",
+      "id": "mite_reforged:obsidian_hatchet",
+      "source_declaration": "new ItemHatchet(948, akc.obsidian).b(\"hatchetObsidian\")"
+    },
+    {
+      "symbol": "axeObsidian",
+      "constructor": "ya",
+      "material": "obsidian",
+      "kind": "axe",
+      "name": "obsidian_axe",
+      "id": "mite_reforged:obsidian_axe",
+      "source_declaration": "new ya(949, akc.obsidian).b(\"axeObsidian\")"
+    },
+    {
+      "symbol": "fishingRodFlint",
+      "constructor": "xv",
+      "material": "flint",
+      "kind": "fishing_rod",
+      "name": "flint_fishing_rod",
+      "id": "mite_reforged:flint_fishing_rod",
+      "source_declaration": "(xv)new xv(951, akc.flint).b(\"fishingRod\")"
+    },
+    {
+      "symbol": "fishingRodObsidian",
+      "constructor": "xv",
+      "material": "obsidian",
+      "kind": "fishing_rod",
+      "name": "obsidian_fishing_rod",
+      "id": "mite_reforged:obsidian_fishing_rod",
+      "source_declaration": "(xv)new xv(956, akc.obsidian).b(\"fishingRod\")"
+    }
+  ],
+  "new_items": [
+    {
+      "symbol": "pickaxeRustedIron",
+      "constructor": "yn",
+      "material": "rusted_iron",
+      "kind": "pickaxe",
+      "name": "rusted_iron_pickaxe",
+      "id": "mite_reforged:rusted_iron_pickaxe",
+      "source_declaration": "new yn(715, akc.rusted_iron).b(\"pickaxeRustedIron\")"
+    },
+    {
+      "symbol": "pickaxeAncientMetal",
+      "constructor": "yn",
+      "material": "ancient_metal",
+      "kind": "pickaxe",
+      "name": "ancient_metal_pickaxe",
+      "id": "mite_reforged:ancient_metal_pickaxe",
+      "source_declaration": "new yn(983, akc.ancient_metal).b(\"pickaxeAncientMetal\")"
+    },
+    {
+      "symbol": "shovelRustedIron",
+      "constructor": "ItemShovel",
+      "material": "rusted_iron",
+      "kind": "shovel",
+      "name": "rusted_iron_shovel",
+      "id": "mite_reforged:rusted_iron_shovel",
+      "source_declaration": "new ItemShovel(721, akc.rusted_iron).b(\"shovelRustedIron\")"
+    },
+    {
+      "symbol": "shovelAncientMetal",
+      "constructor": "ItemShovel",
+      "material": "ancient_metal",
+      "kind": "shovel",
+      "name": "ancient_metal_shovel",
+      "id": "mite_reforged:ancient_metal_shovel",
+      "source_declaration": "new ItemShovel(984, akc.ancient_metal).b(\"shovelAncientMetal\")"
+    },
+    {
+      "symbol": "axeFlint",
+      "constructor": "ya",
+      "material": "flint",
+      "kind": "axe",
+      "name": "flint_axe",
+      "id": "mite_reforged:flint_axe",
+      "source_declaration": "new ya(723, akc.flint).b(\"axeFlint\")"
+    },
+    {
+      "symbol": "axeRustedIron",
+      "constructor": "ya",
+      "material": "rusted_iron",
+      "kind": "axe",
+      "name": "rusted_iron_axe",
+      "id": "mite_reforged:rusted_iron_axe",
+      "source_declaration": "new ya(728, akc.rusted_iron).b(\"axeRustedIron\")"
+    },
+    {
+      "symbol": "axeAncientMetal",
+      "constructor": "ya",
+      "material": "ancient_metal",
+      "kind": "axe",
+      "name": "ancient_metal_axe",
+      "id": "mite_reforged:ancient_metal_axe",
+      "source_declaration": "new ya(985, akc.ancient_metal).b(\"axeAncientMetal\")"
+    },
+    {
+      "symbol": "hoeRustedIron",
+      "constructor": "yb",
+      "material": "rusted_iron",
+      "kind": "hoe",
+      "name": "rusted_iron_hoe",
+      "id": "mite_reforged:rusted_iron_hoe",
+      "source_declaration": "new yb(733, akc.rusted_iron).b(\"hoeRustedIron\")"
+    },
+    {
+      "symbol": "hoeAncientMetal",
+      "constructor": "yb",
+      "material": "ancient_metal",
+      "kind": "hoe",
+      "name": "ancient_metal_hoe",
+      "id": "mite_reforged:ancient_metal_hoe",
+      "source_declaration": "new yb(986, akc.ancient_metal).b(\"hoeAncientMetal\")"
+    },
+    {
+      "symbol": "warHammerRustedIron",
+      "constructor": "ItemWarHammer",
+      "material": "rusted_iron",
+      "kind": "warhammer",
+      "name": "rusted_iron_warhammer",
+      "id": "mite_reforged:rusted_iron_warhammer",
+      "source_declaration": "new ItemWarHammer(740, akc.rusted_iron).b(\"warHammerRustedIron\")"
+    },
+    {
+      "symbol": "warHammerAncientMetal",
+      "constructor": "ItemWarHammer",
+      "material": "ancient_metal",
+      "kind": "warhammer",
+      "name": "ancient_metal_warhammer",
+      "id": "mite_reforged:ancient_metal_warhammer",
+      "source_declaration": "new ItemWarHammer(987, akc.ancient_metal).b(\"warHammerAncientMetal\")"
+    },
+    {
+      "symbol": "mattockRustedIron",
+      "constructor": "ItemMattock",
+      "material": "rusted_iron",
+      "kind": "mattock",
+      "name": "rusted_iron_mattock",
+      "id": "mite_reforged:rusted_iron_mattock",
+      "source_declaration": "new ItemMattock(747, akc.rusted_iron).b(\"mattockRustedIron\")"
+    },
+    {
+      "symbol": "mattockAncientMetal",
+      "constructor": "ItemMattock",
+      "material": "ancient_metal",
+      "kind": "mattock",
+      "name": "ancient_metal_mattock",
+      "id": "mite_reforged:ancient_metal_mattock",
+      "source_declaration": "new ItemMattock(988, akc.ancient_metal).b(\"mattockAncientMetal\")"
+    },
+    {
+      "symbol": "battleAxeRustedIron",
+      "constructor": "ItemBattleAxe",
+      "material": "rusted_iron",
+      "kind": "battleaxe",
+      "name": "rusted_iron_battleaxe",
+      "id": "mite_reforged:rusted_iron_battleaxe",
+      "source_declaration": "new ItemBattleAxe(754, akc.rusted_iron).b(\"battleAxeRustedIron\")"
+    },
+    {
+      "symbol": "battleAxeAncientMetal",
+      "constructor": "ItemBattleAxe",
+      "material": "ancient_metal",
+      "kind": "battleaxe",
+      "name": "ancient_metal_battleaxe",
+      "id": "mite_reforged:ancient_metal_battleaxe",
+      "source_declaration": "new ItemBattleAxe(989, akc.ancient_metal).b(\"battleAxeAncientMetal\")"
+    },
+    {
+      "symbol": "scytheRustedIron",
+      "constructor": "ItemScythe",
+      "material": "rusted_iron",
+      "kind": "scythe",
+      "name": "rusted_iron_scythe",
+      "id": "mite_reforged:rusted_iron_scythe",
+      "source_declaration": "new ItemScythe(761, akc.rusted_iron).b(\"scytheRustedIron\")"
+    },
+    {
+      "symbol": "scytheAncientMetal",
+      "constructor": "ItemScythe",
+      "material": "ancient_metal",
+      "kind": "scythe",
+      "name": "ancient_metal_scythe",
+      "id": "mite_reforged:ancient_metal_scythe",
+      "source_declaration": "new ItemScythe(990, akc.ancient_metal).b(\"scytheAncientMetal\")"
+    },
+    {
+      "symbol": "shearsCopper",
+      "constructor": "yx",
+      "material": "copper",
+      "kind": "shears",
+      "name": "copper_shears",
+      "id": "mite_reforged:copper_shears",
+      "source_declaration": "(yx)new yx(762, akc.copper).b(\"shearsCopper\")"
+    },
+    {
+      "symbol": "shearsSilver",
+      "constructor": "yx",
+      "material": "silver",
+      "kind": "shears",
+      "name": "silver_shears",
+      "id": "mite_reforged:silver_shears",
+      "source_declaration": "(yx)new yx(763, akc.silver).b(\"shearsSilver\")"
+    },
+    {
+      "symbol": "shearsGold",
+      "constructor": "yx",
+      "material": "gold",
+      "kind": "shears",
+      "name": "gold_shears",
+      "id": "mite_reforged:gold_shears",
+      "source_declaration": "(yx)new yx(764, akc.gold).b(\"shearsGold\")"
+    },
+    {
+      "symbol": "shearsMithril",
+      "constructor": "yx",
+      "material": "mithril",
+      "kind": "shears",
+      "name": "mithril_shears",
+      "id": "mite_reforged:mithril_shears",
+      "source_declaration": "(yx)new yx(765, akc.mithril).b(\"shearsMithril\")"
+    },
+    {
+      "symbol": "shearsAdamantium",
+      "constructor": "yx",
+      "material": "adamantium",
+      "kind": "shears",
+      "name": "adamantium_shears",
+      "id": "mite_reforged:adamantium_shears",
+      "source_declaration": "(yx)new yx(766, akc.adamantium).b(\"shearsAdamantium\")"
+    },
+    {
+      "symbol": "shearsAncientMetal",
+      "constructor": "yx",
+      "material": "ancient_metal",
+      "kind": "shears",
+      "name": "ancient_metal_shears",
+      "id": "mite_reforged:ancient_metal_shears",
+      "source_declaration": "(yx)new yx(991, akc.ancient_metal).b(\"shearsAncientMetal\")"
+    },
+    {
+      "symbol": "cudgelWood",
+      "constructor": "ItemCudgel",
+      "material": "wood",
+      "kind": "cudgel",
+      "name": "wood_cudgel",
+      "id": "mite_reforged:wood_cudgel",
+      "source_declaration": "new ItemCudgel(768, akc.d).b(\"cudgelWood\")"
+    },
+    {
+      "symbol": "clubWood",
+      "constructor": "ItemClub",
+      "material": "wood",
+      "kind": "club",
+      "name": "wood_club",
+      "id": "mite_reforged:wood_club",
+      "source_declaration": "new ItemClub(769, akc.d).b(\"clubWood\")"
+    },
+    {
+      "symbol": "swordRustedIron",
+      "constructor": "zl",
+      "material": "rusted_iron",
+      "kind": "sword",
+      "name": "rusted_iron_sword",
+      "id": "mite_reforged:rusted_iron_sword",
+      "source_declaration": "new zl(776, akc.rusted_iron).b(\"swordRustedIron\")"
+    },
+    {
+      "symbol": "swordAncientMetal",
+      "constructor": "zl",
+      "material": "ancient_metal",
+      "kind": "sword",
+      "name": "ancient_metal_sword",
+      "id": "mite_reforged:ancient_metal_sword",
+      "source_declaration": "new zl(992, akc.ancient_metal).b(\"swordAncientMetal\")"
+    },
+    {
+      "symbol": "daggerRustedIron",
+      "constructor": "ItemDagger",
+      "material": "rusted_iron",
+      "kind": "dagger",
+      "name": "rusted_iron_dagger",
+      "id": "mite_reforged:rusted_iron_dagger",
+      "source_declaration": "new ItemDagger(783, akc.rusted_iron).b(\"daggerRustedIron\")"
+    },
+    {
+      "symbol": "daggerAncientMetal",
+      "constructor": "ItemDagger",
+      "material": "ancient_metal",
+      "kind": "dagger",
+      "name": "ancient_metal_dagger",
+      "id": "mite_reforged:ancient_metal_dagger",
+      "source_declaration": "new ItemDagger(993, akc.ancient_metal).b(\"daggerAncientMetal\")"
+    },
+    {
+      "symbol": "bowAncientMetal",
+      "constructor": "wp",
+      "material": "ancient_metal",
+      "kind": "bow",
+      "name": "ancient_metal_bow",
+      "id": "mite_reforged:ancient_metal_bow",
+      "source_declaration": "(wp)new wp(995, akc.ancient_metal).b(\"bowAncientMetal\")"
+    },
+    {
+      "symbol": "knifeCopper",
+      "constructor": "ItemKnife",
+      "material": "copper",
+      "kind": "knife",
+      "name": "copper_knife",
+      "id": "mite_reforged:copper_knife",
+      "source_declaration": "new ItemKnife(794, akc.copper).b(\"knifeCopper\")"
+    },
+    {
+      "symbol": "knifeSilver",
+      "constructor": "ItemKnife",
+      "material": "silver",
+      "kind": "knife",
+      "name": "silver_knife",
+      "id": "mite_reforged:silver_knife",
+      "source_declaration": "new ItemKnife(795, akc.silver).b(\"knifeSilver\")"
+    },
+    {
+      "symbol": "knifeGold",
+      "constructor": "ItemKnife",
+      "material": "gold",
+      "kind": "knife",
+      "name": "gold_knife",
+      "id": "mite_reforged:gold_knife",
+      "source_declaration": "new ItemKnife(796, akc.gold).b(\"knifeGold\")"
+    },
+    {
+      "symbol": "knifeIron",
+      "constructor": "ItemKnife",
+      "material": "iron",
+      "kind": "knife",
+      "name": "iron_knife",
+      "id": "mite_reforged:iron_knife",
+      "source_declaration": "new ItemKnife(797, akc.f).b(\"knifeIron\")"
+    },
+    {
+      "symbol": "knifeMithril",
+      "constructor": "ItemKnife",
+      "material": "mithril",
+      "kind": "knife",
+      "name": "mithril_knife",
+      "id": "mite_reforged:mithril_knife",
+      "source_declaration": "new ItemKnife(798, akc.mithril).b(\"knifeMithril\")"
+    },
+    {
+      "symbol": "knifeAdamantium",
+      "constructor": "ItemKnife",
+      "material": "adamantium",
+      "kind": "knife",
+      "name": "adamantium_knife",
+      "id": "mite_reforged:adamantium_knife",
+      "source_declaration": "new ItemKnife(799, akc.adamantium).b(\"knifeAdamantium\")"
+    },
+    {
+      "symbol": "knifeRustedIron",
+      "constructor": "ItemKnife",
+      "material": "rusted_iron",
+      "kind": "knife",
+      "name": "rusted_iron_knife",
+      "id": "mite_reforged:rusted_iron_knife",
+      "source_declaration": "new ItemKnife(800, akc.rusted_iron).b(\"knifeRustedIron\")"
+    },
+    {
+      "symbol": "knifeAncientMetal",
+      "constructor": "ItemKnife",
+      "material": "ancient_metal",
+      "kind": "knife",
+      "name": "ancient_metal_knife",
+      "id": "mite_reforged:ancient_metal_knife",
+      "source_declaration": "new ItemKnife(801, akc.ancient_metal).b(\"knifeAncientMetal\")"
+    },
+    {
+      "symbol": "hatchetCopper",
+      "constructor": "ItemHatchet",
+      "material": "copper",
+      "kind": "hatchet",
+      "name": "copper_hatchet",
+      "id": "mite_reforged:copper_hatchet",
+      "source_declaration": "new ItemHatchet(919, akc.copper).b(\"hatchetCopper\")"
+    },
+    {
+      "symbol": "hatchetSilver",
+      "constructor": "ItemHatchet",
+      "material": "silver",
+      "kind": "hatchet",
+      "name": "silver_hatchet",
+      "id": "mite_reforged:silver_hatchet",
+      "source_declaration": "new ItemHatchet(920, akc.silver).b(\"hatchetSilver\")"
+    },
+    {
+      "symbol": "hatchetGold",
+      "constructor": "ItemHatchet",
+      "material": "gold",
+      "kind": "hatchet",
+      "name": "gold_hatchet",
+      "id": "mite_reforged:gold_hatchet",
+      "source_declaration": "new ItemHatchet(921, akc.gold).b(\"hatchetGold\")"
+    },
+    {
+      "symbol": "hatchetIron",
+      "constructor": "ItemHatchet",
+      "material": "iron",
+      "kind": "hatchet",
+      "name": "iron_hatchet",
+      "id": "mite_reforged:iron_hatchet",
+      "source_declaration": "new ItemHatchet(922, akc.f).b(\"hatchetIron\")"
+    },
+    {
+      "symbol": "hatchetMithril",
+      "constructor": "ItemHatchet",
+      "material": "mithril",
+      "kind": "hatchet",
+      "name": "mithril_hatchet",
+      "id": "mite_reforged:mithril_hatchet",
+      "source_declaration": "new ItemHatchet(923, akc.mithril).b(\"hatchetMithril\")"
+    },
+    {
+      "symbol": "hatchetAdamantium",
+      "constructor": "ItemHatchet",
+      "material": "adamantium",
+      "kind": "hatchet",
+      "name": "adamantium_hatchet",
+      "id": "mite_reforged:adamantium_hatchet",
+      "source_declaration": "new ItemHatchet(924, akc.adamantium).b(\"hatchetAdamantium\")"
+    },
+    {
+      "symbol": "hatchetRustedIron",
+      "constructor": "ItemHatchet",
+      "material": "rusted_iron",
+      "kind": "hatchet",
+      "name": "rusted_iron_hatchet",
+      "id": "mite_reforged:rusted_iron_hatchet",
+      "source_declaration": "new ItemHatchet(925, akc.rusted_iron).b(\"hatchetRustedIron\")"
+    },
+    {
+      "symbol": "hatchetAncientMetal",
+      "constructor": "ItemHatchet",
+      "material": "ancient_metal",
+      "kind": "hatchet",
+      "name": "ancient_metal_hatchet",
+      "id": "mite_reforged:ancient_metal_hatchet",
+      "source_declaration": "new ItemHatchet(1006, akc.ancient_metal).b(\"hatchetAncientMetal\")"
+    },
+    {
+      "symbol": "shearsRustedIron",
+      "constructor": "yx",
+      "material": "rusted_iron",
+      "kind": "shears",
+      "name": "rusted_iron_shears",
+      "id": "mite_reforged:rusted_iron_shears",
+      "source_declaration": "(yx)new yx(926, akc.rusted_iron).b(\"shearsRustedIron\")"
+    },
+    {
+      "symbol": "fishingRodCopper",
+      "constructor": "xv",
+      "material": "copper",
+      "kind": "fishing_rod",
+      "name": "copper_fishing_rod",
+      "id": "mite_reforged:copper_fishing_rod",
+      "source_declaration": "(xv)new xv(936, akc.copper).b(\"fishingRod\")"
+    },
+    {
+      "symbol": "fishingRodSilver",
+      "constructor": "xv",
+      "material": "silver",
+      "kind": "fishing_rod",
+      "name": "silver_fishing_rod",
+      "id": "mite_reforged:silver_fishing_rod",
+      "source_declaration": "(xv)new xv(937, akc.silver).b(\"fishingRod\")"
+    },
+    {
+      "symbol": "fishingRodGold",
+      "constructor": "xv",
+      "material": "gold",
+      "kind": "fishing_rod",
+      "name": "gold_fishing_rod",
+      "id": "mite_reforged:gold_fishing_rod",
+      "source_declaration": "(xv)new xv(938, akc.gold).b(\"fishingRod\")"
+    },
+    {
+      "symbol": "fishingRodMithril",
+      "constructor": "xv",
+      "material": "mithril",
+      "kind": "fishing_rod",
+      "name": "mithril_fishing_rod",
+      "id": "mite_reforged:mithril_fishing_rod",
+      "source_declaration": "(xv)new xv(939, akc.mithril).b(\"fishingRod\")"
+    },
+    {
+      "symbol": "fishingRodAdamantium",
+      "constructor": "xv",
+      "material": "adamantium",
+      "kind": "fishing_rod",
+      "name": "adamantium_fishing_rod",
+      "id": "mite_reforged:adamantium_fishing_rod",
+      "source_declaration": "(xv)new xv(940, akc.adamantium).b(\"fishingRod\")"
+    },
+    {
+      "symbol": "fishingRodAncientMetal",
+      "constructor": "xv",
+      "material": "ancient_metal",
+      "kind": "fishing_rod",
+      "name": "ancient_metal_fishing_rod",
+      "id": "mite_reforged:ancient_metal_fishing_rod",
+      "source_declaration": "(xv)new xv(1007, akc.ancient_metal).b(\"fishingRod\")"
+    },
+    {
+      "symbol": "shovelObsidian",
+      "constructor": "ItemShovel",
+      "material": "obsidian",
+      "kind": "shovel",
+      "name": "obsidian_shovel",
+      "id": "mite_reforged:obsidian_shovel",
+      "source_declaration": "new ItemShovel(946, akc.obsidian).b(\"shovelObsidian\")"
+    },
+    {
+      "symbol": "knifeObsidian",
+      "constructor": "ItemKnife",
+      "material": "obsidian",
+      "kind": "knife",
+      "name": "obsidian_knife",
+      "id": "mite_reforged:obsidian_knife",
+      "source_declaration": "new ItemKnife(947, akc.obsidian).b(\"knifeObsidian\")"
+    },
+    {
+      "symbol": "hatchetObsidian",
+      "constructor": "ItemHatchet",
+      "material": "obsidian",
+      "kind": "hatchet",
+      "name": "obsidian_hatchet",
+      "id": "mite_reforged:obsidian_hatchet",
+      "source_declaration": "new ItemHatchet(948, akc.obsidian).b(\"hatchetObsidian\")"
+    },
+    {
+      "symbol": "axeObsidian",
+      "constructor": "ya",
+      "material": "obsidian",
+      "kind": "axe",
+      "name": "obsidian_axe",
+      "id": "mite_reforged:obsidian_axe",
+      "source_declaration": "new ya(949, akc.obsidian).b(\"axeObsidian\")"
+    },
+    {
+      "symbol": "fishingRodFlint",
+      "constructor": "xv",
+      "material": "flint",
+      "kind": "fishing_rod",
+      "name": "flint_fishing_rod",
+      "id": "mite_reforged:flint_fishing_rod",
+      "source_declaration": "(xv)new xv(951, akc.flint).b(\"fishingRod\")"
+    },
+    {
+      "symbol": "fishingRodObsidian",
+      "constructor": "xv",
+      "material": "obsidian",
+      "kind": "fishing_rod",
+      "name": "obsidian_fishing_rod",
+      "id": "mite_reforged:obsidian_fishing_rod",
+      "source_declaration": "(xv)new xv(956, akc.obsidian).b(\"fishingRod\")"
+    },
+    {
+      "name": "bronze_hatchet",
+      "kind": "hatchet",
+      "material": "bronze",
+      "source_extension": "User31C; R195 silhouette, metal-only alloy tint, fixed046 baked model"
+    },
+    {
+      "name": "bronze_knife",
+      "kind": "knife",
+      "material": "bronze",
+      "source_extension": "User31C; R195 silhouette, metal-only alloy tint, fixed046 baked model"
+    },
+    {
+      "name": "bronze_shears",
+      "kind": "shears",
+      "material": "bronze",
+      "source_extension": "User31C; R195 silhouette, metal-only alloy tint, fixed046 baked model"
+    },
+    {
+      "name": "steel_hatchet",
+      "kind": "hatchet",
+      "material": "steel",
+      "source_extension": "User31C; R195 silhouette, metal-only alloy tint, fixed046 baked model"
+    },
+    {
+      "name": "steel_knife",
+      "kind": "knife",
+      "material": "steel",
+      "source_extension": "User31C; R195 silhouette, metal-only alloy tint, fixed046 baked model"
+    },
+    {
+      "name": "steel_shears",
+      "kind": "shears",
+      "material": "steel",
+      "source_extension": "User31C; R195 silhouette, metal-only alloy tint, fixed046 baked model"
+    }
+  ],
+  "retired_unrequested_bows": [
+    "copper_bow",
+    "silver_bow",
+    "gold_bow",
+    "bronze_bow",
+    "iron_bow",
+    "steel_bow",
+    "adamantium_bow"
+  ],
+  "forbidden_metal_knives": "Original vl/vv.isRecipeForbidden skips ItemKnife containing metal. Preserve this restriction rather than invent multi-result crafting.",
+  "remaining": "Reach/complete block/combat/archery hit/recovery/skills/repair and ancient/rusted natural loot routes remain open."
+}

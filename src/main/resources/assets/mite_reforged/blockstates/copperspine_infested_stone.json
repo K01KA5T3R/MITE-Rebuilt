@@ -1,0 +1,1 @@
+{"variants": {"deepslate=false": {"model": "minecraft:block/stone"}, "deepslate=true": {"model": "minecraft:block/deepslate"}}}

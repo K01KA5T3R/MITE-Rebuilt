@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "mite_reforged:item/source_bowls_042/cream_of_vegetable_soup"
+  }
+}

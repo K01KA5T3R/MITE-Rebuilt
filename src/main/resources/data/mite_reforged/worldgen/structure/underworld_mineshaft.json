@@ -1,0 +1,6 @@
+{
+  "type": "mite_reforged:underworld_mineshaft",
+  "biomes": "#mite_reforged:has_structure/underworld_mineshaft",
+  "step": "underground_structures",
+  "spawn_overrides": {}
+}

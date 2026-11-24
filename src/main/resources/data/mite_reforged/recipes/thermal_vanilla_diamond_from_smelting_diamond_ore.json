@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "minecraft:diamond_ore"
+  },
+  "result": {
+    "item": "minecraft:diamond"
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 1.0
+}

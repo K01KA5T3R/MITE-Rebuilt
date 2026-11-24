@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "A"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:brick",
+    "count": 4
+  }
+}

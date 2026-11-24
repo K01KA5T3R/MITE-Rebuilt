@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " S ",
+    "GOG",
+    " S "
+  ],
+  "key": {
+    "S": {
+      "item": "mite_reforged:silver_ingot"
+    },
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:runic_key",
+    "count": 1
+  }
+}

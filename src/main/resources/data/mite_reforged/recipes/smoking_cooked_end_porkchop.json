@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "ingredient": {
+    "item": "mite_reforged:raw_end_porkchop"
+  },
+  "result": "mite_reforged:cooked_end_porkchop",
+  "experience": 0.35,
+  "cookingtime": 100
+}

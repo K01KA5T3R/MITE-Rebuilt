@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#mite_reforged:source_ice_plains",
+  "spawners": [
+    {
+      "type": "mite_reforged:dire_wolf",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 3
+    }
+  ]
+}

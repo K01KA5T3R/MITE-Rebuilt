@@ -1,0 +1,58 @@
+[
+  {
+    "key": "beef",
+    "raw": "minecraft:beef",
+    "cooked": "minecraft:cooked_beef",
+    "satiation": 10,
+    "nutrition": 10,
+    "nutrients": 1
+  },
+  {
+    "key": "porkchop",
+    "raw": "minecraft:porkchop",
+    "cooked": "minecraft:cooked_porkchop",
+    "satiation": 8,
+    "nutrition": 8,
+    "nutrients": 1
+  },
+  {
+    "key": "chicken",
+    "raw": "minecraft:chicken",
+    "cooked": "minecraft:cooked_chicken",
+    "satiation": 6,
+    "nutrition": 6,
+    "nutrients": 1
+  },
+  {
+    "key": "mutton",
+    "raw": "minecraft:mutton",
+    "cooked": "minecraft:cooked_mutton",
+    "satiation": 6,
+    "nutrition": 6,
+    "nutrients": 1
+  },
+  {
+    "key": "rabbit",
+    "raw": "minecraft:rabbit",
+    "cooked": "minecraft:cooked_rabbit",
+    "satiation": 6,
+    "nutrition": 5,
+    "nutrients": 1
+  },
+  {
+    "key": "cod",
+    "raw": "minecraft:cod",
+    "cooked": "minecraft:cooked_cod",
+    "satiation": 6,
+    "nutrition": 6,
+    "nutrients": 3
+  },
+  {
+    "key": "salmon",
+    "raw": "minecraft:salmon",
+    "cooked": "minecraft:cooked_salmon",
+    "satiation": 10,
+    "nutrition": 10,
+    "nutrients": 3
+  }
+]

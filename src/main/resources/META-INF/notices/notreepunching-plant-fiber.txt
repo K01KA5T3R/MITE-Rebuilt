@@ -1,0 +1,7 @@
+Plant fibre texture
+Author: Alex O'Neill (AlcatrazEscapee)
+Source: https://github.com/alcatrazEscapee/no-tree-punching/blob/05c46ca24a69302f0b1fe86b48a54e5704cf4928/Common/src/main/resources/assets/notreepunching/textures/item/plant_fiber.png
+Commit: 05c46ca24a69302f0b1fe86b48a54e5704cf4928
+Git blob: 6bd99a90ea34a1b92dd42b111a15f34ff8ff8b4c
+License: MIT, reproduced in META-INF/licenses/notreepunching-plant-fiber-MIT.txt.
+The original PNG is used without pixel changes.

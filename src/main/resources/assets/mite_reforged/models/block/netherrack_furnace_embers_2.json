@@ -1,0 +1,6 @@
+{
+  "parent": "mite_reforged:block/netherrack_furnace_lit",
+  "textures": {
+    "front": "mite_reforged:block/netherrack_furnace_embers_2"
+  }
+}

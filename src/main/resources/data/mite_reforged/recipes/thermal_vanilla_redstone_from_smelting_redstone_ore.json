@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "minecraft:redstone_ore"
+  },
+  "result": {
+    "item": "minecraft:redstone"
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 0.7
+}

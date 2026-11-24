@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "pattern": [
+    "MMM",
+    "MCM",
+    "MRM"
+  ],
+  "key": {
+    "M": {
+      "item": "mite_reforged:mithril_ingot"
+    },
+    "C": {
+      "tag": "mite_reforged:crafting_workbenches"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:mithril_auto_workbench",
+    "count": 1
+  }
+}

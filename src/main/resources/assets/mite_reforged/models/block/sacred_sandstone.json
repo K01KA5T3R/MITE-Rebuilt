@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "mite_reforged:block/sacred_sandstone_side",
+    "end": "mite_reforged:block/sacred_sandstone_end"
+  }
+}

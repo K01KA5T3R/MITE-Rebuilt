@@ -1,0 +1,6 @@
+/** ni operation1 modifiers must be removed by their actual installed operation,
+ * before the native operation0 template is used by add/remove callbacks. */
+function initializeCoreMod(){
+ var O=Java.type('org.objectweb.asm.Opcodes'),L=Java.type('org.objectweb.asm.tree.InsnList'),V=Java.type('org.objectweb.asm.tree.VarInsnNode'),C=Java.type('org.objectweb.asm.tree.MethodInsnNode');
+ return {source_potion_actual_modifier_060:{target:{type:'CLASS',name:'net.minecraft.world.effect.MobEffect'},transformer:function(node){var count=0;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i),name=String(m.name);if((name!=='addAttributeModifiers'&&name!=='m_6385_'&&name!=='removeAttributeModifiers'&&name!=='m_6386_')||String(m.desc)!=='(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/attributes/AttributeMap;I)V')continue;var c=new L();c.add(new V(O.ALOAD,0));c.add(new V(O.ALOAD,1));c.add(new C(O.INVOKESTATIC,'dev/koikaster/mite/SourcePotionEffects060','clearActualAttribute','(Ljava/lang/Object;Ljava/lang/Object;)V',false));m.instructions.insert(c);m.maxStack=Math.max(4,m.maxStack);count++;}if(count!==2)throw new Error('Potion installed-modifier cleanup sites '+count);return node;}}};
+}

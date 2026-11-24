@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "mite_reforged:adamantium_pickaxe",
+    "mite_reforged:adamantium_axe",
+    "mite_reforged:adamantium_shovel",
+    "mite_reforged:adamantium_hoe",
+    "mite_reforged:adamantium_sword",
+    "mite_reforged:adamantium_dagger",
+    "mite_reforged:adamantium_battleaxe",
+    "mite_reforged:adamantium_warhammer",
+    "mite_reforged:adamantium_mattock",
+    "mite_reforged:adamantium_scythe",
+    "mite_reforged:adamantium_arrow",
+    "mite_reforged:adamantium_helmet",
+    "mite_reforged:adamantium_chestplate",
+    "mite_reforged:adamantium_leggings",
+    "mite_reforged:adamantium_boots"
+  ]
+}

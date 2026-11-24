@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": [
+    "mite_reforged:source_witherwood"
+  ],
+  "step": "vegetal_decoration"
+}

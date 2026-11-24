@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "minecraft:netherrack"
+  },
+  "result": {
+    "item": "minecraft:nether_brick"
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 0.1
+}

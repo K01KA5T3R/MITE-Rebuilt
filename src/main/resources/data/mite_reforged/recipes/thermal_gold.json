@@ -1,0 +1,21 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": [
+    {
+      "item": "minecraft:gold_ore"
+    },
+    {
+      "item": "minecraft:deepslate_gold_ore"
+    },
+    {
+      "item": "minecraft:nether_gold_ore"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_ingot",
+    "count": 1
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 1
+}

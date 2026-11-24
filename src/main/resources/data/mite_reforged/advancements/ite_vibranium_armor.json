@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "item": "mite_reforged:vibranium_chestplate"
+    },
+    "title": {
+      "translate": "advancement.mite_reforged.ite_vibranium_armor"
+    },
+    "description": {
+      "translate": "advancement.mite_reforged.ite_vibranium_armor.desc"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "frame": "challenge",
+    "hidden": false
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mite_reforged:vibranium_helmet"
+            ]
+          }
+        ]
+      }
+    },
+    "has_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mite_reforged:vibranium_chestplate"
+            ]
+          }
+        ]
+      }
+    },
+    "has_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mite_reforged:vibranium_leggings"
+            ]
+          }
+        ]
+      }
+    },
+    "has_3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mite_reforged:vibranium_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "mite_reforged:ite_vibranium_ingot"
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "mite_reforged:mithril_chain"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:mithril_nugget",
+    "count": 4
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mite_reforged:copper_door",
+    "mite_reforged:silver_door",
+    "mite_reforged:gold_door",
+    "mite_reforged:mithril_door",
+    "mite_reforged:adamantium_door",
+    "mite_reforged:ancient_metal_door"
+  ]
+}

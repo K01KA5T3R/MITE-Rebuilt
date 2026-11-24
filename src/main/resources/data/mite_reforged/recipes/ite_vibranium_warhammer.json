@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "IAI",
+    " S "
+  ],
+  "key": {
+    "I": {
+      "item": "mite_reforged:vibranium_ingot"
+    },
+    "A": {
+      "item": "mite_reforged:ancient_metal_warhammer"
+    },
+    "S": {
+      "item": "mite_reforged:obsidian_stick"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:vibranium_warhammer",
+    "count": 1
+  }
+}

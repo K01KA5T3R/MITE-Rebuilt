@@ -1,0 +1,296 @@
+{
+  "repository": "https://github.com/MinecraftModDevelopmentMods/BaseMetals",
+  "commit": "197a4b36eaeb16617c9b0d2c2d373e7771354a4b",
+  "author": "Eejit and Base Metals contributors",
+  "license": "CC-BY-NC-SA-4.0",
+  "files": [
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/adamantine_bow_pulling_0.png",
+      "sha256": "428252594038b83662a980157ebecd7e45c991a5710493ca580df361e847255a"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/blocks/steel_anvil_top_damaged_0.png",
+      "sha256": "def6e1c04dee24b8113a2774395370366e804d31f35f8d41c4d896ef0ecdcce2"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/blocks/steel_anvil_base.png",
+      "sha256": "a48c41a28422e9c3f111b392ad8d55bffd42ec460469a380f33f80c822b279b2"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/blocks/tin_ore.png",
+      "sha256": "22a4452d3fe75fe0fe9b843fdad0fa7f09ad6fe02667cb0f93acde968adfad34"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/adamantine_bow_standby.png",
+      "sha256": "f002bf84379c712661842589c5515dae2a863a029c016c50ac39db7fc7c43a53"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/adamantine_bow_pulling_2.png",
+      "sha256": "d4813be3ba26253544e3a608428f36452f97cbba3dd929d4a59373f8923c01ab"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_arrow.png",
+      "sha256": "09a201fcfe3d14ba7d08b981a201cd5e5edd431c81a3e773fd3f9a7db004d9e1"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/adamantine_bow_pulling_1.png",
+      "sha256": "0728612a60cf8b5445c872614e05e728ae6e970454bdc5a10fdfe727e295c5a6"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_axe.png",
+      "sha256": "40fdb8d38d926d64ada2143397c8b668d04414b3a0411840bad07cf329c2bc4d"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_bow_standby.png",
+      "sha256": "89ee3c46f3a57f5614e2001114c5706459e18cf6a9185c8bc1611e43f2f5e3e1"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_bow_pulling_0.png",
+      "sha256": "f6d2ea16f502eb026f5f892476c64f2bbe16755c7907d9eff71e9ded2bc6690c"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_boots.png",
+      "sha256": "249df0b29ffe0243af278eb99491cfbaad87ae55edfdedba70be7f5a58a071d7"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_bow_pulling_2.png",
+      "sha256": "a168a8bcf75539ddc0d9c833306f29ea1328911f30ae0a2fad488a27ea436107"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_blend.png",
+      "sha256": "d371c06665353ba791fb21542d523e54d7c2c67b11136db60b98fdf6a6ad3a0b"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_bow_pulling_1.png",
+      "sha256": "69eed4b555a647c2173613975715fbc35efbef8a3eaf0458a92b88ac143662a9"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_chestplate.png",
+      "sha256": "d7baa55ec67566831a859127f684ebd81dfe13fb3991fb5902fbb74386570b8a"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_crackhammer.png",
+      "sha256": "27f5f6d57bff137657f710e48ffd1c6c2a8f58d8e3c2f7cb96ccd729a65314f9"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_ingot.png",
+      "sha256": "93039ebc4b19ef13763fb4101dfff5f74d53b9b81872a224bb433218736ad3ed"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_leggings.png",
+      "sha256": "9202047427a53ff8a8f354fe583aeef1032d90827396388f65f616e8b5507378"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_scythe.png",
+      "sha256": "e03f52b1a8ba482650ea58258489ad423616b9c3dc88ace66971f86c81a3aa44"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_nugget.png",
+      "sha256": "bf17fa2e37b0baadef28ea6236ffcd278d55a9c78271c15dea9fe212adb2e1a8"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_pickaxe.png",
+      "sha256": "25d641d7b748d0d38f65c4c49ebe3866c7ae3b9c86b1f560cd3b76b2447aac8b"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_helmet.png",
+      "sha256": "7ccfecea363b131c299e1ce92ba271939d3291edcc7f5ee63d20d391ae65ddb4"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_hoe.png",
+      "sha256": "dd94aa0a11718da1139cc99d73989c630e77450130bba556a6111258ab820d25"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_shovel.png",
+      "sha256": "d37f3b6e65eaf0163e2028f8c92da0bb88e66da6b7c7710c55c2e29f3a514f51"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/bronze_sword.png",
+      "sha256": "b69f038f9871c5344cd14371b9c354ad5553cba7aa3b01d56ea1bc3dd8abd6fe"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/copper_bow_pulling_1.png",
+      "sha256": "421a4739edceabd0d50ae559ef39cc39a6cded91ab86c1d7e05ad1d352140475"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/copper_bow_pulling_2.png",
+      "sha256": "82e9f9a7e24dc5ca1968e536321712f6d479da5f7bf3723cbab125e585d324cc"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/gold_bow_pulling_1.png",
+      "sha256": "b8d644eb1e7e546932aac265d8fda7d025164f278dec324860ad642c7fc0e2d1"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/copper_bow_standby.png",
+      "sha256": "cc5eeea7566fc971c6513141149471c4f11f0e94d6a3782791d414d21cd817cb"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/gold_bow_pulling_0.png",
+      "sha256": "6c478f5902b0c7bf378c422601b0bdd80749fd567540d45384d4d9facf865baa"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/copper_bow_pulling_0.png",
+      "sha256": "b83e5b2ddd98beeb97967a4c76d7632ff72f2ad6a18437e871fd0cbe583bdc92"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/gold_bow_pulling_2.png",
+      "sha256": "8ce8323ad225432e9c789f6af4e04c4e5d9d0f91b539da8e0c480c1df4edcbf1"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/iron_bow_pulling_2.png",
+      "sha256": "d8ac13baf7f865f87969cc8e7faff9351448791bad08e4b1eb025d0c636a5686"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/iron_bow_pulling_0.png",
+      "sha256": "f6e2c6ac336b9c4810e537758ca56479b9510f1070ff9f1a5b679a30eb7dd104"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/mithril_bow_pulling_1.png",
+      "sha256": "928836a2b879475b9cd775b30ae211d9f8ca9188bc0ca2c0ac05a763ab9fa18d"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/iron_bow_standby.png",
+      "sha256": "c6bd21de6faeca6030baecaf222ae76b647b119ececf8d15ae585508abbefa99"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/mithril_bow_pulling_0.png",
+      "sha256": "66a30ef3be43f3b30f5c34dbb89144ee645df240adc4da0b95888ec5a97717a4"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/iron_bow_pulling_1.png",
+      "sha256": "13ce99abf7532ad7cb93b11da42199cb0be61a3a97bfddd32eb3068cfcb9ff5b"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/gold_bow_standby.png",
+      "sha256": "12323714175f24a9081aa8c012b57cc2f9a437ac751f3479f086aa3c39aaffc4"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/silver_bow_standby.png",
+      "sha256": "978d9c3869e821b9c186072d28a910dd54a188f08ba935e58ea44733a7f4c87e"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/silver_bow_pulling_0.png",
+      "sha256": "5d358f8be1212e975bbea6c55eb8859522ee84555ba38f8d10737c627d5c8929"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/mithril_bow_pulling_2.png",
+      "sha256": "2ed921248fc8ea77e7746f4b23c834164c6c347dbe5a9a18e2a11c3b72f7001b"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_arrow.png",
+      "sha256": "df605a25f0aecdc8a9b07ed4cefb5f2b20f379770a800879365110aab6f4b19c"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/silver_bow_pulling_1.png",
+      "sha256": "33ea47135acac6864faebf2aa47fc7241610538f2b751cdb047c1b651c0e6ed3"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_axe.png",
+      "sha256": "29fd0a23cb250adcdd737bd07744cc2f9569a71dc01497d0759ce5855a17f47e"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/silver_bow_pulling_2.png",
+      "sha256": "560340205685aacb38f39b58cfdbc4e28216cb1038d18954eda5faec5af32df2"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/mithril_bow_standby.png",
+      "sha256": "90df72967ea04ef7959f442ae83331a4a385c153582f412b594b80f959878da5"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_bow_pulling_0.png",
+      "sha256": "2f86151934cbff083a74aba3b3b9afa739c1f1cdb739bd438302ae2273b31c4e"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_bow_pulling_1.png",
+      "sha256": "6888883bcd017a593468bab65e88d7eb087c9da6fa5f90384d1c8c56ce3cfe53"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_boots.png",
+      "sha256": "733282d725b9ce099491acb16361262ceef026461d4be736c5624ca353135b31"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_chestplate.png",
+      "sha256": "a191921e129c463a549570e07e97cb6d99771a942576a05945e50eb71b2ed393"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_bow_pulling_2.png",
+      "sha256": "2261b326cc24a0f1c45058560bab383d5932610ac1aacb0473dbac7dd2b44d51"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_blend.png",
+      "sha256": "e060afedff7f373487c26fbc4860b347702878f7df2b2000d38be13fe965bd7b"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_bow_standby.png",
+      "sha256": "e6257d4b300b416bff96ab80e5e02fda778999e67dba1bc840f9a4f984549f51"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_crackhammer.png",
+      "sha256": "1b13f7670b120f5211ba7256852daa1ebc936cfcb978c9228696a826bb73b1e1"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_pickaxe.png",
+      "sha256": "7ec18e6673e3d13d3fb282e826e5b7b647f08680f6754dea86681a9d3f384886"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_helmet.png",
+      "sha256": "ceff9733123feee4a8b97103a2b5e8caff11192322351f70cd499ae1c92b79ab"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_ingot.png",
+      "sha256": "2c54dc6d14b0a80aa4c27072dd5788c9e79040cfe5378bf838e7fde153b15e22"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_scythe.png",
+      "sha256": "300b2fb2817e5f6197f2b79700074f90bacc95e1c55f6036e620c009ab457912"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_hoe.png",
+      "sha256": "ea54c630b1fa04309b1e0dce186c2d1d8855422847a1101cd86543aca723bfd3"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_nugget.png",
+      "sha256": "5f62032fa5182085f5a36aedc01896d8caea26c092d5e658c57dc2f0f34d1ba6"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_leggings.png",
+      "sha256": "37164acf4d556a6c447d4a5ee13b2b910d4366a16d068774fa468e7397641d89"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_shovel.png",
+      "sha256": "4532affec451a1512d87af15112805abc489d44878db6d25196068ac40815942"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/models/armor/steel_layer_2.png",
+      "sha256": "d2c8f227e9dba6304f055fcf3488bdd75a33f267c0256ae1c51b14b5adc5ba6c"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/steel_sword.png",
+      "sha256": "aeef753eda8f3cfcac311b2cc10a6124888834531531d7025e84039172144088"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/models/armor/bronze_layer_1.png",
+      "sha256": "c17ca4c41ebb879ef8d9c08788b76500e27e764147f9ef68369ca27743f8d0ee"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/tin_nugget.png",
+      "sha256": "83f854c48ab0ac7ad28483af7a9b10cfa22571fa68c27d77f5940bac539b6795"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/models/armor/bronze_layer_2.png",
+      "sha256": "0e99853df41502be782891dcb60fe1ff2b5c6e4e2382884e9490cec54eff0923"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/models/armor/steel_layer_1.png",
+      "sha256": "2bc8d57c06418565318151afb322762d4e40315f3317077659b5df1916249db5"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/tin_ingot.png",
+      "sha256": "1cd953bee8659fb8ebf410712410637ed29181e042cc709e3bc3240af182fe86"
+    },
+    {
+      "path": "src/main/resources/assets/basemetals/textures/items/tin_powder.png",
+      "sha256": "12b11ad9f62dadf63d9a1c001e6e8f79ad4d4b863eabca42663dba79440acb2f"
+    }
+  ]
+}

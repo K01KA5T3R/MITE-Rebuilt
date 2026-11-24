@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "mite_reforged:adamantium_ingot"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:adamantium_block"
+  }
+}

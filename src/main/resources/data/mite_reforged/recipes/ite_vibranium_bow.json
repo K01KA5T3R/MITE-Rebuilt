@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NSL",
+    "AVL",
+    "NSL"
+  ],
+  "key": {
+    "N": {
+      "item": "mite_reforged:vibranium_nugget"
+    },
+    "S": {
+      "item": "mite_reforged:obsidian_stick"
+    },
+    "L": {
+      "item": "minecraft:string"
+    },
+    "A": {
+      "item": "mite_reforged:ancient_metal_bow"
+    },
+    "V": {
+      "item": "mite_reforged:vibranium_ingot"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:vibranium_bow",
+    "count": 1
+  }
+}

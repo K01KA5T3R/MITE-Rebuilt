@@ -1,0 +1,6 @@
+{
+  "parent": "mite_reforged:block/hardened_clay_oven_on",
+  "textures": {
+    "front": "mite_reforged:block/hardened_clay_oven_embers_1"
+  }
+}

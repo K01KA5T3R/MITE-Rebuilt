@@ -1,0 +1,19 @@
+{
+  "type": "mite_reforged:source_bowl_food",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mite_reforged:flour"
+    },
+    {
+      "item": "mite_reforged:water_bowl"
+    },
+    {
+      "item": "mite_reforged:chocolate"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cookie",
+    "count": 4
+  }
+}

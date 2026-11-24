@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mite_reforged:diamond_shard"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond"
+  }
+}

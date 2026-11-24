@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "mite_reforged:item/source_bows/ancient_metal/iron_arrow_0"
+  }
+}

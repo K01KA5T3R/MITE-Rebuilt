@@ -1,0 +1,60 @@
+{
+  "source": "R195 yc.xx.setCookingResult; ss.attackEntityFrom; xx.getItemProducedWhenDestroyed; ye.getExperienceReward(quantity)",
+  "pairs": [
+    {
+      "raw": "minecraft:porkchop",
+      "cooked": "minecraft:cooked_porkchop",
+      "xp_each": 3,
+      "meat": true
+    },
+    {
+      "raw": "minecraft:cod",
+      "cooked": "minecraft:cooked_cod",
+      "xp_each": 3,
+      "meat": true
+    },
+    {
+      "raw": "minecraft:beef",
+      "cooked": "minecraft:cooked_beef",
+      "xp_each": 4,
+      "meat": true
+    },
+    {
+      "raw": "minecraft:chicken",
+      "cooked": "minecraft:cooked_chicken",
+      "xp_each": 3,
+      "meat": true
+    },
+    {
+      "raw": "minecraft:mutton",
+      "cooked": "minecraft:cooked_mutton",
+      "xp_each": 2,
+      "meat": true
+    },
+    {
+      "raw": "minecraft:salmon",
+      "cooked": "minecraft:cooked_salmon",
+      "xp_each": 4,
+      "meat": true
+    },
+    {
+      "raw": "minecraft:potato",
+      "cooked": "minecraft:baked_potato",
+      "xp_each": 0,
+      "meat": false
+    },
+    {
+      "raw": "mite_reforged:dough",
+      "cooked": "minecraft:bread",
+      "xp_each": 0,
+      "meat": false
+    },
+    {
+      "raw": "mite_reforged:worm",
+      "cooked": "mite_reforged:cooked_worm",
+      "xp_each": 0,
+      "meat": true
+    }
+  ],
+  "scope": "Nine original pairs only; modern-only counterparts require explicit catalogue adaptation."
+}

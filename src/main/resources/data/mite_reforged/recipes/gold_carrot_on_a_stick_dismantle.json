@@ -1,0 +1,13 @@
+{
+  "type": "mite_reforged:carrot_stick",
+  "category": "equipment",
+  "ingredients": [
+    {
+      "item": "mite_reforged:gold_carrot_on_a_stick"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:gold_fishing_rod",
+    "count": 1
+  }
+}

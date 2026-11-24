@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "mite_reforged:iron_pickaxe",
+    "mite_reforged:iron_axe",
+    "mite_reforged:iron_shovel",
+    "mite_reforged:iron_hoe",
+    "mite_reforged:iron_sword",
+    "mite_reforged:iron_dagger",
+    "mite_reforged:iron_battleaxe",
+    "mite_reforged:iron_warhammer",
+    "mite_reforged:iron_mattock",
+    "mite_reforged:iron_scythe",
+    "mite_reforged:iron_helmet",
+    "mite_reforged:iron_chestplate",
+    "mite_reforged:iron_leggings",
+    "mite_reforged:iron_boots"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "source_meta=0": {
+      "model": "mite_reforged:block/source_giant_brown_0"
+    },
+    "source_meta=1": {
+      "model": "mite_reforged:block/source_giant_brown_1"
+    },
+    "source_meta=2": {
+      "model": "mite_reforged:block/source_giant_brown_2"
+    },
+    "source_meta=3": {
+      "model": "mite_reforged:block/source_giant_brown_3"
+    },
+    "source_meta=4": {
+      "model": "mite_reforged:block/source_giant_brown_4"
+    },
+    "source_meta=5": {
+      "model": "mite_reforged:block/source_giant_brown_5"
+    },
+    "source_meta=6": {
+      "model": "mite_reforged:block/source_giant_brown_6"
+    },
+    "source_meta=7": {
+      "model": "mite_reforged:block/source_giant_brown_7"
+    },
+    "source_meta=8": {
+      "model": "mite_reforged:block/source_giant_brown_8"
+    },
+    "source_meta=9": {
+      "model": "mite_reforged:block/source_giant_brown_9"
+    },
+    "source_meta=10": {
+      "model": "mite_reforged:block/source_giant_brown_10"
+    },
+    "source_meta=11": {
+      "model": "mite_reforged:block/source_giant_brown_11"
+    },
+    "source_meta=12": {
+      "model": "mite_reforged:block/source_giant_brown_12"
+    },
+    "source_meta=13": {
+      "model": "mite_reforged:block/source_giant_brown_13"
+    },
+    "source_meta=14": {
+      "model": "mite_reforged:block/source_giant_brown_14"
+    },
+    "source_meta=15": {
+      "model": "mite_reforged:block/source_giant_brown_15"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/carved_pumpkin",
+  "textures": {
+    "north": "#side",
+    "south": "#front"
+  }
+}

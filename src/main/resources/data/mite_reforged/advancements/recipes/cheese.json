@@ -1,0 +1,55 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "mite_reforged:cheese"
+      }
+    },
+    "has_ingredient_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:milk_bucket"
+            ]
+          }
+        ]
+      }
+    },
+    "has_ingredient_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mite_reforged:copper_bucket",
+              "mite_reforged:silver_bucket",
+              "mite_reforged:gold_bucket",
+              "mite_reforged:bronze_bucket",
+              "mite_reforged:iron_bucket",
+              "mite_reforged:steel_bucket",
+              "mite_reforged:mithril_bucket",
+              "mite_reforged:adamantium_bucket"
+            ],
+            "nbt": "{\"Fluid\": \"milk\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_ingredient_0",
+      "has_ingredient_1"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mite_reforged:cheese"
+    ]
+  }
+}

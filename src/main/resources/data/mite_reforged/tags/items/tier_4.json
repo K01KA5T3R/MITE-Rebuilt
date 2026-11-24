@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "mite_reforged:mithril_pickaxe",
+    "mite_reforged:mithril_axe",
+    "mite_reforged:mithril_shovel",
+    "mite_reforged:mithril_hoe",
+    "mite_reforged:mithril_sword",
+    "mite_reforged:mithril_dagger",
+    "mite_reforged:mithril_battleaxe",
+    "mite_reforged:mithril_warhammer",
+    "mite_reforged:mithril_mattock",
+    "mite_reforged:mithril_scythe",
+    "mite_reforged:mithril_bow",
+    "mite_reforged:mithril_arrow",
+    "mite_reforged:mithril_helmet",
+    "mite_reforged:mithril_chestplate",
+    "mite_reforged:mithril_leggings",
+    "mite_reforged:mithril_boots"
+  ]
+}

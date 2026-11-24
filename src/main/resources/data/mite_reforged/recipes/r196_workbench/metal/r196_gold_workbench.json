@@ -1,0 +1,37 @@
+{
+  "type": "mite_reforged:r196_workbench",
+  "category": "misc",
+  "pattern": [
+    "IL",
+    "SP"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:gold_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "P": [
+      {
+        "item": "minecraft:oak_planks"
+      },
+      {
+        "item": "minecraft:spruce_planks"
+      },
+      {
+        "item": "minecraft:birch_planks"
+      },
+      {
+        "item": "minecraft:jungle_planks"
+      }
+    ]
+  },
+  "result": {
+    "item": "mite_reforged:r196_gold_workbench",
+    "count": 1
+  }
+}

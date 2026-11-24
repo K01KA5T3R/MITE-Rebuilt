@@ -1,0 +1,18 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": [
+    {
+      "item": "mite_reforged:tin_ore"
+    },
+    {
+      "item": "mite_reforged:deepslate_tin_ore"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:tin_ingot",
+    "count": 1
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 1
+}

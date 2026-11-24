@@ -1,0 +1,29 @@
+{
+  "type": "mite_reforged:r196_workbench",
+  "category": "equipment",
+  "pattern": [
+    "FF",
+    "FS",
+    "LS"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "L": [
+      {
+        "item": "minecraft:string"
+      },
+      {
+        "item": "mite_reforged:sinew"
+      }
+    ]
+  },
+  "result": {
+    "count": 1,
+    "item": "mite_reforged:flint_axe"
+  }
+}

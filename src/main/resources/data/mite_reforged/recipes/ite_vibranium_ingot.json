@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NIN",
+    "IDI",
+    "NIN"
+  ],
+  "key": {
+    "N": {
+      "item": "mite_reforged:mithril_nugget"
+    },
+    "I": {
+      "item": "mite_reforged:adamantium_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:vibranium_ingot",
+    "count": 1
+  }
+}

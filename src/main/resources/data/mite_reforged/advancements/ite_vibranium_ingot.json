@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "mite_reforged:vibranium_ingot"
+    },
+    "title": {
+      "translate": "advancement.mite_reforged.ite_vibranium_ingot"
+    },
+    "description": {
+      "translate": "advancement.mite_reforged.ite_vibranium_ingot.desc"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false
+  },
+  "criteria": {
+    "has_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mite_reforged:vibranium_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "mite_reforged:adamantium"
+}

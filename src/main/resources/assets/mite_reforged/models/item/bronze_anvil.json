@@ -1,0 +1,17 @@
+{
+  "parent": "mite_reforged:block/bronze_anvil",
+  "overrides": [
+    {
+      "predicate": {
+        "mite_reforged:wear": 1
+      },
+      "model": "mite_reforged:item/bronze_anvil_damaged_1"
+    },
+    {
+      "predicate": {
+        "mite_reforged:wear": 2
+      },
+      "model": "mite_reforged:item/bronze_anvil_damaged_2"
+    }
+  ]
+}

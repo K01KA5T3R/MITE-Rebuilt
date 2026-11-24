@@ -1,0 +1,8 @@
+{
+  "type": "mite_reforged:classic_mixed_planks",
+  "category": "redstone",
+  "group": "wooden_door",
+  "key": { "#": { "item": "minecraft:oak_planks" } },
+  "pattern": ["##", "##", "##"],
+  "result": { "item": "minecraft:oak_door" }
+}

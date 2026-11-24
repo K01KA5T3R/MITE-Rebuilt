@@ -1,0 +1,19 @@
+/** New confirmed hand-taming only. Frozen wild owner and modern Cat are unchanged. */
+function initializeCoreMod(){
+ var O=Java.type('org.objectweb.asm.Opcodes'),M=Java.type('org.objectweb.asm.tree.MethodNode'),F=Java.type('org.objectweb.asm.tree.FieldNode'),V=Java.type('org.objectweb.asm.tree.VarInsnNode'),FI=Java.type('org.objectweb.asm.tree.FieldInsnNode'),C=Java.type('org.objectweb.asm.tree.MethodInsnNode'),I=Java.type('org.objectweb.asm.tree.InsnNode');
+ return {source_ocelot_taming_044:{target:{type:'CLASS',name:'net.minecraft.world.entity.animal.Ocelot'},transformer:function(node){
+  var P='dev/koikaster/mite/',H=P+'SourceOcelotTaming',desc='(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;',interaction=null,tempt=null,srg=false;
+  if(String(node.superName)!=='net/minecraft/world/entity/animal/Animal'||node.interfaces.contains(P+'SourceOcelotTamingHost'))throw new Error('Unexpected Ocelot taming parent');
+  for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);if((String(m.name)==='mobInteract'||String(m.name)==='m_6071_')&&String(m.desc)===desc){interaction=m;srg=String(m.name)!=='mobInteract';}}
+  for(var i=0;i<node.fields.size();i++){var f=node.fields.get(i);if(String(f.desc)==='Lnet/minecraft/world/entity/animal/Ocelot$OcelotTemptGoal;'){if(tempt!==null)throw new Error('Multiple Ocelot tempt fields');tempt=f;}}
+  if(interaction===null||tempt===null)throw new Error('Ocelot hand-taming API missing');
+  function add(name,d,access){for(var i=0;i<node.methods.size();i++){var old=node.methods.get(i);if(String(old.name)===name&&String(old.desc)===d)throw new Error('Ocelot taming override already exists '+name);}var m=new M(access,name,d,null,null);node.methods.add(m);return m;}
+  var originalName=String(interaction.name);interaction.name='mite$priorTrustOnlyInteraction044';var m=add(originalName,desc,interaction.access);for(var i=0;i<3;i++)m.instructions.add(new V(O.ALOAD,i));m.instructions.add(new C(O.INVOKESTATIC,H,'interact','(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Lnet/minecraft/world/InteractionResult;',false));m.instructions.add(new I(O.ARETURN));m.maxStack=m.maxLocals=3;
+  node.interfaces.add(P+'SourceOcelotTamingHost');node.fields.add(new F(O.ACC_PRIVATE|O.ACC_TRANSIENT,'mite$tamingCooldown','I',null,null));
+  m=add('mite$tamingCooldown','()I',O.ACC_PUBLIC);m.instructions.add(new V(O.ALOAD,0));m.instructions.add(new FI(O.GETFIELD,node.name,'mite$tamingCooldown','I'));m.instructions.add(new I(O.IRETURN));m.maxStack=m.maxLocals=1;
+  m=add('mite$tamingCooldown','(I)V',O.ACC_PUBLIC);m.instructions.add(new V(O.ALOAD,0));m.instructions.add(new V(O.ILOAD,1));m.instructions.add(new FI(O.PUTFIELD,node.name,'mite$tamingCooldown','I'));m.instructions.add(new I(O.RETURN));m.maxStack=m.maxLocals=2;
+  m=add('mite$ocelotTempting','()Z',O.ACC_PUBLIC);m.instructions.add(new V(O.ALOAD,0));m.instructions.add(new FI(O.GETFIELD,node.name,String(tempt.name),String(tempt.desc)));m.instructions.add(new C(O.INVOKESTATIC,H,'tempting','(Ljava/lang/Object;)Z',false));m.instructions.add(new I(O.IRETURN));m.maxStack=m.maxLocals=1;
+  m=add('mite$ocelotAnimalInteract',desc,O.ACC_PUBLIC);for(var i=0;i<3;i++)m.instructions.add(new V(O.ALOAD,i));m.instructions.add(new C(O.INVOKESPECIAL,node.superName,originalName,desc,false));m.instructions.add(new I(O.ARETURN));m.maxStack=m.maxLocals=3;
+  m=add(srg?'m_8119_':'tick','()V',O.ACC_PUBLIC);m.instructions.add(new V(O.ALOAD,0));m.instructions.add(new C(O.INVOKESPECIAL,node.superName,srg?'m_8119_':'tick','()V',false));m.instructions.add(new V(O.ALOAD,0));m.instructions.add(new C(O.INVOKESTATIC,H,'afterTick','(Ljava/lang/Object;)V',false));m.instructions.add(new I(O.RETURN));m.maxStack=m.maxLocals=1;return node;
+ }}};
+}

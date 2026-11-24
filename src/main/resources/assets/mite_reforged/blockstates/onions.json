@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0,mite_blighted=false": {
+      "model": "mite_reforged:block/onions_0"
+    },
+    "age=1,mite_blighted=false": {
+      "model": "mite_reforged:block/onions_1"
+    },
+    "age=2,mite_blighted=false": {
+      "model": "mite_reforged:block/onions_2"
+    },
+    "age=3,mite_blighted=false": {
+      "model": "mite_reforged:block/onions_3"
+    },
+    "age=4,mite_blighted=false": {
+      "model": "mite_reforged:block/onions_4"
+    },
+    "age=5,mite_blighted=false": {
+      "model": "mite_reforged:block/onions_5"
+    },
+    "age=6,mite_blighted=false": {
+      "model": "mite_reforged:block/onions_6"
+    },
+    "age=7,mite_blighted=false": {
+      "model": "mite_reforged:block/onions_7"
+    },
+    "age=0,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_onions_0"
+    },
+    "age=1,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_onions_1"
+    },
+    "age=2,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_onions_1"
+    },
+    "age=3,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_onions_2"
+    },
+    "age=4,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_onions_2"
+    },
+    "age=5,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_onions_3"
+    },
+    "age=6,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_onions_3"
+    },
+    "age=7,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_onions_4"
+    }
+  }
+}

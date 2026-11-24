@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "mite_reforged:source_water",
+    "mite_reforged:core_heat",
+    "mite_reforged:hand_damage"
+  ]
+}

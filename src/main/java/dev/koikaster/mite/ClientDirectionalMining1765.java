@@ -1,0 +1,23 @@
+package dev.koikaster.mite;
+import net.minecraft.client.Minecraft;import net.minecraft.client.multiplayer.*;import net.minecraft.client.player.LocalPlayer;import net.minecraft.core.*;import net.minecraft.network.protocol.game.ServerboundPlayerActionPacket;import net.minecraft.Util;import net.minecraft.world.InteractionHand;import net.minecraft.world.item.ItemStack;import net.minecraft.world.level.block.state.BlockState;import net.minecraft.world.phys.*;import net.minecraftforge.client.ForgeHooksClient;
+/** A held gesture owns at most three normal native block transactions; no synthetic OS input. */
+public final class ClientDirectionalMining1765 {
+ private static final class Plan {final ClientLevel world;final LocalPlayer player;final MultiPlayerGameMode game;final BlockPos[] line;final Direction face;final ItemStack item;final int slot;int index,sequence;boolean hasSequence,confirmed,success,stopped;long waiting;BlockState before;Plan(Minecraft m,BlockPos root,Direction f){world=m.level;player=m.player;game=m.gameMode;line=DirectionalMining1765.line(root,f,player.getDirection());face=f;slot=player.getInventory().selected;item=signature(player.getMainHandItem());before=world.getBlockState(root);}}
+ private static Plan plan;
+ private static ItemStack signature(ItemStack stack){var copy=stack.copy();if(copy.isDamageableItem())copy.setDamageValue(0);return copy;}
+ private static boolean context(Minecraft m,Plan p){return m.level==p.world&&m.player==p.player&&m.gameMode==p.game&&m.screen==null&&p.player.getInventory().selected==p.slot&&ItemStack.isSameItemSameTags(p.item,signature(p.player.getMainHandItem()))&&DirectionalMining1765.mode(p.player,p.player.getMainHandItem())&&!p.player.isUsingItem()&&!p.player.isHandsBusy()&&SurvivalFood.hasFoodEnergy(p.player);}
+ private static void stop(Plan p){if(!p.stopped){p.stopped=true;p.game.stopDestroyBlock();}}
+ public static boolean start(Object rawGame,Object rawPos,Object rawFace){var game=(MultiPlayerGameMode)rawGame;var root=(BlockPos)rawPos;var face=(Direction)rawFace;var m=Minecraft.getInstance();plan=null;if(m.level!=null&&m.player!=null&&m.gameMode==game&&m.screen==null&&DirectionalMining1765.mode(m.player,m.player.getMainHandItem())&&DirectionalMining1765.eligible(m.player,m.level.getBlockState(root),root)&&OriginalReach.canSelectBlock(m.player,root,1))plan=new Plan(m,root,face);boolean result=game.startDestroyBlock(root,face);if(!result&&plan!=null)stop(plan);return result;}
+ public static void outgoing(Object rawPacket){if(plan==null||plan.stopped||plan.index>=3||!(rawPacket instanceof ServerboundPlayerActionPacket p)||p.getAction()!=ServerboundPlayerActionPacket.Action.START_DESTROY_BLOCK||!p.getPos().equals(plan.line[plan.index]))return;plan.sequence=p.getSequence();plan.hasSequence=true;plan.confirmed=false;plan.waiting=0;}
+ public static void ack(DirectionalMining1765.Ack ack){var p=plan;if(p==null||p.stopped||p.index>=3||!p.hasSequence||p.confirmed||!ack.dimension().equals(p.world.dimension().location())||!ack.pos().equals(p.line[p.index])||ack.sequence()!=p.sequence)return;p.confirmed=true;p.success=ack.success();if(!p.success)stop(p);}
+ public static boolean continuing(Object rawMinecraft,boolean held,int missTime){var m=(Minecraft)rawMinecraft;var p=plan;if(p==null)return false;if(!held){if(m.gameMode==p.game)stop(p);plan=null;return false;}if(m.level!=p.world||m.player!=p.player||m.gameMode!=p.game){plan=null;return false;}if(!context(m,p)){stop(p);return true;}if(p.stopped||p.index>=3)return true;if(missTime>0)return false;
+  if(p.confirmed){if(!p.success){stop(p);return true;}p.index++;p.hasSequence=false;p.confirmed=false;p.waiting=0;if(p.index>=3)return true;p.before=p.world.getBlockState(p.line[p.index]);}
+  var pos=p.line[p.index];var state=p.world.getBlockState(pos);
+  if(p.hasSequence&&!state.is(p.before.getBlock())){if(p.waiting==0)p.waiting=Util.getMillis();else if(Util.getMillis()-p.waiting>10_000)stop(p);return true;}
+  if(!DirectionalMining1765.eligible(p.player,state,pos)||!OriginalReach.canSelectBlock(p.player,pos,1)){stop(p);return true;}
+  if(p.index==0&&(!(m.hitResult instanceof BlockHitResult hit)||!hit.getBlockPos().equals(pos))){stop(p);return true;}
+  var input=ForgeHooksClient.onClickInput(0,m.options.keyAttack,InteractionHand.MAIN_HAND);if(input.isCanceled()){stop(p);return true;}
+  if(p.game.continueDestroyBlock(pos,p.face)&&input.shouldSwingHand()){var hit=new BlockHitResult(Vec3.atCenterOf(pos).add(p.face.getStepX()*.5,p.face.getStepY()*.5,p.face.getStepZ()*.5),p.face,pos,false);m.particleEngine.addBlockHitEffects(pos,hit);p.player.swing(InteractionHand.MAIN_HAND);}return true;
+ }
+ private ClientDirectionalMining1765(){}
+}

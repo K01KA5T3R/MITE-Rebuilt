@@ -1,0 +1,30 @@
+package dev.koikaster.mite;
+import java.util.*;import java.util.function.Supplier;
+import net.minecraft.core.*;import net.minecraft.resources.ResourceLocation;import net.minecraft.network.FriendlyByteBuf;import net.minecraft.network.protocol.game.ServerboundPlayerActionPacket;
+import net.minecraft.server.level.ServerPlayer;import net.minecraft.world.entity.player.Player;import net.minecraft.world.item.ItemStack;import net.minecraft.world.level.Level;import net.minecraft.world.level.block.*;import net.minecraft.world.level.block.state.BlockState;
+import net.minecraftforge.api.distmarker.Dist;import net.minecraftforge.fml.DistExecutor;import net.minecraftforge.network.*;import net.minecraftforge.network.simple.SimpleChannel;
+/** User E13..E16/E25..E27. Native single-block progress, permissions and drops remain authoritative. */
+public final class DirectionalMining1765 {
+ private static final Set<Block> TERRAIN=Set.of(Blocks.STONE,Blocks.GRANITE,Blocks.DIORITE,Blocks.ANDESITE,Blocks.TUFF,Blocks.CALCITE,Blocks.DIRT,Blocks.COARSE_DIRT,Blocks.ROOTED_DIRT,Blocks.GRASS_BLOCK,Blocks.PODZOL,Blocks.MYCELIUM,Blocks.SAND,Blocks.RED_SAND,Blocks.GRAVEL,Blocks.CLAY,Blocks.SANDSTONE,Blocks.RED_SANDSTONE,Blocks.NETHERRACK,Blocks.BLACKSTONE,Blocks.BASALT,Blocks.SMOOTH_BASALT,Blocks.END_STONE);
+ private record Attempt(Level level,BlockPos pos,int sequence,BlockState before){}
+ private static final Map<ServerPlayer,Attempt> ATTEMPTS=new WeakHashMap<>();private static SimpleChannel channel;
+ public static boolean tool(ItemStack stack){var p=ClassicToolWear.profile(stack);return p!=null&&!ModernContentPolicy.removed(stack)&&(p.kind()==LegacyToolWear.Kind.PICKAXE||p.kind()==LegacyToolWear.Kind.SHOVEL)&&LegacyHarvest.material(p.material())>=3;}
+ public static boolean mode(Player player,ItemStack stack){return WorldContentMode.rebuilt(player.level())&&player.isAlive()&&!player.isCreative()&&!player.isSpectator()&&player.getAbilities().mayBuild&&player.isShiftKeyDown()&&tool(stack);}
+ public static boolean terrain(BlockState state){return TERRAIN.contains(state.getBlock())&&!state.hasBlockEntity();}
+ public static boolean eligible(Player player,BlockState state,BlockPos pos){return terrain(state)&&!player.level().isOutsideBuildHeight(pos)&&player.level().getWorldBorder().isWithinBounds(pos)&&ClassicMining.hardness(state,player.level(),pos)>0&&HarvestRules.canHarvest(player,state,player.level(),pos)&&ClassicMining.baseStrength(player,state)>1f;}
+ public static BlockPos[] line(BlockPos root,Direction face,Direction facing){Direction step=face.getAxis().isHorizontal()?Direction.UP:facing;return new BlockPos[]{root.immutable(),root.relative(step),root.relative(step,2)};}
+ public static int wear(int base,ItemStack stack,Player player,BlockState state,Level level,BlockPos pos){if(base<=0||level.isClientSide||!mode(player,stack)||!eligible(player,state,pos))return base;var data=PlayerState.data(player);long halves=(long)base+(data.getBoolean("DirectionalWearHalf1765")?1:0);data.putBoolean("DirectionalWearHalf1765",(halves&1)!=0);return (int)Math.min(Integer.MAX_VALUE,(long)base+halves/2);}
+ public static void extraTick(Object rawPlayer,Object rawState,Object rawPos){var p=(Player)rawPlayer;var state=(BlockState)rawState;var pos=(BlockPos)rawPos;if(!p.level().isClientSide&&mode(p,p.getMainHandItem())&&eligible(p,state,pos))p.causeFoodExhaustion(.005f*EnchantmentEffects.endurance(p));}
+ public static void register(SimpleChannel value){channel=value;value.messageBuilder(Ack.class,39,NetworkDirection.PLAY_TO_CLIENT).encoder(Ack::write).decoder(Ack::read).consumerMainThread(Ack::handle).add();}
+ public record Ack(ResourceLocation dimension,BlockPos pos,int sequence,boolean success){
+  public Ack{pos=pos.immutable();}
+  static void write(Ack p,FriendlyByteBuf b){b.writeResourceLocation(p.dimension);b.writeBlockPos(p.pos);b.writeVarInt(p.sequence);b.writeBoolean(p.success);}
+  static Ack read(FriendlyByteBuf b){return new Ack(b.readResourceLocation(),b.readBlockPos(),b.readVarInt(),b.readBoolean());}
+  static void handle(Ack p,Supplier<NetworkEvent.Context> c){DistExecutor.unsafeRunWhenOn(Dist.CLIENT,()->()->ClientDirectionalMining1765.ack(p));c.get().setPacketHandled(true);}
+ }
+ private static void finish(ServerPlayer p,Attempt a,boolean success){if(ATTEMPTS.get(p)!=a)return;ATTEMPTS.remove(p);if(p.connection!=null&&!(p instanceof net.minecraftforge.common.util.FakePlayer))channel.send(PacketDistributor.PLAYER.with(()->p),new Ack(a.level.dimension().location(),a.pos,a.sequence,success));}
+ public static void action(Object rawPlayer,Object rawPos,Object rawAction,Object rawFace,int sequence){var p=(ServerPlayer)rawPlayer;var pos=(BlockPos)rawPos;var action=(ServerboundPlayerActionPacket.Action)rawAction;LargeBonePickaxe.action(p,pos,action,(Direction)rawFace);if(action==ServerboundPlayerActionPacket.Action.START_DESTROY_BLOCK){ATTEMPTS.remove(p);var state=p.level().getBlockState(pos);if(mode(p,p.getMainHandItem())&&eligible(p,state,pos))ATTEMPTS.put(p,new Attempt(p.level(),pos.immutable(),sequence,state));}else if(action==ServerboundPlayerActionPacket.Action.ABORT_DESTROY_BLOCK){var a=ATTEMPTS.get(p);if(a!=null&&a.pos.equals(pos))finish(p,a,false);}}
+ public static void returned(Object rawPlayer,Object rawPos,Object rawAction,boolean digging,Object rawDigPos,boolean delayed,Object rawDelayedPos){var p=(ServerPlayer)rawPlayer;var a=ATTEMPTS.get(p);if(a==null||!a.pos.equals(rawPos)||a.level!=p.level())return;var action=(ServerboundPlayerActionPacket.Action)rawAction;if(action!=ServerboundPlayerActionPacket.Action.START_DESTROY_BLOCK&&action!=ServerboundPlayerActionPacket.Action.STOP_DESTROY_BLOCK)return;if(digging&&a.pos.equals(rawDigPos)||delayed&&a.pos.equals(rawDelayedPos))return;finish(p,a,false);}
+ public static void completed(ServerPlayer p,BlockPos pos,BlockState before,boolean removed){var a=ATTEMPTS.get(p);if(a!=null&&a.level==p.level()&&a.pos.equals(pos))finish(p,a,removed&&!p.level().getBlockState(pos).is(before.getBlock()));}
+ private DirectionalMining1765(){}
+}

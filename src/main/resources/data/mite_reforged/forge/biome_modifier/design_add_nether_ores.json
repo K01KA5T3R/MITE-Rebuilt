@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_nether",
+  "features": [
+    "mite_reforged:design_nether_gold",
+    "mite_reforged:design_nether_quartz",
+    "mite_reforged:design_nether_ancient_debris",
+    "mite_reforged:design_nether_ancient_debris_high"
+  ],
+  "step": "underground_ores"
+}

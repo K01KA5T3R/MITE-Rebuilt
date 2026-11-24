@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "growth=0": {
+      "model": "mite_reforged:block/source_blueberry_picked"
+    },
+    "growth=1": {
+      "model": "mite_reforged:block/source_blueberry_picked"
+    },
+    "growth=2": {
+      "model": "mite_reforged:block/source_blueberry_picked"
+    },
+    "growth=3": {
+      "model": "mite_reforged:block/source_blueberry"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+function initializeCoreMod(){
+ var O=Java.type('org.objectweb.asm.Opcodes'),V=Java.type('org.objectweb.asm.tree.VarInsnNode'),C=Java.type('org.objectweb.asm.tree.MethodInsnNode');var H='dev/koikaster/mite/SourceUseFinish1042',S='net/minecraft/world/item/ItemStack',R='L'+S+';';
+ function named(m,a,b){return String(m.name)===a||String(m.name)===b;}
+ function stats(className,method,alias,desc,stack){return {target:{type:'CLASS',name:className},transformer:function(node){var methods=0,calls=0;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);if(!named(m,method,alias)||String(m.desc)!==desc)continue;methods++;var all=m.instructions.toArray();for(var j=0;j<all.length;j++){var x=all[j];if(x.getOpcode()===O.INVOKEVIRTUAL&&(String(x.owner)==='net/minecraft/world/entity/player/Player'||String(x.owner)==='net/minecraft/server/level/ServerPlayer')&&String(x.desc)==='(Lnet/minecraft/stats/Stat;)V'){m.instructions.insertBefore(x,new V(O.ALOAD,stack));m.instructions.set(x,new C(O.INVOKESTATIC,H,'finishStat','(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V',false));calls++;}}m.maxStack+=1;}if(methods!==1||calls!==1)throw new Error('FinishStat1088 sites '+className+' '+methods+'/'+calls);return node;}};}
+ var finish='('+R+'Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)'+R;
+ return {
+  source_actor_finish_owner1088:{target:{type:'CLASS',name:'net.minecraft.world.entity.LivingEntity'},transformer:function(node){var methods=0,calls=0;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);if(!named(m,'completeUsingItem','m_8095_')||String(m.desc)!=='()V')continue;methods++;for(var x=m.instructions.getFirst();x!==null;x=x.getNext())if(x instanceof C&&x.getOpcode()===O.INVOKEVIRTUAL&&String(x.owner)===S&&(String(x.name)==='finishUsingItem'||String(x.name)==='m_41671_')&&String(x.desc)==='(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)'+R){x.setOpcode(O.INVOKESTATIC);x.owner=H;x.name='ownerFinish';x.desc='(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)'+R;x.itf=false;calls++;}}if(methods!==1||calls!==1)throw new Error('FinishStat1088 actorcall '+methods+'/'+calls);return node;}},
+  source_player_finish_stat1088:stats('net.minecraft.world.entity.player.Player','eat','m_5584_','(Lnet/minecraft/world/level/Level;'+R+')'+R,2),
+  source_milk_finish_stat1088:stats('net.minecraft.world.item.MilkBucketItem','finishUsingItem','m_5922_',finish,1),
+  source_potion_finish_stat1088:stats('net.minecraft.world.item.PotionItem','finishUsingItem','m_5922_',finish,1),
+  source_honey_finish_stat1088:stats('net.minecraft.world.item.HoneyBottleItem','finishUsingItem','m_5922_',finish,1)
+ };
+}

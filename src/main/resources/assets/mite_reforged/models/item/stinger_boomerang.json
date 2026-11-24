@@ -1,0 +1,49 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "mite_reforged:item/boss_items/stinger_boomerang"
+  },
+  "display": {
+    "gui": {
+      "scale": [
+        0.9,
+        0.9,
+        1
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        -72,
+        18
+      ],
+      "translation": [
+        -1,
+        5,
+        1
+      ],
+      "scale": [
+        0.53,
+        0.53,
+        0.53
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        72,
+        -18
+      ],
+      "translation": [
+        -1,
+        5,
+        1
+      ],
+      "scale": [
+        0.53,
+        0.53,
+        0.53
+      ]
+    }
+  }
+}

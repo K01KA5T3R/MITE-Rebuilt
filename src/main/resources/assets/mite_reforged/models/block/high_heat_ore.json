@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "side": "mite_reforged:block/high_heat_ore",
+    "end": "mite_reforged:block/high_heat_ore_top"
+  }
+}

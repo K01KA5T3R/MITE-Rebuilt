@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "VOA",
+    "DND",
+    "AOV"
+  ],
+  "key": {
+    "V": {
+      "item": "mite_reforged:vibranium_ingot"
+    },
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "A": {
+      "item": "mite_reforged:adamantium_ingot"
+    },
+    "N": {
+      "item": "mite_reforged:netherrack_furnace"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:vibranium_furnace",
+    "count": 1
+  }
+}

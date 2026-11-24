@@ -1,0 +1,84 @@
+{
+  "variants": {
+    "facing=north,lit=false": {
+      "model": "mite_reforged:block/vibranium_furnace",
+      "y": 0
+    },
+    "facing=north,lit=true,mite_embers=0": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 0
+    },
+    "facing=north,lit=true,mite_embers=1": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 0
+    },
+    "facing=north,lit=true,mite_embers=2": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 0
+    },
+    "facing=north,lit=true,mite_embers=3": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 0
+    },
+    "facing=east,lit=false": {
+      "model": "mite_reforged:block/vibranium_furnace",
+      "y": 90
+    },
+    "facing=east,lit=true,mite_embers=0": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 90
+    },
+    "facing=east,lit=true,mite_embers=1": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 90
+    },
+    "facing=east,lit=true,mite_embers=2": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 90
+    },
+    "facing=east,lit=true,mite_embers=3": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 90
+    },
+    "facing=south,lit=false": {
+      "model": "mite_reforged:block/vibranium_furnace",
+      "y": 180
+    },
+    "facing=south,lit=true,mite_embers=0": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 180
+    },
+    "facing=south,lit=true,mite_embers=1": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 180
+    },
+    "facing=south,lit=true,mite_embers=2": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 180
+    },
+    "facing=south,lit=true,mite_embers=3": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 180
+    },
+    "facing=west,lit=false": {
+      "model": "mite_reforged:block/vibranium_furnace",
+      "y": 270
+    },
+    "facing=west,lit=true,mite_embers=0": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 270
+    },
+    "facing=west,lit=true,mite_embers=1": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 270
+    },
+    "facing=west,lit=true,mite_embers=2": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 270
+    },
+    "facing=west,lit=true,mite_embers=3": {
+      "model": "mite_reforged:block/vibranium_furnace_lit",
+      "y": 270
+    }
+  }
+}

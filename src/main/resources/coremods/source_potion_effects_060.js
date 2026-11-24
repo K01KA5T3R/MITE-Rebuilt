@@ -1,0 +1,13 @@
+/** ni consumer hooks. Scope is the actual affected actor, not a global potion
+ * replacement; native/foreign effect fallbacks remain in their original body. */
+function initializeCoreMod(){
+ var O=Java.type('org.objectweb.asm.Opcodes'),L=Java.type('org.objectweb.asm.tree.InsnList'),V=Java.type('org.objectweb.asm.tree.VarInsnNode'),C=Java.type('org.objectweb.asm.tree.MethodInsnNode'),I=Java.type('org.objectweb.asm.tree.InsnNode'),B=Java.type('org.objectweb.asm.tree.LabelNode'),J=Java.type('org.objectweb.asm.tree.JumpInsnNode'),h='dev/koikaster/mite/SourcePotionEffects060';
+ function match(m,a,b,d){return (String(m.name)===a||String(m.name)===b)&&String(m.desc)===d;}
+ return {
+  source_potion_duration_060:{target:{type:'CLASS',name:'net.minecraft.world.effect.MobEffectInstance'},transformer:function(node){var count=0;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);if(!match(m,'tick','m_19552_','(Lnet/minecraft/world/entity/LivingEntity;Ljava/lang/Runnable;)Z'))continue;var all=m.instructions.toArray();for(var k=0;k<all.length;k++){var x=all[k];if(x.getOpcode()===O.INVOKEVIRTUAL&&(String(x.name)==='isDurationEffectTick'||String(x.name)==='m_6584_')&&String(x.desc)==='(II)Z'){m.instructions.insertBefore(x,new V(O.ALOAD,1));m.instructions.set(x,new C(O.INVOKESTATIC,h,'duration','(Ljava/lang/Object;IILjava/lang/Object;)Z',false));count++;}}m.maxStack=Math.max(16,m.maxStack);}if(count!==1)throw new Error('Potion duration call count '+count);return node;}},
+  source_potion_behaviour_060:{target:{type:'CLASS',name:'net.minecraft.world.effect.MobEffect'},transformer:function(node){var poison=0,attributes=0;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);
+   if(match(m,'applyEffectTick','m_6742_','(Lnet/minecraft/world/entity/LivingEntity;I)V')){var c=new L(),resume=new B();c.add(new V(O.ALOAD,0));c.add(new V(O.ALOAD,1));c.add(new V(O.ILOAD,2));c.add(new C(O.INVOKESTATIC,h,'poisonTick','(Ljava/lang/Object;Ljava/lang/Object;I)Z',false));c.add(new J(O.IFEQ,resume));c.add(new I(O.RETURN));c.add(resume);m.instructions.insert(c);m.maxStack=Math.max(16,m.maxStack);poison++;}
+   else if(match(m,'addAttributeModifiers','m_6385_','(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/ai/attributes/AttributeMap;I)V')){var all=m.instructions.toArray();for(var k=0;k<all.length;k++)if(all[k].getOpcode()===O.RETURN){var c=new L();c.add(new V(O.ALOAD,0));c.add(new V(O.ALOAD,1));c.add(new V(O.ILOAD,3));c.add(new C(O.INVOKESTATIC,h,'attributes','(Ljava/lang/Object;Ljava/lang/Object;I)V',false));m.instructions.insertBefore(all[k],c);attributes++;}m.maxStack=Math.max(16,m.maxStack);}
+  }if(poison!==1||attributes!==1)throw new Error('Potion effect sites '+poison+'/'+attributes);return node;}}
+ };
+}

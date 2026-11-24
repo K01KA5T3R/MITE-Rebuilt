@@ -1,0 +1,12 @@
+package dev.koikaster.mite;
+import net.minecraft.resources.ResourceKey;import net.minecraft.server.level.*;import net.minecraft.world.damagesource.DamageSource;import net.minecraft.world.entity.*;import net.minecraft.world.entity.monster.*;import net.minecraft.world.entity.projectile.AbstractArrow;import net.minecraft.world.level.Level;import net.minecraftforge.common.util.ITeleporter;
+/** Award only at the committed native/source action, never by inventory possession. */
+public final class SourceAchievementActions572 {
+ public static void killed(Object raw,Object victim,Object source){if(raw instanceof ServerPlayer p){if(victim instanceof Enemy)SourceAchievementService570.grant(p,"killEnemy");if(victim instanceof Entity entity)SourceTournamentStanding.killed(p,entity);}}
+ public static void skeletonDeath(Object raw,Object damage){if(!(raw instanceof LivingEntity target)||!(damage instanceof DamageSource source)||!(source.getDirectEntity() instanceof AbstractArrow)||!(source.getEntity() instanceof ServerPlayer p))return;boolean normal=target instanceof SourceSkeleton s?s.skeletonType()==0:target instanceof SourceLongdead s?s.skeletonType()==0:target.getType()==EntityType.SKELETON;if(!normal)return;double x=p.getX()-target.getX(),z=p.getZ()-target.getZ();if(x*x+z*z>=2500d)SourceAchievementService570.grant(p,"snipeSkeleton");}
+ public static boolean pigFall(boolean result,Object raw,float distance){if(distance>5f&&raw instanceof net.minecraft.world.entity.animal.Pig pig&&pig.getFirstPassenger() instanceof ServerPlayer p)SourceAchievementService570.grant(p,"flyPig");return result;}
+ public static void overkill(Object raw,float damage,boolean harmed){if(harmed&&damage>=18f&&raw instanceof ServerPlayer p)SourceAchievementService570.grant(p,"overkill");}
+ public static void dimension(ServerPlayer p,ResourceKey<Level> from,ResourceKey<Level> to){if(from==Level.END&&to==Level.OVERWORLD)SourceAchievementService570.grant(p,"theEnd2");else if(from==Level.OVERWORLD&&to==Level.END)SourceAchievementService570.grant(p,"theEnd");else SourceAchievementService570.grant(p,"portal");}
+ public static Entity dimensionReturn(Entity result,ServerPlayer p,ServerLevel target,ITeleporter teleporter){if(result==p&&p.level().dimension()==Level.END&&target.dimension()==Level.OVERWORLD&&teleporter.isVanilla())SourceAchievementService570.grant(p,"theEnd2");return result;}
+ private SourceAchievementActions572(){}
+}

@@ -1,0 +1,27 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_mithril": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mite_reforged:mithril_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_mithril"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "mite_reforged:mithril_auto_workbench"
+    ]
+  }
+}

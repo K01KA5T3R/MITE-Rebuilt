@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "minecraft:emerald_ore"
+  },
+  "result": {
+    "item": "minecraft:emerald"
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 1.0
+}

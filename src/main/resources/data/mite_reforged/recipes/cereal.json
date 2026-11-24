@@ -1,0 +1,19 @@
+{
+  "type": "mite_reforged:source_bowl_food",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "mite_reforged:milk_bowl"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:cereal",
+    "count": 1
+  }
+}

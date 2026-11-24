@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0,mite_blighted=false": {
+      "model": "minecraft:block/carrots_stage0"
+    },
+    "age=1,mite_blighted=false": {
+      "model": "minecraft:block/carrots_stage0"
+    },
+    "age=2,mite_blighted=false": {
+      "model": "minecraft:block/carrots_stage1"
+    },
+    "age=3,mite_blighted=false": {
+      "model": "minecraft:block/carrots_stage1"
+    },
+    "age=4,mite_blighted=false": {
+      "model": "minecraft:block/carrots_stage2"
+    },
+    "age=5,mite_blighted=false": {
+      "model": "minecraft:block/carrots_stage2"
+    },
+    "age=6,mite_blighted=false": {
+      "model": "minecraft:block/carrots_stage2"
+    },
+    "age=7,mite_blighted=false": {
+      "model": "minecraft:block/carrots_stage3"
+    },
+    "age=0,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_carrots_0"
+    },
+    "age=1,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_carrots_0"
+    },
+    "age=2,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_carrots_1"
+    },
+    "age=3,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_carrots_1"
+    },
+    "age=4,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_carrots_2"
+    },
+    "age=5,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_carrots_2"
+    },
+    "age=6,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_carrots_2"
+    },
+    "age=7,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_carrots_3"
+    }
+  }
+}

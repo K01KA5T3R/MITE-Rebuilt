@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "mite_reforged:block/netherrack_furnace_front_off",
+    "side": "mite_reforged:block/netherrack_furnace_side",
+    "top": "mite_reforged:block/netherrack_furnace_top"
+  }
+}

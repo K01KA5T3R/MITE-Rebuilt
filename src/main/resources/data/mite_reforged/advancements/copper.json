@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "mite_reforged:copper_pickaxe"
+    },
+    "title": {
+      "translate": "advancement.mite_reforged.copper"
+    },
+    "description": {
+      "translate": "advancement.mite_reforged.copper.desc"
+    },
+    "show_toast": false,
+    "announce_to_chat": false,
+    "frame": "task",
+    "hidden": false
+  },
+  "criteria": {
+    "obtain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "mite_reforged:copper_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "parent": "mite_reforged:flint"
+}

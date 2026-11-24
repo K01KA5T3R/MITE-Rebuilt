@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "I",
+    "A"
+  ],
+  "key": {
+    "I": {
+      "item": "mite_reforged:vibranium_ingot"
+    },
+    "A": {
+      "item": "mite_reforged:ancient_metal_dagger"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:vibranium_dagger",
+    "count": 1
+  }
+}

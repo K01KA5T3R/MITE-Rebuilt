@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " n ",
+    "n#n",
+    " n "
+  ],
+  "key": {
+    "n": {
+      "item": "mite_reforged:adamantium_nugget"
+    },
+    "#": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:adamantium_runestone"
+  }
+}

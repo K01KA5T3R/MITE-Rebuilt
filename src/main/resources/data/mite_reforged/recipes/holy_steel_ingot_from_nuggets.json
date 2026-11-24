@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "NNN",
+    "NNN",
+    "NNN"
+  ],
+  "key": {
+    "N": {
+      "item": "mite_reforged:holy_steel_nugget"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:holy_steel_ingot",
+    "count": 1
+  }
+}

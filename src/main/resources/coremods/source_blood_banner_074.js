@@ -1,0 +1,9 @@
+/** Village raids are disabled independently of native pillager patrols. */
+function initializeCoreMod(){
+ var O=Java.type('org.objectweb.asm.Opcodes'),L=Java.type('org.objectweb.asm.tree.InsnList'),V=Java.type('org.objectweb.asm.tree.VarInsnNode'),C=Java.type('org.objectweb.asm.tree.MethodInsnNode'),I=Java.type('org.objectweb.asm.tree.InsnNode'),B=Java.type('org.objectweb.asm.tree.LabelNode'),J=Java.type('org.objectweb.asm.tree.JumpInsnNode'),F=Java.type('org.objectweb.asm.tree.FrameNode');
+ return {
+ source_native_raids_off_074:{target:{type:'CLASS',name:'net.minecraft.world.entity.raid.Raids'},transformer:function(node){var create=0,clock=0;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);if((String(m.name)==='createOrExtendRaid'||String(m.name)==='m_37963_')&&String(m.desc)==='(Lnet/minecraft/server/level/ServerPlayer;)Lnet/minecraft/world/entity/raid/Raid;'){var code=new L(),next=new B();code.add(new V(O.ALOAD,1));code.add(new C(O.INVOKESTATIC,'dev/koikaster/mite/SourceRaidPolicy','suppressNative','(Lnet/minecraft/server/level/ServerPlayer;)Z',false));code.add(new J(O.IFEQ,next));code.add(new I(O.ACONST_NULL));code.add(new I(O.ARETURN));code.add(next);code.add(new F(O.F_SAME,0,null,0,null));m.instructions.insert(code);m.maxStack=Math.max(m.maxStack,1);create++;}
+  else if((String(m.name)==='tick'||String(m.name)==='m_37957_')&&String(m.desc)==='()V'){for(var it=m.instructions.iterator();it.hasNext();){var x=it.next();if(x.getOpcode()===O.INVOKEVIRTUAL&&String(x.owner)==='net/minecraft/world/entity/raid/Raid'&&String(x.desc)==='()V'&&(String(x.name)==='tick'||String(x.name)==='m_37775_')){m.instructions.set(x,new C(O.INVOKESTATIC,'dev/koikaster/mite/SourceRaidPolicy','stopNative','(Lnet/minecraft/world/entity/raid/Raid;)V',false));clock++;}}}}
+  if(create!==1||clock!==1)throw new Error('074 raid trigger/tick count '+create+'/'+clock);return node;}}
+ };
+}

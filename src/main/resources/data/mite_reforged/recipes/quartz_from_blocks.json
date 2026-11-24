@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "Q"
+  ],
+  "key": {
+    "Q": [
+      {
+        "item": "minecraft:quartz_block"
+      },
+      {
+        "item": "minecraft:chiseled_quartz_block"
+      },
+      {
+        "item": "minecraft:quartz_pillar"
+      }
+    ]
+  },
+  "result": {
+    "item": "minecraft:quartz",
+    "count": 4
+  }
+}

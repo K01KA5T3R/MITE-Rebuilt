@@ -1,0 +1,5 @@
+Bronze Block and Steel Block textures by Eejit and Base Metals contributors.
+Source: https://github.com/MinecraftModDevelopmentMods/BaseMetals/tree/197a4b36eaeb16617c9b0d2c2d373e7771354a4b/src/main/resources/assets/basemetals/textures/blocks
+License: Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+bronze_block.png and steel_block.png are included without changes to the images.

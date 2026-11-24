@@ -1,0 +1,27 @@
+{
+  "type": "mite_reforged:advanced_enchanting_table",
+  "category": "misc",
+  "pattern": [
+    "BAB",
+    "MEM",
+    "AAA"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:book"
+    },
+    "A": {
+      "item": "mite_reforged:adamantium_ingot"
+    },
+    "M": {
+      "item": "mite_reforged:mithril_ingot"
+    },
+    "E": {
+      "item": "minecraft:enchanting_table"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:advanced_enchanting_table",
+    "count": 1
+  }
+}

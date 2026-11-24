@@ -1,0 +1,36 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT for original code; R195, Base Metals and Minecraft assets retain source terms (see THIRD_PARTY.md)"
+[[mods]]
+modId="mite_reforged"
+version="${version}"
+displayName="MITE: Rebuilt"
+logoFile="r195-rebuilt-logo.png"
+authors="KoiKaster"
+description='Hardcore MITE survival for Minecraft 1.20.1 with optional new mechanics and content.'
+[[dependencies.mite_reforged]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.28,48)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.mite_reforged]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.mite_reforged]]
+modId="jei"
+mandatory=true
+versionRange="[15.74.0.230,16)"
+ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.mite_reforged]]
+modId="inventorysorter"
+mandatory=true
+versionRange="[23.0.11,23.0.12)"
+ordering="AFTER"
+side="BOTH"

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/furnace_on",
+  "textures": {
+    "front": "minecraft:block/furnace_embers_3"
+  }
+}

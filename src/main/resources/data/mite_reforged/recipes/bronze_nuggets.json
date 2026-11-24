@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mite_reforged:bronze_ingot"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:bronze_nugget",
+    "count": 9
+  }
+}

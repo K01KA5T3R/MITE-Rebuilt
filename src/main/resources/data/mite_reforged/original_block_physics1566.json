@@ -1,0 +1,1900 @@
+{
+  "blocks": {
+    "minecraft:stone": {
+      "hardness": 2.4,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 1,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:grass_block": {
+      "hardness": 0.5,
+      "harvest_level": 0,
+      "material": "grass",
+      "original_id": 2,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:dirt": {
+      "hardness": 0.5,
+      "harvest_level": 0,
+      "material": "dirt",
+      "original_id": 3,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:cobblestone": {
+      "hardness": 2.0,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 4,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:oak_planks": {
+      "hardness": 0.8,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 5,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:oak_sapling": {
+      "hardness": 0.02,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 6,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:bedrock": {
+      "hardness": -1.0,
+      "harvest_level": 100,
+      "material": "stone",
+      "original_id": 7,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:sand": {
+      "hardness": 0.4,
+      "harvest_level": 0,
+      "material": "sand",
+      "original_id": 12,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:gravel": {
+      "hardness": 0.6,
+      "harvest_level": 0,
+      "material": "sand",
+      "original_id": 13,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:gold_ore": {
+      "hardness": 2.4,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 14,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:iron_ore": {
+      "hardness": 3.0,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 15,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:coal_ore": {
+      "hardness": 1.2,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 16,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:oak_log": {
+      "hardness": 1.2,
+      "harvest_level": 1,
+      "material": "wood",
+      "original_id": 17,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:oak_leaves": {
+      "hardness": 0.2,
+      "harvest_level": 0,
+      "material": "tree_leaves",
+      "original_id": 18,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:sponge": {
+      "hardness": 0.6,
+      "harvest_level": 0,
+      "material": "sponge",
+      "original_id": 19,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:lapis_ore": {
+      "hardness": 3.0,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 21,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:lapis_block": {
+      "hardness": 3.0,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 22,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:dispenser": {
+      "hardness": 3.5,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 23,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:sacred_sandstone": {
+      "hardness": 0.8,
+      "harvest_level": 1,
+      "material": "stone",
+      "original_id": 24,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:sandstone": {
+      "hardness": 0.8,
+      "harvest_level": 1,
+      "material": "stone",
+      "original_id": 24,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:note_block": {
+      "hardness": 0.8,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 25,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:red_bed": {
+      "hardness": 0.2,
+      "harvest_level": 0,
+      "material": "cloth",
+      "original_id": 26,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:powered_rail": {
+      "hardness": 0.7,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 27,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:detector_rail": {
+      "hardness": 0.7,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 28,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:sticky_piston": {
+      "hardness": 0.5,
+      "harvest_level": 0,
+      "material": "piston",
+      "original_id": 29,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:cobweb": {
+      "hardness": 0.1,
+      "harvest_level": 0,
+      "material": "web",
+      "original_id": 30,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:dead_bush": {
+      "hardness": 0.02,
+      "harvest_level": 0,
+      "material": "vine",
+      "original_id": 31,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:piston": {
+      "hardness": 0.5,
+      "harvest_level": 0,
+      "material": "piston",
+      "original_id": 33,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:piston_head": {
+      "hardness": 0.5,
+      "harvest_level": 0,
+      "material": "piston",
+      "original_id": 34,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:white_wool": {
+      "hardness": 0.8,
+      "harvest_level": 0,
+      "material": "cloth",
+      "original_id": 35,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:moving_piston": {
+      "hardness": -1.0,
+      "harvest_level": 0,
+      "material": "piston",
+      "original_id": 36,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:dandelion": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 37,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:poppy": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 38,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:brown_mushroom": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 39,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:red_mushroom": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 40,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:gold_block": {
+      "hardness": 3.6000001,
+      "harvest_level": 3,
+      "material": "gold",
+      "original_id": 41,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:iron_block": {
+      "hardness": 9.6,
+      "harvest_level": 4,
+      "material": "iron",
+      "original_id": 42,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:smooth_stone_slab": {
+      "hardness": 1.2,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 44,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:bricks": {
+      "hardness": 2.0,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 45,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:tnt": {
+      "hardness": 1.0,
+      "harvest_level": 0,
+      "material": "tnt",
+      "original_id": 46,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:bookshelf": {
+      "hardness": 1.5,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 47,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:mossy_cobblestone": {
+      "hardness": 2.0,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 48,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:obsidian": {
+      "hardness": 2.4,
+      "harvest_level": 3,
+      "material": "obsidian",
+      "original_id": 49,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:wall_torch": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 50,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:fire": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "fire",
+      "original_id": 51,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:spawner": {
+      "hardness": 3.0,
+      "harvest_level": 2,
+      "material": "iron",
+      "original_id": 52,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:oak_stairs": {
+      "hardness": 0.8,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 53,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:chest": {
+      "hardness": 0.2,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 54,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:redstone_wire": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 55,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:diamond_ore": {
+      "hardness": 3.0,
+      "harvest_level": 4,
+      "material": "stone",
+      "original_id": 56,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:diamond_block": {
+      "hardness": 19.2,
+      "harvest_level": 5,
+      "material": "diamond",
+      "original_id": 57,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:crafting_table": {
+      "hardness": 1.6,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 58,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:wheat": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 59,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:farmland": {
+      "hardness": 0.6,
+      "harvest_level": 0,
+      "material": "dirt",
+      "original_id": 60,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:furnace": {
+      "hardness": 2.0,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 61,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:oak_sign": {
+      "hardness": 0.1,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 63,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:oak_door": {
+      "hardness": 0.25,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 64,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:ladder": {
+      "hardness": 0.5,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 65,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:rail": {
+      "hardness": 0.7,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 66,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:cobblestone_stairs": {
+      "hardness": 2.0,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 67,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:oak_wall_sign": {
+      "hardness": 0.1,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 68,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:lever": {
+      "hardness": 0.5,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 69,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:stone_pressure_plate": {
+      "hardness": 0.5,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 70,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:iron_door": {
+      "hardness": 4.0,
+      "harvest_level": 3,
+      "material": "iron",
+      "original_id": 71,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:oak_pressure_plate": {
+      "hardness": 0.5,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 72,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:redstone_ore": {
+      "hardness": 3.0,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 73,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:redstone_wall_torch": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 75,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:stone_button": {
+      "hardness": 0.5,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 77,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:snow": {
+      "hardness": 0.05,
+      "harvest_level": 0,
+      "material": "snow",
+      "original_id": 78,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:ice": {
+      "hardness": 1.0,
+      "harvest_level": 1,
+      "material": "ice",
+      "original_id": 79,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:snow_block": {
+      "hardness": 0.4,
+      "harvest_level": 0,
+      "material": "crafted_snow",
+      "original_id": 80,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:cactus": {
+      "hardness": 0.4,
+      "harvest_level": 0,
+      "material": "cactus",
+      "original_id": 81,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:clay": {
+      "hardness": 0.8,
+      "harvest_level": 0,
+      "material": "clay",
+      "original_id": 82,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:sugar_cane": {
+      "hardness": 0.08,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 83,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:jukebox": {
+      "hardness": 2.0,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 84,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:oak_fence": {
+      "hardness": 0.4,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 85,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:carved_pumpkin": {
+      "hardness": 0.6,
+      "harvest_level": 0,
+      "material": "pumpkin",
+      "original_id": 86,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:netherrack": {
+      "hardness": 1.6,
+      "harvest_level": 2,
+      "material": "netherrack",
+      "original_id": 87,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:soul_sand": {
+      "hardness": 0.5,
+      "harvest_level": 0,
+      "material": "sand",
+      "original_id": 88,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:glowstone": {
+      "hardness": 0.3,
+      "harvest_level": 0,
+      "material": "glass",
+      "original_id": 89,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:nether_portal": {
+      "hardness": -1.0,
+      "harvest_level": 0,
+      "material": "portal",
+      "original_id": 90,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:jack_o_lantern": {
+      "hardness": 1.0,
+      "harvest_level": 0,
+      "material": "pumpkin",
+      "original_id": 91,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:cake": {
+      "hardness": 0.5,
+      "harvest_level": 0,
+      "material": "cake",
+      "original_id": 92,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:repeater": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 93,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:oak_trapdoor": {
+      "hardness": 0.8,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 96,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:infested_stone": {
+      "hardness": 0.75,
+      "harvest_level": 0,
+      "material": "clay",
+      "original_id": 97,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:stone_bricks": {
+      "hardness": 1.5,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 98,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:brown_mushroom_block": {
+      "hardness": 0.2,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 99,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:red_mushroom_block": {
+      "hardness": 0.2,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 100,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:iron_bars": {
+      "hardness": 5.0,
+      "harvest_level": 3,
+      "material": "iron",
+      "original_id": 101,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:glass_pane": {
+      "hardness": 0.1,
+      "harvest_level": 0,
+      "material": "glass",
+      "original_id": 102,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:melon": {
+      "hardness": 0.6,
+      "harvest_level": 0,
+      "material": "pumpkin",
+      "original_id": 103,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:pumpkin_stem": {
+      "hardness": 0.02,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 104,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:melon_stem": {
+      "hardness": 0.02,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 105,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:vine": {
+      "hardness": 0.2,
+      "harvest_level": 0,
+      "material": "vine",
+      "original_id": 106,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:oak_fence_gate": {
+      "hardness": 2.0,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 107,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:brick_stairs": {
+      "hardness": 2.0,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 108,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:stone_brick_stairs": {
+      "hardness": 1.5,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 109,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:mycelium": {
+      "hardness": 0.6,
+      "harvest_level": 0,
+      "material": "grass",
+      "original_id": 110,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:lily_pad": {
+      "hardness": 0.02,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 111,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:nether_bricks": {
+      "hardness": 2.0,
+      "harvest_level": 2,
+      "material": "netherrack",
+      "original_id": 112,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:nether_brick_fence": {
+      "hardness": 2.0,
+      "harvest_level": 2,
+      "material": "netherrack",
+      "original_id": 113,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:nether_brick_stairs": {
+      "hardness": 2.0,
+      "harvest_level": 2,
+      "material": "netherrack",
+      "original_id": 114,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:nether_wart": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 115,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:enchanting_table": {
+      "hardness": 2.4,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 116,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:brewing_stand": {
+      "hardness": 0.5,
+      "harvest_level": 3,
+      "material": "iron",
+      "original_id": 117,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:cauldron": {
+      "hardness": 2.0,
+      "harvest_level": 3,
+      "material": "iron",
+      "original_id": 118,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:end_portal": {
+      "hardness": -1.0,
+      "harvest_level": 0,
+      "material": "portal",
+      "original_id": 119,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:end_portal_frame": {
+      "hardness": -1.0,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 120,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:end_stone": {
+      "hardness": 3.0,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 121,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:dragon_egg": {
+      "hardness": 3.0,
+      "harvest_level": 0,
+      "material": "dragon_egg",
+      "original_id": 122,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:redstone_lamp": {
+      "hardness": 0.3,
+      "harvest_level": 0,
+      "material": "redstone_light",
+      "original_id": 123,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:oak_slab": {
+      "hardness": 0.4,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 126,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:cocoa": {
+      "hardness": 0.2,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 127,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:sandstone_stairs": {
+      "hardness": 0.8,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 128,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:emerald_ore": {
+      "hardness": 3.0,
+      "harvest_level": 3,
+      "material": "stone",
+      "original_id": 129,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:ender_chest": {
+      "hardness": 22.5,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 130,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:tripwire_hook": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 131,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:tripwire": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 132,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:emerald_block": {
+      "hardness": 9.6,
+      "harvest_level": 4,
+      "material": "emerald",
+      "original_id": 133,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:spruce_stairs": {
+      "hardness": 0.8,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 134,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:birch_stairs": {
+      "hardness": 0.8,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 135,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:jungle_stairs": {
+      "hardness": 0.8,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 136,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:command_block": {
+      "hardness": -1.0,
+      "harvest_level": 100,
+      "material": "iron",
+      "original_id": 137,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:beacon": {
+      "hardness": 3.0,
+      "harvest_level": 0,
+      "material": "glass",
+      "original_id": 138,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:cobblestone_wall": {
+      "hardness": 1.5,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 139,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:potted_cactus": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 140,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:carrots": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 141,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:potatoes": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 142,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:oak_button": {
+      "hardness": 0.5,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 143,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:anvil": {
+      "hardness": 9.6,
+      "harvest_level": 0,
+      "material": "anvil",
+      "original_id": 145,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:trapped_chest": {
+      "hardness": 0.2,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 146,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:light_weighted_pressure_plate": {
+      "hardness": 0.5,
+      "harvest_level": 2,
+      "material": "gold",
+      "original_id": 147,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:heavy_weighted_pressure_plate": {
+      "hardness": 0.5,
+      "harvest_level": 3,
+      "material": "iron",
+      "original_id": 148,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:comparator": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 149,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:daylight_detector": {
+      "hardness": 0.2,
+      "harvest_level": 0,
+      "material": "wood",
+      "original_id": 151,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:redstone_block": {
+      "hardness": 5.0,
+      "harvest_level": 3,
+      "material": "redstone",
+      "original_id": 152,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:nether_quartz_ore": {
+      "hardness": 3.0,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 153,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:hopper": {
+      "hardness": 3.0,
+      "harvest_level": 3,
+      "material": "iron",
+      "original_id": 154,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:quartz_block": {
+      "hardness": 0.8,
+      "harvest_level": 2,
+      "material": "quartz",
+      "original_id": 155,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:quartz_stairs": {
+      "hardness": 0.8,
+      "harvest_level": 2,
+      "material": "quartz",
+      "original_id": 156,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:activator_rail": {
+      "hardness": 0.7,
+      "harvest_level": 0,
+      "material": "circuits",
+      "original_id": 157,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:dropper": {
+      "hardness": 3.5,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 158,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:white_terracotta": {
+      "hardness": 1.8,
+      "harvest_level": 1,
+      "material": "hardened_clay",
+      "original_id": 159,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:hay_block": {
+      "hardness": 0.5,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 170,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:white_carpet": {
+      "hardness": 0.1,
+      "harvest_level": 0,
+      "material": "carpet",
+      "original_id": 171,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:terracotta": {
+      "hardness": 1.8,
+      "harvest_level": 1,
+      "material": "hardened_clay",
+      "original_id": 172,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "minecraft:coal_block": {
+      "hardness": 1.2,
+      "harvest_level": 0,
+      "material": "coal",
+      "original_id": 173,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "mite_reforged:adamantium_runestone": {
+      "hardness": 2.4,
+      "harvest_level": 3,
+      "material": "obsidian",
+      "original_id": 198,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:ancient_metal_bars": {
+      "hardness": 6.4,
+      "harvest_level": 3,
+      "material": "ancient_metal",
+      "original_id": 199,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:copper_ore": {
+      "hardness": 2.5,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 200,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:silver_ore": {
+      "hardness": 2.5,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 201,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:mithril_ore": {
+      "hardness": 3.5,
+      "harvest_level": 3,
+      "material": "stone",
+      "original_id": 202,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:adamantium_ore": {
+      "hardness": 4.0,
+      "harvest_level": 4,
+      "material": "stone",
+      "original_id": 203,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:copper_block": {
+      "hardness": 4.8,
+      "harvest_level": 3,
+      "material": "copper",
+      "original_id": 204,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "mite_reforged:silver_block": {
+      "hardness": 4.8,
+      "harvest_level": 3,
+      "material": "silver",
+      "original_id": 205,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "mite_reforged:mithril_block": {
+      "hardness": 76.8,
+      "harvest_level": 5,
+      "material": "mithril",
+      "original_id": 206,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "mite_reforged:adamantium_block": {
+      "hardness": 307.2,
+      "harvest_level": 6,
+      "material": "adamantium",
+      "original_id": 207,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "mite_reforged:copper_door": {
+      "hardness": 2.0,
+      "harvest_level": 2,
+      "material": "copper",
+      "original_id": 208,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:silver_door": {
+      "hardness": 2.0,
+      "harvest_level": 2,
+      "material": "silver",
+      "original_id": 209,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:gold_door": {
+      "hardness": 1.5,
+      "harvest_level": 2,
+      "material": "gold",
+      "original_id": 210,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:mithril_door": {
+      "hardness": 32.0,
+      "harvest_level": 4,
+      "material": "mithril",
+      "original_id": 211,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:adamantium_door": {
+      "hardness": 128.0,
+      "harvest_level": 5,
+      "material": "adamantium",
+      "original_id": 212,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:copper_bars": {
+      "hardness": 1.6,
+      "harvest_level": 2,
+      "material": "copper",
+      "original_id": 213,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:silver_bars": {
+      "hardness": 1.6,
+      "harvest_level": 2,
+      "material": "silver",
+      "original_id": 214,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:gold_bars": {
+      "hardness": 1.2,
+      "harvest_level": 2,
+      "material": "gold",
+      "original_id": 215,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:mithril_bars": {
+      "hardness": 25.6,
+      "harvest_level": 4,
+      "material": "mithril",
+      "original_id": 216,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:adamantium_bars": {
+      "hardness": 102.4,
+      "harvest_level": 5,
+      "material": "adamantium",
+      "original_id": 217,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:clay_oven": {
+      "hardness": 0.5,
+      "harvest_level": 0,
+      "material": "clay",
+      "original_id": 218,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:sandstone_oven": {
+      "hardness": 1.0,
+      "harvest_level": 0,
+      "material": "sand",
+      "original_id": 220,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:obsidian_furnace": {
+      "hardness": 4.0,
+      "harvest_level": 3,
+      "material": "obsidian",
+      "original_id": 222,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:netherrack_furnace": {
+      "hardness": 8.0,
+      "harvest_level": 2,
+      "material": "netherrack",
+      "original_id": 224,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:obsidian_slab": {
+      "hardness": 1.2,
+      "harvest_level": 3,
+      "material": "obsidian",
+      "original_id": 227,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:obsidian_stairs": {
+      "hardness": 2.4,
+      "harvest_level": 3,
+      "material": "obsidian",
+      "original_id": 228,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:copper_anvil": {
+      "hardness": 4.8,
+      "harvest_level": 0,
+      "material": "anvil",
+      "original_id": 229,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "mite_reforged:silver_anvil": {
+      "hardness": 4.8,
+      "harvest_level": 0,
+      "material": "anvil",
+      "original_id": 230,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "mite_reforged:gold_anvil": {
+      "hardness": 3.6000001,
+      "harvest_level": 0,
+      "material": "anvil",
+      "original_id": 231,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "mite_reforged:mithril_anvil": {
+      "hardness": 76.8,
+      "harvest_level": 0,
+      "material": "anvil",
+      "original_id": 232,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "mite_reforged:adamantium_anvil": {
+      "hardness": 307.2,
+      "harvest_level": 0,
+      "material": "anvil",
+      "original_id": 233,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "mite_reforged:onions": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 234,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:dead_wheat": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 235,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:dead_carrots": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 236,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:dead_potatoes": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 237,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:dead_onions": {
+      "hardness": 0.0,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 238,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:copper_strongbox": {
+      "hardness": 4.8,
+      "harvest_level": 3,
+      "material": "copper",
+      "original_id": 239,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:silver_strongbox": {
+      "hardness": 4.8,
+      "harvest_level": 3,
+      "material": "silver",
+      "original_id": 240,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:gold_strongbox": {
+      "hardness": 3.6000001,
+      "harvest_level": 3,
+      "material": "gold",
+      "original_id": 241,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:iron_strongbox": {
+      "hardness": 9.6,
+      "harvest_level": 4,
+      "material": "iron",
+      "original_id": 242,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:mithril_strongbox": {
+      "hardness": 76.8,
+      "harvest_level": 5,
+      "material": "mithril",
+      "original_id": 243,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:adamantium_strongbox": {
+      "hardness": 307.2,
+      "harvest_level": 6,
+      "material": "adamantium",
+      "original_id": 244,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:emerald_enchanting_table": {
+      "hardness": 2.4,
+      "harvest_level": 2,
+      "material": "stone",
+      "original_id": 245,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:mithril_runestone": {
+      "hardness": 2.4,
+      "harvest_level": 3,
+      "material": "obsidian",
+      "original_id": 247,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:bush": {
+      "hardness": 0.05,
+      "harvest_level": 0,
+      "material": "plants",
+      "original_id": 249,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:hardened_clay_oven": {
+      "hardness": 1.0,
+      "harvest_level": 0,
+      "material": "hardened_clay",
+      "original_id": 250,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:ancient_metal_block": {
+      "hardness": 19.2,
+      "harvest_level": 4,
+      "material": "ancient_metal",
+      "original_id": 252,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "mite_reforged:ancient_metal_door": {
+      "hardness": 8.0,
+      "harvest_level": 3,
+      "material": "ancient_metal",
+      "original_id": 253,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "mite_reforged:ancient_metal_anvil": {
+      "hardness": 19.2,
+      "harvest_level": 0,
+      "material": "anvil",
+      "original_id": 254,
+      "restore_hardness": true,
+      "restore_level": false
+    },
+    "mite_reforged:ancient_metal_strongbox": {
+      "hardness": 19.2,
+      "harvest_level": 4,
+      "material": "ancient_metal",
+      "original_id": 255,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:infested_cobblestone": {
+      "hardness": 0.75,
+      "harvest_level": 0,
+      "material": "clay",
+      "original_id": 97,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:infested_stone_bricks": {
+      "hardness": 0.75,
+      "harvest_level": 0,
+      "material": "clay",
+      "original_id": 97,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:infested_mossy_stone_bricks": {
+      "hardness": 0.75,
+      "harvest_level": 0,
+      "material": "clay",
+      "original_id": 97,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:infested_cracked_stone_bricks": {
+      "hardness": 0.75,
+      "harvest_level": 0,
+      "material": "clay",
+      "original_id": 97,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:infested_chiseled_stone_bricks": {
+      "hardness": 0.75,
+      "harvest_level": 0,
+      "material": "clay",
+      "original_id": 97,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "mite_reforged:copperspine_infested_stone": {
+      "hardness": 0.75,
+      "harvest_level": 0,
+      "material": "clay",
+      "original_id": 97,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "mite_reforged:netherspawn_infested_netherrack": {
+      "hardness": 0.75,
+      "harvest_level": 0,
+      "material": "clay",
+      "original_id": 97,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "mite_reforged:iron_anvil": {
+      "hardness": 9.6,
+      "harvest_level": 0,
+      "material": "anvil",
+      "original_id": 145,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "mite_reforged:bronze_block": {
+      "hardness": 7.2,
+      "harvest_level": 3,
+      "material": "bronze",
+      "original_id": -1,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "mite_reforged:steel_block": {
+      "hardness": 19.2,
+      "harvest_level": 4,
+      "material": "steel",
+      "original_id": -1,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:stone_slab": {
+      "hardness": 0,
+      "harvest_level": 0,
+      "material": "stone",
+      "original_id": 44,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:cobblestone_slab": {
+      "hardness": 0,
+      "harvest_level": 0,
+      "material": "stone",
+      "original_id": 44,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:sandstone_slab": {
+      "hardness": 0.5,
+      "harvest_level": 1,
+      "material": "stone",
+      "original_id": 44,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:stone_brick_slab": {
+      "hardness": 0,
+      "harvest_level": 0,
+      "material": "stone",
+      "original_id": 44,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:brick_slab": {
+      "hardness": 0,
+      "harvest_level": 0,
+      "material": "stone",
+      "original_id": 44,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:nether_brick_slab": {
+      "hardness": 0,
+      "harvest_level": 0,
+      "material": "stone",
+      "original_id": 44,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:quartz_slab": {
+      "hardness": 0,
+      "harvest_level": 0,
+      "material": "stone",
+      "original_id": 44,
+      "restore_hardness": false,
+      "restore_level": false
+    },
+    "minecraft:red_sandstone_slab": {
+      "hardness": 0.5,
+      "harvest_level": 1,
+      "material": "stone",
+      "original_id": 44,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:white_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:orange_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:magenta_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:light_blue_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:yellow_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:lime_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:pink_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:gray_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:light_gray_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:cyan_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:purple_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:blue_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:brown_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:green_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:red_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:black_stained_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:tinted_glass": {
+      "hardness": 2.0,
+      "harvest_level": 1,
+      "material": "glass",
+      "original_id": 20,
+      "restore_hardness": true,
+      "restore_level": true
+    },
+    "minecraft:packed_ice": {
+      "hardness": 1.0,
+      "harvest_level": 1,
+      "material": "ice",
+      "original_id": 79,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:blue_ice": {
+      "hardness": 1.0,
+      "harvest_level": 1,
+      "material": "ice",
+      "original_id": 79,
+      "restore_hardness": false,
+      "restore_level": true
+    },
+    "minecraft:frosted_ice": {
+      "hardness": 1.0,
+      "harvest_level": 1,
+      "material": "ice",
+      "original_id": 79,
+      "restore_hardness": false,
+      "restore_level": true
+    }
+  }
+}

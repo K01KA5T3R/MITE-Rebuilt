@@ -1,0 +1,1202 @@
+{
+  "minecraft:activator_rail": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:anvil": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:beacon": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:bedrock": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:birch_stairs": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:bookshelf": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:brewing_stand": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "minecraft:brick_stairs": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:bricks": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:brown_mushroom": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:brown_mushroom_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:cactus": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:cake": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 1,
+    "solid": true
+  },
+  "minecraft:carrots": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:carved_pumpkin": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:cauldron": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:chest": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:clay": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:coal_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:coal_ore": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:cobblestone": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:cobblestone_stairs": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:cobblestone_wall": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "minecraft:cobweb": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "minecraft:cocoa": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:command_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:comparator": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": false
+  },
+  "minecraft:copper_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:copper_ore": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:crafting_table": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:dandelion": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:daylight_detector": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:dead_bush": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:detector_rail": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:diamond_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:diamond_ore": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:dirt": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:dispenser": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:dragon_egg": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:dropper": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:emerald_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:emerald_ore": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:enchanting_table": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:end_portal": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": false
+  },
+  "minecraft:end_portal_frame": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:end_stone": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:ender_chest": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:farmland": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:fire": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:furnace": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:glass": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:glass_pane": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "minecraft:glowstone": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:gold_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:gold_ore": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:grass_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:gravel": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:hay_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": false
+  },
+  "minecraft:heavy_weighted_pressure_plate": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:hopper": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:ice": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:infested_stone": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:iron_bars": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "minecraft:iron_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:iron_door": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "minecraft:iron_ore": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:jack_o_lantern": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:jukebox": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:jungle_stairs": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:ladder": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:lapis_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:lapis_ore": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:lava": {
+    "always_cube": false,
+    "liquid": true,
+    "precipitation_mask": 65535,
+    "solid": false
+  },
+  "minecraft:lever": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:light_weighted_pressure_plate": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:lily_pad": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": false
+  },
+  "minecraft:melon": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:melon_stem": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:mossy_cobblestone": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:moving_piston": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:mycelium": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:nether_brick_fence": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "minecraft:nether_brick_stairs": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:nether_bricks": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:nether_portal": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:nether_quartz_ore": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:nether_wart": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:netherrack": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:note_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:oak_button": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:oak_door": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "minecraft:oak_fence": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "minecraft:oak_fence_gate": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "minecraft:oak_leaves": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:oak_log": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:oak_planks": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:oak_pressure_plate": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:oak_sapling": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:oak_sign": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "minecraft:oak_slab": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:oak_stairs": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:oak_trapdoor": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 3855,
+    "solid": true
+  },
+  "minecraft:oak_wall_sign": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "minecraft:obsidian": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:piston": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:piston_head": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "minecraft:poppy": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:potatoes": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:potted_cactus": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:powered_rail": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:pumpkin_stem": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:quartz_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:quartz_stairs": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:rail": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:red_bed": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:red_mushroom": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:red_mushroom_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:redstone_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:redstone_lamp": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:redstone_ore": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:redstone_wall_torch": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:redstone_wire": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:repeater": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": false
+  },
+  "minecraft:sand": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:sandstone": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:sandstone_stairs": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:smooth_stone_slab": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:snow": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": false
+  },
+  "minecraft:snow_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:soul_sand": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:spawner": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "minecraft:sponge": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:spruce_stairs": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:sticky_piston": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:stone": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:stone_brick_stairs": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:stone_bricks": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:stone_button": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:stone_pressure_plate": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:sugar_cane": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:terracotta": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:tnt": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:trapped_chest": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:tripwire": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:tripwire_hook": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:vine": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:wall_torch": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:water": {
+    "always_cube": false,
+    "liquid": true,
+    "precipitation_mask": 65535,
+    "solid": false
+  },
+  "minecraft:wheat": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "minecraft:white_carpet": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": false
+  },
+  "minecraft:white_terracotta": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "minecraft:white_wool": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:adamantium_anvil": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:adamantium_bars": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "mite_reforged:adamantium_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:adamantium_door": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "mite_reforged:adamantium_ore": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:adamantium_runestone": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:adamantium_strongbox": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:ancient_metal_anvil": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:ancient_metal_bars": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "mite_reforged:ancient_metal_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:ancient_metal_door": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "mite_reforged:ancient_metal_strongbox": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:bush": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "mite_reforged:clay_oven": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:copper_anvil": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:copper_bars": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "mite_reforged:copper_door": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "mite_reforged:copper_strongbox": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:dead_carrots": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "mite_reforged:dead_onions": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "mite_reforged:dead_potatoes": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "mite_reforged:dead_wheat": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "mite_reforged:emerald_enchanting_table": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:gold_anvil": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:gold_bars": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "mite_reforged:gold_door": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "mite_reforged:gold_strongbox": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:hardened_clay_oven": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:iron_strongbox": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:mithril_anvil": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:mithril_bars": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "mite_reforged:mithril_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:mithril_door": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "mite_reforged:mithril_ore": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:mithril_runestone": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:mithril_strongbox": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:netherrack_furnace": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:obsidian_furnace": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:obsidian_slab": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:obsidian_stairs": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:onions": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": false
+  },
+  "mite_reforged:sandstone_oven": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:silver_anvil": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:silver_bars": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "mite_reforged:silver_block": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:silver_door": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 0,
+    "solid": true
+  },
+  "mite_reforged:silver_ore": {
+    "always_cube": true,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  },
+  "mite_reforged:silver_strongbox": {
+    "always_cube": false,
+    "liquid": false,
+    "precipitation_mask": 65535,
+    "solid": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:cherry_log"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:cherry_grove_obsidian"
+  }
+}

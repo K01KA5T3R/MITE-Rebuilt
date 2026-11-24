@@ -1,0 +1,6 @@
+/** js's explicit world graph call is legal before the summoned sf has ticked.
+ * No actor ground/liquid flags or unrelated navigation policy is changed. */
+function initializeCoreMod(){
+ var O=Java.type('org.objectweb.asm.Opcodes'),L=Java.type('org.objectweb.asm.tree.InsnList'),V=Java.type('org.objectweb.asm.tree.VarInsnNode'),C=Java.type('org.objectweb.asm.tree.MethodInsnNode'),I=Java.type('org.objectweb.asm.tree.InsnNode'),B=Java.type('org.objectweb.asm.tree.LabelNode'),J=Java.type('org.objectweb.asm.tree.JumpInsnNode');
+ return {source_witch_world_query_060:{target:{type:'CLASS',name:'net.minecraft.world.entity.ai.navigation.GroundPathNavigation'},transformer:function(node){var count=0;for(var i=0;i<node.methods.size();i++){var m=node.methods.get(i);if((String(m.name)!=='canUpdatePath'&&String(m.name)!=='m_7632_')||String(m.desc)!=='()Z')continue;var c=new L(),resume=new B();c.add(new V(O.ALOAD,0));c.add(new C(O.INVOKESTATIC,'dev/koikaster/mite/SourceWitchSummons','allowWorldQuery','(Ljava/lang/Object;)Z',false));c.add(new J(O.IFEQ,resume));c.add(new I(O.ICONST_1));c.add(new I(O.IRETURN));c.add(resume);m.instructions.insert(c);m.maxStack=Math.max(4,m.maxStack);count++;}if(count!==1)throw new Error('Witch explicit world query site '+count);return node;}}};
+}

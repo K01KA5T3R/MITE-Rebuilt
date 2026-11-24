@@ -1,0 +1,20 @@
+{
+  "type": "mite_reforged:r196_workbench",
+  "category": "misc",
+  "pattern": [
+    "K",
+    "L"
+  ],
+  "key": {
+    "K": {
+      "item": "mite_reforged:flint_knife"
+    },
+    "L": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:r196_flint_oak_workbench",
+    "count": 1
+  }
+}

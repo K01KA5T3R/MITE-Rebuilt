@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0,mite_blighted=false": {
+      "model": "minecraft:block/potatoes_stage0"
+    },
+    "age=1,mite_blighted=false": {
+      "model": "minecraft:block/potatoes_stage0"
+    },
+    "age=2,mite_blighted=false": {
+      "model": "minecraft:block/potatoes_stage1"
+    },
+    "age=3,mite_blighted=false": {
+      "model": "minecraft:block/potatoes_stage1"
+    },
+    "age=4,mite_blighted=false": {
+      "model": "minecraft:block/potatoes_stage2"
+    },
+    "age=5,mite_blighted=false": {
+      "model": "minecraft:block/potatoes_stage2"
+    },
+    "age=6,mite_blighted=false": {
+      "model": "minecraft:block/potatoes_stage2"
+    },
+    "age=7,mite_blighted=false": {
+      "model": "minecraft:block/potatoes_stage3"
+    },
+    "age=0,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_potatoes_0"
+    },
+    "age=1,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_potatoes_0"
+    },
+    "age=2,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_potatoes_1"
+    },
+    "age=3,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_potatoes_1"
+    },
+    "age=4,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_potatoes_2"
+    },
+    "age=5,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_potatoes_2"
+    },
+    "age=6,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_potatoes_2"
+    },
+    "age=7,mite_blighted=true": {
+      "model": "mite_reforged:block/source_blight_potatoes_3"
+    }
+  }
+}

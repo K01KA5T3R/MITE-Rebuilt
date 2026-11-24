@@ -1,0 +1,44 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "stone": "minecraft:block/end_stone",
+    "seam": "minecraft:block/crying_obsidian",
+    "particle": "#stone"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 8, 16],
+      "faces": {
+        "down": { "texture": "#stone", "cullface": "down" },
+        "up": { "texture": "#stone" },
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#stone" }
+      }
+    },
+    {
+      "from": [1, 8, 0],
+      "to": [7, 12, 16],
+      "faces": {
+        "up": { "texture": "#stone" },
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#seam" },
+        "west": { "texture": "#stone" }
+      }
+    },
+    {
+      "from": [9, 8, 0],
+      "to": [16, 12, 16],
+      "faces": {
+        "up": { "texture": "#stone" },
+        "north": { "texture": "#stone" },
+        "south": { "texture": "#stone" },
+        "east": { "texture": "#stone" },
+        "west": { "texture": "#seam" }
+      }
+    }
+  ]
+}

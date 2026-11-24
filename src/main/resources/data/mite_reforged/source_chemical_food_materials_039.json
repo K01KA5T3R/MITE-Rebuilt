@@ -1,0 +1,256 @@
+{
+  "source": "R195 yc declarations, akc.setHarmedByPepsin; ItemMeat uses akc.meat",
+  "pepsin_materials": [
+    "E",
+    "beef_stew",
+    "cereal",
+    "cheese",
+    "chicken_soup",
+    "cream_of_mushroom_soup",
+    "cream_of_vegetable_soup",
+    "feather",
+    "ice_cream",
+    "leather",
+    "mashed_potato",
+    "meat",
+    "milk",
+    "n",
+    "pie",
+    "r"
+  ],
+  "mapped_foods": {
+    "minecraft:apple": {
+      "symbol": "l",
+      "source_material": "fruit",
+      "pepsin": false
+    },
+    "minecraft:bread": {
+      "symbol": "W",
+      "source_material": "bread",
+      "pepsin": false
+    },
+    "minecraft:mushroom_stew": {
+      "symbol": "bowlMushroomStew",
+      "source_material": "mushroom_stew",
+      "pepsin": false
+    },
+    "minecraft:porkchop": {
+      "symbol": "as",
+      "source_material": "meat",
+      "pepsin": true
+    },
+    "minecraft:cooked_porkchop": {
+      "symbol": "at",
+      "source_material": "meat",
+      "pepsin": true
+    },
+    "minecraft:beef": {
+      "symbol": "bk",
+      "source_material": "meat",
+      "pepsin": true
+    },
+    "minecraft:cooked_beef": {
+      "symbol": "bl",
+      "source_material": "meat",
+      "pepsin": true
+    },
+    "minecraft:chicken": {
+      "symbol": "bm",
+      "source_material": "meat",
+      "pepsin": true
+    },
+    "minecraft:cooked_chicken": {
+      "symbol": "bn",
+      "source_material": "meat",
+      "pepsin": true
+    },
+    "minecraft:rotten_flesh": {
+      "symbol": "bo",
+      "source_material": "meat",
+      "pepsin": true
+    },
+    "minecraft:cod": {
+      "symbol": "aW",
+      "source_material": "meat",
+      "pepsin": true
+    },
+    "minecraft:cooked_cod": {
+      "symbol": "aX",
+      "source_material": "meat",
+      "pepsin": true
+    },
+    "minecraft:salmon": {
+      "symbol": "fishLargeRaw",
+      "source_material": "meat",
+      "pepsin": true
+    },
+    "minecraft:cooked_salmon": {
+      "symbol": "fishLargeCooked",
+      "source_material": "meat",
+      "pepsin": true
+    },
+    "minecraft:cookie": {
+      "symbol": "be",
+      "source_material": "desert",
+      "pepsin": false
+    },
+    "minecraft:melon_slice": {
+      "symbol": "bh",
+      "source_material": "fruit",
+      "pepsin": false
+    },
+    "minecraft:spider_eye": {
+      "symbol": "bw",
+      "source_material": "meat",
+      "pepsin": true
+    },
+    "minecraft:golden_carrot": {
+      "symbol": "bR",
+      "source_material": "vegetable",
+      "pepsin": false
+    },
+    "minecraft:baked_potato": {
+      "symbol": "bO",
+      "source_material": "vegetable",
+      "pepsin": false
+    },
+    "minecraft:poisonous_potato": {
+      "symbol": "bP",
+      "source_material": "vegetable",
+      "pepsin": false
+    },
+    "minecraft:pumpkin_pie": {
+      "symbol": "bV",
+      "source_material": "pie",
+      "pepsin": true
+    },
+    "mite_reforged:porridge": {
+      "symbol": "bowlPorridge",
+      "source_material": "porridge",
+      "pepsin": false
+    },
+    "mite_reforged:pumpkin_soup": {
+      "symbol": "bowlPumpkinSoup",
+      "source_material": "pumpkin_soup",
+      "pepsin": false
+    },
+    "mite_reforged:chocolate": {
+      "symbol": "chocolate",
+      "source_material": "desert",
+      "pepsin": false
+    },
+    "mite_reforged:vegetable_stew": {
+      "symbol": "bowlVegetableSoup",
+      "source_material": "vegetable_soup",
+      "pepsin": false
+    },
+    "mite_reforged:meat_stew": {
+      "symbol": "bowlBeefStew",
+      "source_material": "beef_stew",
+      "pepsin": true
+    },
+    "mite_reforged:salad": {
+      "symbol": "bowlSalad",
+      "source_material": "salad",
+      "pepsin": false
+    },
+    "mite_reforged:worm": {
+      "symbol": "wormRaw",
+      "source_material": "meat",
+      "pepsin": true
+    },
+    "mite_reforged:cheese": {
+      "symbol": "cheese",
+      "source_material": "cheese",
+      "pepsin": true
+    },
+    "mite_reforged:orange": {
+      "symbol": "orange",
+      "source_material": "fruit",
+      "pepsin": false
+    },
+    "mite_reforged:banana": {
+      "symbol": "banana",
+      "source_material": "fruit",
+      "pepsin": false
+    },
+    "minecraft:carrot": {
+      "symbol": "bM",
+      "source_material": "seed",
+      "pepsin": false,
+      "resolution": "yv/yw source seed, xy fruit+gold; aqz mushrooms plant material"
+    },
+    "minecraft:potato": {
+      "symbol": "bN",
+      "source_material": "seed",
+      "pepsin": false,
+      "resolution": "yv/yw source seed, xy fruit+gold; aqz mushrooms plant material"
+    },
+    "mite_reforged:onion": {
+      "symbol": "onion",
+      "source_material": "seed",
+      "pepsin": false,
+      "resolution": "yv/yw source seed, xy fruit+gold; aqz mushrooms plant material"
+    },
+    "minecraft:golden_apple": {
+      "symbol": "av",
+      "source_material": "fruit",
+      "pepsin": false,
+      "resolution": "yv/yw source seed, xy fruit+gold; aqz mushrooms plant material"
+    },
+    "minecraft:enchanted_golden_apple": {
+      "symbol": "av",
+      "source_material": "fruit",
+      "pepsin": false,
+      "resolution": "yv/yw source seed, xy fruit+gold; aqz mushrooms plant material"
+    },
+    "minecraft:wheat_seeds": {
+      "symbol": "U",
+      "source_material": "seed",
+      "pepsin": false,
+      "resolution": "yv/yw source seed, xy fruit+gold; aqz mushrooms plant material"
+    },
+    "minecraft:pumpkin_seeds": {
+      "symbol": "bi",
+      "source_material": "seed",
+      "pepsin": false,
+      "resolution": "yv/yw source seed, xy fruit+gold; aqz mushrooms plant material"
+    },
+    "minecraft:melon_seeds": {
+      "symbol": "bj",
+      "source_material": "seed",
+      "pepsin": false,
+      "resolution": "yv/yw source seed, xy fruit+gold; aqz mushrooms plant material"
+    },
+    "minecraft:nether_wart": {
+      "symbol": "bt",
+      "source_material": "seed",
+      "pepsin": false,
+      "resolution": "yv/yw source seed, xy fruit+gold; aqz mushrooms plant material"
+    },
+    "minecraft:brown_mushroom": {
+      "symbol": "aqz.ak",
+      "source_material": "plants",
+      "pepsin": false,
+      "resolution": "yv/yw source seed, xy fruit+gold; aqz mushrooms plant material"
+    },
+    "minecraft:red_mushroom": {
+      "symbol": "aqz.al",
+      "source_material": "plants",
+      "pepsin": false,
+      "resolution": "yv/yw source seed, xy fruit+gold; aqz mushrooms plant material"
+    },
+    "mite_reforged:cooked_worm": {
+      "symbol": "wormCooked",
+      "source_material": "meat",
+      "pepsin": true
+    },
+    "minecraft:egg": {
+      "symbol": "aR",
+      "source_material": "meat",
+      "pepsin": true
+    }
+  },
+  "unresolved_constructor_materials": [],
+  "note": "Remaining class-specific constructor materials require inspection; not inferred from nutrient masks."
+}

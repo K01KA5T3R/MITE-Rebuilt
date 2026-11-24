@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "mite_reforged:adamantium_arrow",
+    "mite_reforged:ancient_metal_arrow",
+    "mite_reforged:bronze_arrow",
+    "mite_reforged:copper_arrow",
+    "mite_reforged:gold_arrow",
+    "mite_reforged:iron_arrow",
+    "mite_reforged:mithril_arrow",
+    "mite_reforged:obsidian_arrow",
+    "mite_reforged:rusted_iron_arrow",
+    "mite_reforged:silver_arrow",
+    "mite_reforged:steel_arrow"
+  ]
+}

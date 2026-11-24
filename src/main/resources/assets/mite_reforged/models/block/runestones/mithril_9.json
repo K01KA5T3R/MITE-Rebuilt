@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/obsidian",
+    "side": "mite_reforged:block/runestones/mithril/9"
+  }
+}

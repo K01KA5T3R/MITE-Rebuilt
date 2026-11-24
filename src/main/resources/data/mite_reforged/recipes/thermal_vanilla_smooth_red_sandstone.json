@@ -1,0 +1,12 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": {
+    "item": "minecraft:red_sandstone"
+  },
+  "result": {
+    "item": "minecraft:smooth_red_sandstone"
+  },
+  "heat": 2,
+  "cookingtime": 200,
+  "experience": 0.1
+}

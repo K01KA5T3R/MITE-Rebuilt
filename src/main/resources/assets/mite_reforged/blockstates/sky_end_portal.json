@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "mite_reforged:block/sky_end_portal"
+    },
+    "axis=z": {
+      "model": "mite_reforged:block/sky_end_portal",
+      "y": 90
+    }
+  }
+}

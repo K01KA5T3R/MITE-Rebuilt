@@ -1,0 +1,50 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "top": "mite_reforged:block/r196_workbench/r196_obsidian_oak_workbench_top",
+    "front": "mite_reforged:block/r196_workbench/r196_obsidian_oak_workbench_front",
+    "side": "mite_reforged:block/r196_workbench/r196_obsidian_oak_workbench_side",
+    "bottom": "mite_reforged:block/r196_workbench/r196_obsidian_oak_workbench_bottom",
+    "particle": "mite_reforged:block/r196_workbench/r196_obsidian_oak_workbench_side"
+  },
+  "elements": [
+    {
+      "from": [
+        0,
+        0,
+        0
+      ],
+      "to": [
+        16,
+        16,
+        16
+      ],
+      "faces": {
+        "down": {
+          "texture": "#bottom",
+          "cullface": "down"
+        },
+        "up": {
+          "texture": "#top",
+          "cullface": "up"
+        },
+        "north": {
+          "texture": "#front",
+          "cullface": "north"
+        },
+        "south": {
+          "texture": "#front",
+          "cullface": "south"
+        },
+        "west": {
+          "texture": "#side",
+          "cullface": "west"
+        },
+        "east": {
+          "texture": "#side",
+          "cullface": "east"
+        }
+      }
+    }
+  ]
+}

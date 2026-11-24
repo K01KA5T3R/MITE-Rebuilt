@@ -1,0 +1,15 @@
+{
+  "type": "mite_reforged:thermal",
+  "ingredient": [
+    {
+      "item": "minecraft:ancient_debris"
+    }
+  ],
+  "result": {
+    "item": "minecraft:netherite_scrap",
+    "count": 1
+  },
+  "heat": 4,
+  "cookingtime": 200,
+  "experience": 2
+}

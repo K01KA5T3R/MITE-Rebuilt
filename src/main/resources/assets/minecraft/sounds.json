@@ -1,0 +1,5997 @@
+{
+  "music.creative": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.credits": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/end/credits",
+        "stream": true
+      }
+    ]
+  },
+  "music.dragon": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/end/boss",
+        "stream": true
+      }
+    ]
+  },
+  "music.end": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/end/end",
+        "stream": true
+      }
+    ]
+  },
+  "music.game": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.menu": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/menu/menu1",
+        "stream": true
+      },
+      {
+        "name": "music/menu/menu2",
+        "stream": true
+      },
+      {
+        "name": "music/menu/menu3",
+        "stream": true
+      },
+      {
+        "name": "music/menu/menu4",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.basalt_deltas": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/nether/nether1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether4",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.crimson_forest": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/nether/nether1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether4",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.nether_wastes": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/nether/nether1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether4",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.soul_sand_valley": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/nether/nether1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether4",
+        "stream": true
+      }
+    ]
+  },
+  "music.nether.warped_forest": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/nether/nether1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether2",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether3",
+        "stream": true
+      },
+      {
+        "name": "music/game/nether/nether4",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.badlands": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.bamboo_jungle": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.cherry_grove": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.deep_dark": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.desert": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.dripstone_caves": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.flower_forest": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.forest": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.frozen_peaks": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.grove": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.jagged_peaks": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.jungle": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.lush_caves": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.meadow": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.old_growth_taiga": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.snowy_slopes": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.sparse_jungle": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.stony_peaks": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.overworld.swamp": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music.under_water": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/game/calm1",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm2",
+        "stream": true
+      },
+      {
+        "name": "music/game/calm3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal1",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal2",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal3",
+        "stream": true
+      },
+      {
+        "name": "music/game/hal4",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance1",
+        "stream": true
+      },
+      {
+        "name": "music/game/nuance2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano1",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano2",
+        "stream": true
+      },
+      {
+        "name": "music/game/piano3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative1",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative2",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative3",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative4",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative5",
+        "stream": true
+      },
+      {
+        "name": "music/game/creative/creative6",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.11": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/11",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.13": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/13",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.5": {
+    "replace": true,
+    "sounds": []
+  },
+  "music_disc.blocks": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/blocks",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.cat": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/cat",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.chirp": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/chirp",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.far": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/far",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.mall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/mall",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.mellohi": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/mellohi",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.otherside": {
+    "replace": true,
+    "sounds": []
+  },
+  "music_disc.pigstep": {
+    "replace": true,
+    "sounds": []
+  },
+  "music_disc.relic": {
+    "replace": true,
+    "sounds": []
+  },
+  "music_disc.stal": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/stal",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.strad": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/strad",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.wait": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/wait",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc.ward": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "records/ward",
+        "stream": true
+      }
+    ]
+  },
+  "block.wooden_door.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_open",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.door.toggle"
+  },
+  "block.wooden_door.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_close",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.door.toggle"
+  },
+  "block.iron_door.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_open",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.door.toggle"
+  },
+  "block.iron_door.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_close",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.door.toggle"
+  },
+  "block.wooden_trapdoor.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_open",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.trapdoor.toggle"
+  },
+  "block.wooden_trapdoor.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_close",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.trapdoor.toggle"
+  },
+  "block.iron_trapdoor.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_open",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.iron_trapdoor.open"
+  },
+  "block.iron_trapdoor.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_close",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.iron_trapdoor.close"
+  },
+  "block.fence_gate.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_open",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.fence_gate.toggle"
+  },
+  "block.fence_gate.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_close",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.fence_gate.toggle"
+  },
+  "block.bamboo_wood_door.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_open",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.door.toggle"
+  },
+  "block.bamboo_wood_door.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_close",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.door.toggle"
+  },
+  "block.bamboo_wood_trapdoor.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_open",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.trapdoor.toggle"
+  },
+  "block.bamboo_wood_trapdoor.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_close",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.trapdoor.toggle"
+  },
+  "block.bamboo_wood_fence_gate.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_open",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.fence_gate.toggle"
+  },
+  "block.bamboo_wood_fence_gate.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_close",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.fence_gate.toggle"
+  },
+  "block.cherry_wood_door.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_open",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.door.toggle"
+  },
+  "block.cherry_wood_door.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_close",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.door.toggle"
+  },
+  "block.cherry_wood_trapdoor.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_open",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.trapdoor.toggle"
+  },
+  "block.cherry_wood_trapdoor.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_close",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.trapdoor.toggle"
+  },
+  "block.cherry_wood_fence_gate.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_open",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.fence_gate.toggle"
+  },
+  "block.cherry_wood_fence_gate.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_close",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.fence_gate.toggle"
+  },
+  "block.nether_wood_door.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_open",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.door.toggle"
+  },
+  "block.nether_wood_door.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_close",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.door.toggle"
+  },
+  "block.nether_wood_trapdoor.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_open",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.trapdoor.toggle"
+  },
+  "block.nether_wood_trapdoor.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_close",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.trapdoor.toggle"
+  },
+  "block.nether_wood_fence_gate.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_open",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.fence_gate.toggle"
+  },
+  "block.nether_wood_fence_gate.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/door_close",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.fence_gate.toggle"
+  },
+  "block.chest.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/chestopen",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.chest.open"
+  },
+  "block.chest.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/chestclosed",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.chest.close"
+  },
+  "block.ender_chest.open": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/chestopen",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.chest.open"
+  },
+  "block.ender_chest.close": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/random/chestclosed",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.chest.close"
+  },
+  "block.gravel.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/step/gravel1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:mite_r195/step/gravel2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:mite_r195/step/gravel3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:mite_r195/step/gravel4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.wood.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/step/wood1",
+        "weight": 2
+      },
+      {
+        "name": "minecraft:mite_r195/step/wood2",
+        "weight": 2
+      },
+      {
+        "name": "minecraft:mite_r195/step/wood3",
+        "weight": 2
+      },
+      {
+        "name": "minecraft:mite_r195/step/wood4",
+        "weight": 2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.sand.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/step/sand1",
+        "weight": 2
+      },
+      {
+        "name": "minecraft:mite_r195/step/sand2",
+        "weight": 2
+      },
+      {
+        "name": "minecraft:mite_r195/step/sand3",
+        "weight": 2
+      },
+      {
+        "name": "minecraft:mite_r195/step/sand4",
+        "weight": 2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.ladder.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/step/wood1",
+        "weight": 2
+      },
+      {
+        "name": "minecraft:mite_r195/step/wood2",
+        "weight": 2
+      },
+      {
+        "name": "minecraft:mite_r195/step/wood3",
+        "weight": 2
+      },
+      {
+        "name": "minecraft:mite_r195/step/wood4",
+        "weight": 2
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "weather.rain": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/ambient/weather/rain1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:mite_r195/ambient/weather/rain2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:mite_r195/ambient/weather/rain3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:mite_r195/ambient/weather/rain4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.weather.rain"
+  },
+  "weather.rain.above": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:mite_r195/ambient/weather/rain1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:mite_r195/ambient/weather/rain2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:mite_r195/ambient/weather/rain3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:mite_r195/ambient/weather/rain4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.weather.rain"
+  },
+  "block.bamboo_wood_button.click_off": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitles.block.button.click"
+  },
+  "block.bamboo_wood_button.click_on": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.6
+      }
+    ],
+    "subtitle": "subtitles.block.button.click"
+  },
+  "block.bamboo_wood_pressure_plate.click_off": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitles.block.pressure_plate.click"
+  },
+  "block.bamboo_wood_pressure_plate.click_on": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.6
+      }
+    ],
+    "subtitle": "subtitles.block.pressure_plate.click"
+  },
+  "block.cherry_wood_button.click_off": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitles.block.button.click"
+  },
+  "block.cherry_wood_button.click_on": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.6
+      }
+    ],
+    "subtitle": "subtitles.block.button.click"
+  },
+  "block.cherry_wood_pressure_plate.click_off": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitles.block.pressure_plate.click"
+  },
+  "block.cherry_wood_pressure_plate.click_on": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.6
+      }
+    ],
+    "subtitle": "subtitles.block.pressure_plate.click"
+  },
+  "block.metal_pressure_plate.click_off": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitles.block.pressure_plate.click"
+  },
+  "block.metal_pressure_plate.click_on": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.6
+      }
+    ],
+    "subtitle": "subtitles.block.pressure_plate.click"
+  },
+  "block.nether_wood_button.click_off": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitles.block.button.click"
+  },
+  "block.nether_wood_button.click_on": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.6
+      }
+    ],
+    "subtitle": "subtitles.block.button.click"
+  },
+  "block.nether_wood_pressure_plate.click_off": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitles.block.pressure_plate.click"
+  },
+  "block.nether_wood_pressure_plate.click_on": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.6
+      }
+    ],
+    "subtitle": "subtitles.block.pressure_plate.click"
+  },
+  "block.stone_button.click_off": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitles.block.button.click"
+  },
+  "block.stone_button.click_on": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.6
+      }
+    ],
+    "subtitle": "subtitles.block.button.click"
+  },
+  "block.stone_pressure_plate.click_off": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitles.block.pressure_plate.click"
+  },
+  "block.stone_pressure_plate.click_on": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.6
+      }
+    ],
+    "subtitle": "subtitles.block.pressure_plate.click"
+  },
+  "block.wooden_button.click_off": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitles.block.button.click"
+  },
+  "block.wooden_button.click_on": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.6
+      }
+    ],
+    "subtitle": "subtitles.block.button.click"
+  },
+  "block.wooden_pressure_plate.click_off": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitles.block.pressure_plate.click"
+  },
+  "block.wooden_pressure_plate.click_on": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/random/click",
+        "volume": 0.3,
+        "pitch": 0.6
+      }
+    ],
+    "subtitle": "subtitles.block.pressure_plate.click"
+  },
+  "entity.chicken.ambient": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/mob/chicken/say1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1324/mob/chicken/say2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1324/mob/chicken/say3",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.chicken.ambient"
+  },
+  "entity.chicken.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1324/mob/chicken/step1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1324/mob/chicken/step2",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.brewing_stand.brew": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "mite_reforged:brewing.boil",
+        "type": "event",
+        "volume": 0.2
+      }
+    ],
+    "subtitle": "subtitles.block.brewing_stand.brew"
+  },
+  "entity.player.swim": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1332/liquid/swim1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1332/liquid/swim2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1332/liquid/swim3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1332/liquid/swim4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.generic.swim"
+  },
+  "entity.player.splash.high_speed": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1332/liquid/splash",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1332/liquid/splash2",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.generic.splash"
+  },
+  "entity.player.hurt_drown": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1332/damage/hit1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1332/damage/hit2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1332/damage/hit3",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.player.hurt_drown"
+  },
+  "entity.player.hurt_on_fire": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1332/damage/hit1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1332/damage/hit2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1332/damage/hit3",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.player.hurt_on_fire"
+  },
+  "entity.player.hurt_freeze": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1332/damage/hit1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1332/damage/hit2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1332/damage/hit3",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.player.freeze_hurt"
+  },
+  "entity.player.hurt_sweet_berry_bush": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1332/damage/hit1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1332/damage/hit2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1332/damage/hit3",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.player.hurt"
+  },
+  "entity.fishing_bobber.throw": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1332/random/bow",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.fishing_bobber.throw"
+  },
+  "ambient.cave": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:ambient/cave/cave1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:ambient/cave/cave10",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:ambient/cave/cave11",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:ambient/cave/cave12",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:ambient/cave/cave13",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:ambient/cave/cave2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:ambient/cave/cave3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:ambient/cave/cave4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:ambient/cave/cave5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:ambient/cave/cave6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:ambient/cave/cave7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:ambient/cave/cave8",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:ambient/cave/cave9",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.ambient.cave"
+  },
+  "block.comparator.click": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/random/click",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.comparator.click"
+  },
+  "block.dispenser.dispense": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/random/click",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.dispenser.dispense"
+  },
+  "block.dispenser.fail": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/random/click",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.dispenser.fail"
+  },
+  "block.gravel.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/gravel1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/gravel2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/gravel3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/gravel4",
+        "weight": 1
+      }
+    ]
+  },
+  "block.gravel.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/gravel1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/gravel2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/gravel3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/gravel4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.ladder.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/ladder1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/ladder2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/ladder3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/ladder4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/ladder5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/ladder6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/ladder7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/ladder8",
+        "weight": 1
+      }
+    ]
+  },
+  "block.ladder.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/ladder1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/ladder2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/ladder3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/ladder4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/ladder5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/ladder6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/ladder7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/ladder8",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.lever.click": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/random/click",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.lever.click"
+  },
+  "block.sand.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/sand1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/sand2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/sand3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/sand4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/sand5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/sand6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/sand7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/sand8",
+        "weight": 1
+      }
+    ]
+  },
+  "block.sand.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/sand1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/sand2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/sand3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/sand4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/sand5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/sand6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/sand7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/sand8",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.tripwire.attach": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/random/click",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.tripwire.attach"
+  },
+  "block.tripwire.click_off": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/random/click",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.tripwire.click"
+  },
+  "block.tripwire.click_on": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/random/click",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.tripwire.click"
+  },
+  "block.wood.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood8",
+        "weight": 1
+      }
+    ]
+  },
+  "block.wood.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood8",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "entity.cat.ambient": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/mob/cat/meow1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/cat/meow2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/cat/meow3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/cat/meow4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.cat.ambient"
+  },
+  "entity.cat.death": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/mob/cat/hitt1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/cat/hitt2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/cat/hitt3",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.cat.death"
+  },
+  "entity.cat.hiss": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/mob/cat/hiss1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/cat/hiss2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/cat/hiss3",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.cat.hiss"
+  },
+  "entity.cat.hurt": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/mob/cat/hitt1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/cat/hitt2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/cat/hitt3",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.cat.hurt"
+  },
+  "entity.cat.purr": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/mob/cat/purr1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/cat/purr2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/cat/purr3",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.cat.purr"
+  },
+  "entity.cat.purreow": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/mob/cat/purreow1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/cat/purreow2",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.cat.ambient"
+  },
+  "entity.drowned.swim": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/liquid/swim1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/liquid/swim2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/liquid/swim3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/liquid/swim4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.drowned.swim"
+  },
+  "entity.generic.splash": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/liquid/splash",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/liquid/splash2",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.generic.splash"
+  },
+  "entity.horse.breathe": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/mob/horse/breathe1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/horse/breathe2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/horse/breathe3",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.horse.breathe"
+  },
+  "entity.hostile.splash": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/liquid/splash",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/liquid/splash2",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.generic.splash"
+  },
+  "entity.ocelot.hurt": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/mob/cat/hitt1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/cat/hitt2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/cat/hitt3",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.cat.hurt"
+  },
+  "entity.player.splash": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/liquid/splash",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/liquid/splash2",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.generic.splash"
+  },
+  "ui.stonecutter.select_recipe": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/random/click",
+        "weight": 1
+      }
+    ]
+  },
+  "entity.zombified_piglin.ambient": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/mob/zombiepig/zpig1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/zombiepig/zpig2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/zombiepig/zpig3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/zombiepig/zpig4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.zombified_piglin.ambient"
+  },
+  "entity.zombified_piglin.angry": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/mob/zombiepig/zpigangry1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/zombiepig/zpigangry2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/zombiepig/zpigangry3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/zombiepig/zpigangry4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.zombified_piglin.angry"
+  },
+  "entity.zombified_piglin.hurt": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/mob/zombiepig/zpighurt1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/mob/zombiepig/zpighurt2",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.zombified_piglin.hurt"
+  },
+  "entity.zombified_piglin.death": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/mob/zombiepig/zpigdeath",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.zombified_piglin.death"
+  },
+  "entity.firework_rocket.large_blast": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/fireworks/largeblast1",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.firework_rocket.blast"
+  },
+  "entity.firework_rocket.large_blast_far": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/fireworks/largeblast_far1",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.firework_rocket.blast"
+  },
+  "block.note_block.harp": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/note/harp",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.note_block.note"
+  },
+  "entity.witch.ambient": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/imported/mob/witch/cackle1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/imported/mob/witch/cackle2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/imported/mob/witch/cackle3",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.witch.ambient"
+  },
+  "entity.witch.hurt": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/imported/mob/witch/hurt",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.witch.hurt"
+  },
+  "entity.witch.death": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/imported/mob/witch/death",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.witch.death"
+  },
+  "item.book.page_turn": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/imported/random/book_page",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.item.book.page_turn"
+  },
+  "block.bamboo_wood.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood8",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.bamboo_wood.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood8",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.bamboo_wood.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood8",
+        "weight": 1
+      }
+    ]
+  },
+  "block.bamboo_wood.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.bamboo_wood.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.cherry_wood.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood8",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.cherry_wood.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood8",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.cherry_wood.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood8",
+        "weight": 1
+      }
+    ]
+  },
+  "block.cherry_wood.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.cherry_wood.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.nether_wood.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood8",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.nether_wood.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood8",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.nether_wood.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood8",
+        "weight": 1
+      }
+    ]
+  },
+  "block.nether_wood.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.nether_wood.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.stem.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood8",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.stem.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood8",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.stem.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood6",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood7",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/wood8",
+        "weight": 1
+      }
+    ]
+  },
+  "block.stem.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.stem.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/wood1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/wood4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.basalt.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.basalt.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.basalt.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ]
+  },
+  "block.basalt.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.basalt.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.calcite.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.calcite.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.calcite.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ]
+  },
+  "block.calcite.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.calcite.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.dripstone_block.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.dripstone_block.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.dripstone_block.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ]
+  },
+  "block.dripstone_block.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.dripstone_block.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.polished_deepslate.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.polished_deepslate.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.polished_deepslate.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ]
+  },
+  "block.polished_deepslate.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.polished_deepslate.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.deepslate.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.deepslate.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.deepslate.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ]
+  },
+  "block.deepslate.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.deepslate.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.deepslate_bricks.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.deepslate_bricks.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.deepslate_bricks.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ]
+  },
+  "block.deepslate_bricks.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.deepslate_bricks.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.deepslate_tiles.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.deepslate_tiles.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.deepslate_tiles.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ]
+  },
+  "block.deepslate_tiles.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.deepslate_tiles.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.gilded_blackstone.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.gilded_blackstone.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.gilded_blackstone.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ]
+  },
+  "block.gilded_blackstone.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.gilded_blackstone.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.nether_bricks.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.nether_bricks.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.nether_bricks.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ]
+  },
+  "block.nether_bricks.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.nether_bricks.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.nether_ore.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.nether_ore.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.nether_ore.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ]
+  },
+  "block.nether_ore.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.nether_ore.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.nether_gold_ore.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.nether_gold_ore.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.nether_gold_ore.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ]
+  },
+  "block.nether_gold_ore.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.nether_gold_ore.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.netherrack.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.netherrack.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.netherrack.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ]
+  },
+  "block.netherrack.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.netherrack.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.tuff.step": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "block.tuff.hit": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "block.tuff.fall": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/step/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone4",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone5",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/step/stone6",
+        "weight": 1
+      }
+    ]
+  },
+  "block.tuff.break": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.tuff.place": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:source1368/dig/stone1",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone2",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone3",
+        "weight": 1
+      },
+      {
+        "name": "minecraft:source1368/dig/stone4",
+        "weight": 1
+      }
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "entity.goat.screaming.horn_break": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.goat.horn_break",
+        "type": "event"
+      }
+    ],
+    "subtitle": "subtitles.entity.goat.horn_break"
+  },
+  "entity.mule.ambient": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:entity.donkey.ambient",
+        "type": "event",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.mule.ambient"
+  },
+  "entity.mule.angry": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:entity.donkey.angry",
+        "type": "event",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.mule.angry"
+  },
+  "entity.mule.hurt": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:entity.donkey.hurt",
+        "type": "event",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.mule.hurt"
+  },
+  "entity.mule.death": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "minecraft:entity.donkey.death",
+        "type": "event",
+        "volume": 1
+      }
+    ],
+    "subtitle": "subtitles.entity.mule.death"
+  }
+}

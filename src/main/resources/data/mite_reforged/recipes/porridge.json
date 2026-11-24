@@ -1,0 +1,22 @@
+{
+  "type": "mite_reforged:source_bowl_food",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "mite_reforged:blueberries"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "mite_reforged:water_bowl"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:porridge",
+    "count": 1
+  }
+}

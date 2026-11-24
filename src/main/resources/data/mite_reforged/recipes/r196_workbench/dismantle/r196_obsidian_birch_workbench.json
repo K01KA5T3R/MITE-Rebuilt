@@ -1,0 +1,16 @@
+{
+  "type": "mite_reforged:r196_workbench",
+  "category": "misc",
+  "pattern": [
+    "T"
+  ],
+  "key": {
+    "T": {
+      "item": "mite_reforged:r196_obsidian_birch_workbench"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:obsidian_knife",
+    "count": 1
+  }
+}

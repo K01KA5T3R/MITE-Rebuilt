@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "mite_reforged:copper_pickaxe",
+    "mite_reforged:copper_axe",
+    "mite_reforged:copper_shovel",
+    "mite_reforged:copper_hoe",
+    "mite_reforged:copper_sword",
+    "mite_reforged:copper_dagger",
+    "mite_reforged:copper_battleaxe",
+    "mite_reforged:copper_warhammer",
+    "mite_reforged:copper_mattock",
+    "mite_reforged:copper_scythe",
+    "mite_reforged:copper_helmet",
+    "mite_reforged:copper_chestplate",
+    "mite_reforged:copper_leggings",
+    "mite_reforged:copper_boots"
+  ]
+}

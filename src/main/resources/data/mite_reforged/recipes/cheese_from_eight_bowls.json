@@ -1,0 +1,34 @@
+{
+  "type": "mite_reforged:source_bowl_food",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mite_reforged:milk_bowl"
+    },
+    {
+      "item": "mite_reforged:milk_bowl"
+    },
+    {
+      "item": "mite_reforged:milk_bowl"
+    },
+    {
+      "item": "mite_reforged:milk_bowl"
+    },
+    {
+      "item": "mite_reforged:milk_bowl"
+    },
+    {
+      "item": "mite_reforged:milk_bowl"
+    },
+    {
+      "item": "mite_reforged:milk_bowl"
+    },
+    {
+      "item": "mite_reforged:milk_bowl"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:cheese",
+    "count": 2
+  }
+}

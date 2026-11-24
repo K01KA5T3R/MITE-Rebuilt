@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mite_reforged:steel_ingot"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:steel_nugget",
+    "count": 9
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "mite_reforged:vibranium_nugget"
+    },
+    {
+      "item": "mite_reforged:vibranium_nugget"
+    },
+    {
+      "item": "mite_reforged:vibranium_nugget"
+    },
+    {
+      "item": "mite_reforged:vibranium_nugget"
+    },
+    {
+      "item": "mite_reforged:vibranium_nugget"
+    },
+    {
+      "item": "mite_reforged:vibranium_nugget"
+    },
+    {
+      "item": "mite_reforged:vibranium_nugget"
+    },
+    {
+      "item": "mite_reforged:vibranium_nugget"
+    },
+    {
+      "item": "mite_reforged:vibranium_nugget"
+    }
+  ],
+  "result": {
+    "item": "mite_reforged:vibranium_ingot",
+    "count": 1
+  }
+}

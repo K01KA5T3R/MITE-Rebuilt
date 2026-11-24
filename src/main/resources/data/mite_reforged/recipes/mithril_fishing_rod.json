@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "  S",
+    " SX",
+    "SIX"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "minecraft:string"
+    },
+    "I": {
+      "item": "mite_reforged:mithril_nugget"
+    }
+  },
+  "result": {
+    "item": "mite_reforged:mithril_fishing_rod",
+    "count": 1
+  }
+}

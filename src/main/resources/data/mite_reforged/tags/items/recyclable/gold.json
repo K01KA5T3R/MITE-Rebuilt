@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "mite_reforged:gold_pickaxe",
+    "mite_reforged:gold_axe",
+    "mite_reforged:gold_shovel",
+    "mite_reforged:gold_hoe",
+    "mite_reforged:gold_sword",
+    "mite_reforged:gold_dagger",
+    "mite_reforged:gold_battleaxe",
+    "mite_reforged:gold_warhammer",
+    "mite_reforged:gold_mattock",
+    "mite_reforged:gold_scythe",
+    "mite_reforged:gold_helmet",
+    "mite_reforged:gold_chestplate",
+    "mite_reforged:gold_leggings",
+    "mite_reforged:gold_boots"
+  ]
+}

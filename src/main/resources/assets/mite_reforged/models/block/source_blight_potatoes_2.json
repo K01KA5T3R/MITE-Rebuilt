@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "mite_reforged:block/source_blight/potatoes/2"
+  }
+}

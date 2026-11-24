@@ -1,0 +1,10 @@
+{
+  "type": "mite_reforged:underworld",
+  "generator": {
+    "type": "mite_reforged:source_underworld",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "mite_reforged:underworld"
+    }
+  }
+}

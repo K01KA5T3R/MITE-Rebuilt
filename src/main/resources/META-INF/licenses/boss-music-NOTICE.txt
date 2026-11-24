@@ -1,0 +1,29 @@
+MITE Reforged boss music
+
+Aphelion by Scott Buckley
+https://www.scottbuckley.com.au/library/aphelion/
+Licensed under CC BY 4.0. Transcoded from MP3 to Ogg Vorbis.
+
+Eyes In The Void by Scott Buckley
+https://www.scottbuckley.com.au/library/eyes-in-the-void/
+Licensed under CC BY 4.0. Transcoded from MP3 to Ogg Vorbis.
+
+Signal to Noise by Scott Buckley
+https://www.scottbuckley.com.au/library/signal-to-noise/
+Licensed under CC BY 4.0. Transcoded from MP3 to Ogg Vorbis with light high-frequency attenuation.
+
+Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+
+Oxygène by C418
+https://c418.bandcamp.com/track/oxyg-ne
+This sound event references the original Minecraft asset.
+
+Gelatinous Monarch by Heart Plus Up!
+https://raw.githubusercontent.com/CalamityTeam/UnCalamityModMusicPublic/8299c7987d7b758457d5f870e25f0b483791f9e8/Assets/Music/Bosses/KingSlime.ogg
+
+Infestation by DM DOKURO
+https://raw.githubusercontent.com/CalamityTeam/CalamityModMusicPublic/cb64906735ad6ac58d55bd7fed2fc729925619dd/Sounds/Music/Crabulon.ogg
+
+Royal Retaliation by PinpinNeon
+https://raw.githubusercontent.com/InfernumTeam/InfernumModeMusic/c25bb1462909eebde66c11a7c7fa945b80c56cbe/Sounds/Music/QueenBee.ogg

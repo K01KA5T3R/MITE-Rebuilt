@@ -1,0 +1,12 @@
+.gradle/
+/build/
+/run/
+/server/
+/logs/
+/outputs/
+/work/
+.idea/
+.vscode/
+*.iml
+*.log
+*.jfr

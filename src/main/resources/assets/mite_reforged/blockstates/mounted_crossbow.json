@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mite_reforged:block/mounted_crossbow"
+    },
+    "facing=east": {
+      "model": "mite_reforged:block/mounted_crossbow"
+    },
+    "facing=south": {
+      "model": "mite_reforged:block/mounted_crossbow"
+    },
+    "facing=west": {
+      "model": "mite_reforged:block/mounted_crossbow"
+    }
+  }
+}

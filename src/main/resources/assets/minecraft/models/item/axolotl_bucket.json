@@ -1,0 +1,62 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/axolotl_bucket"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "mite_reforged:vessel_material": 1
+      },
+      "model": "mite_reforged:item/bucket_contents351/copper_axolotl_bucket"
+    },
+    {
+      "predicate": {
+        "mite_reforged:vessel_material": 2
+      },
+      "model": "mite_reforged:item/bucket_contents351/silver_axolotl_bucket"
+    },
+    {
+      "predicate": {
+        "mite_reforged:vessel_material": 3
+      },
+      "model": "mite_reforged:item/bucket_contents351/gold_axolotl_bucket"
+    },
+    {
+      "predicate": {
+        "mite_reforged:vessel_material": 4
+      },
+      "model": "mite_reforged:item/bucket_contents351/bronze_axolotl_bucket"
+    },
+    {
+      "predicate": {
+        "mite_reforged:vessel_material": 5
+      },
+      "model": "mite_reforged:item/bucket_contents351/iron_axolotl_bucket"
+    },
+    {
+      "predicate": {
+        "mite_reforged:vessel_material": 6
+      },
+      "model": "mite_reforged:item/bucket_contents351/steel_axolotl_bucket"
+    },
+    {
+      "predicate": {
+        "mite_reforged:vessel_material": 7
+      },
+      "model": "mite_reforged:item/bucket_contents351/mithril_axolotl_bucket"
+    },
+    {
+      "predicate": {
+        "mite_reforged:vessel_material": 8
+      },
+      "model": "mite_reforged:item/bucket_contents351/adamantium_axolotl_bucket"
+    },
+    {
+      "predicate": {
+        "mite_reforged:vessel_material": 9
+      },
+      "model": "mite_reforged:item/bucket_contents351/ancient_metal_axolotl_bucket"
+    }
+  ]
+}
