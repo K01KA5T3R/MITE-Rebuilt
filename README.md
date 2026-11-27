@@ -1,19 +1,21 @@
-# MITE: Rebuilt 0.4.25 — Audit Milestone / 三轮审计收官
+# MITE: Rebuilt 0.4.102 — Ore Veins and Classic Rules / 矿脉与经典规则
+
+## English
 
 > **AI disclosure:** This project contains AI-generated content.
 
-**Minecraft Java Edition 1.20.1 · Forge 47.4.28 · Java 17 · network protocol 156**
+Minecraft Java Edition 1.20.1 · Forge 47.4.28 · Java 17 · network protocol 158
 
-Closes the three-round audit cycle after the R196 and ITE milestones, consolidating compatibility, UI and gameplay fixes.
+Updates ore vein behavior and raw ore block rules across the classic R195, R196 and ITE profiles.
 
-Install **mite-rebuilt-0.4.25.jar** in the Forge instance's mods folder. SHA256SUMS.txt contains the checksums for the installer and the bundled Inventory Sorter dependency's upstream source archive. GitHub's automatic source archives for this tag contain the release record and checksums.
+Install `mite-rebuilt-0.4.102.jar` in the Forge instance's `mods` folder. `SHA256SUMS.txt` lists the installer and the bundled Inventory Sorter dependency's upstream source archive. GitHub's automatic archives for this binary release tag contain the release notes and checksums.
 
 ## 简体中文
 
 > **AI 内容声明：**本项目包含 AI 生成内容。
 
-**Minecraft Java 版 1.20.1 · Forge 47.4.28 · Java 17 · 联机协议 156**
+Minecraft Java 版 1.20.1 · Forge 47.4.28 · Java 17 · 联机协议 158
 
-完成 R196 和 ITE 阶段后的三轮审计，汇总跨模式兼容、界面和玩法修正。
+调整经典 R195、R196 和 ITE 体验中的矿脉生成及粗矿块相关规则。
 
-将 **mite-rebuilt-0.4.25.jar** 放入 Forge 实例的 mods 目录。SHA256SUMS.txt 提供安装包与随附 Inventory Sorter 上游源码的校验值。GitHub 为该标签自动生成的源码压缩包内是归档说明和校验文件。
+将 `mite-rebuilt-0.4.102.jar` 放入 Forge 实例的 `mods` 目录。`SHA256SUMS.txt` 提供安装包和随附 Inventory Sorter 上游源码归档的校验值。GitHub 为此二进制发行标签自动生成的源码压缩包收录发行说明和校验值。
