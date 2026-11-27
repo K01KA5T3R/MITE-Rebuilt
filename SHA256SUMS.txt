@@ -1,2 +1,2 @@
-cfa5d26377537e3ac1fe155dc7732338ac05cfb60fe013dacd60360e454dc56d  mite-rebuilt-0.4.103.jar
+6dd98380e30b4aa02ebaf5de0fc5a890474203e78b3e72c1dff16fce87d65e0e  mite-rebuilt-0.4.104.jar
 1ae3483d278fabe5e6af6d08bb1a4b6e6739f681961a6afe15c1e8ad2ef5ab92  inventorysorter-23.0.11-sources.zip
